@@ -1,1 +1,0 @@
-Place the NI VeriStand 2013 folder in C:\Users\Public\Documents\National Instruments.
