@@ -1,0 +1,9 @@
+[My Computer]
+My Computer = "192.168.1.238"
+
+[RT CompactRIO Target]
+RT CompactRIO Target = "0.0.0.0"
+
+[RT PXI Target]
+RT PXI Target = "0.0.0.0"
+

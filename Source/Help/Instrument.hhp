@@ -1,0 +1,40 @@
+[OPTIONS]
+Compatibility=1.1 or later
+Compiled file=Instrument.chm
+Default topic=Main.html
+Display compile progress=No
+Language=0x409 English (United States)
+
+
+[FILES]
+common.js
+feedbacklink.js
+variables.js
+objectnames.js
+domtools.js
+arraytools.js
+osbrowser.js
+initpagedyn.js
+checkinstalled.js
+dynamiccontent.js
+dynamiclinks.js
+linking.js
+launchhelp.js
+stylesheets.js
+web.js
+pdf.js
+Main.html
+Command.html
+Data Channel.html
+MetaData Channel.html
+Response.html
+Globals.html
+Message.html
+Error Code.html
+Message Group.html
+Message Status.html
+Trigger.html
+Enable Periodic.html
+
+[INFOTYPES]
+
