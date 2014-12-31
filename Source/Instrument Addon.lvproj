@@ -71,7 +71,6 @@
 			<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="../Protections.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Error Cluster From Error Code.vi"/>
 			<Item Name="Protection.lvclass" Type="LVClass" URL="../Protections.lvlibp/Parent Protection/Protection.lvclass"/>
 		</Item>
-		<Item Name="TestLoopBack.vi" Type="VI" URL="../../../Users/blueuser/Desktop/Instrument Addon Test Folder/TestLoopBack.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="STM Write Meta Data (Serial Clst).vi" Type="VI" URL="/&lt;userlib&gt;/STM/Serial/STM Write Meta Data (Serial Clst).vi"/>
@@ -199,10 +198,6 @@
 				<Item Name="GXML.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/GXML/GXML.lvlib"/>
 				<Item Name="VariantType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/VariantDataType/VariantType.lvlib"/>
 				<Item Name="LVNumericRepresentation.ctl" Type="VI" URL="/&lt;vilib&gt;/numeric/LVNumericRepresentation.ctl"/>
-				<Item Name="TCP Listen.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/TCP Listen.vi"/>
-				<Item Name="Internecine Avoider.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/Internecine Avoider.vi"/>
-				<Item Name="TCP Listen List Operations.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/TCP Listen List Operations.ctl"/>
-				<Item Name="TCP Listen Internal List.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/TCP Listen Internal List.vi"/>
 			</Item>
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -705,47 +700,6 @@
 				<Property Name="Source[9].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">11</Property>
 			</Item>
-			<Item Name="My Application" Type="EXE">
-				<Property Name="App_copyErrors" Type="Bool">true</Property>
-				<Property Name="App_INI_aliasGUID" Type="Str">{0B1B212E-26A1-42E6-9861-C73D15732ACF}</Property>
-				<Property Name="App_INI_GUID" Type="Str">{A31D05E7-F88F-4636-8131-B1B219782125}</Property>
-				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
-				<Property Name="App_winsec.description" Type="Str">http://www.NI.com</Property>
-				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
-				<Property Name="Bld_buildCacheID" Type="Str">{2E991B7C-8817-4E2F-8DF1-099ADDF5DD7D}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">My Application</Property>
-				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
-				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
-				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">/C/Users/blueuser/Desktop/test</Property>
-				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
-				<Property Name="Bld_previewCacheID" Type="Str">{11D2F15E-EAC7-4880-9901-017837EE316F}</Property>
-				<Property Name="Bld_version.build" Type="Int">1</Property>
-				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">Application.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">/C/Users/blueuser/Desktop/test/Application.exe</Property>
-				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
-				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
-				<Property Name="Destination[0].type" Type="Str">App</Property>
-				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">/C/Users/blueuser/Desktop/test/data</Property>
-				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
-				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{771AC1D5-E8FD-493C-843E-1B9553E1109B}</Property>
-				<Property Name="Source[0].type" Type="Str">Container</Property>
-				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/TestLoopBack.vi</Property>
-				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
-				<Property Name="Source[1].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">2</Property>
-				<Property Name="TgtF_companyName" Type="Str">NI</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">My Application</Property>
-				<Property Name="TgtF_internalName" Type="Str">My Application</Property>
-				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2014 NI</Property>
-				<Property Name="TgtF_productName" Type="Str">My Application</Property>
-				<Property Name="TgtF_targetfileGUID" Type="Str">{72F13A61-161F-499C-B371-EABA71500EB9}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">Application.exe</Property>
-			</Item>
 		</Item>
 	</Item>
 	<Item Name="RT PXI Target" Type="RT PXI Chassis">
@@ -948,7 +902,7 @@
 				<Property Name="Source[0].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[0].Container.applySaveSettings" Type="Bool">true</Property>
 				<Property Name="Source[0].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[0].itemID" Type="Str">{867B5F46-AFAA-42D3-9C87-CEE15B93B0A7}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{91612316-CAAB-47A5-830D-AF6EA9152C25}</Property>
 				<Property Name="Source[0].properties[0].type" Type="Str">Run when opened</Property>
 				<Property Name="Source[0].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[0].properties[1].type" Type="Str">Allow debugging</Property>
@@ -1056,7 +1010,22 @@
 				<Property Name="Source[8].destinationIndex" Type="Int">2</Property>
 				<Property Name="Source[8].itemID" Type="Ref">/RT PXI Target/Protocols.lvlibp</Property>
 				<Property Name="Source[8].preventRename" Type="Bool">true</Property>
-				<Property Name="SourceCount" Type="Int">9</Property>
+				<Property Name="Source[9].Container.applyProperties" Type="Bool">true</Property>
+				<Property Name="Source[9].Container.applySaveSettings" Type="Bool">true</Property>
+				<Property Name="Source[9].itemID" Type="Ref">/RT PXI Target/NI VeriStand APIs</Property>
+				<Property Name="Source[9].properties[0].type" Type="Str">Run when opened</Property>
+				<Property Name="Source[9].properties[0].value" Type="Bool">false</Property>
+				<Property Name="Source[9].properties[1].type" Type="Str">Allow debugging</Property>
+				<Property Name="Source[9].properties[1].value" Type="Bool">false</Property>
+				<Property Name="Source[9].properties[2].type" Type="Str">Auto error handling</Property>
+				<Property Name="Source[9].properties[2].value" Type="Bool">false</Property>
+				<Property Name="Source[9].properties[3].type" Type="Str">Remove front panel</Property>
+				<Property Name="Source[9].properties[3].value" Type="Bool">true</Property>
+				<Property Name="Source[9].properties[4].type" Type="Str">Remove block diagram</Property>
+				<Property Name="Source[9].properties[4].value" Type="Bool">true</Property>
+				<Property Name="Source[9].propertiesCount" Type="Int">5</Property>
+				<Property Name="Source[9].type" Type="Str">Container</Property>
+				<Property Name="SourceCount" Type="Int">10</Property>
 			</Item>
 		</Item>
 	</Item>
