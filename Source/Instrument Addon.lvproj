@@ -530,6 +530,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">../Built/Custom Devices/NI_AB_PROJECTNAME/Host API</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utility/Copy .LLB to NI VeriStand dir.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{7F7FDA91-FFE5-4844-A4FA-9D8996F5C375}</Property>
 				<Property Name="Bld_version.build" Type="Int">34</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
@@ -541,7 +542,7 @@
 				<Property Name="Destination[1].path" Type="Path">../Built/Custom Devices/NI_AB_PROJECTNAME/Host API</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{74261C96-1C5A-47F5-94F2-97ED6923503F}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{09EAAC10-6BD9-4B5E-9E37-8A8E47512DB9}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Instrument CD Host API.lvlib</Property>
@@ -570,6 +571,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">../Built/Custom Devices/NI_AB_PROJECTNAME/SysDef API</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utility/Copy .LLB to NI VeriStand dir.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{504907C0-CF46-4DBF-BE13-A5B7F209B5AB}</Property>
 				<Property Name="Bld_version.build" Type="Int">37</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
@@ -581,7 +583,7 @@
 				<Property Name="Destination[1].path" Type="Path">../Built/Custom Devices/NI_AB_PROJECTNAME/SysDef API</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{53A90FBB-AD18-490B-88ED-167BFB7FDAB8}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{09EAAC10-6BD9-4B5E-9E37-8A8E47512DB9}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Instrument CD SysDef API.lvlib</Property>
@@ -608,6 +610,7 @@
 				<Property Name="Bld_excludeTypedefs" Type="Bool">true</Property>
 				<Property Name="Bld_localDestDir" Type="Path">../Built/Display Templates</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utility/Copy .LLB to NI VeriStand dir.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{C8AB3C33-E20A-44E7-90D7-E2F3637DE2FC}</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
@@ -620,33 +623,28 @@
 				<Property Name="DestinationCount" Type="Int">3</Property>
 				<Property Name="Source[0].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[0].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{74261C96-1C5A-47F5-94F2-97ED6923503F}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{09EAAC10-6BD9-4B5E-9E37-8A8E47512DB9}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
-				<Property Name="Source[1].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[1].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[1].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[1].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[1].itemID" Type="Ref"></Property>
-				<Property Name="Source[1].properties[0].type" Type="Str">Run when opened</Property>
-				<Property Name="Source[1].properties[0].value" Type="Bool">false</Property>
-				<Property Name="Source[1].properties[1].type" Type="Str">Allow debugging</Property>
-				<Property Name="Source[1].properties[1].value" Type="Bool">false</Property>
-				<Property Name="Source[1].properties[2].type" Type="Str">Auto error handling</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/NI VeriStand APIs</Property>
+				<Property Name="Source[1].properties[0].type" Type="Str">Remove front panel</Property>
+				<Property Name="Source[1].properties[0].value" Type="Bool">true</Property>
+				<Property Name="Source[1].properties[1].type" Type="Str">Remove block diagram</Property>
+				<Property Name="Source[1].properties[1].value" Type="Bool">true</Property>
+				<Property Name="Source[1].properties[2].type" Type="Str">Run when opened</Property>
 				<Property Name="Source[1].properties[2].value" Type="Bool">false</Property>
-				<Property Name="Source[1].properties[3].type" Type="Str">Remove front panel</Property>
+				<Property Name="Source[1].properties[3].type" Type="Str">Allow debugging</Property>
 				<Property Name="Source[1].properties[3].value" Type="Bool">false</Property>
-				<Property Name="Source[1].properties[4].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[1].properties[4].value" Type="Bool">true</Property>
+				<Property Name="Source[1].properties[4].type" Type="Str">Auto error handling</Property>
+				<Property Name="Source[1].properties[4].value" Type="Bool">false</Property>
 				<Property Name="Source[1].propertiesCount" Type="Int">5</Property>
 				<Property Name="Source[1].type" Type="Str">Container</Property>
-				<Property Name="Source[10].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[10].itemID" Type="Ref">/My Computer/Instrument CD Host API.lvlib/Instrument Command Response.vi</Property>
-				<Property Name="Source[10].type" Type="Str">VI</Property>
 				<Property Name="Source[2].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[2].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/My Computer/NI VeriStand APIs</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Instrument Addon Shared.lvlib/Shared</Property>
 				<Property Name="Source[2].properties[0].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[2].properties[0].value" Type="Bool">true</Property>
+				<Property Name="Source[2].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[2].properties[1].type" Type="Str">Remove block diagram</Property>
 				<Property Name="Source[2].properties[1].value" Type="Bool">true</Property>
 				<Property Name="Source[2].properties[2].type" Type="Str">Run when opened</Property>
@@ -657,48 +655,36 @@
 				<Property Name="Source[2].properties[4].value" Type="Bool">false</Property>
 				<Property Name="Source[2].propertiesCount" Type="Int">5</Property>
 				<Property Name="Source[2].type" Type="Str">Container</Property>
-				<Property Name="Source[3].Container.applyProperties" Type="Bool">true</Property>
-				<Property Name="Source[3].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Instrument Addon Shared.lvlib/Shared</Property>
-				<Property Name="Source[3].properties[0].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[3].properties[0].value" Type="Bool">false</Property>
-				<Property Name="Source[3].properties[1].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[3].properties[1].value" Type="Bool">true</Property>
-				<Property Name="Source[3].properties[2].type" Type="Str">Run when opened</Property>
-				<Property Name="Source[3].properties[2].value" Type="Bool">false</Property>
-				<Property Name="Source[3].properties[3].type" Type="Str">Allow debugging</Property>
-				<Property Name="Source[3].properties[3].value" Type="Bool">false</Property>
-				<Property Name="Source[3].properties[4].type" Type="Str">Auto error handling</Property>
-				<Property Name="Source[3].properties[4].value" Type="Bool">false</Property>
-				<Property Name="Source[3].propertiesCount" Type="Int">5</Property>
-				<Property Name="Source[3].type" Type="Str">Container</Property>
+				<Property Name="Source[3].destinationIndex" Type="Int">2</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Instrument Workspace Objects.lvlib</Property>
+				<Property Name="Source[3].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[3].type" Type="Str">Library</Property>
+				<Property Name="Source[4].Container.applyDestination" Type="Bool">true</Property>
+				<Property Name="Source[4].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[4].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[4].itemID" Type="Ref">/My Computer/Instrument Workspace Objects.lvlib</Property>
-				<Property Name="Source[4].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/Instrument Workspace Objects.lvlib/SubVIs</Property>
 				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[4].type" Type="Str">Library</Property>
-				<Property Name="Source[5].Container.applyDestination" Type="Bool">true</Property>
-				<Property Name="Source[5].Container.applyInclusion" Type="Bool">true</Property>
-				<Property Name="Source[5].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[5].itemID" Type="Ref">/My Computer/Instrument Workspace Objects.lvlib/SubVIs</Property>
+				<Property Name="Source[4].type" Type="Str">Container</Property>
+				<Property Name="Source[5].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[5].itemID" Type="Ref">/My Computer/Instrument Workspace Objects.lvlib/Instrument - Manual Object.vi</Property>
 				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[5].type" Type="Str">Container</Property>
-				<Property Name="Source[6].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[6].itemID" Type="Ref">/My Computer/Instrument Workspace Objects.lvlib/Instrument - Manual Object.vi</Property>
+				<Property Name="Source[5].type" Type="Str">VI</Property>
+				<Property Name="Source[6].destinationIndex" Type="Int">2</Property>
+				<Property Name="Source[6].itemID" Type="Ref">/My Computer/Instrument CD Host API.lvlib</Property>
+				<Property Name="Source[6].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[6].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[6].type" Type="Str">VI</Property>
+				<Property Name="Source[6].type" Type="Str">Library</Property>
 				<Property Name="Source[7].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[7].itemID" Type="Ref">/My Computer/Instrument CD Host API.lvlib</Property>
-				<Property Name="Source[7].Library.allowMissingMembers" Type="Bool">true</Property>
-				<Property Name="Source[7].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[7].type" Type="Str">Library</Property>
+				<Property Name="Source[7].itemID" Type="Ref">/My Computer/Instrument CD Host API.lvlib/Close Connection with CD.vi</Property>
+				<Property Name="Source[7].type" Type="Str">VI</Property>
 				<Property Name="Source[8].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[8].itemID" Type="Ref">/My Computer/Instrument CD Host API.lvlib/Close Connection with CD.vi</Property>
+				<Property Name="Source[8].itemID" Type="Ref">/My Computer/Instrument CD Host API.lvlib/Initialize Connection with CD.vi</Property>
 				<Property Name="Source[8].type" Type="Str">VI</Property>
 				<Property Name="Source[9].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[9].itemID" Type="Ref">/My Computer/Instrument CD Host API.lvlib/Initialize Connection with CD.vi</Property>
+				<Property Name="Source[9].itemID" Type="Ref">/My Computer/Instrument CD Host API.lvlib/Instrument Command Response.vi</Property>
 				<Property Name="Source[9].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">11</Property>
+				<Property Name="SourceCount" Type="Int">10</Property>
 			</Item>
 		</Item>
 	</Item>
@@ -902,7 +888,7 @@
 				<Property Name="Source[0].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[0].Container.applySaveSettings" Type="Bool">true</Property>
 				<Property Name="Source[0].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[0].itemID" Type="Str">{91612316-CAAB-47A5-830D-AF6EA9152C25}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{D223E834-1198-439A-8246-22C9F52E851C}</Property>
 				<Property Name="Source[0].properties[0].type" Type="Str">Run when opened</Property>
 				<Property Name="Source[0].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[0].properties[1].type" Type="Str">Allow debugging</Property>
