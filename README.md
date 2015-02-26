@@ -1,7 +1,7 @@
 Instrument-Custom-Device
 ========================
 
-**IP Name** is a insert description of IP
+This addon allows the user to define instrument commands generically.  NI-VISA(GPIB, RS232, RS485, RS422), TCP, UDP, AK TCP, and AK RS232 are supported base protocols. The communication structure should be command response.  Meaning that the instrument doesn't initiate any of the communications.  Communication rates should be for 10s of Hz.
 
 ### LabVIEW Version ###
 
@@ -9,17 +9,23 @@ Describe the LabVIEW version used to develop this source
 
 ### Built Availability ###
 
-Describe the availability, or lack of availability of built versions of this IP and provide any links needed to go get builds
+Users are allowed to build anything under Build Specifications in the source's LabVIEW project(s).  Pre-built versions are available upon request through NI Field Sales. 
 
 ### Quality, Limitations ###
 
-Describe the maturity of the IP. Is this in use worldwide? Is this terrible code that needs lots of updates? Is this a work in progress?
+IP has been tested by developer. It meets VeriStand addon coding best practices. It is currently used by various customers.
 
-Describe any limitations of the IP.
+Addon does not support push messaging, meaning the instrument can't send unsolicited messages.
+
+Addon is intended for slower rates, though the addon supports decimation so the NI VeriStand PCL can still be fast.
 
 ### Dependencies ###
 
-Describe any dependencies of the IP
+NI VISA 14.0 or later
+NI Serial 14.0 or later
+OpenG LabVIEW Data Library 4.2.0.21 or later
+OpenG Error Library 4.2.0.23 or later
+NI STM 2.1.0.2 (ONLY)
 
 ### License ###
 
