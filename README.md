@@ -26,6 +26,8 @@ NI Serial 14.0 or later
 OpenG LabVIEW Data Library 4.2.0.21 or later
 OpenG Error Library 4.2.0.23 or later
 NI STM 2.1.0.2 (ONLY)
+NI AMC 3.3.0.20
+NI GXML 1.4.2.8
 
 ### License ###
 
