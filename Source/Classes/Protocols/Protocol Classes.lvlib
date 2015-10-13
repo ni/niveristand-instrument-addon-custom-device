@@ -11,6 +11,7 @@
 		<Item Name="Format AK Response.vi" Type="VI" URL="../AK/Format AK Response.vi"/>
 	</Item>
 	<Item Name="Protocol Parent" Type="Folder">
+		<Item Name="Clear Warnings.vi" Type="VI" URL="../Protocol Parent/Clear Warnings.vi"/>
 		<Item Name="Protocol Parent.lvclass" Type="LVClass" URL="../Protocol Parent/Protocol Parent.lvclass"/>
 	</Item>
 	<Item Name="RSxxx" Type="Folder">
