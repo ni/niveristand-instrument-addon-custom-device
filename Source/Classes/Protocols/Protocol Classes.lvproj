@@ -107,7 +107,7 @@
 				<Property Name="Destination[1].path" Type="Path">/c</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{7F92E0D6-F659-4FB3-B53A-A9274FCDD327}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{F7BB7887-437C-4F44-B1B6-9299D717B4E3}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/RT PXI Target/Protocol Classes.lvlib</Property>
@@ -119,6 +119,7 @@
 				<Property Name="Source[1].type" Type="Str">Library</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
 				<Property Name="TgtF_companyName" Type="Str">NI</Property>
+				<Property Name="TgtF_enableDebugging" Type="Bool">true</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">Protocols</Property>
 				<Property Name="TgtF_internalName" Type="Str">Protocols</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2014 NI</Property>
