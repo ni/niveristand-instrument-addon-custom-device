@@ -5,4 +5,6 @@ Source\Instrument Addon.lvproj	My Computer	Engine Release
 Source\Instrument Addon.lvproj	My Computer	Instrument Host API
 Source\Instrument Addon.lvproj	My Computer	SysDef API
 Source\Instrument Addon.lvproj	My Computer	Workspace Release
-Source\Instrument Addon.lvproj	RT PXI Target	Engine Release
+Source\Instrument Addon.lvproj	RT PXI Target - Pharlap	Engine Release
+Source\Instrument Addon.lvproj	RT CompactRIO Target - Linux ARM	Engine Release
+Source\Instrument Addon.lvproj	RT CompactRIO Target - Linux x64	Engine Release

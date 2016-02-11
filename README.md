@@ -5,7 +5,7 @@ This addon allows the user to define instrument commands generically.  NI-VISA(G
 
 ### LabVIEW Version ###
 
-LabVIEW 2013.
+LabVIEW 2015.
 
 ### Built Availability ###
 

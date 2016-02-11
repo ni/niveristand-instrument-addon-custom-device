@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="13008000">
+<Project Type="Project" LVVersion="15008000">
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="IOScan.Faults" Type="Str"></Property>
 		<Property Name="IOScan.NetVarPeriod" Type="UInt">100</Property>
@@ -80,7 +80,6 @@
 				<Item Name="VISA Configure Serial Port (Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Instr).vi"/>
 				<Item Name="VISA Configure Serial Port (Serial Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Serial Instr).vi"/>
 			</Item>
-			<Item Name="nirviCommon.vi" Type="VI" URL="/&lt;vilib&gt;/express/rvi/timingcommon/nirviCommon.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Protocols" Type="Packed Library">
@@ -96,7 +95,7 @@
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Post-Build Action.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{553854C3-560A-4C87-A5BD-43CBD915B5C4}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/c</Property>
-				<Property Name="Bld_version.build" Type="Int">45</Property>
+				<Property Name="Bld_version.build" Type="Int">46</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Protocols.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">/c/Protocols.lvlibp</Property>
