@@ -1,10 +1,14 @@
-Source\Classes\Protections\Protections.lvproj	RT PXI Target	Protections
-Source\Classes\Protocols\Protocol Classes.lvproj	RT PXI Target	Protocols
-Source\Instrument Addon.lvproj	My Computer	Configuration Release
+Source\Classes\Protections\Protections.lvproj	RT PXI Target - Pharlap	Protections
+Source\Classes\Protocols\Protocol Classes.lvproj	RT PXI Target - Pharlap	Protocols
 Source\Instrument Addon.lvproj	My Computer	Engine Release
+Source\Instrument Addon.lvproj	RT PXI Target - Pharlap	Engine Release
+Source\Instrument Addon.lvproj	My Computer	Configuration Release
 Source\Instrument Addon.lvproj	My Computer	Instrument Host API
 Source\Instrument Addon.lvproj	My Computer	SysDef API
 Source\Instrument Addon.lvproj	My Computer	Workspace Release
-Source\Instrument Addon.lvproj	RT PXI Target - Pharlap	Engine Release
-Source\Instrument Addon.lvproj	RT CompactRIO Target - Linux ARM	Engine Release
-Source\Instrument Addon.lvproj	RT CompactRIO Target - Linux x64	Engine Release
+Source\Classes\Protections\Protections.lvproj	RT CompactRIO Target - Linux ARM	Protections
+Source\Classes\Protocols\Protocol Classes.lvproj	RT CompactRIO Target - Linux ARM	Protocols
+Source\Instrument Addon - Linux32.lvproj	RT CompactRIO Target - Linux ARM	Engine Release
+Source\Classes\Protections\Protections.lvproj	RT CompactRIO Target - Linux x64	Protections
+Source\Classes\Protocols\Protocol Classes.lvproj	RT CompactRIO Target - Linux x64	Protocols
+Source\Instrument Addon - Linux64.lvproj	RT CompactRIO Target - Linux x64	Engine Release
