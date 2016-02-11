@@ -88,7 +88,7 @@
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{2E21FA60-367A-4BE4-ADE6-CE389E9CA37D}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/source</Property>
-				<Property Name="Bld_version.build" Type="Int">5</Property>
+				<Property Name="Bld_version.build" Type="Int">6</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Protections.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">/source/NI_AB_PROJECTNAME.lvlibp</Property>
@@ -190,7 +190,7 @@
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{179CE975-5DF2-4EEF-A98D-8C8AFDF80260}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/Source</Property>
-				<Property Name="Bld_version.build" Type="Int">2</Property>
+				<Property Name="Bld_version.build" Type="Int">3</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Protections.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">/Source/NI_AB_PROJECTNAME.lvlibp</Property>
@@ -290,7 +290,7 @@
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{5A8626D9-45C8-45EB-A514-0F0A20D94C56}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/Source</Property>
-				<Property Name="Bld_version.build" Type="Int">1</Property>
+				<Property Name="Bld_version.build" Type="Int">2</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Protections.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">/Source/NI_AB_PROJECTNAME.lvlibp</Property>

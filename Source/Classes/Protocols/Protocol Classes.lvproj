@@ -92,7 +92,7 @@
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{553854C3-560A-4C87-A5BD-43CBD915B5C4}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/source</Property>
-				<Property Name="Bld_version.build" Type="Int">47</Property>
+				<Property Name="Bld_version.build" Type="Int">48</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Protocols.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">/source/Protocols.lvlibp</Property>
@@ -198,7 +198,7 @@
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{A0A3117C-E8F8-42CC-A86A-0DF321BE8904}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/Source</Property>
-				<Property Name="Bld_version.build" Type="Int">3</Property>
+				<Property Name="Bld_version.build" Type="Int">4</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Protocols.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">/Source/Protocols.lvlibp</Property>
@@ -302,7 +302,7 @@
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{690662D9-38D0-4A24-9F72-082012CE97BB}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/Source</Property>
-				<Property Name="Bld_version.build" Type="Int">2</Property>
+				<Property Name="Bld_version.build" Type="Int">3</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Protocols.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">/Source/Protocols.lvlibp</Property>
