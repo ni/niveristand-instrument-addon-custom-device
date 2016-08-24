@@ -13,7 +13,7 @@
     <Type>Action</Type>
     <Item2Launch>
       <Type>To Common Doc Dir</Type>
-		<Path>Custom Devices\Instrument Addon\Instrument Addon Configuration.llb\Initialization VI.vi</Path>
+		<Path>Custom Devices\Instrument Addon\Windows\Instrument Addon Configuration.llb\Initialization VI.vi</Path>
     </Item2Launch>
   </InitializationVI>
   <CustomDeviceVI>
@@ -131,7 +131,7 @@
 		</Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
-		<Path>Custom Devices\Instrument Addon\Instrument Addon Configuration.llb\Main Page.vi</Path>
+		<Path>Custom Devices\Instrument Addon\Windows\Instrument Addon Configuration.llb\Main Page.vi</Path>
       </Item2Launch>
         <RunTimeMenu>
           <MenuItem>
@@ -143,7 +143,7 @@
             </Name>
             <Item2Launch>
               <Type>To Common Doc Dir</Type>
-              <Path>Custom Devices\Instrument Addon\Instrument Addon Configuration.llb\EnableDisable Main Page.vi</Path>
+              <Path>Custom Devices\Instrument Addon\Windows\Instrument Addon Configuration.llb\EnableDisable Main Page.vi</Path>
             </Item2Launch>
           </MenuItem>
           <MenuItem>
@@ -155,7 +155,7 @@
             </Name>
             <Item2Launch>
               <Type>To Common Doc Dir</Type>
-              <Path>Custom Devices\Instrument Addon\Instrument Addon Configuration.llb\Add New Message Group.vi</Path>
+              <Path>Custom Devices\Instrument Addon\Windows\Instrument Addon Configuration.llb\Add New Message Group.vi</Path>
             </Item2Launch>
           </MenuItem>
           <MenuItem>
@@ -167,7 +167,7 @@
             </Name>
             <Item2Launch>
               <Type>To Common Doc Dir</Type>
-              <Path>Custom Devices\Instrument Addon\Instrument Addon Configuration.llb\ExportConfigurationToFile.vi</Path>
+              <Path>Custom Devices\Instrument Addon\Windows\Instrument Addon Configuration.llb\ExportConfigurationToFile.vi</Path>
             </Item2Launch>
           </MenuItem>
           <MenuItem>
@@ -224,15 +224,15 @@
       </ButtonList>
       <ActionVIOnLoad>
         <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\Instrument Addon\Instrument Addon Configuration.llb\ActionVIOnLoad - Version.vi</Path>
+        <Path>Custom Devices\Instrument Addon\Windows\Instrument Addon Configuration.llb\ActionVIOnLoad - Version.vi</Path>
       </ActionVIOnLoad>
       <ActionVIOnSave>
         <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\Instrument Addon\Instrument Addon Configuration.llb\ActionVIOnSave Check Errors.vi</Path>
+        <Path>Custom Devices\Instrument Addon\Windows\Instrument Addon Configuration.llb\ActionVIOnSave Check Errors.vi</Path>
       </ActionVIOnSave>
       <ActionVIOnCompile>
         <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\Instrument Addon\Instrument Addon Configuration.llb\ActionVIOnCompile.vi</Path>
+        <Path>Custom Devices\Instrument Addon\Windows\Instrument Addon Configuration.llb\ActionVIOnCompile.vi</Path>
       </ActionVIOnCompile>
     </Page>
     <Page>
@@ -247,7 +247,7 @@
       </Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\Instrument Addon\Instrument Addon Configuration.llb\Main Page.vi</Path>
+        <Path>Custom Devices\Instrument Addon\Windows\Instrument Addon Configuration.llb\Main Page.vi</Path>
       </Item2Launch>
       <RunTimeMenu>
         <MenuItem>
@@ -259,7 +259,7 @@
           </Name>
           <Item2Launch>
             <Type>To Common Doc Dir</Type>
-            <Path>Custom Devices\Instrument Addon\Instrument Addon Configuration.llb\EnableDisable Main Page.vi</Path>
+            <Path>Custom Devices\Instrument Addon\Windows\Instrument Addon Configuration.llb\EnableDisable Main Page.vi</Path>
           </Item2Launch>
         </MenuItem>
         <MenuItem>
@@ -271,7 +271,7 @@
           </Name>
           <Item2Launch>
             <Type>To Common Doc Dir</Type>
-            <Path>Custom Devices\Instrument Addon\Instrument Addon Configuration.llb\Add New Message Group.vi</Path>
+            <Path>Custom Devices\Instrument Addon\Windows\Instrument Addon Configuration.llb\Add New Message Group.vi</Path>
           </Item2Launch>
         </MenuItem>
         <MenuItem>
@@ -283,7 +283,7 @@
           </Name>
           <Item2Launch>
             <Type>To Common Doc Dir</Type>
-            <Path>Custom Devices\Instrument Addon\Instrument Addon Configuration.llb\ExportConfigurationToFile.vi</Path>
+            <Path>Custom Devices\Instrument Addon\Windows\Instrument Addon Configuration.llb\ExportConfigurationToFile.vi</Path>
           </Item2Launch>
         </MenuItem>
         <MenuItem>
@@ -340,11 +340,11 @@
       </ButtonList>
       <ActionVIOnLoad>
         <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\Instrument Addon\Instrument Addon Configuration.llb\ActionVIOnLoad - Version.vi</Path>
+        <Path>Custom Devices\Instrument Addon\Windows\Instrument Addon Configuration.llb\ActionVIOnLoad - Version.vi</Path>
       </ActionVIOnLoad>
       <ActionVIOnSave>
         <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\Instrument Addon\Instrument Addon Configuration.llb\ActionVIOnSave Check Errors.vi</Path>
+        <Path>Custom Devices\Instrument Addon\Windows\Instrument Addon Configuration.llb\ActionVIOnSave Check Errors.vi</Path>
       </ActionVIOnSave>
     </Page>
  <Page>
@@ -360,7 +360,7 @@
 		</Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
-	    	<Path>Custom Devices\Instrument Addon\Instrument Addon Configuration.llb\Message.vi</Path>
+	    	<Path>Custom Devices\Instrument Addon\Windows\Instrument Addon Configuration.llb\Message.vi</Path>
       </Item2Launch>
     <RunTimeMenu>
       <MenuItem>
@@ -404,7 +404,7 @@
 		</Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
-	    	<Path>Custom Devices\Instrument Addon\Instrument Addon Configuration.llb\Global MetaData Channels.vi</Path>
+	    	<Path>Custom Devices\Instrument Addon\Windows\Instrument Addon Configuration.llb\Global MetaData Channels.vi</Path>
       </Item2Launch>
     <RunTimeMenu>
       <MenuItem>
@@ -416,7 +416,7 @@
         </Name>
         <Item2Launch>
           <Type>To Common Doc Dir</Type>
-          <Path>Custom Devices\Instrument Addon\Instrument Addon Configuration.llb\Add New MetaData Channel.vi</Path>
+          <Path>Custom Devices\Instrument Addon\Windows\Instrument Addon Configuration.llb\Add New MetaData Channel.vi</Path>
         </Item2Launch>
       </MenuItem>
       <MenuItem>
@@ -428,7 +428,7 @@
         </Name>
         <Item2Launch>
           <Type>To Common Doc Dir</Type>
-          <Path>Custom Devices\Instrument Addon\Instrument Addon Configuration.llb\Add New MetaData Array.vi</Path>
+          <Path>Custom Devices\Instrument Addon\Windows\Instrument Addon Configuration.llb\Add New MetaData Array.vi</Path>
         </Item2Launch>
       </MenuItem>
       <MenuItem>
@@ -524,7 +524,7 @@
 		</Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
-		<Path>Custom Devices\Instrument Addon\Instrument Addon Configuration.llb\Message Channels.vi</Path>
+		<Path>Custom Devices\Instrument Addon\Windows\Instrument Addon Configuration.llb\Message Channels.vi</Path>
       </Item2Launch>
     </Page>
 <Page>
@@ -541,7 +541,7 @@
 		</Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
-		<Path>Custom Devices\Instrument Addon\Instrument Addon Configuration.llb\Trigger Channel.vi</Path>
+		<Path>Custom Devices\Instrument Addon\Windows\Instrument Addon Configuration.llb\Trigger Channel.vi</Path>
       </Item2Launch>
     </Page>
     <Page>
@@ -558,7 +558,7 @@
       </Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\Instrument Addon\Instrument Addon Configuration.llb\Enable Periodic.vi</Path>
+        <Path>Custom Devices\Instrument Addon\Windows\Instrument Addon Configuration.llb\Enable Periodic.vi</Path>
       </Item2Launch>
     </Page>
     <Page>
@@ -575,7 +575,7 @@
 		</Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
-		<Path>Custom Devices\Instrument Addon\Instrument Addon Configuration.llb\Error Channel.vi</Path>
+		<Path>Custom Devices\Instrument Addon\Windows\Instrument Addon Configuration.llb\Error Channel.vi</Path>
       </Item2Launch>
     </Page>
     <Page>
@@ -592,7 +592,7 @@
 		</Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
-		<Path>Custom Devices\Instrument Addon\Instrument Addon Configuration.llb\Message Status Channel.vi</Path>
+		<Path>Custom Devices\Instrument Addon\Windows\Instrument Addon Configuration.llb\Message Status Channel.vi</Path>
       </Item2Launch>
     </Page>
 <Page>
@@ -608,7 +608,7 @@
 		</Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
-		    <Path>Custom Devices\Instrument Addon\Instrument Addon Configuration.llb\Command.vi</Path>
+		    <Path>Custom Devices\Instrument Addon\Windows\Instrument Addon Configuration.llb\Command.vi</Path>
       </Item2Launch>
     <RunTimeMenu>
       <MenuItem>
@@ -620,7 +620,7 @@
         </Name>
         <Item2Launch>
           <Type>To Common Doc Dir</Type>
-          <Path>Custom Devices\Instrument Addon\Instrument Addon Configuration.llb\Add New MetaData Channel.vi</Path>
+          <Path>Custom Devices\Instrument Addon\Windows\Instrument Addon Configuration.llb\Add New MetaData Channel.vi</Path>
         </Item2Launch>
       </MenuItem>
       <MenuItem>
@@ -632,7 +632,7 @@
         </Name>
         <Item2Launch>
           <Type>To Common Doc Dir</Type>
-          <Path>Custom Devices\Instrument Addon\Instrument Addon Configuration.llb\Add New MetaData Array.vi</Path>
+          <Path>Custom Devices\Instrument Addon\Windows\Instrument Addon Configuration.llb\Add New MetaData Array.vi</Path>
         </Item2Launch>
       </MenuItem>
       <MenuItem>
@@ -739,7 +739,7 @@
 		</Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
-		    <Path>Custom Devices\Instrument Addon\Instrument Addon Configuration.llb\Response.vi</Path>
+		    <Path>Custom Devices\Instrument Addon\Windows\Instrument Addon Configuration.llb\Response.vi</Path>
       </Item2Launch>
       <RunTimeMenu>
         <MenuItem>
@@ -751,7 +751,7 @@
           </Name>
           <Item2Launch>
             <Type>To Common Doc Dir</Type>
-            <Path>Custom Devices\Instrument Addon\Instrument Addon Configuration.llb\Add New Data Channel.vi</Path>
+            <Path>Custom Devices\Instrument Addon\Windows\Instrument Addon Configuration.llb\Add New Data Channel.vi</Path>
           </Item2Launch>
         </MenuItem>
         <MenuItem>
@@ -763,7 +763,7 @@
           </Name>
           <Item2Launch>
             <Type>To Common Doc Dir</Type>
-            <Path>Custom Devices\Instrument Addon\Instrument Addon Configuration.llb\Add New Data Array.vi</Path>
+            <Path>Custom Devices\Instrument Addon\Windows\Instrument Addon Configuration.llb\Add New Data Array.vi</Path>
           </Item2Launch>
         </MenuItem>
         <MenuItem>
@@ -870,7 +870,7 @@
 		</Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
-		<Path>Custom Devices\Instrument Addon\Instrument Addon Configuration.llb\Data Channel.vi</Path>
+		<Path>Custom Devices\Instrument Addon\Windows\Instrument Addon Configuration.llb\Data Channel.vi</Path>
       </Item2Launch>
     <RunTimeMenu>
       <MenuItem>
@@ -900,7 +900,7 @@
       </Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\Instrument Addon\Instrument Addon Configuration.llb\MetaData Channel.vi</Path>
+        <Path>Custom Devices\Instrument Addon\Windows\Instrument Addon Configuration.llb\MetaData Channel.vi</Path>
       </Item2Launch>
       <RunTimeMenu>
         <MenuItem>
@@ -929,7 +929,7 @@
       </Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\Instrument Addon\Instrument Addon Configuration.llb\Message Group.vi</Path>
+        <Path>Custom Devices\Instrument Addon\Windows\Instrument Addon Configuration.llb\Message Group.vi</Path>
       </Item2Launch>
       <RunTimeMenu>
         <MenuItem>
@@ -941,7 +941,7 @@
           </Name>
           <Item2Launch>
             <Type>To Common Doc Dir</Type>
-            <Path>Custom Devices\Instrument Addon\Instrument Addon Configuration.llb\Add New Message.vi</Path>
+            <Path>Custom Devices\Instrument Addon\Windows\Instrument Addon Configuration.llb\Add New Message.vi</Path>
           </Item2Launch>
         </MenuItem>
         <MenuItem>
@@ -1024,7 +1024,7 @@
       </Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\Instrument Addon\Instrument Addon Configuration.llb\Remaining Elements Channel Page.vi</Path>
+        <Path>Custom Devices\Instrument Addon\Windows\Instrument Addon Configuration.llb\Remaining Elements Channel Page.vi</Path>
       </Item2Launch>
     </Page>
     <Page>
@@ -1040,7 +1040,7 @@
       </Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\Instrument Addon\Instrument Addon Configuration.llb\Array Metadata ELement.vi</Path>
+        <Path>Custom Devices\Instrument Addon\Windows\Instrument Addon Configuration.llb\Array Metadata ELement.vi</Path>
       </Item2Launch>
       <RunTimeMenu>
         <MenuItem>
@@ -1070,7 +1070,7 @@
       </Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\Instrument Addon\Instrument Addon Configuration.llb\Array Data ELement.vi</Path>
+        <Path>Custom Devices\Instrument Addon\Windows\Instrument Addon Configuration.llb\Array Data ELement.vi</Path>
       </Item2Launch>
       <RunTimeMenu>
         <MenuItem>
