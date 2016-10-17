@@ -21,12 +21,20 @@ Addon is intended for slower rates, though the addon supports decimation so the 
 
 ### Dependencies ###
 
+Instrument Custom Device Classes (Must be built from https://github.com/NIVeriStandAdd-Ons/Instrument-Custom-Device-Classes)
+
 NI VISA 14.0 or later
+
 NI Serial 14.0 or later
+
 OpenG LabVIEW Data Library 4.2.0.21 or later
+
 OpenG Error Library 4.2.0.23 or later
+
 NI STM 2.1.0.2 (ONLY)
+
 NI AMC 3.3.0.20
+
 NI GXML 1.4.2.8
 
 ### License ###
