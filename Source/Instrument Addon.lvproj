@@ -204,6 +204,7 @@
 				<Item Name="STM Read Meta Data (UDP Ref).vi" Type="VI" URL="/&lt;vilib&gt;/NI/STM/compatibility/STM Read Meta Data (UDP Ref).vi"/>
 				<Item Name="STM Read Meta Data (Serial Ref).vi" Type="VI" URL="/&lt;vilib&gt;/NI/STM/compatibility/STM Read Meta Data (Serial Ref).vi"/>
 				<Item Name="STM Read Meta Data (Serial Clst).vi" Type="VI" URL="/&lt;vilib&gt;/NI/STM/compatibility/STM Read Meta Data (Serial Clst).vi"/>
+				<Item Name="System Definition Utilities.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NI VeriStand SysDef Utilities/System Definition Utilities.lvlib"/>
 			</Item>
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -222,6 +223,16 @@
 			</Item>
 			<Item Name="NationalInstruments.VeriStand.ClientAPI" Type="Document" URL="NationalInstruments.VeriStand.ClientAPI">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="Instrument System Definition API.lvlibp" Type="LVLibp" URL="../System Definition API/Instrument System Definition API.lvlibp">
+				<Item Name="Clear Errors.vi" Type="VI" URL="../System Definition API/Instrument System Definition API.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Clear Errors.vi"/>
+				<Item Name="Create Instrument Custom Device.vi" Type="VI" URL="../System Definition API/Instrument System Definition API.lvlibp/System Definition API/Create Instrument Custom Device.vi"/>
+				<Item Name="Custom Device API.lvlib" Type="Library" URL="../System Definition API/Instrument System Definition API.lvlibp/1abvi3w/vi.lib/NI Veristand/Custom Device API/Custom Device API.lvlib"/>
+				<Item Name="ex_CorrectErrorChain.vi" Type="VI" URL="../System Definition API/Instrument System Definition API.lvlibp/1abvi3w/vi.lib/express/express shared/ex_CorrectErrorChain.vi"/>
+				<Item Name="Instrument Addon Shared.lvlib" Type="Library" URL="../System Definition API/Instrument System Definition API.lvlibp/Shared/Instrument Addon Shared.lvlib"/>
+				<Item Name="subFile Dialog.vi" Type="VI" URL="../System Definition API/Instrument System Definition API.lvlibp/1abvi3w/vi.lib/express/express input/FileDialogBlock.llb/subFile Dialog.vi"/>
+				<Item Name="System Definition Utilities.lvlib" Type="Library" URL="../System Definition API/Instrument System Definition API.lvlibp/1abvi3w/vi.lib/NI/NI VeriStand SysDef Utilities/System Definition Utilities.lvlib"/>
+				<Item Name="VariantType.lvlib" Type="Library" URL="../System Definition API/Instrument System Definition API.lvlibp/1abvi3w/vi.lib/Utility/VariantDataType/VariantType.lvlib"/>
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
@@ -530,7 +541,7 @@
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utility/Copy .LLB to NI VeriStand dir.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{504907C0-CF46-4DBF-BE13-A5B7F209B5AB}</Property>
-				<Property Name="Bld_version.build" Type="Int">41</Property>
+				<Property Name="Bld_version.build" Type="Int">42</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Instrument System Definition API.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">../Built/Custom Devices/NI_AB_PROJECTNAME/Windows/SysDef API/Instrument System Definition API.lvlibp</Property>
