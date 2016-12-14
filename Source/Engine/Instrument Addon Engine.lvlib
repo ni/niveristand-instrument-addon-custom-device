@@ -39,10 +39,8 @@
 		<Item Name="FIFO References.ctl" Type="VI" URL="../Types/FIFO References.ctl"/>
 	</Item>
 	<Item Name="UserLib" Type="Folder">
-		<Item Name="Error Handling API.lvlib" Type="Library" URL="../SubVIs/Error Handling API/Error Handling API.lvlib"/>
 		<Item Name="Inline Async API.lvlib" Type="Library" URL="../SubVIs/Inline Async API/Inline Async API.lvlib"/>
 		<Item Name="Network Common API.lvlib" Type="Library" URL="../SubVIs/Network Communication/Network Common API.lvlib"/>
-		<Item Name="Stop FG.lvlib" Type="Library" URL="../SubVIs/Stop FG/Stop FG.lvlib"/>
 	</Item>
 	<Item Name="Instrument Main Engine.vi" Type="VI" URL="../Instrument Main Engine.vi"/>
 	<Item Name="RT Driver VI.vi" Type="VI" URL="../RT Driver VI.vi"/>

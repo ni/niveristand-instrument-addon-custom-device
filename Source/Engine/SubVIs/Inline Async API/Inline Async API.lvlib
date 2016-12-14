@@ -8,26 +8,11 @@
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Item Name="Controls" Type="Folder">
 		<Item Name="Engine State Variables.ctl" Type="VI" URL="../Controls/Engine State Variables.ctl"/>
-		<Item Name="Parameters Cluster.ctl" Type="VI" URL="../Controls/Parameters Cluster.ctl"/>
 		<Item Name="Read From VS Engine.ctl" Type="VI" URL="../Controls/Read From VS Engine.ctl"/>
 		<Item Name="ReadWrite Data.ctl" Type="VI" URL="../Controls/ReadWrite Data.ctl"/>
 		<Item Name="Write To VS Engine.ctl" Type="VI" URL="../Controls/Write To VS Engine.ctl"/>
 	</Item>
-	<Item Name="Helper VIs" Type="Folder">
-		<Item Name="Create Parameters Array.vi" Type="VI" URL="../Helper VIs/Create Parameters Array.vi"/>
-		<Item Name="Get VI Names.vi" Type="VI" URL="../Helper VIs/Get VI Names.vi"/>
-	</Item>
-	<Item Name="Triggering" Type="Folder">
-		<Item Name="Clear Trigger.vi" Type="VI" URL="../Triggering/Clear Trigger.vi"/>
-		<Item Name="Create Trigger.vi" Type="VI" URL="../Triggering/Create Trigger.vi"/>
-		<Item Name="Send Trigger.vi" Type="VI" URL="../Triggering/Send Trigger.vi"/>
-		<Item Name="Wait on Start Trigger.vi" Type="VI" URL="../Triggering/Wait on Start Trigger.vi"/>
-	</Item>
-	<Item Name="Close Async VIs.vi" Type="VI" URL="../Close Async VIs.vi"/>
-	<Item Name="Initialize Async VIs.vi" Type="VI" URL="../Initialize Async VIs.vi"/>
 	<Item Name="Read Data From VS Engine.vi" Type="VI" URL="../Read Data From VS Engine.vi"/>
 	<Item Name="ReadWrite Data.vi" Type="VI" URL="../ReadWrite Data.vi"/>
-	<Item Name="Run Process.vi" Type="VI" URL="../Run Process.vi"/>
-	<Item Name="Stop Processes.vi" Type="VI" URL="../Stop Processes.vi"/>
 	<Item Name="Write Data to VS Engine.vi" Type="VI" URL="../Write Data to VS Engine.vi"/>
 </Library>
