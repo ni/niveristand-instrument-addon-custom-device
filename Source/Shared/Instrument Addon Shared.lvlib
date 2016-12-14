@@ -15,6 +15,7 @@
 			<Item Name="Data Channel Type.ctl" Type="VI" URL="../Types/Data Channel Type.ctl"/>
 			<Item Name="Data Parameters.ctl" Type="VI" URL="../Types/Data Parameters.ctl"/>
 			<Item Name="Data RT Configuration Cluster.ctl" Type="VI" URL="../Types/Data RT Configuration Cluster.ctl"/>
+			<Item Name="Endian.ctl" Type="VI" URL="../Types/Endian.ctl"/>
 			<Item Name="External Trigger Refs.ctl" Type="VI" URL="../Types/External Trigger Refs.ctl"/>
 			<Item Name="FG Control.ctl" Type="VI" URL="../Types/FG Control.ctl"/>
 			<Item Name="Instrument Protocol Enum.ctl" Type="VI" URL="../Types/Instrument Protocol Enum.ctl"/>
