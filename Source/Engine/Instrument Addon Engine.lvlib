@@ -34,12 +34,11 @@
 	<Item Name="Types" Type="Folder">
 		<Item Name="Buffered RT Instrument Command.ctl" Type="VI" URL="../Types/Buffered RT Instrument Command.ctl"/>
 		<Item Name="Buffered RT Instrument Request.ctl" Type="VI" URL="../Types/Buffered RT Instrument Request.ctl"/>
-		<Item Name="command engine global variables.ctl" Type="VI" URL="../SubVIs/command engine global variables.ctl"/>
+		<Item Name="command engine global variables.ctl" Type="VI" URL="../Types/command engine global variables.ctl"/>
 		<Item Name="Commands RT Configuration Cluster.ctl" Type="VI" URL="../Types/Commands RT Configuration Cluster.ctl"/>
-		<Item Name="FIFO References.ctl" Type="VI" URL="../Types/FIFO References.ctl"/>
+		<Item Name="Engine State Variables.ctl" Type="VI" URL="../Types/Engine State Variables.ctl"/>
 	</Item>
 	<Item Name="UserLib" Type="Folder">
-		<Item Name="Inline Async API.lvlib" Type="Library" URL="../SubVIs/Inline Async API/Inline Async API.lvlib"/>
 		<Item Name="Network Common API.lvlib" Type="Library" URL="../SubVIs/Network Communication/Network Common API.lvlib"/>
 	</Item>
 	<Item Name="Instrument Main Engine.vi" Type="VI" URL="../Instrument Main Engine.vi"/>
