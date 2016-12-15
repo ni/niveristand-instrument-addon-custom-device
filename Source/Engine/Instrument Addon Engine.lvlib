@@ -11,6 +11,7 @@
 		<Item Name="Check External Triggers.vi" Type="VI" URL="../SubVIs/Check External Triggers.vi"/>
 		<Item Name="Check String Comparison.vi" Type="VI" URL="../SubVIs/Check String Comparison.vi"/>
 		<Item Name="Cleanup Instrument Engine.vi" Type="VI" URL="../SubVIs/Cleanup Instrument Engine.vi"/>
+		<Item Name="Close All Connections.vi" Type="VI" URL="../SubVIs/Close All Connections.vi"/>
 		<Item Name="command engine get time delta.vi" Type="VI" URL="../SubVIs/command engine get time delta.vi"/>
 		<Item Name="command engine process responses.vi" Type="VI" URL="../SubVIs/command engine process responses.vi"/>
 		<Item Name="command engine read async FIFOs.vi" Type="VI" URL="../SubVIs/command engine read async FIFOs.vi"/>
@@ -18,6 +19,7 @@
 		<Item Name="command engine update FIFOs after commands.vi" Type="VI" URL="../SubVIs/command engine update FIFOs after commands.vi"/>
 		<Item Name="command engine update FIFOs after responses.vi" Type="VI" URL="../SubVIs/command engine update FIFOs after responses.vi"/>
 		<Item Name="Command Engine.vi" Type="VI" URL="../SubVIs/Command Engine/Command Engine.vi"/>
+		<Item Name="Connection Engine.vi" Type="VI" URL="../SubVIs/Connection Engine.vi"/>
 		<Item Name="Determine Trigger.vi" Type="VI" URL="../SubVIs/Determine Trigger.vi"/>
 		<Item Name="Format Instrument String Command.vi" Type="VI" URL="../SubVIs/Format Instrument String Command.vi"/>
 		<Item Name="Format Instrument String Response.vi" Type="VI" URL="../SubVIs/Format Instrument String Response.vi"/>
@@ -27,6 +29,8 @@
 		<Item Name="Initialize command engine state variables.vi" Type="VI" URL="../SubVIs/Initialize command engine state variables.vi"/>
 		<Item Name="Initialize Instrument Engine.vi" Type="VI" URL="../SubVIs/Initialize Instrument Engine.vi"/>
 		<Item Name="Initialize Instrument Refs.vi" Type="VI" URL="../SubVIs/Initialize Instrument Refs.vi"/>
+		<Item Name="Initialize TCP Refs.vi" Type="VI" URL="../SubVIs/Initialize TCP Refs.vi"/>
+		<Item Name="Network Command Engine.vi" Type="VI" URL="../SubVIs/Network Command Engine.vi"/>
 		<Item Name="Protocol Engine.vi" Type="VI" URL="../SubVIs/Command Engine/Protocol Engine.vi"/>
 		<Item Name="Send Instrument String Command.vi" Type="VI" URL="../SubVIs/Send Instrument String Command.vi"/>
 		<Item Name="Wait on Instrument String Response.vi" Type="VI" URL="../SubVIs/Wait on Instrument String Response.vi"/>
@@ -37,9 +41,7 @@
 		<Item Name="command engine global variables.ctl" Type="VI" URL="../Types/command engine global variables.ctl"/>
 		<Item Name="Commands RT Configuration Cluster.ctl" Type="VI" URL="../Types/Commands RT Configuration Cluster.ctl"/>
 		<Item Name="Engine State Variables.ctl" Type="VI" URL="../Types/Engine State Variables.ctl"/>
-	</Item>
-	<Item Name="UserLib" Type="Folder">
-		<Item Name="Network Common API.lvlib" Type="Library" URL="../SubVIs/Network Communication/Network Common API.lvlib"/>
+		<Item Name="TCP Refs.ctl" Type="VI" URL="../Types/TCP Refs.ctl"/>
 	</Item>
 	<Item Name="Instrument Main Engine.vi" Type="VI" URL="../Instrument Main Engine.vi"/>
 	<Item Name="RT Driver VI.vi" Type="VI" URL="../RT Driver VI.vi"/>
