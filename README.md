@@ -31,17 +31,17 @@ OpenG LabVIEW Data Library 4.2.0.21 or later
 
 OpenG Error Library 4.2.0.23 or later
 
-NI STM 2.1.0.2 (ONLY)
+NI Simple Messaging Library 3.0.0.7 or later
 
-NI AMC 3.3.0.20
+NI Asynchronous Messaging Communication Library 3.3.1.22 or later
 
 NI GXML 1.4.2.8
 
-Inline Async API (https://github.com/NIVeriStandAdd-Ons/Inline-Async-API)
-
-System Definition Utilities (https://github.com/NIVeriStandAdd-Ons/System-Definition-Utilities)
+VeriStand Addon Inline Async API (https://github.com/NIVeriStandAdd-Ons/VeriStand-Addon-Inline-Async-API)
 
 VeriStand Addon Network Comm (https://github.com/NIVeriStandAdd-Ons/VeriStand-Addon-Network-Comm)
+
+VeriStand Addon System Definition Utilities (https://github.com/NIVeriStandAdd-Ons/VeriStand-Addon-System-Definition-Utilities)
 
 ### License ###
 
