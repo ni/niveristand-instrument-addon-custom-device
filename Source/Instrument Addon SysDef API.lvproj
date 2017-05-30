@@ -80,21 +80,21 @@
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../Built/Custom Devices/Instrument Addon/Windows/SysDef API</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../Built/Custom Devices/Instrument Addon/Windows/System Definition API</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{17B43C63-9BA5-4D1E-8DE3-1BE5BF828156}</Property>
-				<Property Name="Bld_version.build" Type="Int">1</Property>
+				<Property Name="Bld_version.build" Type="Int">2</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">Instrument Addon SysDef API.lvlibp</Property>
-				<Property Name="Destination[0].path" Type="Path">../Built/Custom Devices/Instrument Addon/Windows/SysDef API/NI_AB_PROJECTNAME.lvlibp</Property>
+				<Property Name="Destination[0].destName" Type="Str">Instrument System Definition API.lvlibp</Property>
+				<Property Name="Destination[0].path" Type="Path">../Built/Custom Devices/Instrument Addon/Windows/System Definition API/Instrument System Definition API.lvlibp</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../Built/Custom Devices/Instrument Addon/Windows/SysDef API</Property>
+				<Property Name="Destination[1].path" Type="Path">../Built/Custom Devices/Instrument Addon/Windows/System Definition API</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{48F7B625-423C-49F6-AA5B-29C035116CF4}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{0067C924-796B-4E8E-9513-5F816AF80475}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Instrument CD SysDef API.lvlib</Property>
@@ -110,7 +110,7 @@
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2017 </Property>
 				<Property Name="TgtF_productName" Type="Str">Instrument Addon System Definition API</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{28B91C91-089A-4ADC-8D55-F5BB509B8562}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">Instrument Addon SysDef API.lvlibp</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">Instrument System Definition API.lvlibp</Property>
 			</Item>
 		</Item>
 	</Item>
