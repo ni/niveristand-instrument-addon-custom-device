@@ -85,7 +85,7 @@
 		<Property Name="target.webservices.SecurityAPIKey" Type="Str">PqVr/ifkAQh+lVrdPIykXlFvg12GhhQFR8H9cUhphgg=:pTe9HRlQuMfJxAG6QCGq7UvoUpJzAzWGKy5SbZ+roSU=</Property>
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
 		<Item Name="NI VeriStand APIs" Type="Folder">
-			<Item Name="Custom Device API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device API/Custom Device API.lvlib"/>
+			<Item Name="Custom Device API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI Veristand/Custom Device API/Custom Device API.lvlib"/>
 		</Item>
 		<Item Name="Instrument Addon Engine.lvlib" Type="Library" URL="../Engine/Instrument Addon Engine.lvlib"/>
 		<Item Name="Instrument Addon Shared.lvlib" Type="Library" URL="../Shared/Instrument Addon Shared.lvlib"/>
@@ -192,7 +192,7 @@
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utility/Copy .LLB to NI VeriStand dir.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{28B36DEE-D0E5-4231-A398-9575F2BDC101}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/Linux_32_ARM/Instrument Addon Engine LinuxARM.llb</Property>
-				<Property Name="Bld_version.build" Type="Int">4</Property>
+				<Property Name="Bld_version.build" Type="Int">5</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">/Linux_32_ARM/Instrument Addon Engine LinuxARM.llb</Property>
