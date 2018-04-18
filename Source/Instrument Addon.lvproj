@@ -72,6 +72,8 @@
 			<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="../Protections.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Error Cluster From Error Code.vi"/>
 			<Item Name="Protection.lvclass" Type="LVClass" URL="../Protections.lvlibp/Parent Protection/Protection.lvclass"/>
 		</Item>
+		<Item Name="Command Channel Indeces.ctl" Type="VI" URL="../Shared/Types/Command Channel Indeces.ctl"/>
+		<Item Name="Command Channel Index.ctl" Type="VI" URL="../Shared/Types/Command Channel Index.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Get Strings from Enum__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Strings from Enum__ogtk.vi"/>
