@@ -467,7 +467,7 @@
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utility/Copy .LLB to NI VeriStand dir.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{7F7FDA91-FFE5-4844-A4FA-9D8996F5C375}</Property>
-				<Property Name="Bld_version.build" Type="Int">43</Property>
+				<Property Name="Bld_version.build" Type="Int">44</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Instrument Host Automation API.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">../Built/Custom Devices/NI_AB_PROJECTNAME/Windows/Host Automation API/Instrument Host Automation API.lvlibp</Property>
@@ -738,7 +738,7 @@
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utility/Copy .LLB to NI VeriStand dir.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{FB085711-B7CD-49CE-AB6A-241C33E6676C}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/Pharlap/Instrument Addon Engine Pharlap.llb</Property>
-				<Property Name="Bld_version.build" Type="Int">25</Property>
+				<Property Name="Bld_version.build" Type="Int">26</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">/Pharlap/Instrument Addon Engine Pharlap.llb</Property>
