@@ -72,8 +72,6 @@
 			<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="../Protections.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Error Cluster From Error Code.vi"/>
 			<Item Name="Protection.lvclass" Type="LVClass" URL="../Protections.lvlibp/Parent Protection/Protection.lvclass"/>
 		</Item>
-		<Item Name="Command Channel Indeces.ctl" Type="VI" URL="../Shared/Types/Command Channel Indeces.ctl"/>
-		<Item Name="Command Channel Index.ctl" Type="VI" URL="../Shared/Types/Command Channel Index.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Get Strings from Enum__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Strings from Enum__ogtk.vi"/>
@@ -740,7 +738,7 @@
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utility/Copy .LLB to NI VeriStand dir.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{FB085711-B7CD-49CE-AB6A-241C33E6676C}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/Pharlap/Instrument Addon Engine Pharlap.llb</Property>
-				<Property Name="Bld_version.build" Type="Int">24</Property>
+				<Property Name="Bld_version.build" Type="Int">25</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">/Pharlap/Instrument Addon Engine Pharlap.llb</Property>

@@ -10,6 +10,8 @@
 	<Item Name="Shared" Type="Folder">
 		<Item Name="Types" Type="Folder">
 			<Item Name="Checksum Type.ctl" Type="VI" URL="../Types/Checksum Type.ctl"/>
+			<Item Name="Command Channel Indeces.ctl" Type="VI" URL="../Types/Command Channel Indeces.ctl"/>
+			<Item Name="Command Channel Index.ctl" Type="VI" URL="../Types/Command Channel Index.ctl"/>
 			<Item Name="Command Parameters.ctl" Type="VI" URL="../Types/Command Parameters.ctl"/>
 			<Item Name="Compiled Settings.ctl" Type="VI" URL="../Types/Compiled Settings.ctl"/>
 			<Item Name="Data Channel Type.ctl" Type="VI" URL="../Types/Data Channel Type.ctl"/>
