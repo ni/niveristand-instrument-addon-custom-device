@@ -455,10 +455,10 @@
 				<Property Name="Source[9].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">10</Property>
 			</Item>
-			<Item Name="Instrument Host API" Type="Packed Library">
+			<Item Name="Host API" Type="Packed Library">
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{10FA82E6-CA69-4EBA-B362-AEAA07291A74}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">Instrument Host API</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Host API</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
@@ -477,7 +477,7 @@
 				<Property Name="Destination[1].path" Type="Path">../Built/Custom Devices/NI_AB_PROJECTNAME/Windows/Host Automation API</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{DB58B153-0502-4F8F-8BD3-108585434DBA}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{5CE7C627-5D29-4675-A182-EE1098D51B50}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Instrument CD Host API.lvlib</Property>
@@ -489,16 +489,16 @@
 				<Property Name="Source[1].type" Type="Str">Library</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
 				<Property Name="TgtF_companyName" Type="Str">NI</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">Instrument Host API</Property>
-				<Property Name="TgtF_internalName" Type="Str">Instrument Host API</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">Host API</Property>
+				<Property Name="TgtF_internalName" Type="Str">Host API</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2014 NI</Property>
-				<Property Name="TgtF_productName" Type="Str">Instrument Host API</Property>
+				<Property Name="TgtF_productName" Type="Str">Host API</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{1FE83921-0070-47B9-B2B7-B6CCC625D14B}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">Instrument Host Automation API.lvlibp</Property>
 			</Item>
-			<Item Name="Workspace Release" Type="Source Distribution">
+			<Item Name="Workspace Object" Type="Source Distribution">
 				<Property Name="Bld_buildCacheID" Type="Str">{8C2E298A-2CF4-4CC2-8B89-2C7487E002E8}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">Workspace Release</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Workspace Object</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeTypedefs" Type="Bool">true</Property>
@@ -517,7 +517,7 @@
 				<Property Name="DestinationCount" Type="Int">3</Property>
 				<Property Name="Source[0].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[0].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{09EAAC10-6BD9-4B5E-9E37-8A8E47512DB9}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{5CE7C627-5D29-4675-A182-EE1098D51B50}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[1].Container.applySaveSettings" Type="Bool">true</Property>
