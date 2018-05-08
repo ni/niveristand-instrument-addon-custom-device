@@ -32,6 +32,7 @@ type = 'lvBuildSpec'
 project = '{windows}'
 target = 'My Computer'
 build_spec = 'Workspace Object'
+dependency_target = 'pharlap'
 
 [[build.steps]]
 name = 'Host API'
@@ -39,6 +40,7 @@ type = 'lvBuildSpec'
 project = '{windows}'
 target = 'My Computer'
 build_spec = 'Host API'
+dependency_target = 'pharlap'
 
 [[build.steps]]
 name = 'Pharlap and Windows Engine'
@@ -67,6 +69,7 @@ type = 'lvBuildSpec'
 project = '{api}'
 target = 'My Computer'
 build_spec = 'System Definition API'
+dependency_target = 'pharlap'
 
 [package]
 type = 'nipkg'
