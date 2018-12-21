@@ -47,6 +47,8 @@ VeriStand Addon CD Import and Export Tool (https://github.com/NIVeriStandAdd-Ons
 
 VeriStand Addon Hardware Resource Discovery (https://github.com/NIVeriStandAdd-Ons/Hardware-Resource-Discovery)
 
+HTML Help File Tools (https://github.com/NIVeriStandAdd-Ons/HTML-Help-File-Tools)
+
 ### License ###
 Copyright 2018 National Instruments
 Licensed under the Apache License, Version 2.0 (the "License"); You may not use this file except in compliance with the License.
