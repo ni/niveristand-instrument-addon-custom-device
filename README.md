@@ -9,7 +9,13 @@ LabVIEW 2015.
 
 ### Built Availability ###
 
-Users are allowed to build anything under Build Specifications in the source's LabVIEW project(s).  Pre-built versions are available upon request through NI Field Sales. 
+https://github.com/NIVeriStandAdd-Ons/Instrument-Custom-Device/releases 
+
+### Built Dependencies ###
+
+NI VISA 14.0 or later
+
+NI Serial 14.0 or later
 
 ### Quality, Limitations ###
 
@@ -19,7 +25,7 @@ Addon does not support push messaging, meaning the instrument can't send unsolic
 
 Addon is intended for slower rates, though the addon supports decimation so the NI VeriStand PCL can still be fast.
 
-### Dependencies ###
+### Source Dependencies ###
 
 Instrument Custom Device Classes (Must be built from https://github.com/NIVeriStandAdd-Ons/Instrument-Custom-Device-Classes)
 
