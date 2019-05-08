@@ -43,7 +43,7 @@ NI Asynchronous Messaging Communication Library 3.3.1.22 or later
 
 NI GXML 1.4.2.8
 
-VeriStand Addon Inline Async API (https://github.com/NIVeriStandAdd-Ons/VeriStand-Addon-Inline-Async-API)
+VeriStand Addon Inline Async API (https://github.com/ni/niveristand-custom-device-inline-async-api)
 
 VeriStand Addon Network Comm (https://github.com/NIVeriStandAdd-Ons/VeriStand-Addon-Network-Comm)
 
