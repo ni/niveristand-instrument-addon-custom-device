@@ -47,6 +47,9 @@
 				<Item Name="Clear Warnings.vi" Type="VI" URL="../Protocols.lvlibp/Protocol Parent/Clear Warnings.vi"/>
 				<Item Name="Protocol Parent.lvclass" Type="LVClass" URL="../Protocols.lvlibp/Protocol Parent/Protocol Parent.lvclass"/>
 			</Item>
+			<Item Name="RS232 to GPIB ConvBox" Type="Folder">
+				<Item Name="RS232 to GPIB ConvBox.lvclass" Type="LVClass" URL="../Protocols.lvlibp/RS232 to GPIB ConvBox/RS232 to GPIB ConvBox.lvclass"/>
+			</Item>
 			<Item Name="RSxxx" Type="Folder">
 				<Item Name="RS-xxx.lvclass" Type="LVClass" URL="../Protocols.lvlibp/RS-xxx/RS-xxx.lvclass"/>
 			</Item>
@@ -59,10 +62,19 @@
 			<Item Name="VISA" Type="Folder">
 				<Item Name="VISA.lvclass" Type="LVClass" URL="../Protocols.lvlibp/VISA/VISA.lvclass"/>
 			</Item>
+			<Item Name="CheckListener ConvBox.vi" Type="VI" URL="../Protocols.lvlibp/RS232 to GPIB ConvBox/Methods/SubVIs/CheckListener ConvBox.vi"/>
 			<Item Name="Clear Errors.vi" Type="VI" URL="../Protocols.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Clear Errors.vi"/>
+			<Item Name="Close ConvBox.vi" Type="VI" URL="../Protocols.lvlibp/RS232 to GPIB ConvBox/Methods/SubVIs/Close ConvBox.vi"/>
 			<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="../Protocols.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Error Cluster From Error Code.vi"/>
+			<Item Name="GPIB Status Boolean Array.ctl" Type="VI" URL="../Protocols.lvlibp/1abvi3w/vi.lib/Instr/_visa.llb/GPIB Status Boolean Array.ctl"/>
+			<Item Name="Init ConvBox.vi" Type="VI" URL="../Protocols.lvlibp/RS232 to GPIB ConvBox/Methods/SubVIs/Init ConvBox.vi"/>
 			<Item Name="nirviCommon.vi" Type="VI" URL="../Protocols.lvlibp/1abvi3w/vi.lib/express/rvi/timingcommon/nirviCommon.vi"/>
+			<Item Name="Read ConvBox.vi" Type="VI" URL="../Protocols.lvlibp/RS232 to GPIB ConvBox/Methods/SubVIs/Read ConvBox.vi"/>
+			<Item Name="Space Constant.vi" Type="VI" URL="../Protocols.lvlibp/1abvi3w/vi.lib/dlg_ctls.llb/Space Constant.vi"/>
+			<Item Name="Status ConvBox.vi" Type="VI" URL="../Protocols.lvlibp/RS232 to GPIB ConvBox/Methods/SubVIs/Status ConvBox.vi"/>
 			<Item Name="VISA Configure Serial Port (Instr).vi" Type="VI" URL="../Protocols.lvlibp/1abvi3w/vi.lib/Instr/_visa.llb/VISA Configure Serial Port (Instr).vi"/>
+			<Item Name="VISA Flush IO Buffer Mask.ctl" Type="VI" URL="../Protocols.lvlibp/1abvi3w/vi.lib/Instr/_visa.llb/VISA Flush IO Buffer Mask.ctl"/>
+			<Item Name="Write ConvBox.vi" Type="VI" URL="../Protocols.lvlibp/RS232 to GPIB ConvBox/Methods/SubVIs/Write ConvBox.vi"/>
 		</Item>
 		<Item Name="Protections.lvlibp" Type="LVLibp" URL="../Protections.lvlibp">
 			<Item Name="Checksum U8.lvclass" Type="LVClass" URL="../Protections.lvlibp/Checksum U8/Checksum U8.lvclass"/>
@@ -470,7 +482,7 @@
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utility/Copy .LLB to NI VeriStand dir.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{7F7FDA91-FFE5-4844-A4FA-9D8996F5C375}</Property>
-				<Property Name="Bld_version.build" Type="Int">45</Property>
+				<Property Name="Bld_version.build" Type="Int">46</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Instrument Host Automation API.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">../Built/Custom Devices/NI_AB_PROJECTNAME/Windows/Host Automation API/Instrument Host Automation API.lvlibp</Property>
@@ -659,6 +671,9 @@
 				<Item Name="Clear Warnings.vi" Type="VI" URL="../Protocols.lvlibp/Protocol Parent/Clear Warnings.vi"/>
 				<Item Name="Protocol Parent.lvclass" Type="LVClass" URL="../Protocols.lvlibp/Protocol Parent/Protocol Parent.lvclass"/>
 			</Item>
+			<Item Name="RS232 to GPIB ConvBox" Type="Folder">
+				<Item Name="RS232 to GPIB ConvBox.lvclass" Type="LVClass" URL="../Protocols.lvlibp/RS232 to GPIB ConvBox/RS232 to GPIB ConvBox.lvclass"/>
+			</Item>
 			<Item Name="RSxxx" Type="Folder">
 				<Item Name="RS-xxx.lvclass" Type="LVClass" URL="../Protocols.lvlibp/RS-xxx/RS-xxx.lvclass"/>
 			</Item>
@@ -671,10 +686,19 @@
 			<Item Name="VISA" Type="Folder">
 				<Item Name="VISA.lvclass" Type="LVClass" URL="../Protocols.lvlibp/VISA/VISA.lvclass"/>
 			</Item>
+			<Item Name="CheckListener ConvBox.vi" Type="VI" URL="../Protocols.lvlibp/RS232 to GPIB ConvBox/Methods/SubVIs/CheckListener ConvBox.vi"/>
 			<Item Name="Clear Errors.vi" Type="VI" URL="../Protocols.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Clear Errors.vi"/>
+			<Item Name="Close ConvBox.vi" Type="VI" URL="../Protocols.lvlibp/RS232 to GPIB ConvBox/Methods/SubVIs/Close ConvBox.vi"/>
 			<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="../Protocols.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Error Cluster From Error Code.vi"/>
+			<Item Name="GPIB Status Boolean Array.ctl" Type="VI" URL="../Protocols.lvlibp/1abvi3w/vi.lib/Instr/_visa.llb/GPIB Status Boolean Array.ctl"/>
+			<Item Name="Init ConvBox.vi" Type="VI" URL="../Protocols.lvlibp/RS232 to GPIB ConvBox/Methods/SubVIs/Init ConvBox.vi"/>
 			<Item Name="nirviCommon.vi" Type="VI" URL="../Protocols.lvlibp/1abvi3w/vi.lib/express/rvi/timingcommon/nirviCommon.vi"/>
+			<Item Name="Read ConvBox.vi" Type="VI" URL="../Protocols.lvlibp/RS232 to GPIB ConvBox/Methods/SubVIs/Read ConvBox.vi"/>
+			<Item Name="Space Constant.vi" Type="VI" URL="../Protocols.lvlibp/1abvi3w/vi.lib/dlg_ctls.llb/Space Constant.vi"/>
+			<Item Name="Status ConvBox.vi" Type="VI" URL="../Protocols.lvlibp/RS232 to GPIB ConvBox/Methods/SubVIs/Status ConvBox.vi"/>
 			<Item Name="VISA Configure Serial Port (Instr).vi" Type="VI" URL="../Protocols.lvlibp/1abvi3w/vi.lib/Instr/_visa.llb/VISA Configure Serial Port (Instr).vi"/>
+			<Item Name="VISA Flush IO Buffer Mask.ctl" Type="VI" URL="../Protocols.lvlibp/1abvi3w/vi.lib/Instr/_visa.llb/VISA Flush IO Buffer Mask.ctl"/>
+			<Item Name="Write ConvBox.vi" Type="VI" URL="../Protocols.lvlibp/RS232 to GPIB ConvBox/Methods/SubVIs/Write ConvBox.vi"/>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -706,6 +730,7 @@
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
 				<Item Name="NI STM.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/STM/NI STM.lvlib"/>
 				<Item Name="NI VeriStand Addon Network Comm Shared.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NIVS Addon Network Comm/Shared/NI VeriStand Addon Network Comm Shared.lvlib"/>
+				<Item Name="NI VeriStand Addon Network Comm.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NIVS Addon Network Comm/Engine/NI VeriStand Addon Network Comm.lvlib"/>
 				<Item Name="NI_FTP.lvlib" Type="Library" URL="/&lt;vilib&gt;/FTP/NI_FTP.lvlib"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 				<Item Name="NI_WebDAV.lvlib" Type="Library" URL="/&lt;vilib&gt;/WebDAVClient/NI_WebDAV.lvlib"/>
@@ -721,7 +746,6 @@
 				<Item Name="Tools_KeyedArray.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/Tools/Keyed Array/Tools_KeyedArray.lvlib"/>
 				<Item Name="Tools_String.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/Tools/String/Tools_String.lvlib"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
-				<Item Name="VeriStand Comm.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/NIVS Addon Network Comm/Engine/VeriStand Comm.lvclass"/>
 				<Item Name="VS Inline Async API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_VS Inline Async API/VS Inline Async API.lvlib"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
@@ -741,7 +765,7 @@
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utility/Copy .LLB to NI VeriStand dir.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{FB085711-B7CD-49CE-AB6A-241C33E6676C}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/Pharlap/Instrument Addon Engine Pharlap.llb</Property>
-				<Property Name="Bld_version.build" Type="Int">27</Property>
+				<Property Name="Bld_version.build" Type="Int">29</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">/Pharlap/Instrument Addon Engine Pharlap.llb</Property>
