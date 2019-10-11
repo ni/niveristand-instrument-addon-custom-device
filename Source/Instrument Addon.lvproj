@@ -51,7 +51,7 @@
 				<Item Name="RS-xxx.lvclass" Type="LVClass" URL="../Protocols.lvlibp/RS-xxx/RS-xxx.lvclass"/>
 			</Item>
 			<Item Name="RSxxx to GPIB ConvBox" Type="Folder">
-				<Item Name="RSxxx to GPIB ConvBox.lvclass" Type="LVClass" URL="../Protocols.lvlibp/RS232 to GPIB ConvBox/RSxxx to GPIB ConvBox.lvclass"/>
+				<Item Name="RS-xxx to GPIB ConvBox.lvclass" Type="LVClass" URL="../Protocols.lvlibp/RS-xxx to GPIB ConvBox/RS-xxx to GPIB ConvBox.lvclass"/>
 			</Item>
 			<Item Name="TCP" Type="Folder">
 				<Item Name="TCP.lvclass" Type="LVClass" URL="../Protocols.lvlibp/TCP/TCP.lvclass"/>
@@ -62,19 +62,13 @@
 			<Item Name="VISA" Type="Folder">
 				<Item Name="VISA.lvclass" Type="LVClass" URL="../Protocols.lvlibp/VISA/VISA.lvclass"/>
 			</Item>
-			<Item Name="CheckListener ConvBox.vi" Type="VI" URL="../Protocols.lvlibp/RS232 to GPIB ConvBox/Methods/SubVIs/CheckListener ConvBox.vi"/>
 			<Item Name="Clear Errors.vi" Type="VI" URL="../Protocols.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Clear Errors.vi"/>
-			<Item Name="Close ConvBox.vi" Type="VI" URL="../Protocols.lvlibp/RS232 to GPIB ConvBox/Methods/SubVIs/Close ConvBox.vi"/>
 			<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="../Protocols.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Error Cluster From Error Code.vi"/>
 			<Item Name="GPIB Status Boolean Array.ctl" Type="VI" URL="../Protocols.lvlibp/1abvi3w/vi.lib/Instr/_visa.llb/GPIB Status Boolean Array.ctl"/>
-			<Item Name="Init ConvBox.vi" Type="VI" URL="../Protocols.lvlibp/RS232 to GPIB ConvBox/Methods/SubVIs/Init ConvBox.vi"/>
 			<Item Name="nirviCommon.vi" Type="VI" URL="../Protocols.lvlibp/1abvi3w/vi.lib/express/rvi/timingcommon/nirviCommon.vi"/>
-			<Item Name="Read ConvBox.vi" Type="VI" URL="../Protocols.lvlibp/RS232 to GPIB ConvBox/Methods/SubVIs/Read ConvBox.vi"/>
 			<Item Name="Space Constant.vi" Type="VI" URL="../Protocols.lvlibp/1abvi3w/vi.lib/dlg_ctls.llb/Space Constant.vi"/>
-			<Item Name="Status ConvBox.vi" Type="VI" URL="../Protocols.lvlibp/RS232 to GPIB ConvBox/Methods/SubVIs/Status ConvBox.vi"/>
 			<Item Name="VISA Configure Serial Port (Instr).vi" Type="VI" URL="../Protocols.lvlibp/1abvi3w/vi.lib/Instr/_visa.llb/VISA Configure Serial Port (Instr).vi"/>
 			<Item Name="VISA Flush IO Buffer Mask.ctl" Type="VI" URL="../Protocols.lvlibp/1abvi3w/vi.lib/Instr/_visa.llb/VISA Flush IO Buffer Mask.ctl"/>
-			<Item Name="Write ConvBox.vi" Type="VI" URL="../Protocols.lvlibp/RS232 to GPIB ConvBox/Methods/SubVIs/Write ConvBox.vi"/>
 		</Item>
 		<Item Name="Protections.lvlibp" Type="LVLibp" URL="../Protections.lvlibp">
 			<Item Name="Checksum U8.lvclass" Type="LVClass" URL="../Protections.lvlibp/Checksum U8/Checksum U8.lvclass"/>
@@ -675,7 +669,7 @@
 				<Item Name="RS-xxx.lvclass" Type="LVClass" URL="../Protocols.lvlibp/RS-xxx/RS-xxx.lvclass"/>
 			</Item>
 			<Item Name="RSxxx to GPIB ConvBox" Type="Folder">
-				<Item Name="RSxxx to GPIB ConvBox.lvclass" Type="LVClass" URL="../Protocols.lvlibp/RS232 to GPIB ConvBox/RSxxx to GPIB ConvBox.lvclass"/>
+				<Item Name="RS-xxx to GPIB ConvBox.lvclass" Type="LVClass" URL="../Protocols.lvlibp/RS-xxx to GPIB ConvBox/RS-xxx to GPIB ConvBox.lvclass"/>
 			</Item>
 			<Item Name="TCP" Type="Folder">
 				<Item Name="TCP.lvclass" Type="LVClass" URL="../Protocols.lvlibp/TCP/TCP.lvclass"/>
@@ -686,19 +680,13 @@
 			<Item Name="VISA" Type="Folder">
 				<Item Name="VISA.lvclass" Type="LVClass" URL="../Protocols.lvlibp/VISA/VISA.lvclass"/>
 			</Item>
-			<Item Name="CheckListener ConvBox.vi" Type="VI" URL="../Protocols.lvlibp/RS232 to GPIB ConvBox/Methods/SubVIs/CheckListener ConvBox.vi"/>
 			<Item Name="Clear Errors.vi" Type="VI" URL="../Protocols.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Clear Errors.vi"/>
-			<Item Name="Close ConvBox.vi" Type="VI" URL="../Protocols.lvlibp/RS232 to GPIB ConvBox/Methods/SubVIs/Close ConvBox.vi"/>
 			<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="../Protocols.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Error Cluster From Error Code.vi"/>
 			<Item Name="GPIB Status Boolean Array.ctl" Type="VI" URL="../Protocols.lvlibp/1abvi3w/vi.lib/Instr/_visa.llb/GPIB Status Boolean Array.ctl"/>
-			<Item Name="Init ConvBox.vi" Type="VI" URL="../Protocols.lvlibp/RS232 to GPIB ConvBox/Methods/SubVIs/Init ConvBox.vi"/>
 			<Item Name="nirviCommon.vi" Type="VI" URL="../Protocols.lvlibp/1abvi3w/vi.lib/express/rvi/timingcommon/nirviCommon.vi"/>
-			<Item Name="Read ConvBox.vi" Type="VI" URL="../Protocols.lvlibp/RS232 to GPIB ConvBox/Methods/SubVIs/Read ConvBox.vi"/>
 			<Item Name="Space Constant.vi" Type="VI" URL="../Protocols.lvlibp/1abvi3w/vi.lib/dlg_ctls.llb/Space Constant.vi"/>
-			<Item Name="Status ConvBox.vi" Type="VI" URL="../Protocols.lvlibp/RS232 to GPIB ConvBox/Methods/SubVIs/Status ConvBox.vi"/>
 			<Item Name="VISA Configure Serial Port (Instr).vi" Type="VI" URL="../Protocols.lvlibp/1abvi3w/vi.lib/Instr/_visa.llb/VISA Configure Serial Port (Instr).vi"/>
 			<Item Name="VISA Flush IO Buffer Mask.ctl" Type="VI" URL="../Protocols.lvlibp/1abvi3w/vi.lib/Instr/_visa.llb/VISA Flush IO Buffer Mask.ctl"/>
-			<Item Name="Write ConvBox.vi" Type="VI" URL="../Protocols.lvlibp/RS232 to GPIB ConvBox/Methods/SubVIs/Write ConvBox.vi"/>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -765,7 +753,7 @@
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utility/Copy .LLB to NI VeriStand dir.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{FB085711-B7CD-49CE-AB6A-241C33E6676C}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/Pharlap/Instrument Addon Engine Pharlap.llb</Property>
-				<Property Name="Bld_version.build" Type="Int">30</Property>
+				<Property Name="Bld_version.build" Type="Int">31</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">/Pharlap/Instrument Addon Engine Pharlap.llb</Property>
