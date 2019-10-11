@@ -47,11 +47,11 @@
 				<Item Name="Clear Warnings.vi" Type="VI" URL="../Protocols.lvlibp/Protocol Parent/Clear Warnings.vi"/>
 				<Item Name="Protocol Parent.lvclass" Type="LVClass" URL="../Protocols.lvlibp/Protocol Parent/Protocol Parent.lvclass"/>
 			</Item>
-			<Item Name="RS232 to GPIB ConvBox" Type="Folder">
-				<Item Name="RS232 to GPIB ConvBox.lvclass" Type="LVClass" URL="../Protocols.lvlibp/RS232 to GPIB ConvBox/RS232 to GPIB ConvBox.lvclass"/>
-			</Item>
 			<Item Name="RSxxx" Type="Folder">
 				<Item Name="RS-xxx.lvclass" Type="LVClass" URL="../Protocols.lvlibp/RS-xxx/RS-xxx.lvclass"/>
+			</Item>
+			<Item Name="RSxxx to GPIB ConvBox" Type="Folder">
+				<Item Name="RSxxx to GPIB ConvBox.lvclass" Type="LVClass" URL="../Protocols.lvlibp/RS232 to GPIB ConvBox/RSxxx to GPIB ConvBox.lvclass"/>
 			</Item>
 			<Item Name="TCP" Type="Folder">
 				<Item Name="TCP.lvclass" Type="LVClass" URL="../Protocols.lvlibp/TCP/TCP.lvclass"/>
@@ -671,11 +671,11 @@
 				<Item Name="Clear Warnings.vi" Type="VI" URL="../Protocols.lvlibp/Protocol Parent/Clear Warnings.vi"/>
 				<Item Name="Protocol Parent.lvclass" Type="LVClass" URL="../Protocols.lvlibp/Protocol Parent/Protocol Parent.lvclass"/>
 			</Item>
-			<Item Name="RS232 to GPIB ConvBox" Type="Folder">
-				<Item Name="RS232 to GPIB ConvBox.lvclass" Type="LVClass" URL="../Protocols.lvlibp/RS232 to GPIB ConvBox/RS232 to GPIB ConvBox.lvclass"/>
-			</Item>
 			<Item Name="RSxxx" Type="Folder">
 				<Item Name="RS-xxx.lvclass" Type="LVClass" URL="../Protocols.lvlibp/RS-xxx/RS-xxx.lvclass"/>
+			</Item>
+			<Item Name="RSxxx to GPIB ConvBox" Type="Folder">
+				<Item Name="RSxxx to GPIB ConvBox.lvclass" Type="LVClass" URL="../Protocols.lvlibp/RS232 to GPIB ConvBox/RSxxx to GPIB ConvBox.lvclass"/>
 			</Item>
 			<Item Name="TCP" Type="Folder">
 				<Item Name="TCP.lvclass" Type="LVClass" URL="../Protocols.lvlibp/TCP/TCP.lvclass"/>
@@ -765,7 +765,7 @@
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utility/Copy .LLB to NI VeriStand dir.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{FB085711-B7CD-49CE-AB6A-241C33E6676C}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/Pharlap/Instrument Addon Engine Pharlap.llb</Property>
-				<Property Name="Bld_version.build" Type="Int">29</Property>
+				<Property Name="Bld_version.build" Type="Int">30</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">/Pharlap/Instrument Addon Engine Pharlap.llb</Property>
