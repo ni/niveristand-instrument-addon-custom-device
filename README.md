@@ -5,7 +5,7 @@ This addon allows the user to define instrument commands generically.  NI-VISA(G
 
 ### LabVIEW Version ###
 
-LabVIEW 2015.
+LabVIEW 2019.
 
 ### Built Availability ###
 
@@ -13,9 +13,9 @@ https://github.com/NIVeriStandAdd-Ons/Instrument-Custom-Device/releases
 
 ### Built Dependencies ###
 
-NI VISA 14.0 or later
+NI VISA 19.0 or later
 
-NI Serial 14.0 or later
+NI Serial 19.0 or later
 
 ### Quality, Limitations ###
 
@@ -29,9 +29,9 @@ Addon is intended for slower rates, though the addon supports decimation so the 
 
 Instrument Custom Device Classes (Must be built from https://github.com/NIVeriStandAdd-Ons/Instrument-Custom-Device-Classes)
 
-NI VISA 14.0 or later
+NI VISA 19.0 or later
 
-NI Serial 14.0 or later
+NI Serial 19.0 or later
 
 OpenG LabVIEW Data Library 4.2.0.21 or later
 
