@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="15008000">
+<Project Type="Project" LVVersion="19008000">
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="IOScan.Faults" Type="Str"></Property>
 		<Property Name="IOScan.NetVarPeriod" Type="UInt">100</Property>
@@ -112,6 +112,9 @@
 			<Item Name="RSxxx" Type="Folder">
 				<Item Name="RS-xxx.lvclass" Type="LVClass" URL="../Protocols.lvlibp/RS-xxx/RS-xxx.lvclass"/>
 			</Item>
+			<Item Name="RSxxx to GPIB ConvBox" Type="Folder">
+				<Item Name="RS-xxx to GPIB ConvBox.lvclass" Type="LVClass" URL="../Protocols.lvlibp/RS-xxx to GPIB ConvBox/RS-xxx to GPIB ConvBox.lvclass"/>
+			</Item>
 			<Item Name="TCP" Type="Folder">
 				<Item Name="TCP.lvclass" Type="LVClass" URL="../Protocols.lvlibp/TCP/TCP.lvclass"/>
 			</Item>
@@ -123,8 +126,11 @@
 			</Item>
 			<Item Name="Clear Errors.vi" Type="VI" URL="../Protocols.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Clear Errors.vi"/>
 			<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="../Protocols.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Error Cluster From Error Code.vi"/>
+			<Item Name="GPIB Status Boolean Array.ctl" Type="VI" URL="../Protocols.lvlibp/1abvi3w/vi.lib/Instr/_visa.llb/GPIB Status Boolean Array.ctl"/>
 			<Item Name="nirviCommon.vi" Type="VI" URL="../Protocols.lvlibp/1abvi3w/vi.lib/express/rvi/timingcommon/nirviCommon.vi"/>
+			<Item Name="Space Constant.vi" Type="VI" URL="../Protocols.lvlibp/1abvi3w/vi.lib/dlg_ctls.llb/Space Constant.vi"/>
 			<Item Name="VISA Configure Serial Port (Instr).vi" Type="VI" URL="../Protocols.lvlibp/1abvi3w/vi.lib/Instr/_visa.llb/VISA Configure Serial Port (Instr).vi"/>
+			<Item Name="VISA Flush IO Buffer Mask.ctl" Type="VI" URL="../Protocols.lvlibp/1abvi3w/vi.lib/Instr/_visa.llb/VISA Flush IO Buffer Mask.ctl"/>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -192,7 +198,7 @@
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utility/Copy .LLB to NI VeriStand dir.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{B5ABDB18-3D6A-4EAA-A400-A63CF72928F0}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/Linux_x64/Instrument Addon Engine Linux64.llb</Property>
-				<Property Name="Bld_version.build" Type="Int">5</Property>
+				<Property Name="Bld_version.build" Type="Int">6</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">/Linux_x64/Instrument Addon Engine Linux64.llb</Property>
