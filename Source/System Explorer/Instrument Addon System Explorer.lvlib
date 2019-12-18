@@ -25,6 +25,7 @@
 				<Item Name="Message Channels.vi" Type="VI" URL="../Message Channels.vi"/>
 				<Item Name="Message Group.vi" Type="VI" URL="../Message Group.vi"/>
 				<Item Name="Message Status Channel.vi" Type="VI" URL="../Message Status Channel.vi"/>
+				<Item Name="Message Timestamp Channel.vi" Type="VI" URL="../Message Timestamp Channel.vi"/>
 				<Item Name="Message.vi" Type="VI" URL="../Message.vi"/>
 				<Item Name="MetaData Channel.vi" Type="VI" URL="../MetaData Channel.vi"/>
 				<Item Name="Remaining Elements Channel Page.vi" Type="VI" URL="../Remaining Elements Channel Page.vi"/>
@@ -39,28 +40,15 @@
 				<Item Name="Add New MetaData Array.vi" Type="VI" URL="../Add New MetaData Array.vi"/>
 				<Item Name="Add New MetaData Channel.vi" Type="VI" URL="../Add New MetaData Channel.vi"/>
 				<Item Name="EnableDisable Main Page.vi" Type="VI" URL="../EnableDisable Main Page.vi"/>
-				<Item Name="ExportConfigurationToFile.vi" Type="VI" URL="../Export Import Utility/ExportConfigurationToFile.vi"/>
+				<Item Name="ExportConfigurationToFile.vi" Type="VI" URL="../ExportConfigurationToFile.vi"/>
 			</Item>
 			<Item Name="Initialization VI.vi" Type="VI" URL="../Initialization VI.vi"/>
 			<Item Name="Main Page.vi" Type="VI" URL="../Main Page.vi"/>
-		</Item>
-		<Item Name="Export Import Utility" Type="Folder">
-			<Item Name="Command Message Configuration.ctl" Type="VI" URL="../Export Import Utility/Command Message Configuration.ctl"/>
-			<Item Name="Data Channel Configuration.ctl" Type="VI" URL="../Export Import Utility/Data Channel Configuration.ctl"/>
-			<Item Name="Get SysDef Configuration.vi" Type="VI" URL="../Export Import Utility/Get SysDef Configuration.vi"/>
-			<Item Name="Instrument Custom Device SysDef Configuration V1.0.0.ctl" Type="VI" URL="../Export Import Utility/Instrument Custom Device SysDef Configuration V1.0.0.ctl"/>
-			<Item Name="Instrument Custom Device SysDef Configuration V1.0.1.ctl" Type="VI" URL="../Export Import Utility/Instrument Custom Device SysDef Configuration V1.0.1.ctl"/>
-			<Item Name="Message Configuration.ctl" Type="VI" URL="../Export Import Utility/Message Configuration.ctl"/>
-			<Item Name="Message Group Configuration.ctl" Type="VI" URL="../Export Import Utility/Message Group Configuration.ctl"/>
-			<Item Name="MetaData Channel Configuration.ctl" Type="VI" URL="../Export Import Utility/MetaData Channel Configuration.ctl"/>
-			<Item Name="Response Message Configuration.ctl" Type="VI" URL="../Export Import Utility/Response Message Configuration.ctl"/>
-			<Item Name="Set SysDef Configuration.vi" Type="VI" URL="../Export Import Utility/Set SysDef Configuration.vi"/>
 		</Item>
 		<Item Name="SubVIs" Type="Folder">
 			<Item Name="Convert Data Parameters to RT.vi" Type="VI" URL="../SubVIs/Convert Data Parameters to RT.vi"/>
 			<Item Name="Convert Meta Data Parameters to RT.vi" Type="VI" URL="../SubVIs/Convert Meta Data Parameters to RT.vi"/>
 			<Item Name="Convert Table to Channel Linkages.vi" Type="VI" URL="../SubVIs/Convert Table to Channel Linkages.vi"/>
-			<Item Name="Create Configuration From File.vi" Type="VI" URL="../Create Configuration From File.vi"/>
 			<Item Name="Find Equation Variables.vi" Type="VI" URL="../SubVIs/Find Equation Variables.vi"/>
 			<Item Name="Get Available Data Channels.vi" Type="VI" URL="../SubVIs/Get Available Data Channels.vi"/>
 			<Item Name="Get Available MetaData Channels.vi" Type="VI" URL="../SubVIs/Get Available MetaData Channels.vi"/>
@@ -85,8 +73,14 @@
 		<Item Name="Types" Type="Folder">
 			<Item Name="Channel Lookup Cluster.ctl" Type="VI" URL="../Types/Channel Lookup Cluster.ctl"/>
 			<Item Name="Channel Properties.ctl" Type="VI" URL="../Types/Channel Properties.ctl"/>
+			<Item Name="Command Message Configuration.ctl" Type="VI" URL="../Types/Command Message Configuration.ctl"/>
+			<Item Name="Data Channel Configuration.ctl" Type="VI" URL="../Types/Data Channel Configuration.ctl"/>
 			<Item Name="Initial User Selection.ctl" Type="VI" URL="../Types/Initial User Selection.ctl"/>
 			<Item Name="Message Channel Lookup Cluster.ctl" Type="VI" URL="../Types/Message Channel Lookup Cluster.ctl"/>
+			<Item Name="Message Configuration.ctl" Type="VI" URL="../Types/Message Configuration.ctl"/>
+			<Item Name="Message Group Configuration.ctl" Type="VI" URL="../Types/Message Group Configuration.ctl"/>
+			<Item Name="MetaData Channel Configuration.ctl" Type="VI" URL="../Types/MetaData Channel Configuration.ctl"/>
+			<Item Name="Response Message Configuration.ctl" Type="VI" URL="../Types/Response Message Configuration.ctl"/>
 		</Item>
 	</Item>
 </Library>

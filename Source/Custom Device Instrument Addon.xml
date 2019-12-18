@@ -595,6 +595,23 @@
 		<Path>Custom Devices\Instrument Addon\Windows\Instrument Addon Configuration.llb\Message Status Channel.vi</Path>
       </Item2Launch>
     </Page>
+    <Page>
+      <Name>
+        <eng>Message Timestamp</eng>
+        <loc>Message Timestamp</loc>
+      </Name>
+      <DisallowRenaming>true</DisallowRenaming>
+      <DeleteProtection>true</DeleteProtection>
+      <GUID>7FC4C151-104F-4070-A177-5B2CF22F1FC4</GUID>
+      <Glyph>
+			<Type>To Application Data Dir</Type>
+			<Path>System Explorer\Glyphs\NI-XNET Receive Time.png</Path>
+		</Glyph>
+      <Item2Launch>
+        <Type>To Common Doc Dir</Type>
+		<Path>Custom Devices\Instrument Addon\Windows\Instrument Addon Configuration.llb\Message Timestamp Channel.vi</Path>
+      </Item2Launch>
+    </Page>
 <Page>
       <Name>
         <eng>Command</eng>
