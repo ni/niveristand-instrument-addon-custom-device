@@ -19,6 +19,7 @@
 		<Item Name="command engine update FIFOs after responses.vi" Type="VI" URL="../SubVIs/command engine update FIFOs after responses.vi"/>
 		<Item Name="Command Engine.vi" Type="VI" URL="../SubVIs/Command Engine/Command Engine.vi"/>
 		<Item Name="Determine Trigger.vi" Type="VI" URL="../SubVIs/Determine Trigger.vi"/>
+		<Item Name="Format Debug String.vi" Type="VI" URL="../SubVIs/Format Debug String.vi"/>
 		<Item Name="Format Instrument String Command.vi" Type="VI" URL="../SubVIs/Format Instrument String Command.vi"/>
 		<Item Name="Format Instrument String Response.vi" Type="VI" URL="../SubVIs/Format Instrument String Response.vi"/>
 		<Item Name="Format Numeric to String.vi" Type="VI" URL="../SubVIs/Format Numeric to String.vi"/>
