@@ -35,6 +35,14 @@ build_spec = 'Workspace Object'
 dependency_target = 'pharlap'
 
 [[build.steps]]
+name = 'Workspace Tool'
+type = 'lvBuildSpec'
+project = '{windows}'
+target = 'My Computer'
+build_spec = 'Workspace Tool'
+dependency_target = 'pharlap'
+
+[[build.steps]]
 name = 'Host API'
 type = 'lvBuildSpec'
 project = '{windows}'
