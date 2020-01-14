@@ -33,8 +33,6 @@
 		<Item Name="Wait on Instrument String Response.vi" Type="VI" URL="../SubVIs/Wait on Instrument String Response.vi"/>
 	</Item>
 	<Item Name="Types" Type="Folder">
-		<Item Name="Buffered RT Instrument Command.ctl" Type="VI" URL="../Types/Buffered RT Instrument Command.ctl"/>
-		<Item Name="Buffered RT Instrument Request.ctl" Type="VI" URL="../Types/Buffered RT Instrument Request.ctl"/>
 		<Item Name="command engine global variables.ctl" Type="VI" URL="../Types/command engine global variables.ctl"/>
 		<Item Name="Commands RT Configuration Cluster.ctl" Type="VI" URL="../Types/Commands RT Configuration Cluster.ctl"/>
 		<Item Name="Engine State Variables.ctl" Type="VI" URL="../Types/Engine State Variables.ctl"/>

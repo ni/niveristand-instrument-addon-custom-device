@@ -9,6 +9,8 @@
 </Property>
 	<Item Name="Shared" Type="Folder">
 		<Item Name="Types" Type="Folder">
+			<Item Name="Buffered RT Instrument Command.ctl" Type="VI" URL="../Types/Buffered RT Instrument Command.ctl"/>
+			<Item Name="Buffered RT Instrument Request.ctl" Type="VI" URL="../Types/Buffered RT Instrument Request.ctl"/>
 			<Item Name="Checksum Type.ctl" Type="VI" URL="../Types/Checksum Type.ctl"/>
 			<Item Name="Command Channel Indeces.ctl" Type="VI" URL="../Types/Command Channel Indeces.ctl"/>
 			<Item Name="Command Channel Index.ctl" Type="VI" URL="../Types/Command Channel Index.ctl"/>
