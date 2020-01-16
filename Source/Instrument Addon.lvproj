@@ -698,6 +698,51 @@
 				<Property Name="Source[9].type" Type="Str">Container</Property>
 				<Property Name="SourceCount" Type="Int">14</Property>
 			</Item>
+			<Item Name="Workspace Tool EXE" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{A1219698-6D43-40B3-AF5A-868C36D4530F}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{703C13A7-1454-4024-8B4A-61789C0AC79C}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{17D87870-65B4-41CB-AC83-646A11A2F165}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Workspace Tool EXE</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../Built/Workspace Tools/Instrument Tool</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utility/Copy .LLB to NI VeriStand dir.vi</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{D0279B8E-5CAD-4522-888A-CE9C227A53F0}</Property>
+				<Property Name="Bld_version.build" Type="Int">4</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">Instrument Tool.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../Built/Workspace Tools/Instrument Tool/Instrument Tool.exe</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../Built/Workspace Tools/Instrument Tool/data</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Source[0].itemID" Type="Str">{017398A6-F806-439D-96C1-011D995812A9}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Instrument Workspace Tool.lvlib/Instrument - Tool.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Instrument Workspace Tool.lvlib/Instrument - Tool.rtm</Property>
+				<Property Name="Source[2].lvfile" Type="Bool">true</Property>
+				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="SourceCount" Type="Int">3</Property>
+				<Property Name="TgtF_companyName" Type="Str">National Instruments</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">Workspace Tool EXE</Property>
+				<Property Name="TgtF_internalName" Type="Str">Workspace Tool EXE</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2020 National Instruments</Property>
+				<Property Name="TgtF_productName" Type="Str">Workspace Tool EXE</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{CAC16CF5-B759-48ED-BC48-1667BD17E1E4}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">Instrument Tool.exe</Property>
+				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
+			</Item>
 		</Item>
 	</Item>
 	<Item Name="RT PXI Target - Pharlap" Type="RT PXI Chassis">

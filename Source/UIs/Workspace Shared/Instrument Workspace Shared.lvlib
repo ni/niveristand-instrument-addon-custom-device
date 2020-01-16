@@ -12,6 +12,9 @@
 		<Item Name="Search Sysdef for Custom Devices.vi" Type="VI" URL="../SubVIs/Search Sysdef for Custom Devices.vi"/>
 		<Item Name="Search Sysdef for Targets.vi" Type="VI" URL="../SubVIs/Search Sysdef for Targets.vi"/>
 		<Item Name="Select Custom Device.vi" Type="VI" URL="../SubVIs/Select Custom Device.vi"/>
+		<Item Name="UI.Addon.Path.Parse.vi" Type="VI" URL="../SubVIs/UI.Addon.Path.Parse.vi"/>
+		<Item Name="UI.Connection.State.Get.vi" Type="VI" URL="../SubVIs/UI.Connection.State.Get.vi"/>
+		<Item Name="UI.Menu.Config.State.Set.vi" Type="VI" URL="../SubVIs/UI.Menu.Config.State.Set.vi"/>
 	</Item>
 	<Item Name="Type" Type="Folder">
 		<Item Name="CD Saved State.ctl" Type="VI" URL="../Types/CD Saved State.ctl"/>
