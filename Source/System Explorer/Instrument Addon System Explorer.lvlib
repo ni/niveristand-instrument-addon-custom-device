@@ -68,6 +68,7 @@
 			<Item Name="Lookup Message Channels.vi" Type="VI" URL="../SubVIs/Lookup Message Channels.vi"/>
 			<Item Name="Lookup Response Info.vi" Type="VI" URL="../SubVIs/Lookup Response Info.vi"/>
 			<Item Name="Remove Target from Node Path.vi" Type="VI" URL="../SubVIs/Remove Target from Node Path.vi"/>
+			<Item Name="Update Addon To Latest Version.vi" Type="VI" URL="../SubVIs/Update Addon To Latest Version.vi"/>
 			<Item Name="Update Linkage Table Items.vi" Type="VI" URL="../SubVIs/Update Linkage Table Items.vi"/>
 		</Item>
 		<Item Name="Types" Type="Folder">
