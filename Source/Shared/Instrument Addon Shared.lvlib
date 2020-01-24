@@ -56,6 +56,7 @@
 		<Item Name="TCPIP Protocol FG.vi" Type="VI" URL="../TCPIP Protocol FG.vi"/>
 		<Item Name="Trigger Parameters FG.vi" Type="VI" URL="../Trigger Parameters FG.vi"/>
 		<Item Name="UDP Protocol FG.vi" Type="VI" URL="../UDP Protocol FG.vi"/>
+		<Item Name="Update Addon To Latest Version.vi" Type="VI" URL="../Update Addon To Latest Version.vi"/>
 		<Item Name="VISA Protocol FG.vi" Type="VI" URL="../VISA Protocol FG.vi"/>
 	</Item>
 </Library>
