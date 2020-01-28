@@ -84,42 +84,42 @@
 		<Property Name="target.WebServer.ViAccess" Type="Str">+*</Property>
 		<Property Name="target.webservices.SecurityAPIKey" Type="Str">PqVr/ifkAQh+lVrdPIykXlFvg12GhhQFR8H9cUhphgg=:pTe9HRlQuMfJxAG6QCGq7UvoUpJzAzWGKy5SbZ+roSU=</Property>
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
-		<Item Name="Instrument Addon Engine.lvlib" Type="Library" URL="../Engine/Instrument Addon Engine.lvlib"/>
-		<Item Name="Instrument Addon Shared.lvlib" Type="Library" URL="../Shared/Instrument Addon Shared.lvlib"/>
-		<Item Name="Protections.lvlibp" Type="LVLibp" URL="../Protections.lvlibp">
-			<Item Name="Checksum U8.lvclass" Type="LVClass" URL="../Protections.lvlibp/Checksum U8/Checksum U8.lvclass"/>
-			<Item Name="Checksum U16.lvclass" Type="LVClass" URL="../Protections.lvlibp/Checksum U16/Checksum U16.lvclass"/>
-			<Item Name="Checksum U32.lvclass" Type="LVClass" URL="../Protections.lvlibp/Checksum U32/Checksum U32.lvclass"/>
-			<Item Name="CRC-32.lvclass" Type="LVClass" URL="../Protections.lvlibp/CRC-32/CRC-32.lvclass"/>
-			<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="../Protections.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Error Cluster From Error Code.vi"/>
-			<Item Name="Protection.lvclass" Type="LVClass" URL="../Protections.lvlibp/Parent Protection/Protection.lvclass"/>
+		<Item Name="Instrument Addon Engine.lvlib" Type="Library" URL="../Addon/Addon Engine/Instrument Addon Engine.lvlib"/>
+		<Item Name="Instrument Addon Shared.lvlib" Type="Library" URL="../Addon/Addon Shared/Instrument Addon Shared.lvlib"/>
+		<Item Name="Protections.lvlibp" Type="LVLibp" URL="../Addon/Support Libraries/Protections/Protections.lvlibp">
+			<Item Name="Checksum U8.lvclass" Type="LVClass" URL="../Addon/Support Libraries/Protections/Protections.lvlibp/Checksum U8/Checksum U8.lvclass"/>
+			<Item Name="Checksum U16.lvclass" Type="LVClass" URL="../Addon/Support Libraries/Protections/Protections.lvlibp/Checksum U16/Checksum U16.lvclass"/>
+			<Item Name="Checksum U32.lvclass" Type="LVClass" URL="../Addon/Support Libraries/Protections/Protections.lvlibp/Checksum U32/Checksum U32.lvclass"/>
+			<Item Name="CRC-32.lvclass" Type="LVClass" URL="../Addon/Support Libraries/Protections/Protections.lvlibp/CRC-32/CRC-32.lvclass"/>
+			<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="../Addon/Support Libraries/Protections/Protections.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Error Cluster From Error Code.vi"/>
+			<Item Name="Protection.lvclass" Type="LVClass" URL="../Addon/Support Libraries/Protections/Protections.lvlibp/Parent Protection/Protection.lvclass"/>
 		</Item>
-		<Item Name="Protocols.lvlibp" Type="LVLibp" URL="../Protocols.lvlibp">
+		<Item Name="Protocols.lvlibp" Type="LVLibp" URL="../Addon/Support Libraries/Protocols/Protocols.lvlibp">
 			<Item Name="AK" Type="Folder">
-				<Item Name="AK RS-xxx.lvclass" Type="LVClass" URL="../Protocols.lvlibp/AK RS-xxx/AK RS-xxx.lvclass"/>
-				<Item Name="AK TCP.lvclass" Type="LVClass" URL="../Protocols.lvlibp/AK TCP/AK TCP.lvclass"/>
-				<Item Name="Format AK Command.vi" Type="VI" URL="../Protocols.lvlibp/AK/Format AK Command.vi"/>
-				<Item Name="Format AK Response.vi" Type="VI" URL="../Protocols.lvlibp/AK/Format AK Response.vi"/>
+				<Item Name="AK RS-xxx.lvclass" Type="LVClass" URL="../Addon/Support Libraries/Protocols/Protocols.lvlibp/AK RS-xxx/AK RS-xxx.lvclass"/>
+				<Item Name="AK TCP.lvclass" Type="LVClass" URL="../Addon/Support Libraries/Protocols/Protocols.lvlibp/AK TCP/AK TCP.lvclass"/>
+				<Item Name="Format AK Command.vi" Type="VI" URL="../Addon/Support Libraries/Protocols/Protocols.lvlibp/AK/Format AK Command.vi"/>
+				<Item Name="Format AK Response.vi" Type="VI" URL="../Addon/Support Libraries/Protocols/Protocols.lvlibp/AK/Format AK Response.vi"/>
 			</Item>
 			<Item Name="Protocol Parent" Type="Folder">
-				<Item Name="Protocol Parent.lvclass" Type="LVClass" URL="../Protocols.lvlibp/Protocol Parent/Protocol Parent.lvclass"/>
+				<Item Name="Protocol Parent.lvclass" Type="LVClass" URL="../Addon/Support Libraries/Protocols/Protocols.lvlibp/Protocol Parent/Protocol Parent.lvclass"/>
 			</Item>
 			<Item Name="RSxxx" Type="Folder">
-				<Item Name="RS-xxx.lvclass" Type="LVClass" URL="../Protocols.lvlibp/RS-xxx/RS-xxx.lvclass"/>
+				<Item Name="RS-xxx.lvclass" Type="LVClass" URL="../Addon/Support Libraries/Protocols/Protocols.lvlibp/RS-xxx/RS-xxx.lvclass"/>
 			</Item>
 			<Item Name="TCP" Type="Folder">
-				<Item Name="TCP.lvclass" Type="LVClass" URL="../Protocols.lvlibp/TCP/TCP.lvclass"/>
+				<Item Name="TCP.lvclass" Type="LVClass" URL="../Addon/Support Libraries/Protocols/Protocols.lvlibp/TCP/TCP.lvclass"/>
 			</Item>
 			<Item Name="UDP" Type="Folder">
-				<Item Name="UDP.lvclass" Type="LVClass" URL="../Protocols.lvlibp/UDP/UDP.lvclass"/>
+				<Item Name="UDP.lvclass" Type="LVClass" URL="../Addon/Support Libraries/Protocols/Protocols.lvlibp/UDP/UDP.lvclass"/>
 			</Item>
 			<Item Name="VISA" Type="Folder">
-				<Item Name="VISA.lvclass" Type="LVClass" URL="../Protocols.lvlibp/VISA/VISA.lvclass"/>
+				<Item Name="VISA.lvclass" Type="LVClass" URL="../Addon/Support Libraries/Protocols/Protocols.lvlibp/VISA/VISA.lvclass"/>
 			</Item>
-			<Item Name="Clear Errors.vi" Type="VI" URL="../Protocols.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Clear Errors.vi"/>
-			<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="../Protocols.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Error Cluster From Error Code.vi"/>
-			<Item Name="nirviCommon.vi" Type="VI" URL="../Protocols.lvlibp/1abvi3w/vi.lib/express/rvi/timingcommon/nirviCommon.vi"/>
-			<Item Name="VISA Configure Serial Port (Instr).vi" Type="VI" URL="../Protocols.lvlibp/1abvi3w/vi.lib/Instr/_visa.llb/VISA Configure Serial Port (Instr).vi"/>
+			<Item Name="Clear Errors.vi" Type="VI" URL="../Addon/Support Libraries/Protocols/Protocols.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Clear Errors.vi"/>
+			<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="../Addon/Support Libraries/Protocols/Protocols.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Error Cluster From Error Code.vi"/>
+			<Item Name="nirviCommon.vi" Type="VI" URL="../Addon/Support Libraries/Protocols/Protocols.lvlibp/1abvi3w/vi.lib/express/rvi/timingcommon/nirviCommon.vi"/>
+			<Item Name="VISA Configure Serial Port (Instr).vi" Type="VI" URL="../Addon/Support Libraries/Protocols/Protocols.lvlibp/1abvi3w/vi.lib/Instr/_visa.llb/VISA Configure Serial Port (Instr).vi"/>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -140,7 +140,7 @@
 				<Item Name="NI_FTP.lvlib" Type="Library" URL="/&lt;vilib&gt;/FTP/NI_FTP.lvlib"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 				<Item Name="NI_SystemLogging.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/SystemLogging/NI_SystemLogging.lvlib"/>
-				<Item Name="NIVeriStand_DataServices.dll" Type="Document" URL="/&lt;vilib&gt;/NI Veristand/Custom Device API/Data/NIVeriStand_DataServices.dll"/>
+				<Item Name="NIVeristand_DataServices.dll" Type="Document" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device API/Data/NIVeristand_DataServices.dll"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
 				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
 				<Item Name="Tools_KeyedArray.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/Tools/Keyed Array/Tools_KeyedArray.lvlib"/>
@@ -149,8 +149,6 @@
 				<Item Name="VS Inline Async API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_VS Inline Async API/VS Inline Async API.lvlib"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="Instrument Addon Engine.lvlib" Type="Library" URL="../Addon/Addon Engine/Instrument Addon Engine.lvlib"/>
-			<Item Name="Instrument Addon Shared.lvlib" Type="Library" URL="../Addon/Addon Shared/Instrument Addon Shared.lvlib"/>
 			<Item Name="LV Config Read String.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read String.vi"/>
 			<Item Name="NationalInstruments.VeriStand.SystemDefinitionAPI" Type="Document" URL="NationalInstruments.VeriStand.SystemDefinitionAPI">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -186,7 +184,7 @@
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Source[0].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[0].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{A6AB44D0-68E8-45A2-924A-CE896642D506}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{E7308093-81E0-4824-BCB7-4127F67CD761}</Property>
 				<Property Name="Source[0].properties[0].type" Type="Str">Run when opened</Property>
 				<Property Name="Source[0].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[0].properties[1].type" Type="Str">Auto error handling</Property>
