@@ -34,6 +34,26 @@
 	<Property Name="Serialized ACL" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!A1%!!!@````]!!".V&lt;H.J:WZF:#"C?82F)'&amp;S=G&amp;Z!!%!!1!!!!A)!!!!#!!!!!!!!!!</Property>
 	<Property Name="Use Data Logging Database" Type="Bool">true</Property>
 	<Item Name="Shared" Type="Folder">
+		<Item Name="SubVIs" Type="Folder">
+			<Item Name="Command Parameters FG.vi" Type="VI" URL="../SubVIs/Command Parameters FG.vi"/>
+			<Item Name="Constants.vi" Type="VI" URL="../SubVIs/Constants.vi"/>
+			<Item Name="Data Parameters FG.vi" Type="VI" URL="../SubVIs/Data Parameters FG.vi"/>
+			<Item Name="Decimation FG.vi" Type="VI" URL="../SubVIs/Decimation FG.vi"/>
+			<Item Name="Get Protection List.vi" Type="VI" URL="../SubVIs/Get Protection List.vi"/>
+			<Item Name="Get Protocol List.vi" Type="VI" URL="../SubVIs/Get Protocol List.vi"/>
+			<Item Name="Lookup Base Protection Class.vi" Type="VI" URL="../SubVIs/Lookup Base Protection Class.vi"/>
+			<Item Name="Lookup Base Protocol Class.vi" Type="VI" URL="../SubVIs/Lookup Base Protocol Class.vi"/>
+			<Item Name="Message Parameters FG.vi" Type="VI" URL="../SubVIs/Message Parameters FG.vi"/>
+			<Item Name="MetaData Parameters FG.vi" Type="VI" URL="../SubVIs/MetaData Parameters FG.vi"/>
+			<Item Name="Protocol FG.vi" Type="VI" URL="../SubVIs/Protocol FG.vi"/>
+			<Item Name="Response Parameters FG.vi" Type="VI" URL="../SubVIs/Response Parameters FG.vi"/>
+			<Item Name="RSxxx Protocol FG.vi" Type="VI" URL="../SubVIs/RSxxx Protocol FG.vi"/>
+			<Item Name="TCPIP Protocol FG.vi" Type="VI" URL="../SubVIs/TCPIP Protocol FG.vi"/>
+			<Item Name="Trigger Parameters FG.vi" Type="VI" URL="../SubVIs/Trigger Parameters FG.vi"/>
+			<Item Name="UDP Protocol FG.vi" Type="VI" URL="../SubVIs/UDP Protocol FG.vi"/>
+			<Item Name="Update Addon To Latest Version.vi" Type="VI" URL="../SubVIs/Update Addon To Latest Version.vi"/>
+			<Item Name="VISA Protocol FG.vi" Type="VI" URL="../SubVIs/VISA Protocol FG.vi"/>
+		</Item>
 		<Item Name="Types" Type="Folder">
 			<Item Name="Buffered RT Instrument Command.ctl" Type="VI" URL="../Types/Buffered RT Instrument Command.ctl"/>
 			<Item Name="Buffered RT Instrument Request.ctl" Type="VI" URL="../Types/Buffered RT Instrument Request.ctl"/>
@@ -66,23 +86,5 @@
 			<Item Name="UDP Settings.ctl" Type="VI" URL="../Types/UDP Settings.ctl"/>
 			<Item Name="VISA Settings.ctl" Type="VI" URL="../Types/VISA Settings.ctl"/>
 		</Item>
-		<Item Name="Command Parameters FG.vi" Type="VI" URL="../Command Parameters FG.vi"/>
-		<Item Name="Constants.vi" Type="VI" URL="../Constants.vi"/>
-		<Item Name="Data Parameters FG.vi" Type="VI" URL="../Data Parameters FG.vi"/>
-		<Item Name="Decimation FG.vi" Type="VI" URL="../Decimation FG.vi"/>
-		<Item Name="Get Protection List.vi" Type="VI" URL="../Get Protection List.vi"/>
-		<Item Name="Get Protocol List.vi" Type="VI" URL="../Get Protocol List.vi"/>
-		<Item Name="Lookup Base Protection Class.vi" Type="VI" URL="../Lookup Base Protection Class.vi"/>
-		<Item Name="Lookup Base Protocol Class.vi" Type="VI" URL="../Lookup Base Protocol Class.vi"/>
-		<Item Name="Message Parameters FG.vi" Type="VI" URL="../Message Parameters FG.vi"/>
-		<Item Name="MetaData Parameters FG.vi" Type="VI" URL="../MetaData Parameters FG.vi"/>
-		<Item Name="Protocol FG.vi" Type="VI" URL="../Protocol FG.vi"/>
-		<Item Name="Response Parameters FG.vi" Type="VI" URL="../Response Parameters FG.vi"/>
-		<Item Name="RSxxx Protocol FG.vi" Type="VI" URL="../RSxxx Protocol FG.vi"/>
-		<Item Name="TCPIP Protocol FG.vi" Type="VI" URL="../TCPIP Protocol FG.vi"/>
-		<Item Name="Trigger Parameters FG.vi" Type="VI" URL="../Trigger Parameters FG.vi"/>
-		<Item Name="UDP Protocol FG.vi" Type="VI" URL="../UDP Protocol FG.vi"/>
-		<Item Name="Update Addon To Latest Version.vi" Type="VI" URL="../Update Addon To Latest Version.vi"/>
-		<Item Name="VISA Protocol FG.vi" Type="VI" URL="../VISA Protocol FG.vi"/>
 	</Item>
 </Library>

@@ -36,37 +36,37 @@
 	<Item Name="System Explorer" Type="Folder">
 		<Item Name="Dynamically Called" Type="Folder">
 			<Item Name="Actions" Type="Folder">
-				<Item Name="ActionVIOnCompile.vi" Type="VI" URL="../ActionVIOnCompile.vi"/>
-				<Item Name="ActionVIOnLoad - Version.vi" Type="VI" URL="../ActionVIOnLoad - Version.vi"/>
-				<Item Name="ActionVIOnSave Check Errors.vi" Type="VI" URL="../ActionVIOnSave Check Errors.vi"/>
+				<Item Name="ActionVIOnCompile.vi" Type="VI" URL="../Actions/ActionVIOnCompile.vi"/>
+				<Item Name="ActionVIOnLoad - Version.vi" Type="VI" URL="../Actions/ActionVIOnLoad - Version.vi"/>
+				<Item Name="ActionVIOnSave Check Errors.vi" Type="VI" URL="../Actions/ActionVIOnSave Check Errors.vi"/>
 			</Item>
 			<Item Name="Extra Pages" Type="Folder">
-				<Item Name="Array Data Element.vi" Type="VI" URL="../Array Data Element.vi"/>
-				<Item Name="Array MetaData Element.vi" Type="VI" URL="../Array MetaData Element.vi"/>
-				<Item Name="Command.vi" Type="VI" URL="../Command.vi"/>
-				<Item Name="Data Channel.vi" Type="VI" URL="../Data Channel.vi"/>
-				<Item Name="Enable Periodic.vi" Type="VI" URL="../Enable Periodic.vi"/>
-				<Item Name="Error Channel.vi" Type="VI" URL="../Error Channel.vi"/>
-				<Item Name="Global MetaData Channels.vi" Type="VI" URL="../Global MetaData Channels.vi"/>
-				<Item Name="Message Channels.vi" Type="VI" URL="../Message Channels.vi"/>
-				<Item Name="Message Group.vi" Type="VI" URL="../Message Group.vi"/>
-				<Item Name="Message Status Channel.vi" Type="VI" URL="../Message Status Channel.vi"/>
-				<Item Name="Message Timestamp Channel.vi" Type="VI" URL="../Message Timestamp Channel.vi"/>
-				<Item Name="Message.vi" Type="VI" URL="../Message.vi"/>
-				<Item Name="MetaData Channel.vi" Type="VI" URL="../MetaData Channel.vi"/>
-				<Item Name="Remaining Elements Channel Page.vi" Type="VI" URL="../Remaining Elements Channel Page.vi"/>
-				<Item Name="Response.vi" Type="VI" URL="../Response.vi"/>
-				<Item Name="Trigger Channel.vi" Type="VI" URL="../Trigger Channel.vi"/>
+				<Item Name="Array Data Element.vi" Type="VI" URL="../Extra Pages/Array Data Element.vi"/>
+				<Item Name="Array MetaData Element.vi" Type="VI" URL="../Extra Pages/Array MetaData Element.vi"/>
+				<Item Name="Command.vi" Type="VI" URL="../Extra Pages/Command.vi"/>
+				<Item Name="Data Channel.vi" Type="VI" URL="../Extra Pages/Data Channel.vi"/>
+				<Item Name="Enable Periodic.vi" Type="VI" URL="../Extra Pages/Enable Periodic.vi"/>
+				<Item Name="Error Channel.vi" Type="VI" URL="../Extra Pages/Error Channel.vi"/>
+				<Item Name="Global MetaData Channels.vi" Type="VI" URL="../Extra Pages/Global MetaData Channels.vi"/>
+				<Item Name="Message Channels.vi" Type="VI" URL="../Extra Pages/Message Channels.vi"/>
+				<Item Name="Message Group.vi" Type="VI" URL="../Extra Pages/Message Group.vi"/>
+				<Item Name="Message Status Channel.vi" Type="VI" URL="../Extra Pages/Message Status Channel.vi"/>
+				<Item Name="Message Timestamp Channel.vi" Type="VI" URL="../Extra Pages/Message Timestamp Channel.vi"/>
+				<Item Name="Message.vi" Type="VI" URL="../Extra Pages/Message.vi"/>
+				<Item Name="MetaData Channel.vi" Type="VI" URL="../Extra Pages/MetaData Channel.vi"/>
+				<Item Name="Remaining Elements Channel Page.vi" Type="VI" URL="../Extra Pages/Remaining Elements Channel Page.vi"/>
+				<Item Name="Response.vi" Type="VI" URL="../Extra Pages/Response.vi"/>
+				<Item Name="Trigger Channel.vi" Type="VI" URL="../Extra Pages/Trigger Channel.vi"/>
 			</Item>
 			<Item Name="RTMs" Type="Folder">
-				<Item Name="Add New Data Array.vi" Type="VI" URL="../Add New Data Array.vi"/>
-				<Item Name="Add New Data Channel.vi" Type="VI" URL="../Add New Data Channel.vi"/>
-				<Item Name="Add New Message Group.vi" Type="VI" URL="../Add New Message Group.vi"/>
-				<Item Name="Add New Message.vi" Type="VI" URL="../Add New Message.vi"/>
-				<Item Name="Add New MetaData Array.vi" Type="VI" URL="../Add New MetaData Array.vi"/>
-				<Item Name="Add New MetaData Channel.vi" Type="VI" URL="../Add New MetaData Channel.vi"/>
-				<Item Name="EnableDisable Main Page.vi" Type="VI" URL="../EnableDisable Main Page.vi"/>
-				<Item Name="ExportConfigurationToFile.vi" Type="VI" URL="../ExportConfigurationToFile.vi"/>
+				<Item Name="Add New Data Array.vi" Type="VI" URL="../RTMs/Add New Data Array.vi"/>
+				<Item Name="Add New Data Channel.vi" Type="VI" URL="../RTMs/Add New Data Channel.vi"/>
+				<Item Name="Add New Message Group.vi" Type="VI" URL="../RTMs/Add New Message Group.vi"/>
+				<Item Name="Add New Message.vi" Type="VI" URL="../RTMs/Add New Message.vi"/>
+				<Item Name="Add New MetaData Array.vi" Type="VI" URL="../RTMs/Add New MetaData Array.vi"/>
+				<Item Name="Add New MetaData Channel.vi" Type="VI" URL="../RTMs/Add New MetaData Channel.vi"/>
+				<Item Name="EnableDisable Main Page.vi" Type="VI" URL="../RTMs/EnableDisable Main Page.vi"/>
+				<Item Name="ExportConfigurationToFile.vi" Type="VI" URL="../RTMs/ExportConfigurationToFile.vi"/>
 			</Item>
 			<Item Name="Initialization VI.vi" Type="VI" URL="../Initialization VI.vi"/>
 			<Item Name="Main Page.vi" Type="VI" URL="../Main Page.vi"/>

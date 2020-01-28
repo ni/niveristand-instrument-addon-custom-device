@@ -33,6 +33,9 @@
 	<Property Name="SaveStatePeriod" Type="UInt">0</Property>
 	<Property Name="Serialized ACL" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!A1%!!!@````]!!".V&lt;H.J:WZF:#"C?82F)'&amp;S=G&amp;Z!!%!!1!!!!A)!!!!#!!!!!!!!!!</Property>
 	<Property Name="Use Data Logging Database" Type="Bool">true</Property>
+	<Item Name="Processes" Type="Folder">
+		<Item Name="Instrument Main Engine.vi" Type="VI" URL="../Processes/Instrument Main Engine.vi"/>
+	</Item>
 	<Item Name="SubVIs" Type="Folder">
 		<Item Name="Check External Triggers.vi" Type="VI" URL="../SubVIs/Check External Triggers.vi"/>
 		<Item Name="Check String Comparison.vi" Type="VI" URL="../SubVIs/Check String Comparison.vi"/>
@@ -43,7 +46,7 @@
 		<Item Name="command engine send commands.vi" Type="VI" URL="../SubVIs/command engine send commands.vi"/>
 		<Item Name="command engine update FIFOs after commands.vi" Type="VI" URL="../SubVIs/command engine update FIFOs after commands.vi"/>
 		<Item Name="command engine update FIFOs after responses.vi" Type="VI" URL="../SubVIs/command engine update FIFOs after responses.vi"/>
-		<Item Name="Command Engine.vi" Type="VI" URL="../SubVIs/Command Engine/Command Engine.vi"/>
+		<Item Name="Command Engine.vi" Type="VI" URL="../SubVIs/Command Engine.vi"/>
 		<Item Name="Determine Trigger.vi" Type="VI" URL="../SubVIs/Determine Trigger.vi"/>
 		<Item Name="Format Debug String.vi" Type="VI" URL="../SubVIs/Format Debug String.vi"/>
 		<Item Name="Format Instrument String Command.vi" Type="VI" URL="../SubVIs/Format Instrument String Command.vi"/>
@@ -54,7 +57,7 @@
 		<Item Name="Initialize command engine state variables.vi" Type="VI" URL="../SubVIs/Initialize command engine state variables.vi"/>
 		<Item Name="Initialize Instrument Engine.vi" Type="VI" URL="../SubVIs/Initialize Instrument Engine.vi"/>
 		<Item Name="Initialize Instrument Refs.vi" Type="VI" URL="../SubVIs/Initialize Instrument Refs.vi"/>
-		<Item Name="Protocol Engine.vi" Type="VI" URL="../SubVIs/Command Engine/Protocol Engine.vi"/>
+		<Item Name="Protocol Engine.vi" Type="VI" URL="../SubVIs/Protocol Engine.vi"/>
 		<Item Name="Send Instrument String Command.vi" Type="VI" URL="../SubVIs/Send Instrument String Command.vi"/>
 		<Item Name="Wait on Instrument String Response.vi" Type="VI" URL="../SubVIs/Wait on Instrument String Response.vi"/>
 	</Item>
@@ -63,6 +66,5 @@
 		<Item Name="Commands RT Configuration Cluster.ctl" Type="VI" URL="../Types/Commands RT Configuration Cluster.ctl"/>
 		<Item Name="Engine State Variables.ctl" Type="VI" URL="../Types/Engine State Variables.ctl"/>
 	</Item>
-	<Item Name="Instrument Main Engine.vi" Type="VI" URL="../Instrument Main Engine.vi"/>
 	<Item Name="RT Driver VI.vi" Type="VI" URL="../RT Driver VI.vi"/>
 </Library>

@@ -464,7 +464,7 @@
 				<Property Name="Source[4].properties[4].value" Type="Bool">false</Property>
 				<Property Name="Source[4].propertiesCount" Type="Int">5</Property>
 				<Property Name="Source[4].type" Type="Str">Container</Property>
-				<Property Name="Source[5].itemID" Type="Ref">/My Computer/Addon/Instrument Addon Engine.lvlib/Instrument Main Engine.vi</Property>
+				<Property Name="Source[5].itemID" Type="Ref">/My Computer/Addon/Instrument Addon Engine.lvlib/Processes/Instrument Main Engine.vi</Property>
 				<Property Name="Source[5].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[5].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[5].properties[1].type" Type="Str">Remove block diagram</Property>
@@ -986,7 +986,7 @@
 				<Property Name="Source[3].propertiesCount" Type="Int">5</Property>
 				<Property Name="Source[3].type" Type="Str">Container</Property>
 				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[4].itemID" Type="Ref">/RT PXI Target - Pharlap/Instrument Addon Engine.lvlib/Instrument Main Engine.vi</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/RT PXI Target - Pharlap/Instrument Addon Engine.lvlib/Processes/Instrument Main Engine.vi</Property>
 				<Property Name="Source[4].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[4].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[4].properties[1].type" Type="Str">Remove block diagram</Property>
