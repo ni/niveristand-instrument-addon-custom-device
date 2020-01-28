@@ -86,7 +86,6 @@
 		<Property Name="target.webservices.SecurityAPIKey" Type="Str">PqVr/ifkAQh+lVrdPIykXlFvg12GhhQFR8H9cUhphgg=:pTe9HRlQuMfJxAG6QCGq7UvoUpJzAzWGKy5SbZ+roSU=</Property>
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
 		<Item Name="Instrument Addon Engine.lvlib" Type="Library" URL="../Addon/Addon Engine/Instrument Addon Engine.lvlib"/>
-		<Item Name="Instrument Addon Shared.lvlib" Type="Library" URL="../Addon/Addon Shared/Instrument Addon Shared.lvlib"/>
 		<Item Name="Protections.lvlibp" Type="LVLibp" URL="../Addon/Support Libraries/Protections/Protections.lvlibp">
 			<Item Name="Checksum U8.lvclass" Type="LVClass" URL="../Addon/Support Libraries/Protections/Protections.lvlibp/Checksum U8/Checksum U8.lvclass"/>
 			<Item Name="Checksum U16.lvclass" Type="LVClass" URL="../Addon/Support Libraries/Protections/Protections.lvlibp/Checksum U16/Checksum U16.lvclass"/>
@@ -150,6 +149,7 @@
 				<Item Name="VS Inline Async API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_VS Inline Async API/VS Inline Async API.lvlib"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
+			<Item Name="Instrument Addon Shared.lvlib" Type="Library" URL="../Addon/Addon Shared/Instrument Addon Shared.lvlib"/>
 			<Item Name="LV Config Read String.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read String.vi"/>
 			<Item Name="NationalInstruments.VeriStand.SystemDefinitionAPI" Type="Document" URL="NationalInstruments.VeriStand.SystemDefinitionAPI">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -185,7 +185,7 @@
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Source[0].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[0].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{D0A9A3DC-2F67-46A8-B4F8-AF512A373AB7}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{AA77B1A5-C129-4AAB-B805-1265EF29FA60}</Property>
 				<Property Name="Source[0].properties[0].type" Type="Str">Run when opened</Property>
 				<Property Name="Source[0].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[0].properties[1].type" Type="Str">Allow debugging</Property>
@@ -245,9 +245,12 @@
 				<Property Name="Source[3].properties[4].value" Type="Bool">false</Property>
 				<Property Name="Source[3].propertiesCount" Type="Int">5</Property>
 				<Property Name="Source[3].type" Type="Str">Container</Property>
-				<Property Name="Source[4].itemID" Type="Ref">/RT CompactRIO Target - Linux x64/Instrument Addon Engine.lvlib/Instrument Main Engine.vi</Property>
+				<Property Name="Source[4].Container.applyProperties" Type="Bool">true</Property>
+				<Property Name="Source[4].Container.applySaveSettings" Type="Bool">true</Property>
+				<Property Name="Source[4].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/RT CompactRIO Target - Linux x64/Dependencies/Instrument Addon Shared.lvlib/Shared</Property>
 				<Property Name="Source[4].properties[0].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[4].properties[0].value" Type="Bool">false</Property>
+				<Property Name="Source[4].properties[0].value" Type="Bool">true</Property>
 				<Property Name="Source[4].properties[1].type" Type="Str">Remove block diagram</Property>
 				<Property Name="Source[4].properties[1].value" Type="Bool">true</Property>
 				<Property Name="Source[4].properties[2].type" Type="Str">Auto error handling</Property>
@@ -257,31 +260,31 @@
 				<Property Name="Source[4].properties[4].type" Type="Str">Run when opened</Property>
 				<Property Name="Source[4].properties[4].value" Type="Bool">false</Property>
 				<Property Name="Source[4].propertiesCount" Type="Int">5</Property>
-				<Property Name="Source[4].type" Type="Str">VI</Property>
-				<Property Name="Source[5].Container.applyProperties" Type="Bool">true</Property>
-				<Property Name="Source[5].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[5].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[5].itemID" Type="Ref">/RT CompactRIO Target - Linux x64/Instrument Addon Shared.lvlib/Shared</Property>
-				<Property Name="Source[5].properties[0].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[5].properties[0].value" Type="Bool">true</Property>
-				<Property Name="Source[5].properties[1].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[5].properties[1].value" Type="Bool">true</Property>
-				<Property Name="Source[5].properties[2].type" Type="Str">Auto error handling</Property>
-				<Property Name="Source[5].properties[2].value" Type="Bool">false</Property>
-				<Property Name="Source[5].properties[3].type" Type="Str">Allow debugging</Property>
-				<Property Name="Source[5].properties[3].value" Type="Bool">false</Property>
-				<Property Name="Source[5].properties[4].type" Type="Str">Run when opened</Property>
-				<Property Name="Source[5].properties[4].value" Type="Bool">false</Property>
-				<Property Name="Source[5].propertiesCount" Type="Int">5</Property>
-				<Property Name="Source[5].type" Type="Str">Container</Property>
+				<Property Name="Source[4].type" Type="Str">Container</Property>
+				<Property Name="Source[5].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[5].itemID" Type="Ref">/RT CompactRIO Target - Linux x64/Protections.lvlibp</Property>
+				<Property Name="Source[5].preventRename" Type="Bool">true</Property>
+				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[6].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[6].itemID" Type="Ref">/RT CompactRIO Target - Linux x64/Protections.lvlibp</Property>
+				<Property Name="Source[6].itemID" Type="Ref">/RT CompactRIO Target - Linux x64/Protocols.lvlibp</Property>
 				<Property Name="Source[6].preventRename" Type="Bool">true</Property>
 				<Property Name="Source[6].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[7].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[7].itemID" Type="Ref">/RT CompactRIO Target - Linux x64/Protocols.lvlibp</Property>
-				<Property Name="Source[7].preventRename" Type="Bool">true</Property>
-				<Property Name="Source[7].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[7].Container.applyProperties" Type="Bool">true</Property>
+				<Property Name="Source[7].Container.applySaveSettings" Type="Bool">true</Property>
+				<Property Name="Source[7].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[7].itemID" Type="Ref">/RT CompactRIO Target - Linux x64/Instrument Addon Engine.lvlib/Processes</Property>
+				<Property Name="Source[7].properties[0].type" Type="Str">Remove front panel</Property>
+				<Property Name="Source[7].properties[0].value" Type="Bool">false</Property>
+				<Property Name="Source[7].properties[1].type" Type="Str">Remove block diagram</Property>
+				<Property Name="Source[7].properties[1].value" Type="Bool">true</Property>
+				<Property Name="Source[7].properties[2].type" Type="Str">Auto error handling</Property>
+				<Property Name="Source[7].properties[2].value" Type="Bool">false</Property>
+				<Property Name="Source[7].properties[3].type" Type="Str">Allow debugging</Property>
+				<Property Name="Source[7].properties[3].value" Type="Bool">false</Property>
+				<Property Name="Source[7].properties[4].type" Type="Str">Run when opened</Property>
+				<Property Name="Source[7].properties[4].value" Type="Bool">false</Property>
+				<Property Name="Source[7].propertiesCount" Type="Int">5</Property>
+				<Property Name="Source[7].type" Type="Str">Container</Property>
 				<Property Name="SourceCount" Type="Int">8</Property>
 			</Item>
 		</Item>
