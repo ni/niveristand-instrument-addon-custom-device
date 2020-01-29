@@ -20,58 +20,11 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Addon" Type="Folder">
 			<Item Name="Support Files" Type="Folder">
-				<Item Name="Glyphs" Type="Folder">
-					<Item Name="Instrument.png" Type="Document" URL="../Addon/Support Files/Glyphs/Instrument.png"/>
-					<Item Name="Instrument_Disabled.png" Type="Document" URL="../Addon/Support Files/Glyphs/Instrument_Disabled.png"/>
+				<Item Name="Glyphs" Type="Folder" URL="../Addon/Support Files/Glyphs">
+					<Property Name="NI.DISK" Type="Bool">true</Property>
 				</Item>
-				<Item Name="Help" Type="Folder">
-					<Item Name="HTML Help Source" Type="Folder">
-						<Item Name="css" Type="Folder">
-							<Item Name="expandable_tree.css" Type="Document" URL="../Addon/Support Files/Help/HTML Help Source/css/expandable_tree.css"/>
-							<Item Name="VSsystemexplorer.css" Type="Document" URL="../Addon/Support Files/Help/HTML Help Source/css/VSsystemexplorer.css"/>
-						</Item>
-						<Item Name="js" Type="Folder">
-							<Item Name="arraytools.js" Type="Document" URL="../Addon/Support Files/Help/HTML Help Source/js/arraytools.js"/>
-							<Item Name="checkinstalled.js" Type="Document" URL="../Addon/Support Files/Help/HTML Help Source/js/checkinstalled.js"/>
-							<Item Name="common.js" Type="Document" URL="../Addon/Support Files/Help/HTML Help Source/js/common.js"/>
-							<Item Name="cssframes.js" Type="Document" URL="../Addon/Support Files/Help/HTML Help Source/js/cssframes.js"/>
-							<Item Name="domtools.js" Type="Document" URL="../Addon/Support Files/Help/HTML Help Source/js/domtools.js"/>
-							<Item Name="dynamiccontent.js" Type="Document" URL="../Addon/Support Files/Help/HTML Help Source/js/dynamiccontent.js"/>
-							<Item Name="dynamicjumps.js" Type="Document" URL="../Addon/Support Files/Help/HTML Help Source/js/dynamicjumps.js"/>
-							<Item Name="dynamiclinks.js" Type="Document" URL="../Addon/Support Files/Help/HTML Help Source/js/dynamiclinks.js"/>
-							<Item Name="expandable_tree.js" Type="Document" URL="../Addon/Support Files/Help/HTML Help Source/js/expandable_tree.js"/>
-							<Item Name="feedbacklink.js" Type="Document" URL="../Addon/Support Files/Help/HTML Help Source/js/feedbacklink.js"/>
-							<Item Name="Globals.js" Type="Document" URL="../Addon/Support Files/Help/HTML Help Source/js/Globals.js"/>
-							<Item Name="initpagedyn.js" Type="Document" URL="../Addon/Support Files/Help/HTML Help Source/js/initpagedyn.js"/>
-							<Item Name="launchhelp.js" Type="Document" URL="../Addon/Support Files/Help/HTML Help Source/js/launchhelp.js"/>
-							<Item Name="linking.js" Type="Document" URL="../Addon/Support Files/Help/HTML Help Source/js/linking.js"/>
-							<Item Name="objectnames.js" Type="Document" URL="../Addon/Support Files/Help/HTML Help Source/js/objectnames.js"/>
-							<Item Name="osbrowser.js" Type="Document" URL="../Addon/Support Files/Help/HTML Help Source/js/osbrowser.js"/>
-							<Item Name="pdf.js" Type="Document" URL="../Addon/Support Files/Help/HTML Help Source/js/pdf.js"/>
-							<Item Name="polyviselect.js" Type="Document" URL="../Addon/Support Files/Help/HTML Help Source/js/polyviselect.js"/>
-							<Item Name="stylesheets.js" Type="Document" URL="../Addon/Support Files/Help/HTML Help Source/js/stylesheets.js"/>
-							<Item Name="variables.js" Type="Document" URL="../Addon/Support Files/Help/HTML Help Source/js/variables.js"/>
-							<Item Name="web.js" Type="Document" URL="../Addon/Support Files/Help/HTML Help Source/js/web.js"/>
-						</Item>
-						<Item Name="Command.html" Type="Document" URL="../Addon/Support Files/Help/HTML Help Source/Command.html"/>
-						<Item Name="Data Channel.html" Type="Document" URL="../Addon/Support Files/Help/HTML Help Source/Data Channel.html"/>
-						<Item Name="Enable Periodic.html" Type="Document" URL="../Addon/Support Files/Help/HTML Help Source/Enable Periodic.html"/>
-						<Item Name="Error Code.html" Type="Document" URL="../Addon/Support Files/Help/HTML Help Source/Error Code.html"/>
-						<Item Name="Globals.html" Type="Document" URL="../Addon/Support Files/Help/HTML Help Source/Globals.html"/>
-						<Item Name="Main.html" Type="Document" URL="../Addon/Support Files/Help/HTML Help Source/Main.html"/>
-						<Item Name="Message Group.html" Type="Document" URL="../Addon/Support Files/Help/HTML Help Source/Message Group.html"/>
-						<Item Name="Message Status.html" Type="Document" URL="../Addon/Support Files/Help/HTML Help Source/Message Status.html"/>
-						<Item Name="Message Timestamp.html" Type="Document" URL="../Addon/Support Files/Help/HTML Help Source/Message Timestamp.html"/>
-						<Item Name="Message.html" Type="Document" URL="../Addon/Support Files/Help/HTML Help Source/Message.html"/>
-						<Item Name="MetaData Channel.html" Type="Document" URL="../Addon/Support Files/Help/HTML Help Source/MetaData Channel.html"/>
-						<Item Name="Response.html" Type="Document" URL="../Addon/Support Files/Help/HTML Help Source/Response.html"/>
-						<Item Name="Trigger.html" Type="Document" URL="../Addon/Support Files/Help/HTML Help Source/Trigger.html"/>
-					</Item>
-					<Item Name="Build CHM.cfg" Type="Document" URL="../Addon/Support Files/Help/Build CHM.cfg"/>
-					<Item Name="Build CHM.log" Type="Document" URL="../Addon/Support Files/Help/Build CHM.log"/>
-					<Item Name="Build CHM.vi" Type="VI" URL="../Addon/Support Files/Help/Build CHM.vi"/>
-					<Item Name="Instrument.chm" Type="Document" URL="../Addon/Support Files/Help/Instrument.chm"/>
-					<Item Name="Instrument.hhp" Type="Document" URL="../Addon/Support Files/Help/Instrument.hhp"/>
+				<Item Name="Help" Type="Folder" URL="../Addon/Support Files/Help">
+					<Property Name="NI.DISK" Type="Bool">true</Property>
 				</Item>
 			</Item>
 			<Item Name="Support Libraries" Type="Folder">
@@ -296,7 +249,7 @@
 				<Property Name="DestinationCount" Type="Int">5</Property>
 				<Property Name="Source[0].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[0].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{4AB78F4F-A237-47CE-BAA2-96AA435A9EE4}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{5FD06759-21E0-4823-889D-30314F569179}</Property>
 				<Property Name="Source[0].properties[0].type" Type="Str">Run when opened</Property>
 				<Property Name="Source[0].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[0].properties[1].type" Type="Str">Allow debugging</Property>
@@ -327,47 +280,47 @@
 				<Property Name="Source[2].destinationIndex" Type="Int">3</Property>
 				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Addon/Custom Device Instrument Addon.xml</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Addon/Support Files/Help/Instrument.chm</Property>
+				<Property Name="Source[3].destinationIndex" Type="Int">2</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Addon/Instrument Addon System Explorer.lvlib</Property>
+				<Property Name="Source[3].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[3].type" Type="Str">Library</Property>
+				<Property Name="Source[4].Container.applyDestination" Type="Bool">true</Property>
+				<Property Name="Source[4].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[4].Container.applyProperties" Type="Bool">true</Property>
+				<Property Name="Source[4].Container.applySaveSettings" Type="Bool">true</Property>
 				<Property Name="Source[4].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[4].itemID" Type="Ref">/My Computer/Addon/Instrument Addon System Explorer.lvlib</Property>
-				<Property Name="Source[4].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/Addon/Instrument Addon System Explorer.lvlib/System Explorer</Property>
+				<Property Name="Source[4].properties[0].type" Type="Str">Remove front panel</Property>
+				<Property Name="Source[4].properties[0].value" Type="Bool">false</Property>
+				<Property Name="Source[4].properties[1].type" Type="Str">Remove block diagram</Property>
+				<Property Name="Source[4].properties[1].value" Type="Bool">true</Property>
+				<Property Name="Source[4].properties[2].type" Type="Str">Run when opened</Property>
+				<Property Name="Source[4].properties[2].value" Type="Bool">false</Property>
+				<Property Name="Source[4].properties[3].type" Type="Str">Allow debugging</Property>
+				<Property Name="Source[4].properties[3].value" Type="Bool">false</Property>
+				<Property Name="Source[4].properties[4].type" Type="Str">Auto error handling</Property>
+				<Property Name="Source[4].properties[4].value" Type="Bool">false</Property>
+				<Property Name="Source[4].propertiesCount" Type="Int">5</Property>
 				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[4].type" Type="Str">Library</Property>
+				<Property Name="Source[4].type" Type="Str">Container</Property>
 				<Property Name="Source[5].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[5].Container.applyInclusion" Type="Bool">true</Property>
-				<Property Name="Source[5].Container.applyProperties" Type="Bool">true</Property>
-				<Property Name="Source[5].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[5].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[5].itemID" Type="Ref">/My Computer/Addon/Instrument Addon System Explorer.lvlib/System Explorer</Property>
-				<Property Name="Source[5].properties[0].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[5].properties[0].value" Type="Bool">false</Property>
-				<Property Name="Source[5].properties[1].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[5].properties[1].value" Type="Bool">true</Property>
-				<Property Name="Source[5].properties[2].type" Type="Str">Run when opened</Property>
-				<Property Name="Source[5].properties[2].value" Type="Bool">false</Property>
-				<Property Name="Source[5].properties[3].type" Type="Str">Allow debugging</Property>
-				<Property Name="Source[5].properties[3].value" Type="Bool">false</Property>
-				<Property Name="Source[5].properties[4].type" Type="Str">Auto error handling</Property>
-				<Property Name="Source[5].properties[4].value" Type="Bool">false</Property>
-				<Property Name="Source[5].propertiesCount" Type="Int">5</Property>
+				<Property Name="Source[5].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[5].destinationIndex" Type="Int">4</Property>
+				<Property Name="Source[5].itemID" Type="Ref">/My Computer/Addon/Support Files/Glyphs</Property>
 				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[5].type" Type="Str">Container</Property>
-				<Property Name="Source[6].Container.applyDestination" Type="Bool">true</Property>
-				<Property Name="Source[6].Container.applyInclusion" Type="Bool">true</Property>
-				<Property Name="Source[6].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[6].destinationIndex" Type="Int">4</Property>
-				<Property Name="Source[6].itemID" Type="Ref">/My Computer/Addon/Support Files/Glyphs</Property>
+				<Property Name="Source[6].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[6].itemID" Type="Ref">/My Computer/Addon/Support Libraries/Protections/Protections.lvlibp</Property>
+				<Property Name="Source[6].preventRename" Type="Bool">true</Property>
 				<Property Name="Source[6].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[6].type" Type="Str">Container</Property>
 				<Property Name="Source[7].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[7].itemID" Type="Ref">/My Computer/Addon/Support Libraries/Protections/Protections.lvlibp</Property>
+				<Property Name="Source[7].itemID" Type="Ref">/My Computer/Addon/Support Libraries/Protocols/Protocols.lvlibp</Property>
 				<Property Name="Source[7].preventRename" Type="Bool">true</Property>
 				<Property Name="Source[7].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[8].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[8].itemID" Type="Ref">/My Computer/Addon/Support Libraries/Protocols/Protocols.lvlibp</Property>
-				<Property Name="Source[8].preventRename" Type="Bool">true</Property>
+				<Property Name="Source[8].itemID" Type="Ref">/My Computer/Addon/Support Files/Help/Instrument Addon.chm</Property>
 				<Property Name="Source[8].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="SourceCount" Type="Int">9</Property>
 			</Item>

@@ -1,10 +1,10 @@
 [OPTIONS]
 Compatibility=1.1 or later
-Compiled File=Instrument.chm
+Compiled File=Instrument Addon.chm
 Default Topic=HTML Help Source\Main.html
 Display compile progress=No
 Language=0x409 English (United States)
-Title=Instrument
+Title=Instrument Addon
 
 [FILES]
 HTML Help Source\css\expandable_tree.css
