@@ -174,8 +174,8 @@
             <GUID>e61547e4-c948-4cc0-b14e-4e10758a17de</GUID>
             <Type>Action</Type>
             <Name>
-              <eng>Add New Message Group</eng>
-              <loc>Add New Message Group</loc>
+              <eng>Add Group</eng>
+              <loc>Add Group</loc>
             </Name>
             <Item2Launch>
               <Type>To Common Doc Dir</Type>
@@ -209,7 +209,7 @@
         </RunTimeMenu>
       <ButtonList>
         <Button>
-          <ID>Add New Message Group</ID>
+          <ID>Add Group</ID>
           <Glyph>
             <Type>To Application Data Dir</Type>
             <Path>System Explorer\Glyphs\Add Procedures.png</Path>
@@ -302,8 +302,8 @@
           <GUID>e61547e4-c948-4cc0-b14e-4e10758a17de</GUID>
           <Type>Action</Type>
           <Name>
-            <eng>Add Message Group</eng>
-            <loc>Add Message Group</loc>
+            <eng>Add Group</eng>
+            <loc>Add Group</loc>
           </Name>
           <Item2Launch>
             <Type>To Common Doc Dir</Type>
@@ -337,7 +337,7 @@
       </RunTimeMenu>
       <ButtonList>
         <Button>
-          <ID>Add New Message Group</ID>
+          <ID>Add Group</ID>
           <Glyph>
             <Type>To Application Data Dir</Type>
             <Path>System Explorer\Glyphs\Add Procedures.png</Path>

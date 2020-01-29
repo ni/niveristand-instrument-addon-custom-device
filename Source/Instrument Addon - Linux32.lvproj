@@ -172,7 +172,7 @@
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utilities/Copy .LLB to NI VeriStand dir.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{28B36DEE-D0E5-4231-A398-9575F2BDC101}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/Linux_32_ARM/Instrument Addon Engine LinuxARM.llb</Property>
-				<Property Name="Bld_version.build" Type="Int">8</Property>
+				<Property Name="Bld_version.build" Type="Int">9</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">/Linux_32_ARM/Instrument Addon Engine LinuxARM.llb</Property>
