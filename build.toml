@@ -3,12 +3,8 @@ build_output_dir = 'Built'
 archive_location = '\\us-aus-hilbuild\builds\niveristandadd-ons\custom devices\instrument_addon'
 
 [dependencies.Instrument-Custom-Device-Classes]
-libraries = ['Protections.lvlibp']
-copy_location = 'Source\Addon\Support Libraries\Protections'
-
-[dependencies.Instrument-Custom-Device-Classes]
-libraries = ['Protocols.lvlibp']
-copy_location = 'Source\Addon\Support Libraries\Protocols'
+libraries = ['Protections.lvlibp','Protocols.lvlibp']
+copy_location = 'Source\Addon\Support Libraries'
 
 [projects.windows]
 path = 'Source\Instrument Addon.lvproj'
