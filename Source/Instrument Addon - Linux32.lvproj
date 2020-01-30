@@ -85,40 +85,40 @@
 		<Property Name="target.webservices.SecurityAPIKey" Type="Str">PqVr/ifkAQh+lVrdPIykXlFvg12GhhQFR8H9cUhphgg=:pTe9HRlQuMfJxAG6QCGq7UvoUpJzAzWGKy5SbZ+roSU=</Property>
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
 		<Item Name="Instrument Addon Engine.lvlib" Type="Library" URL="../Addon/Addon Engine/Instrument Addon Engine.lvlib"/>
-		<Item Name="Protections.lvlibp" Type="LVLibp" URL="../Addon/Support Libraries/Protections/Protections.lvlibp">
-			<Item Name="Checksum U8.lvclass" Type="LVClass" URL="../Addon/Support Libraries/Protections/Protections.lvlibp/Checksum U8/Checksum U8.lvclass"/>
-			<Item Name="Checksum U16.lvclass" Type="LVClass" URL="../Addon/Support Libraries/Protections/Protections.lvlibp/Checksum U16/Checksum U16.lvclass"/>
-			<Item Name="Checksum U32.lvclass" Type="LVClass" URL="../Addon/Support Libraries/Protections/Protections.lvlibp/Checksum U32/Checksum U32.lvclass"/>
-			<Item Name="CRC-32.lvclass" Type="LVClass" URL="../Addon/Support Libraries/Protections/Protections.lvlibp/CRC-32/CRC-32.lvclass"/>
-			<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="../Addon/Support Libraries/Protections/Protections.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Error Cluster From Error Code.vi"/>
-			<Item Name="Protection.lvclass" Type="LVClass" URL="../Addon/Support Libraries/Protections/Protections.lvlibp/Parent Protection/Protection.lvclass"/>
+		<Item Name="Protections.lvlibp" Type="LVLibp" URL="../Addon/Support Libraries/Protections.lvlibp">
+			<Item Name="Checksum U8.lvclass" Type="LVClass" URL="../Addon/Support Libraries/Protections.lvlibp/Checksum U8/Checksum U8.lvclass"/>
+			<Item Name="Checksum U16.lvclass" Type="LVClass" URL="../Addon/Support Libraries/Protections.lvlibp/Checksum U16/Checksum U16.lvclass"/>
+			<Item Name="Checksum U32.lvclass" Type="LVClass" URL="../Addon/Support Libraries/Protections.lvlibp/Checksum U32/Checksum U32.lvclass"/>
+			<Item Name="CRC-32.lvclass" Type="LVClass" URL="../Addon/Support Libraries/Protections.lvlibp/CRC-32/CRC-32.lvclass"/>
+			<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="../Addon/Support Libraries/Protections.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Error Cluster From Error Code.vi"/>
+			<Item Name="Protection.lvclass" Type="LVClass" URL="../Addon/Support Libraries/Protections.lvlibp/Parent Protection/Protection.lvclass"/>
 		</Item>
-		<Item Name="Protocols.lvlibp" Type="LVLibp" URL="../Addon/Support Libraries/Protocols/Protocols.lvlibp">
+		<Item Name="Protocols.lvlibp" Type="LVLibp" URL="../Addon/Support Libraries/Protocols.lvlibp">
 			<Item Name="AK" Type="Folder">
-				<Item Name="AK RS-xxx.lvclass" Type="LVClass" URL="../Addon/Support Libraries/Protocols/Protocols.lvlibp/AK RS-xxx/AK RS-xxx.lvclass"/>
-				<Item Name="AK TCP.lvclass" Type="LVClass" URL="../Addon/Support Libraries/Protocols/Protocols.lvlibp/AK TCP/AK TCP.lvclass"/>
-				<Item Name="Format AK Command.vi" Type="VI" URL="../Addon/Support Libraries/Protocols/Protocols.lvlibp/AK/Format AK Command.vi"/>
-				<Item Name="Format AK Response.vi" Type="VI" URL="../Addon/Support Libraries/Protocols/Protocols.lvlibp/AK/Format AK Response.vi"/>
+				<Item Name="AK RS-xxx.lvclass" Type="LVClass" URL="../Addon/Support Libraries/Protocols.lvlibp/AK RS-xxx/AK RS-xxx.lvclass"/>
+				<Item Name="AK TCP.lvclass" Type="LVClass" URL="../Addon/Support Libraries/Protocols.lvlibp/AK TCP/AK TCP.lvclass"/>
+				<Item Name="Format AK Command.vi" Type="VI" URL="../Addon/Support Libraries/Protocols.lvlibp/AK/Format AK Command.vi"/>
+				<Item Name="Format AK Response.vi" Type="VI" URL="../Addon/Support Libraries/Protocols.lvlibp/AK/Format AK Response.vi"/>
 			</Item>
 			<Item Name="Protocol Parent" Type="Folder">
-				<Item Name="Protocol Parent.lvclass" Type="LVClass" URL="../Addon/Support Libraries/Protocols/Protocols.lvlibp/Protocol Parent/Protocol Parent.lvclass"/>
+				<Item Name="Protocol Parent.lvclass" Type="LVClass" URL="../Addon/Support Libraries/Protocols.lvlibp/Protocol Parent/Protocol Parent.lvclass"/>
 			</Item>
 			<Item Name="RSxxx" Type="Folder">
-				<Item Name="RS-xxx.lvclass" Type="LVClass" URL="../Addon/Support Libraries/Protocols/Protocols.lvlibp/RS-xxx/RS-xxx.lvclass"/>
+				<Item Name="RS-xxx.lvclass" Type="LVClass" URL="../Addon/Support Libraries/Protocols.lvlibp/RS-xxx/RS-xxx.lvclass"/>
 			</Item>
 			<Item Name="TCP" Type="Folder">
-				<Item Name="TCP.lvclass" Type="LVClass" URL="../Addon/Support Libraries/Protocols/Protocols.lvlibp/TCP/TCP.lvclass"/>
+				<Item Name="TCP.lvclass" Type="LVClass" URL="../Addon/Support Libraries/Protocols.lvlibp/TCP/TCP.lvclass"/>
 			</Item>
 			<Item Name="UDP" Type="Folder">
-				<Item Name="UDP.lvclass" Type="LVClass" URL="../Addon/Support Libraries/Protocols/Protocols.lvlibp/UDP/UDP.lvclass"/>
+				<Item Name="UDP.lvclass" Type="LVClass" URL="../Addon/Support Libraries/Protocols.lvlibp/UDP/UDP.lvclass"/>
 			</Item>
 			<Item Name="VISA" Type="Folder">
-				<Item Name="VISA.lvclass" Type="LVClass" URL="../Addon/Support Libraries/Protocols/Protocols.lvlibp/VISA/VISA.lvclass"/>
+				<Item Name="VISA.lvclass" Type="LVClass" URL="../Addon/Support Libraries/Protocols.lvlibp/VISA/VISA.lvclass"/>
 			</Item>
-			<Item Name="Clear Errors.vi" Type="VI" URL="../Addon/Support Libraries/Protocols/Protocols.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Clear Errors.vi"/>
-			<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="../Addon/Support Libraries/Protocols/Protocols.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Error Cluster From Error Code.vi"/>
-			<Item Name="nirviCommon.vi" Type="VI" URL="../Addon/Support Libraries/Protocols/Protocols.lvlibp/1abvi3w/vi.lib/express/rvi/timingcommon/nirviCommon.vi"/>
-			<Item Name="VISA Configure Serial Port (Instr).vi" Type="VI" URL="../Addon/Support Libraries/Protocols/Protocols.lvlibp/1abvi3w/vi.lib/Instr/_visa.llb/VISA Configure Serial Port (Instr).vi"/>
+			<Item Name="Clear Errors.vi" Type="VI" URL="../Addon/Support Libraries/Protocols.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Clear Errors.vi"/>
+			<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="../Addon/Support Libraries/Protocols.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Error Cluster From Error Code.vi"/>
+			<Item Name="nirviCommon.vi" Type="VI" URL="../Addon/Support Libraries/Protocols.lvlibp/1abvi3w/vi.lib/express/rvi/timingcommon/nirviCommon.vi"/>
+			<Item Name="VISA Configure Serial Port (Instr).vi" Type="VI" URL="../Addon/Support Libraries/Protocols.lvlibp/1abvi3w/vi.lib/Instr/_visa.llb/VISA Configure Serial Port (Instr).vi"/>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -261,11 +261,11 @@
 				<Property Name="Source[4].propertiesCount" Type="Int">5</Property>
 				<Property Name="Source[4].type" Type="Str">Container</Property>
 				<Property Name="Source[5].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[5].itemID" Type="Ref">/RT CompactRIO Target - Linux ARM/Protections.lvlibp</Property>
+				<Property Name="Source[5].itemID" Type="Ref"></Property>
 				<Property Name="Source[5].preventRename" Type="Bool">true</Property>
 				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[6].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[6].itemID" Type="Ref">/RT CompactRIO Target - Linux ARM/Protocols.lvlibp</Property>
+				<Property Name="Source[6].itemID" Type="Ref"></Property>
 				<Property Name="Source[6].preventRename" Type="Bool">true</Property>
 				<Property Name="Source[6].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[7].Container.applyProperties" Type="Bool">true</Property>
