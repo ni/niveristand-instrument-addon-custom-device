@@ -46,8 +46,11 @@
 					<Item Name="Protocol Parent" Type="Folder">
 						<Item Name="Protocol Parent.lvclass" Type="LVClass" URL="../Addon/Support Libraries/Protocols.lvlibp/Protocol Parent/Protocol Parent.lvclass"/>
 					</Item>
-					<Item Name="RSxxx" Type="Folder">
+					<Item Name="RS-xxx" Type="Folder">
 						<Item Name="RS-xxx.lvclass" Type="LVClass" URL="../Addon/Support Libraries/Protocols.lvlibp/RS-xxx/RS-xxx.lvclass"/>
+					</Item>
+					<Item Name="RS-xxx to GPIB ConvBox" Type="Folder">
+						<Item Name="RS-xxx to GPIB ConvBox.lvclass" Type="LVClass" URL="../Addon/Support Libraries/Protocols.lvlibp/RS-xxx to GPIB ConvBox/RS-xxx to GPIB ConvBox.lvclass"/>
 					</Item>
 					<Item Name="TCP" Type="Folder">
 						<Item Name="TCP.lvclass" Type="LVClass" URL="../Addon/Support Libraries/Protocols.lvlibp/TCP/TCP.lvclass"/>
@@ -60,8 +63,11 @@
 					</Item>
 					<Item Name="Clear Errors.vi" Type="VI" URL="../Addon/Support Libraries/Protocols.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Clear Errors.vi"/>
 					<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="../Addon/Support Libraries/Protocols.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Error Cluster From Error Code.vi"/>
+					<Item Name="GPIB Status Boolean Array.ctl" Type="VI" URL="../Addon/Support Libraries/Protocols.lvlibp/1abvi3w/vi.lib/Instr/_visa.llb/GPIB Status Boolean Array.ctl"/>
 					<Item Name="nirviCommon.vi" Type="VI" URL="../Addon/Support Libraries/Protocols.lvlibp/1abvi3w/vi.lib/express/rvi/timingcommon/nirviCommon.vi"/>
+					<Item Name="Space Constant.vi" Type="VI" URL="../Addon/Support Libraries/Protocols.lvlibp/1abvi3w/vi.lib/dlg_ctls.llb/Space Constant.vi"/>
 					<Item Name="VISA Configure Serial Port (Instr).vi" Type="VI" URL="../Addon/Support Libraries/Protocols.lvlibp/1abvi3w/vi.lib/Instr/_visa.llb/VISA Configure Serial Port (Instr).vi"/>
+					<Item Name="VISA Flush IO Buffer Mask.ctl" Type="VI" URL="../Addon/Support Libraries/Protocols.lvlibp/1abvi3w/vi.lib/Instr/_visa.llb/VISA Flush IO Buffer Mask.ctl"/>
 				</Item>
 			</Item>
 			<Item Name="Custom Device Instrument Addon.xml" Type="Document" URL="../Addon/Custom Device Instrument Addon.xml"/>
@@ -245,7 +251,7 @@
 				<Property Name="DestinationCount" Type="Int">5</Property>
 				<Property Name="Source[0].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[0].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{B70BD97D-9710-441B-AA38-C767D9CBFDDA}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{FE340D14-2784-4D92-A78F-CC2EE0E25671}</Property>
 				<Property Name="Source[0].properties[0].type" Type="Str">Run when opened</Property>
 				<Property Name="Source[0].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[0].properties[1].type" Type="Str">Allow debugging</Property>
@@ -308,15 +314,15 @@
 				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[5].type" Type="Str">Container</Property>
 				<Property Name="Source[6].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[6].itemID" Type="Ref"></Property>
-				<Property Name="Source[6].preventRename" Type="Bool">true</Property>
+				<Property Name="Source[6].itemID" Type="Ref">/My Computer/Addon/Support Files/Help/Instrument Addon.chm</Property>
 				<Property Name="Source[6].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[7].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[7].itemID" Type="Ref"></Property>
+				<Property Name="Source[7].itemID" Type="Ref">/My Computer/Addon/Support Libraries/Protections.lvlibp</Property>
 				<Property Name="Source[7].preventRename" Type="Bool">true</Property>
 				<Property Name="Source[7].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[8].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[8].itemID" Type="Ref">/My Computer/Addon/Support Files/Help/Instrument Addon.chm</Property>
+				<Property Name="Source[8].itemID" Type="Ref">/My Computer/Addon/Support Libraries/Protocols.lvlibp</Property>
+				<Property Name="Source[8].preventRename" Type="Bool">true</Property>
 				<Property Name="Source[8].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="SourceCount" Type="Int">9</Property>
 			</Item>
@@ -340,7 +346,7 @@
 				<Property Name="DestinationCount" Type="Int">3</Property>
 				<Property Name="Source[0].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[0].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{A4F7729A-3BAC-40FB-8E41-9053DD9B2232}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{FE340D14-2784-4D92-A78F-CC2EE0E25671}</Property>
 				<Property Name="Source[0].properties[0].type" Type="Str">Run when opened</Property>
 				<Property Name="Source[0].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[0].properties[1].type" Type="Str">Allow debugging</Property>
@@ -431,30 +437,30 @@
 				<Property Name="Source[6].destinationIndex" Type="Int">2</Property>
 				<Property Name="Source[6].itemID" Type="Ref">/My Computer/Addon/Support Libraries</Property>
 				<Property Name="Source[6].type" Type="Str">Container</Property>
-				<Property Name="Source[7].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[7].itemID" Type="Ref"></Property>
-				<Property Name="Source[7].preventRename" Type="Bool">true</Property>
-				<Property Name="Source[7].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[7].Container.applyProperties" Type="Bool">true</Property>
+				<Property Name="Source[7].Container.applySaveSettings" Type="Bool">true</Property>
+				<Property Name="Source[7].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[7].itemID" Type="Ref">/My Computer/Addon/Instrument Addon Engine.lvlib/Processes</Property>
+				<Property Name="Source[7].properties[0].type" Type="Str">Remove front panel</Property>
+				<Property Name="Source[7].properties[0].value" Type="Bool">false</Property>
+				<Property Name="Source[7].properties[1].type" Type="Str">Remove block diagram</Property>
+				<Property Name="Source[7].properties[1].value" Type="Bool">true</Property>
+				<Property Name="Source[7].properties[2].type" Type="Str">Allow debugging</Property>
+				<Property Name="Source[7].properties[2].value" Type="Bool">false</Property>
+				<Property Name="Source[7].properties[3].type" Type="Str">Run when opened</Property>
+				<Property Name="Source[7].properties[3].value" Type="Bool">false</Property>
+				<Property Name="Source[7].properties[4].type" Type="Str">Auto error handling</Property>
+				<Property Name="Source[7].properties[4].value" Type="Bool">false</Property>
+				<Property Name="Source[7].propertiesCount" Type="Int">5</Property>
+				<Property Name="Source[7].type" Type="Str">Container</Property>
 				<Property Name="Source[8].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[8].itemID" Type="Ref"></Property>
+				<Property Name="Source[8].itemID" Type="Ref">/My Computer/Addon/Support Libraries/Protections.lvlibp</Property>
 				<Property Name="Source[8].preventRename" Type="Bool">true</Property>
 				<Property Name="Source[8].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[9].Container.applyProperties" Type="Bool">true</Property>
-				<Property Name="Source[9].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[9].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[9].itemID" Type="Ref">/My Computer/Addon/Instrument Addon Engine.lvlib/Processes</Property>
-				<Property Name="Source[9].properties[0].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[9].properties[0].value" Type="Bool">false</Property>
-				<Property Name="Source[9].properties[1].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[9].properties[1].value" Type="Bool">true</Property>
-				<Property Name="Source[9].properties[2].type" Type="Str">Allow debugging</Property>
-				<Property Name="Source[9].properties[2].value" Type="Bool">false</Property>
-				<Property Name="Source[9].properties[3].type" Type="Str">Run when opened</Property>
-				<Property Name="Source[9].properties[3].value" Type="Bool">false</Property>
-				<Property Name="Source[9].properties[4].type" Type="Str">Auto error handling</Property>
-				<Property Name="Source[9].properties[4].value" Type="Bool">false</Property>
-				<Property Name="Source[9].propertiesCount" Type="Int">5</Property>
-				<Property Name="Source[9].type" Type="Str">Container</Property>
+				<Property Name="Source[9].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[9].itemID" Type="Ref">/My Computer/Addon/Support Libraries/Protocols.lvlibp</Property>
+				<Property Name="Source[9].preventRename" Type="Bool">true</Property>
+				<Property Name="Source[9].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="SourceCount" Type="Int">10</Property>
 			</Item>
 			<Item Name="Host API" Type="Packed Library">
@@ -807,8 +813,11 @@
 			<Item Name="Protocol Parent" Type="Folder">
 				<Item Name="Protocol Parent.lvclass" Type="LVClass" URL="../Addon/Support Libraries/Protocols.lvlibp/Protocol Parent/Protocol Parent.lvclass"/>
 			</Item>
-			<Item Name="RSxxx" Type="Folder">
+			<Item Name="RS-xxx" Type="Folder">
 				<Item Name="RS-xxx.lvclass" Type="LVClass" URL="../Addon/Support Libraries/Protocols.lvlibp/RS-xxx/RS-xxx.lvclass"/>
+			</Item>
+			<Item Name="RS-xxx to GPIB ConvBox" Type="Folder">
+				<Item Name="RS-xxx to GPIB ConvBox.lvclass" Type="LVClass" URL="../Addon/Support Libraries/Protocols.lvlibp/RS-xxx to GPIB ConvBox/RS-xxx to GPIB ConvBox.lvclass"/>
 			</Item>
 			<Item Name="TCP" Type="Folder">
 				<Item Name="TCP.lvclass" Type="LVClass" URL="../Addon/Support Libraries/Protocols.lvlibp/TCP/TCP.lvclass"/>
@@ -821,8 +830,11 @@
 			</Item>
 			<Item Name="Clear Errors.vi" Type="VI" URL="../Addon/Support Libraries/Protocols.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Clear Errors.vi"/>
 			<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="../Addon/Support Libraries/Protocols.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Error Cluster From Error Code.vi"/>
+			<Item Name="GPIB Status Boolean Array.ctl" Type="VI" URL="../Addon/Support Libraries/Protocols.lvlibp/1abvi3w/vi.lib/Instr/_visa.llb/GPIB Status Boolean Array.ctl"/>
 			<Item Name="nirviCommon.vi" Type="VI" URL="../Addon/Support Libraries/Protocols.lvlibp/1abvi3w/vi.lib/express/rvi/timingcommon/nirviCommon.vi"/>
+			<Item Name="Space Constant.vi" Type="VI" URL="../Addon/Support Libraries/Protocols.lvlibp/1abvi3w/vi.lib/dlg_ctls.llb/Space Constant.vi"/>
 			<Item Name="VISA Configure Serial Port (Instr).vi" Type="VI" URL="../Addon/Support Libraries/Protocols.lvlibp/1abvi3w/vi.lib/Instr/_visa.llb/VISA Configure Serial Port (Instr).vi"/>
+			<Item Name="VISA Flush IO Buffer Mask.ctl" Type="VI" URL="../Addon/Support Libraries/Protocols.lvlibp/1abvi3w/vi.lib/Instr/_visa.llb/VISA Flush IO Buffer Mask.ctl"/>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -852,7 +864,6 @@
 				<Item Name="VS Inline Async API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_VS Inline Async API/VS Inline Async API.lvlib"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="Base Protocol Type.ctl" Type="VI" URL="../Addon/Support Libraries/Protocols/Protocols.lvlibp/Protocol Parent/Types/Base Protocol Type.ctl"/>
 			<Item Name="Instrument Addon Shared.lvlib" Type="Library" URL="../Addon/Addon Shared/Instrument Addon Shared.lvlib"/>
 			<Item Name="LV Config Read String.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read String.vi"/>
 			<Item Name="NationalInstruments.VeriStand.SystemDefinitionAPI" Type="Document" URL="NationalInstruments.VeriStand.SystemDefinitionAPI">
@@ -861,32 +872,9 @@
 			<Item Name="NationalInstruments.VeriStand.SystemStorage" Type="Document" URL="NationalInstruments.VeriStand.SystemStorage">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Protection.lvclass" Type="LVClass" URL="../Addon/Support Libraries/Protections/Protections.lvlibp/Parent Protection/Protection.lvclass"/>
-			<Item Name="Protocol Parent.lvclass" Type="LVClass" URL="../Addon/Support Libraries/Protocols/Protocols.lvlibp/Protocol Parent/Protocol Parent.lvclass"/>
-			<Item Name="Read Parameter.ctl" Type="VI" URL="../Addon/Support Libraries/Protocols/Protocols.lvlibp/Protocol Parent/Methods/Read Parameter.ctl"/>
-			<Item Name="RS-xxx.ctl" Type="VI" URL="../Addon/Support Libraries/Protocols/Protocols.lvlibp/RS-xxx/RS-xxx.lvclass/RS-xxx.ctl"/>
-			<Item Name="RS-xxx.lvclass" Type="LVClass" URL="../Addon/Support Libraries/Protocols/Protocols.lvlibp/RS-xxx/RS-xxx.lvclass"/>
 			<Item Name="systemLogging.dll" Type="Document" URL="systemLogging.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="TCP.ctl" Type="VI" URL="../Addon/Support Libraries/Protocols/Protocols.lvlibp/TCP/TCP.lvclass/TCP.ctl"/>
-			<Item Name="TCP.lvclass" Type="LVClass" URL="../Addon/Support Libraries/Protocols/Protocols.lvlibp/TCP/TCP.lvclass"/>
-			<Item Name="UDP.ctl" Type="VI" URL="../Addon/Support Libraries/Protocols/Protocols.lvlibp/UDP/UDP.lvclass/UDP.ctl"/>
-			<Item Name="UDP.lvclass" Type="LVClass" URL="../Addon/Support Libraries/Protocols/Protocols.lvlibp/UDP/UDP.lvclass"/>
-			<Item Name="VISA.ctl" Type="VI" URL="../Addon/Support Libraries/Protocols/Protocols.lvlibp/VISA/VISA.lvclass/VISA.ctl"/>
-			<Item Name="VISA.lvclass" Type="LVClass" URL="../Addon/Support Libraries/Protocols/Protocols.lvlibp/VISA/VISA.lvclass"/>
-			<Item Name="Write Append Write Termination Character.vi" Type="VI" URL="../Addon/Support Libraries/Protocols/Protocols.lvlibp/VISA/Data Access/Write Append Write Termination Character.vi"/>
-			<Item Name="Write Enable Termination Character.vi" Type="VI" URL="../Addon/Support Libraries/Protocols/Protocols.lvlibp/VISA/Data Access/Write Enable Termination Character.vi"/>
-			<Item Name="Write IP Address.vi" Type="VI" URL="../Addon/Support Libraries/Protocols/Protocols.lvlibp/TCP/Data Access/Write IP Address.vi"/>
-			<Item Name="Write Local IP Address.vi" Type="VI" URL="../Addon/Support Libraries/Protocols/Protocols.lvlibp/UDP/Data Access/Write Local IP Address.vi"/>
-			<Item Name="Write Local Port.vi" Type="VI" URL="../Addon/Support Libraries/Protocols/Protocols.lvlibp/UDP/Data Access/Write Local Port.vi"/>
-			<Item Name="Write Port.vi" Type="VI" URL="../Addon/Support Libraries/Protocols/Protocols.lvlibp/TCP/Data Access/Write Port.vi"/>
-			<Item Name="Write PortSettings.vi" Type="VI" URL="../Addon/Support Libraries/Protocols/Protocols.lvlibp/RS-xxx/Data Access/Write PortSettings.vi"/>
-			<Item Name="Write Target IP Address.vi" Type="VI" URL="../Addon/Support Libraries/Protocols/Protocols.lvlibp/UDP/Data Access/Write Target IP Address.vi"/>
-			<Item Name="Write Target Port.vi" Type="VI" URL="../Addon/Support Libraries/Protocols/Protocols.lvlibp/UDP/Data Access/Write Target Port.vi"/>
-			<Item Name="Write Termination Character.vi" Type="VI" URL="../Addon/Support Libraries/Protocols/Protocols.lvlibp/VISA/Data Access/Write Termination Character.vi"/>
-			<Item Name="Write Timeout.vi" Type="VI" URL="../Addon/Support Libraries/Protocols/Protocols.lvlibp/VISA/Data Access/Write Timeout.vi"/>
-			<Item Name="Write VISA Resource.vi" Type="VI" URL="../Addon/Support Libraries/Protocols/Protocols.lvlibp/VISA/Data Access/Write VISA Resource.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Engine Release" Type="Source Distribution">
