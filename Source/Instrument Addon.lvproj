@@ -26,6 +26,9 @@
 				<Item Name="Help" Type="Folder" URL="../Addon/Support Files/Help">
 					<Property Name="NI.DISK" Type="Bool">true</Property>
 				</Item>
+				<Item Name="Quick Start Documentation" Type="Folder" URL="../Addon/Support Files/Quick Start Documentation">
+					<Property Name="NI.DISK" Type="Bool">true</Property>
+				</Item>
 			</Item>
 			<Item Name="Support Libraries" Type="Folder">
 				<Item Name="Protections.lvlibp" Type="LVLibp" URL="../Addon/Support Libraries/Protections.lvlibp">
@@ -248,10 +251,13 @@
 				<Property Name="Destination[3].path" Type="Path">../Built/Custom Devices/NI_AB_PROJECTNAME</Property>
 				<Property Name="Destination[4].destName" Type="Str">Glyphs</Property>
 				<Property Name="Destination[4].path" Type="Path">../Built/Custom Devices/NI_AB_PROJECTNAME/Windows/Glyphs</Property>
-				<Property Name="DestinationCount" Type="Int">5</Property>
+				<Property Name="Destination[5].destName" Type="Str">Quick Start Documentation</Property>
+				<Property Name="Destination[5].path" Type="Path">../Built/Custom Devices/NI_AB_PROJECTNAME/Windows/Quick Start Documentation</Property>
+				<Property Name="Destination[5].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="DestinationCount" Type="Int">6</Property>
 				<Property Name="Source[0].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[0].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{FE340D14-2784-4D92-A78F-CC2EE0E25671}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{C2E71D12-4AA2-4074-8E4F-83442D4BD0F8}</Property>
 				<Property Name="Source[0].properties[0].type" Type="Str">Run when opened</Property>
 				<Property Name="Source[0].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[0].properties[1].type" Type="Str">Allow debugging</Property>
@@ -324,7 +330,14 @@
 				<Property Name="Source[8].itemID" Type="Ref">/My Computer/Addon/Support Libraries/Protocols.lvlibp</Property>
 				<Property Name="Source[8].preventRename" Type="Bool">true</Property>
 				<Property Name="Source[8].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="SourceCount" Type="Int">9</Property>
+				<Property Name="Source[9].Container.applyDestination" Type="Bool">true</Property>
+				<Property Name="Source[9].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[9].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[9].destinationIndex" Type="Int">5</Property>
+				<Property Name="Source[9].itemID" Type="Ref">/My Computer/Addon/Support Files/Quick Start Documentation</Property>
+				<Property Name="Source[9].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[9].type" Type="Str">Container</Property>
+				<Property Name="SourceCount" Type="Int">10</Property>
 			</Item>
 			<Item Name="Engine Release" Type="Source Distribution">
 				<Property Name="Bld_buildCacheID" Type="Str">{BDB37E78-1B48-4DD8-B51B-9DFE56743A02}</Property>
