@@ -43,12 +43,14 @@
 			<Item Name="Get Protocol List.vi" Type="VI" URL="../SubVIs/Get Protocol List.vi"/>
 			<Item Name="GPIB ConvBox Protocol FG.vi" Type="VI" URL="../SubVIs/GPIB ConvBox Protocol FG.vi"/>
 			<Item Name="Lookup Base Protection Class.vi" Type="VI" URL="../SubVIs/Lookup Base Protection Class.vi"/>
-			<Item Name="Lookup Base Protocol Class.vi" Type="VI" URL="../SubVIs/Lookup Base Protocol Class.vi"/>
+			<Item Name="Lookup Base Protocol Class and Info.vi" Type="VI" URL="../SubVIs/Lookup Base Protocol Class and Info.vi"/>
+			<Item Name="Lookup Error Codes.vi" Type="VI" URL="../SubVIs/Lookup Error Codes.vi"/>
 			<Item Name="Message Parameters FG.vi" Type="VI" URL="../SubVIs/Message Parameters FG.vi"/>
 			<Item Name="MetaData Parameters FG.vi" Type="VI" URL="../SubVIs/MetaData Parameters FG.vi"/>
 			<Item Name="Protocol FG.vi" Type="VI" URL="../SubVIs/Protocol FG.vi"/>
 			<Item Name="Response Parameters FG.vi" Type="VI" URL="../SubVIs/Response Parameters FG.vi"/>
 			<Item Name="RSxxx Protocol FG.vi" Type="VI" URL="../SubVIs/RSxxx Protocol FG.vi"/>
+			<Item Name="Set Codes on all Error Channels.vi" Type="VI" URL="../SubVIs/Set Codes on all Error Channels.vi"/>
 			<Item Name="TCPIP Protocol FG.vi" Type="VI" URL="../SubVIs/TCPIP Protocol FG.vi"/>
 			<Item Name="Trigger Parameters FG.vi" Type="VI" URL="../SubVIs/Trigger Parameters FG.vi"/>
 			<Item Name="UDP Protocol FG.vi" Type="VI" URL="../SubVIs/UDP Protocol FG.vi"/>
