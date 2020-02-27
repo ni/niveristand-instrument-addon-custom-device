@@ -23,16 +23,16 @@ w\:* {behavior:url(#default#VML);}
  <o:DocumentProperties>
   <o:Author>Daniel Eaton</o:Author>
   <o:LastAuthor>Daniel Eaton</o:LastAuthor>
-  <o:Revision>3</o:Revision>
-  <o:TotalTime>5</o:TotalTime>
-  <o:Created>2020-02-25T21:18:00Z</o:Created>
-  <o:LastSaved>2020-02-25T21:22:00Z</o:LastSaved>
+  <o:Revision>2</o:Revision>
+  <o:TotalTime>9</o:TotalTime>
+  <o:Created>2020-02-27T20:27:00Z</o:Created>
+  <o:LastSaved>2020-02-27T20:27:00Z</o:LastSaved>
   <o:Pages>1</o:Pages>
-  <o:Words>1204</o:Words>
-  <o:Characters>6866</o:Characters>
-  <o:Lines>57</o:Lines>
+  <o:Words>1234</o:Words>
+  <o:Characters>7034</o:Characters>
+  <o:Lines>58</o:Lines>
   <o:Paragraphs>16</o:Paragraphs>
-  <o:CharactersWithSpaces>8054</o:CharactersWithSpaces>
+  <o:CharactersWithSpaces>8252</o:CharactersWithSpaces>
   <o:Version>16.00</o:Version>
  </o:DocumentProperties>
  <o:OfficeDocumentSettings>
@@ -46,8 +46,6 @@ href="Instrument%20Addon%20Quick%20Start_files/colorschememapping.xml">
 <!--[if gte mso 9]><xml>
  <w:WordDocument>
   <w:DontDisplayPageBoundaries/>
-  <w:SpellingState>Clean</w:SpellingState>
-  <w:GrammarState>Clean</w:GrammarState>
   <w:TrackMoves>false</w:TrackMoves>
   <w:TrackFormatting/>
   <w:PunctuationKerning/>
@@ -70,6 +68,7 @@ href="Instrument%20Addon%20Quick%20Start_files/colorschememapping.xml">
    <w:DontFlipMirrorIndents/>
    <w:OverrideTableStyleHps/>
   </w:Compatibility>
+  <w:BrowserLevel>MicrosoftInternetExplorer4</w:BrowserLevel>
   <m:mathPr>
    <m:mathFont m:val="Cambria Math"/>
    <m:brkBin m:val="before"/>
@@ -292,6 +291,8 @@ href="Instrument%20Addon%20Quick%20Start_files/colorschememapping.xml">
   <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
    Name="HTML Variable"/>
   <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Normal Table"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
    Name="annotation subject"/>
   <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
    Name="No List"/>
@@ -384,8 +385,12 @@ href="Instrument%20Addon%20Quick%20Start_files/colorschememapping.xml">
   <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
    Name="Table Web 2"/>
   <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Web 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
    Name="Balloon Text"/>
   <w:LsdException Locked="false" Priority="39" Name="Table Grid"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Theme"/>
   <w:LsdException Locked="false" SemiHidden="true" Name="Placeholder Text"/>
   <w:LsdException Locked="false" Priority="1" QFormat="true" Name="No Spacing"/>
   <w:LsdException Locked="false" Priority="60" Name="Light Shading"/>
@@ -661,6 +666,13 @@ href="Instrument%20Addon%20Quick%20Start_files/colorschememapping.xml">
 <!--
  /* Font Definitions */
  @font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;
+	mso-font-charset:2;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:0 268435456 0 0 -2147483648 0;}
+@font-face
 	{font-family:"Cambria Math";
 	panose-1:2 4 5 3 5 4 6 3 2 4;
 	mso-font-charset:0;
@@ -697,7 +709,7 @@ href="Instrument%20Addon%20Quick%20Start_files/colorschememapping.xml">
 	margin-right:0in;
 	margin-bottom:8.0pt;
 	margin-left:0in;
-	line-height:107%;
+	line-height:105%;
 	mso-pagination:widow-orphan;
 	font-size:11.0pt;
 	font-family:"Calibri",sans-serif;
@@ -725,8 +737,8 @@ h1
 	mso-fareast-font-family:"Times New Roman";
 	font-weight:bold;}
 h2
-	{mso-style-priority:9;
-	mso-style-unhide:no;
+	{mso-style-noshow:yes;
+	mso-style-priority:9;
 	mso-style-qformat:yes;
 	mso-style-link:"Heading 2 Char";
 	mso-margin-top-alt:auto;
@@ -780,6 +792,7 @@ span.Heading1Char
 	font-weight:bold;}
 span.Heading2Char
 	{mso-style-name:"Heading 2 Char";
+	mso-style-noshow:yes;
 	mso-style-priority:9;
 	mso-style-unhide:no;
 	mso-style-locked:yes;
@@ -792,15 +805,26 @@ span.Heading2Char
 	mso-hansi-font-family:"Times New Roman";
 	mso-bidi-font-family:"Times New Roman";
 	font-weight:bold;}
-span.SpellE
-	{mso-style-name:"";
-	mso-spl-e:yes;}
-span.GramE
-	{mso-style-name:"";
-	mso-gram-e:yes;}
+p.msonormal0, li.msonormal0, div.msonormal0
+	{mso-style-name:msonormal;
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-margin-top-alt:auto;
+	margin-right:0in;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:"Times New Roman";}
 .MsoChpDefault
 	{mso-style-type:export-only;
 	mso-default-props:yes;
+	font-size:10.0pt;
+	mso-ansi-font-size:10.0pt;
+	mso-bidi-font-size:10.0pt;
+	font-family:"Calibri",sans-serif;
 	mso-ascii-font-family:Calibri;
 	mso-ascii-theme-font:minor-latin;
 	mso-fareast-font-family:Calibri;
@@ -809,10 +833,6 @@ span.GramE
 	mso-hansi-theme-font:minor-latin;
 	mso-bidi-font-family:"Times New Roman";
 	mso-bidi-theme-font:minor-bidi;}
-.MsoPapDefault
-	{mso-style-type:export-only;
-	margin-bottom:8.0pt;
-	line-height:107%;}
 @page WordSection1
 	{size:8.5in 11.0in;
 	margin:1.0in 1.0in 1.0in 1.0in;
@@ -821,6 +841,162 @@ span.GramE
 	mso-paper-source:0;}
 div.WordSection1
 	{page:WordSection1;}
+ /* List Definitions */
+ @list l0
+	{mso-list-id:395587402;
+	mso-list-template-ids:-903974734;}
+@list l0:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l0:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:1.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:"Courier New";
+	mso-bidi-font-family:"Times New Roman";}
+@list l0:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:1.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l0:level4
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:2.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l0:level5
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:2.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l0:level6
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:3.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l0:level7
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:3.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l0:level8
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:4.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l0:level9
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:4.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l1
+	{mso-list-id:1811944190;
+	mso-list-template-ids:-1617658098;}
+@list l1:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l1:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:1.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l1:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:1.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l1:level4
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:2.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l1:level5
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:2.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l1:level6
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:3.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l1:level7
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:3.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l1:level8
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:4.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l1:level9
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:4.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+ol
+	{margin-bottom:0in;}
+ul
+	{margin-bottom:0in;}
 -->
 </style>
 <!--[if gte mso 10]>
@@ -834,13 +1010,10 @@ div.WordSection1
 	mso-style-priority:99;
 	mso-style-parent:"";
 	mso-padding-alt:0in 5.4pt 0in 5.4pt;
-	mso-para-margin-top:0in;
-	mso-para-margin-right:0in;
-	mso-para-margin-bottom:8.0pt;
-	mso-para-margin-left:0in;
-	line-height:107%;
+	mso-para-margin:0in;
+	mso-para-margin-bottom:.0001pt;
 	mso-pagination:widow-orphan;
-	font-size:11.0pt;
+	font-size:10.0pt;
 	font-family:"Calibri",sans-serif;
 	mso-ascii-font-family:Calibri;
 	mso-ascii-theme-font:minor-latin;
@@ -868,11 +1041,11 @@ mso-bidi-font-family:"Times New Roman";color:#0072C6;mso-font-kerning:18.0pt'>Ov
 style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
 "Times New Roman";color:#444444'>This addon is used to communicate with
 instrumentation (power supplies, power analyzers, environmental chambers, fuel
-meters, emissions equipment, <span class=SpellE>etc</span>)&nbsp;over various
-protocols.&nbsp;It supports serial, GPIB (using NI&nbsp;VISA), ethernet (TCP,
-UDP, NI VISA), AK serial, and AK TCP.&nbsp;Users define the&nbsp;communication
-specifics (commands, responses, <span class=SpellE>etc</span>)&nbsp;within the
-addon. This allows a single addon to be used for a wide range of instruments.<o:p></o:p></span></p>
+meters, emissions equipment, etc)&nbsp;over various protocols.&nbsp;It supports
+serial, GPIB (using NI&nbsp;VISA), ethernet (TCP, UDP, NI VISA), AK serial, and
+AK TCP.&nbsp;Users define the&nbsp;communication specifics (commands,
+responses, etc)&nbsp;within the addon. This allows a single addon to be used
+for a wide range of instruments.<o:p></o:p></span></p>
 
 <p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
 line-height:normal;mso-outline-level:1'><span style='font-size:27.5pt;
@@ -905,7 +1078,7 @@ none;text-underline:none'><!--[if gte vml 1]><v:shapetype id="_x0000_t75"
  </v:formulas>
  <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>
  <o:lock v:ext="edit" aspectratio="t"/>
-</v:shapetype><v:shape id="Picture_x0020_26" o:spid="_x0000_i1049" type="#_x0000_t75"
+</v:shapetype><v:shape id="Picture_x0020_26" o:spid="_x0000_i1050" type="#_x0000_t75"
  href="https://github.com/NIVeriStandAdd-Ons/Instrument-Custom-Device"
  target="&quot;_blank&quot;" style='width:12pt;height:12pt;visibility:visible;
  mso-wrap-style:square' o:button="t">
@@ -914,9 +1087,33 @@ none;text-underline:none'><!--[if gte vml 1]><v:shapetype id="_x0000_t75"
 </v:shape><![endif]--><![if !vml]><span style='mso-ignore:vglayout'><img
 border=0 width=16 height=16
 src="Instrument%20Addon%20Quick%20Start_files/image001.gif" v:shapes="Picture_x0020_26"></span><![endif]></span><span
-class=SpellE><span style='color:#663399;text-decoration:none;text-underline:
-none'>NIVeriStandAdd-Ons</span></span><span style='color:#663399;text-decoration:
-none;text-underline:none'>/Instrument-Custom-Device · GitHub</span></a>&#8203;<o:p></o:p></span></p>
+style='color:#663399;text-decoration:none;text-underline:none'>NIVeriStandAdd-Ons/Instrument-Custom-Device
+· GitHub</span></a>&#8203;<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+line-height:normal;mso-outline-level:1'><span style='font-size:27.5pt;
+font-family:"Segoe UI Light",sans-serif;mso-fareast-font-family:"Times New Roman";
+mso-bidi-font-family:"Times New Roman";color:#0072C6;mso-font-kerning:18.0pt'>Requirements<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;line-height:normal'><span
+style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+"Times New Roman";color:#444444'>These drivers must be installed on the
+deployment computer/target to function.<o:p></o:p></span></p>
+
+<ul type=disc>
+ <li class=MsoNormal style='color:#444444;mso-margin-top-alt:auto;mso-margin-bottom-alt:
+     auto;line-height:normal;mso-list:l0 level1 lfo3;tab-stops:list .5in'><span
+     style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+     "Times New Roman"'>NI VeriStand 2019 or later&#8203;<o:p></o:p></span></li>
+ <li class=MsoNormal style='color:#444444;mso-margin-top-alt:auto;mso-margin-bottom-alt:
+     auto;line-height:normal;mso-list:l0 level1 lfo3;tab-stops:list .5in'><span
+     style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+     "Times New Roman"'>NI VISA 19.0 or later<o:p></o:p></span></li>
+ <li class=MsoNormal style='color:#444444;mso-margin-top-alt:auto;mso-margin-bottom-alt:
+     auto;line-height:normal;mso-list:l0 level1 lfo3;tab-stops:list .5in'><span
+     style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+     "Times New Roman"'>NI Serial 19.0 or later&#8203;&#8203;<o:p></o:p></span></li>
+</ul>
 
 <p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
 line-height:normal;mso-outline-level:1'><span style='font-size:27.5pt;
@@ -927,18 +1124,18 @@ Specifics<o:p></o:p></span></p>
 <p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
 line-height:normal;mso-outline-level:2'><span style='font-size:17.5pt;
 font-family:"Segoe UI Semilight",sans-serif;mso-fareast-font-family:"Times New Roman";
-color:#0072C6'>&#8203;&#8203;Addon <span class=SpellE>Configurati</span>&#8203;&#8203;on<o:p></o:p></span></p>
+color:#0072C6'>&#8203;&#8203;Addon Configurati&#8203;&#8203;on<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:7.5pt;line-height:normal'><span
 style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
 "Times New Roman";color:#444444'>Upon adding the addon, a&nbsp;configuration
-GUI will open. Select the desired protocol. Optionally, a previously
-exported&nbsp;configuration can&nbsp;be imported.<o:p></o:p></span></p>
+GUI will open. Select the desired protocol. Optionally, a previously exported&nbsp;configuration
+can&nbsp;be imported.<o:p></o:p></span></p>
 
 <p class=MsoNormal align=center style='margin-bottom:7.5pt;text-align:center;
 line-height:normal'><span style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;
 mso-fareast-font-family:"Times New Roman";color:#444444;mso-no-proof:yes'><!--[if gte vml 1]><v:shape
- id="Picture_x0020_25" o:spid="_x0000_i1048" type="#_x0000_t75" style='width:326.4pt;
+ id="Picture_x0020_25" o:spid="_x0000_i1049" type="#_x0000_t75" style='width:326.4pt;
  height:213pt;visibility:visible;mso-wrap-style:square'>
  <v:imagedata src="Instrument%20Addon%20Quick%20Start_files/image002.png"
   o:title=""/>
@@ -956,37 +1153,35 @@ Target/Controller.&nbsp;<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:7.5pt;line-height:normal'><span
 style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
-"Times New Roman";color:#444444'>Also,&nbsp;notice the <span class=GramE>built
-in</span> help. This help provides the details needed to use each <span
-class=GramE>section.&#8203;</span><o:p></o:p></span></p>
+"Times New Roman";color:#444444'>Also,&nbsp;notice the built in help. This help
+provides the details needed to use each section.&#8203;<o:p></o:p></span></p>
 
 <p class=MsoNormal align=center style='margin-bottom:7.5pt;text-align:center;
 line-height:normal'><span style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;
 mso-fareast-font-family:"Times New Roman";color:#444444;mso-no-proof:yes'><!--[if gte vml 1]><v:shape
- id="Picture_x0020_24" o:spid="_x0000_i1047" type="#_x0000_t75" style='width:8in;
+ id="Picture_x0020_24" o:spid="_x0000_i1048" type="#_x0000_t75" style='width:8in;
  height:430.8pt;visibility:visible;mso-wrap-style:square'>
  <v:imagedata src="Instrument%20Addon%20Quick%20Start_files/image003.png"
   o:title=""/>
 </v:shape><![endif]--><![if !vml]><img border=0 width=768 height=574
-src="Instrument%20Addon%20Quick%20Start_files/image025.png" v:shapes="Picture_x0020_24"><![endif]></span><span
+src="Instrument%20Addon%20Quick%20Start_files/image004.png" v:shapes="Picture_x0020_24"><![endif]></span><span
 style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
 "Times New Roman";color:#444444'><o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:7.5pt;line-height:normal'><span
 style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
 "Times New Roman";color:#444444'>After these settings are entered, an initial
-test of the configuration is <span class=GramE>recommend</span>.
-Deploy&nbsp;the system definition,&nbsp;check that simple messages like *IDN?
-can be sent to the instrument without errors using the Instrument Addon Tool
-(discussed below). If this test is not successful, make sure the instrument is
-powered,&nbsp;wired, and&nbsp;remote communication is
-enabled/supported.&nbsp;If that doesn't work,
+test of the configuration is recommend. Deploy&nbsp;the system
+definition,&nbsp;check that simple messages like *IDN? can be sent to the
+instrument without errors using the Instrument Addon Tool (discussed below). If
+this test is not successful, make sure the instrument is powered,&nbsp;wired,
+and&nbsp;remote communication is enabled/supported.&nbsp;If that doesn't work,
 try&nbsp;different&nbsp;termination characters, port settings, etc. Keep
 referencing the instrument's documentation and confirming settings. Also, if
 there is a LabVIEW API available for the instrument on&nbsp;<a
 href="http://www.ni.com/downloads/instrument-drivers/" target="_blank"><span
 style='color:#663399;mso-no-proof:yes;text-decoration:none;text-underline:none'><!--[if gte vml 1]><v:shape
- id="Picture_x0020_23" o:spid="_x0000_i1046" type="#_x0000_t75"
+ id="Picture_x0020_23" o:spid="_x0000_i1047" type="#_x0000_t75"
  href="http://www.ni.com/downloads/instrument-drivers/" target="&quot;_blank&quot;"
  style='width:12pt;height:12pt;visibility:visible;mso-wrap-style:square'
  o:button="t">
@@ -995,9 +1190,9 @@ style='color:#663399;mso-no-proof:yes;text-decoration:none;text-underline:none'>
 </v:shape><![endif]--><![if !vml]><span style='mso-ignore:vglayout'><img
 border=0 width=16 height=16
 src="Instrument%20Addon%20Quick%20Start_files/image001.gif" v:shapes="Picture_x0020_23"></span><![endif]></span><span
-style='color:#663399;text-decoration:none;text-underline:none'>ni.com/<span
-class=SpellE>idnet</span></span></a>, download and review it in LabVIEW (if
-possible).&nbsp;If the test is successful, continue setting up the addon.<o:p></o:p></span></p>
+style='color:#663399;text-decoration:none;text-underline:none'>ni.com/idnet</span></a>,
+download and review it in LabVIEW (if possible).&nbsp;If the test is
+successful, continue setting up the addon.<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:7.5pt;line-height:normal'><span
 style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
@@ -1008,12 +1203,12 @@ Then, add a message to the message group.<o:p></o:p></span></p>
 <p class=MsoNormal align=center style='margin-bottom:7.5pt;text-align:center;
 line-height:normal'><span style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;
 mso-fareast-font-family:"Times New Roman";color:#444444;mso-no-proof:yes'><!--[if gte vml 1]><v:shape
- id="Picture_x0020_22" o:spid="_x0000_i1045" type="#_x0000_t75" style='width:8in;
+ id="Picture_x0020_22" o:spid="_x0000_i1046" type="#_x0000_t75" style='width:8in;
  height:430.8pt;visibility:visible;mso-wrap-style:square'>
- <v:imagedata src="Instrument%20Addon%20Quick%20Start_files/image004.png"
+ <v:imagedata src="Instrument%20Addon%20Quick%20Start_files/image005.png"
   o:title=""/>
 </v:shape><![endif]--><![if !vml]><img border=0 width=768 height=574
-src="Instrument%20Addon%20Quick%20Start_files/image026.png" v:shapes="Picture_x0020_22"><![endif]></span><span
+src="Instrument%20Addon%20Quick%20Start_files/image006.png" v:shapes="Picture_x0020_22"><![endif]></span><span
 style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
 "Times New Roman";color:#444444'><o:p></o:p></span></p>
 
@@ -1022,12 +1217,12 @@ style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-famil
 "Times New Roman";color:#444444'>A message contains a configurable command
 and&nbsp;response.&nbsp;It also contains five channels for execution and
 status.&nbsp;The Trigger channel executes the message.&nbsp;The Message Status
-reports if the messages <span class=GramE>has</span> finished execution but
-does not indicate success.&nbsp;The Error Code channel indicates if there was
-an error in the execution and does indicate success. The timestamp channel
-returns the last execution time. If the message is configured as
-periodic,&nbsp;the Enable Periodic channel starts and stops generation of
-the&nbsp;message. Otherwise, it is ignored.<o:p></o:p></span></p>
+reports if the messages has finished execution but does not indicate
+success.&nbsp;The Error Code channel indicates if there was an error in the
+execution and does indicate success. The timestamp channel returns the last
+execution time. If the message is configured as periodic,&nbsp;the Enable
+Periodic channel starts and stops generation of the&nbsp;message. Otherwise, it
+is ignored.<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:7.5pt;line-height:normal'><span
 style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
@@ -1038,12 +1233,12 @@ for generation.<o:p></o:p></span></p>
 <p class=MsoNormal align=center style='margin-bottom:7.5pt;text-align:center;
 line-height:normal'><span style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;
 mso-fareast-font-family:"Times New Roman";color:#444444;mso-no-proof:yes'><!--[if gte vml 1]><v:shape
- id="Picture_x0020_21" o:spid="_x0000_i1044" type="#_x0000_t75" style='width:8in;
+ id="Picture_x0020_21" o:spid="_x0000_i1045" type="#_x0000_t75" style='width:8in;
  height:430.8pt;visibility:visible;mso-wrap-style:square'>
- <v:imagedata src="Instrument%20Addon%20Quick%20Start_files/image005.png"
+ <v:imagedata src="Instrument%20Addon%20Quick%20Start_files/image007.png"
   o:title=""/>
 </v:shape><![endif]--><![if !vml]><img border=0 width=768 height=574
-src="Instrument%20Addon%20Quick%20Start_files/image027.jpg" v:shapes="Picture_x0020_21"><![endif]></span><span
+src="Instrument%20Addon%20Quick%20Start_files/image008.jpg" v:shapes="Picture_x0020_21"><![endif]></span><span
 style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
 "Times New Roman";color:#444444'><o:p></o:p></span></p>
 
@@ -1058,14 +1253,13 @@ multiple periodic messages.<o:p></o:p></span></p>
 style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
 "Times New Roman";color:#444444'>Generating messages based on the&nbsp;value
 change of channels within the message is supported (as shown above). This is
-useful with a command like <span class=GramE>VSET:[</span>Level]. Every time
-Level is updated, the message will automatically send. However, this
-generation&nbsp;type can cause issues when not used properly. As an example,
-VSET[Channel<span class=GramE>]:[</span>Level]. In this case, the message would
-send when either Channel or Level was changed. <span class=GramE>In reality, it</span>
-should only generate when&nbsp;<span class=SpellE>when</span> both Channel and
-Level are updated. Otherwise, the wrong channel could be set to the wrong
-level. In this case, use the Trigger type.<o:p></o:p></span></p>
+useful with a command like VSET:[Level]. Every time Level is updated, the
+message will automatically send. However, this generation&nbsp;type can cause
+issues when not used properly. As an example, VSET[Channel]:[Level]. In this case,
+the message would send when either Channel or Level was changed. In reality, it
+should only generate when&nbsp;when both Channel and Level are updated.
+Otherwise, the wrong channel could be set to the wrong level. In this case, use
+the Trigger type.<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:7.5pt;line-height:normal'><span
 style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
@@ -1075,12 +1269,12 @@ include a protection value (checksum or CRC) at the end of the message.<o:p></o:
 <p class=MsoNormal align=center style='margin-bottom:7.5pt;text-align:center;
 line-height:normal'><span style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;
 mso-fareast-font-family:"Times New Roman";color:#444444;mso-no-proof:yes'><!--[if gte vml 1]><v:shape
- id="Picture_x0020_20" o:spid="_x0000_i1043" type="#_x0000_t75" style='width:512.4pt;
+ id="Picture_x0020_20" o:spid="_x0000_i1044" type="#_x0000_t75" style='width:512.4pt;
  height:166.8pt;visibility:visible;mso-wrap-style:square'>
- <v:imagedata src="Instrument%20Addon%20Quick%20Start_files/image006.png"
+ <v:imagedata src="Instrument%20Addon%20Quick%20Start_files/image009.png"
   o:title=""/>
 </v:shape><![endif]--><![if !vml]><img border=0 width=683 height=222
-src="Instrument%20Addon%20Quick%20Start_files/image006.png" v:shapes="Picture_x0020_20"><![endif]></span><span
+src="Instrument%20Addon%20Quick%20Start_files/image009.png" v:shapes="Picture_x0020_20"><![endif]></span><span
 style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
 "Times New Roman";color:#444444'><o:p></o:p></span></p>
 
@@ -1095,37 +1289,37 @@ both.<o:p></o:p></span></p>
 <p class=MsoNormal style='margin-bottom:7.5pt;line-height:normal'><span
 style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
 "Times New Roman";color:#444444'>Next,&nbsp;go to Command and
-configure.&nbsp;Do this by entering in <span class=GramE>a the</span> command
-string.&nbsp;Enter in a static command (VSET1:10.000) or parameterize the
-string with variables using the Add Channel or Add Array button. As an example,
-the configuration below is&nbsp;VSET[Channel<span class=GramE>]:[</span>Level],
-where [Channel] and [Level] are variables linked to VeriStand channels.<o:p></o:p></span></p>
+configure.&nbsp;Do this by entering in a the command string.&nbsp;Enter in a
+static command (VSET1:10.000) or parameterize the string with variables using
+the Add Channel or Add Array button. As an example, the configuration below
+is&nbsp;VSET[Channel]:[Level], where [Channel] and [Level] are variables linked
+to VeriStand channels.<o:p></o:p></span></p>
 
 <p class=MsoNormal align=center style='margin-bottom:7.5pt;text-align:center;
 line-height:normal'><span style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;
 mso-fareast-font-family:"Times New Roman";color:#444444'>&#8203;&#8203;<span
 style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape id="Picture_x0020_19"
- o:spid="_x0000_i1042" type="#_x0000_t75" style='width:8in;height:430.8pt;
+ o:spid="_x0000_i1043" type="#_x0000_t75" style='width:8in;height:430.8pt;
  visibility:visible;mso-wrap-style:square'>
- <v:imagedata src="Instrument%20Addon%20Quick%20Start_files/image007.png"
+ <v:imagedata src="Instrument%20Addon%20Quick%20Start_files/image010.png"
   o:title=""/>
 </v:shape><![endif]--><![if !vml]><img border=0 width=768 height=574
-src="Instrument%20Addon%20Quick%20Start_files/image028.png" v:shapes="Picture_x0020_19"><![endif]></span>&#8203;<o:p></o:p></span></p>
+src="Instrument%20Addon%20Quick%20Start_files/image011.png" v:shapes="Picture_x0020_19"><![endif]></span>&#8203;<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:7.5pt;line-height:normal'><span
 style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
-"Times New Roman";color:#444444'>&#8203;Notice the command supports&nbsp;different
-viewing formats, like Hex.<o:p></o:p></span></p>
+"Times New Roman";color:#444444'>&#8203;Notice the command
+supports&nbsp;different viewing formats, like Hex.<o:p></o:p></span></p>
 
 <p class=MsoNormal align=center style='margin-bottom:7.5pt;text-align:center;
 line-height:normal'><span style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;
 mso-fareast-font-family:"Times New Roman";color:#444444;mso-no-proof:yes'><!--[if gte vml 1]><v:shape
- id="Picture_x0020_18" o:spid="_x0000_i1041" type="#_x0000_t75" style='width:373.2pt;
+ id="Picture_x0020_18" o:spid="_x0000_i1042" type="#_x0000_t75" style='width:373.2pt;
  height:160.2pt;visibility:visible;mso-wrap-style:square'>
- <v:imagedata src="Instrument%20Addon%20Quick%20Start_files/image008.png"
+ <v:imagedata src="Instrument%20Addon%20Quick%20Start_files/image012.png"
   o:title=""/>
 </v:shape><![endif]--><![if !vml]><img border=0 width=498 height=214
-src="Instrument%20Addon%20Quick%20Start_files/image008.png" v:shapes="Picture_x0020_18"><![endif]></span><span
+src="Instrument%20Addon%20Quick%20Start_files/image012.png" v:shapes="Picture_x0020_18"><![endif]></span><span
 style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
 "Times New Roman";color:#444444'><o:p></o:p></span></p>
 
@@ -1137,12 +1331,12 @@ have&nbsp;a fixed message length.<o:p></o:p></span></p>
 <p class=MsoNormal align=center style='margin-bottom:7.5pt;text-align:center;
 line-height:normal'><span style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;
 mso-fareast-font-family:"Times New Roman";color:#444444;mso-no-proof:yes'><!--[if gte vml 1]><v:shape
- id="Picture_x0020_17" o:spid="_x0000_i1040" type="#_x0000_t75" style='width:516.6pt;
+ id="Picture_x0020_17" o:spid="_x0000_i1041" type="#_x0000_t75" style='width:516.6pt;
  height:190.8pt;visibility:visible;mso-wrap-style:square'>
- <v:imagedata src="Instrument%20Addon%20Quick%20Start_files/image009.png"
+ <v:imagedata src="Instrument%20Addon%20Quick%20Start_files/image013.png"
   o:title=""/>
 </v:shape><![endif]--><![if !vml]><img border=0 width=689 height=254
-src="Instrument%20Addon%20Quick%20Start_files/image009.png" v:shapes="Picture_x0020_17"><![endif]></span><span
+src="Instrument%20Addon%20Quick%20Start_files/image013.png" v:shapes="Picture_x0020_17"><![endif]></span><span
 style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
 "Times New Roman";color:#444444'><o:p></o:p></span></p>
 
@@ -1150,36 +1344,35 @@ style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-famil
 style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
 "Times New Roman";color:#444444'>For a command, a&nbsp;global variable&nbsp;or
 command specific variable&nbsp;can be used&nbsp;for
-parameterization.&nbsp;These variables are called metadata.&nbsp;Define the format
-of these channel&nbsp;by selecting it. Below is a numeric to human readable
-string (Format)&nbsp;conversion.<o:p></o:p></span></p>
+parameterization.&nbsp;These variables are called metadata.&nbsp;Define the
+format of these channel&nbsp;by selecting it. Below is a numeric to human
+readable string (Format)&nbsp;conversion.<o:p></o:p></span></p>
 
 <p class=MsoNormal align=center style='margin-bottom:7.5pt;text-align:center;
 line-height:normal'><span style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;
 mso-fareast-font-family:"Times New Roman";color:#444444'>&#8203;&#8203;<span
 style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape id="Picture_x0020_16"
- o:spid="_x0000_i1039" type="#_x0000_t75" style='width:8in;height:430.8pt;
+ o:spid="_x0000_i1040" type="#_x0000_t75" style='width:8in;height:430.8pt;
  visibility:visible;mso-wrap-style:square'>
- <v:imagedata src="Instrument%20Addon%20Quick%20Start_files/image010.png"
+ <v:imagedata src="Instrument%20Addon%20Quick%20Start_files/image014.png"
   o:title=""/>
 </v:shape><![endif]--><![if !vml]><img border=0 width=768 height=574
-src="Instrument%20Addon%20Quick%20Start_files/image029.png" v:shapes="Picture_x0020_16"><![endif]></span><o:p></o:p></span></p>
+src="Instrument%20Addon%20Quick%20Start_files/image015.png" v:shapes="Picture_x0020_16"><![endif]></span><o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:7.5pt;line-height:normal'><span
 style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
 "Times New Roman";color:#444444'>&nbsp;The enumerated list will convert the
-channel value to the configured string (<span class=SpellE>ie</span> 0 = OFF; 1
-= ON<span class=GramE>).&#8203;</span><o:p></o:p></span></p>
+channel value to the configured string (ie 0 = OFF; 1 = ON).&#8203;<o:p></o:p></span></p>
 
 <p class=MsoNormal align=center style='margin-bottom:7.5pt;text-align:center;
 line-height:normal'><span style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;
 mso-fareast-font-family:"Times New Roman";color:#444444;mso-no-proof:yes'><!--[if gte vml 1]><v:shape
- id="Picture_x0020_15" o:spid="_x0000_i1038" type="#_x0000_t75" style='width:8in;
+ id="Picture_x0020_15" o:spid="_x0000_i1039" type="#_x0000_t75" style='width:8in;
  height:430.8pt;visibility:visible;mso-wrap-style:square'>
- <v:imagedata src="Instrument%20Addon%20Quick%20Start_files/image011.png"
+ <v:imagedata src="Instrument%20Addon%20Quick%20Start_files/image016.png"
   o:title=""/>
 </v:shape><![endif]--><![if !vml]><img border=0 width=768 height=574
-src="Instrument%20Addon%20Quick%20Start_files/image030.jpg" v:shapes="Picture_x0020_15"><![endif]></span><span
+src="Instrument%20Addon%20Quick%20Start_files/image017.jpg" v:shapes="Picture_x0020_15"><![endif]></span><span
 style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
 "Times New Roman";color:#444444'>&#8203;<o:p></o:p></span></p>
 
@@ -1192,37 +1385,36 @@ response string format and parameterize it as needed.<o:p></o:p></span></p>
 <p class=MsoNormal align=center style='margin-bottom:7.5pt;text-align:center;
 line-height:normal'><span style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;
 mso-fareast-font-family:"Times New Roman";color:#444444;mso-no-proof:yes'><!--[if gte vml 1]><v:shape
- id="Picture_x0020_14" o:spid="_x0000_i1037" type="#_x0000_t75" style='width:8in;
+ id="Picture_x0020_14" o:spid="_x0000_i1038" type="#_x0000_t75" style='width:8in;
  height:430.8pt;visibility:visible;mso-wrap-style:square'>
- <v:imagedata src="Instrument%20Addon%20Quick%20Start_files/image012.png"
+ <v:imagedata src="Instrument%20Addon%20Quick%20Start_files/image018.png"
   o:title=""/>
 </v:shape><![endif]--><![if !vml]><img border=0 width=768 height=574
-src="Instrument%20Addon%20Quick%20Start_files/image031.jpg" v:shapes="Picture_x0020_14"><![endif]></span><span
+src="Instrument%20Addon%20Quick%20Start_files/image019.jpg" v:shapes="Picture_x0020_14"><![endif]></span><span
 style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
 "Times New Roman";color:#444444'>&#8203;&#8203;&#8203;<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:7.5pt;line-height:normal'><span
 style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
-"Times New Roman";color:#444444'>Make sure to set the wait type. If choosing a
-wait time, be careful that everything can logically execute. As an example, if
-the message's&nbsp;periodic rate is set to 10 <span class=SpellE>ms</span>, but
-a wait time of the response&nbsp;is set to 20 <span class=SpellE>ms</span>,
-overflows or lost data will occur.<o:p></o:p></span></p>
+"Times New Roman";color:#444444'>Make sure to set the wait type. If choosing a wait
+time, be careful that everything can logically execute. As an example, if the
+message's&nbsp;periodic rate is set to 10 ms, but a wait time of the
+response&nbsp;is set to 20 ms, overflows or lost data will occur.<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:7.5pt;line-height:normal'><span
 style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
-"Times New Roman";color:#444444'>&#8203;Again, <span class=GramE>similar to</span>
-command variables, response variables can be configured.<o:p></o:p></span></p>
+"Times New Roman";color:#444444'>&#8203;Again, similar to command variables,
+response variables can be configured.<o:p></o:p></span></p>
 
 <p class=MsoNormal align=center style='margin-bottom:7.5pt;text-align:center;
 line-height:normal'><span style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;
 mso-fareast-font-family:"Times New Roman";color:#444444;mso-no-proof:yes'><!--[if gte vml 1]><v:shape
- id="Picture_x0020_13" o:spid="_x0000_i1036" type="#_x0000_t75" style='width:8in;
+ id="Picture_x0020_13" o:spid="_x0000_i1037" type="#_x0000_t75" style='width:8in;
  height:429.6pt;visibility:visible;mso-wrap-style:square'>
- <v:imagedata src="Instrument%20Addon%20Quick%20Start_files/image013.png"
+ <v:imagedata src="Instrument%20Addon%20Quick%20Start_files/image020.png"
   o:title=""/>
 </v:shape><![endif]--><![if !vml]><img border=0 width=768 height=573
-src="Instrument%20Addon%20Quick%20Start_files/image032.jpg" v:shapes="Picture_x0020_13"><![endif]></span><span
+src="Instrument%20Addon%20Quick%20Start_files/image021.jpg" v:shapes="Picture_x0020_13"><![endif]></span><span
 style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
 "Times New Roman";color:#444444'><o:p></o:p></span></p>
 
@@ -1234,17 +1426,17 @@ style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-famil
 style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
 "Times New Roman";color:#444444'>Once everything is configured, export the
 configuration. This makes it so the&nbsp;messages are defined once and can then
-be easily&nbsp;re-used in any other <span class=GramE>configurations.&#8203;</span><o:p></o:p></span></p>
+be easily&nbsp;re-used in any other configurations.&#8203;<o:p></o:p></span></p>
 
 <p class=MsoNormal align=center style='margin-bottom:7.5pt;text-align:center;
 line-height:normal'><span style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;
 mso-fareast-font-family:"Times New Roman";color:#444444;mso-no-proof:yes'><!--[if gte vml 1]><v:shape
- id="Picture_x0020_12" o:spid="_x0000_i1035" type="#_x0000_t75" style='width:206.4pt;
+ id="Picture_x0020_12" o:spid="_x0000_i1036" type="#_x0000_t75" style='width:206.4pt;
  height:123.6pt;visibility:visible;mso-wrap-style:square'>
- <v:imagedata src="Instrument%20Addon%20Quick%20Start_files/image014.png"
+ <v:imagedata src="Instrument%20Addon%20Quick%20Start_files/image022.png"
   o:title=""/>
 </v:shape><![endif]--><![if !vml]><img border=0 width=275 height=165
-src="Instrument%20Addon%20Quick%20Start_files/image014.png" v:shapes="Picture_x0020_12"><![endif]></span><span
+src="Instrument%20Addon%20Quick%20Start_files/image022.png" v:shapes="Picture_x0020_12"><![endif]></span><span
 style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
 "Times New Roman";color:#444444'><o:p></o:p></span></p>
 
@@ -1261,12 +1453,12 @@ user interface, drag and drop messages&nbsp;as sections.<o:p></o:p></span></p>
 <p class=MsoNormal align=center style='margin-bottom:7.5pt;text-align:center;
 line-height:normal'><span style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;
 mso-fareast-font-family:"Times New Roman";color:#444444;mso-no-proof:yes'><!--[if gte vml 1]><v:shape
- id="Picture_x0020_11" o:spid="_x0000_i1034" type="#_x0000_t75" style='width:441pt;
+ id="Picture_x0020_11" o:spid="_x0000_i1035" type="#_x0000_t75" style='width:441pt;
  height:6in;visibility:visible;mso-wrap-style:square'>
- <v:imagedata src="Instrument%20Addon%20Quick%20Start_files/image015.png"
+ <v:imagedata src="Instrument%20Addon%20Quick%20Start_files/image023.png"
   o:title=""/>
 </v:shape><![endif]--><![if !vml]><img border=0 width=588 height=576
-src="Instrument%20Addon%20Quick%20Start_files/image033.jpg" v:shapes="Picture_x0020_11"><![endif]></span><span
+src="Instrument%20Addon%20Quick%20Start_files/image024.jpg" v:shapes="Picture_x0020_11"><![endif]></span><span
 style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
 "Times New Roman";color:#444444'>&nbsp;<o:p></o:p></span></p>
 
@@ -1279,50 +1471,65 @@ empty containers.<o:p></o:p></span></p>
 <p class=MsoNormal align=center style='margin-bottom:7.5pt;text-align:center;
 line-height:normal'><span style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;
 mso-fareast-font-family:"Times New Roman";color:#444444;mso-no-proof:yes'><!--[if gte vml 1]><v:shape
- id="Picture_x0020_10" o:spid="_x0000_i1033" type="#_x0000_t75" style='width:320.4pt;
+ id="Picture_x0020_10" o:spid="_x0000_i1034" type="#_x0000_t75" style='width:320.4pt;
  height:330.6pt;visibility:visible;mso-wrap-style:square'>
- <v:imagedata src="Instrument%20Addon%20Quick%20Start_files/image016.png"
+ <v:imagedata src="Instrument%20Addon%20Quick%20Start_files/image025.png"
   o:title=""/>
 </v:shape><![endif]--><![if !vml]><img border=0 width=427 height=441
-src="Instrument%20Addon%20Quick%20Start_files/image016.png" v:shapes="Picture_x0020_10"><![endif]></span><span
+src="Instrument%20Addon%20Quick%20Start_files/image025.png" v:shapes="Picture_x0020_10"><![endif]></span><span
 style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
 "Times New Roman";color:#444444'>&nbsp;<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:7.5pt;line-height:normal'><span
 style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
 "Times New Roman";color:#444444'>Use the&nbsp;Message Channels to execute and
-control the messages.&nbsp;Use Trigger to force a message to be
-executed&#8203;.&nbsp;Use Enable Periodic to stop and start and periodically
-generated messages. As an example, to send a message with the command OUT[CH<span
-class=GramE>]:[</span>ENABLE], write the desired values to CH and ENABLE,
-then&nbsp;set Trigger to 1.<o:p></o:p></span></p>
+control the messages.&nbsp;Use Trigger to force a message to be executed&#8203;.&nbsp;Use
+Enable Periodic to stop and start and periodically generated messages. As an
+example, to send a message with the command OUT[CH]:[ENABLE], write the desired
+values to CH and ENABLE, then&nbsp;set Trigger to 1.<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:7.5pt;line-height:normal'><span
 style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
 "Times New Roman";color:#444444'>Certain channels can be added as Rings to show
-text. A metadata&nbsp;channel of type <span class=SpellE>enum</span>&nbsp;supports&nbsp;this.<o:p></o:p></span></p>
+text. A metadata&nbsp;channel of type enum&nbsp;supports&nbsp;this.<o:p></o:p></span></p>
 
 <p class=MsoNormal align=center style='margin-bottom:7.5pt;text-align:center;
 line-height:normal'><span style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;
 mso-fareast-font-family:"Times New Roman";color:#444444;mso-no-proof:yes'><!--[if gte vml 1]><v:shape
- id="Picture_x0020_9" o:spid="_x0000_i1032" type="#_x0000_t75" style='width:490.8pt;
+ id="Picture_x0020_9" o:spid="_x0000_i1033" type="#_x0000_t75" style='width:490.8pt;
  height:273pt;visibility:visible;mso-wrap-style:square'>
- <v:imagedata src="Instrument%20Addon%20Quick%20Start_files/image017.png"
+ <v:imagedata src="Instrument%20Addon%20Quick%20Start_files/image026.png"
   o:title=""/>
 </v:shape><![endif]--><![if !vml]><img border=0 width=654 height=364
-src="Instrument%20Addon%20Quick%20Start_files/image017.png" v:shapes="Picture_x0020_9"><![endif]></span><span
+src="Instrument%20Addon%20Quick%20Start_files/image026.png" v:shapes="Picture_x0020_9"><![endif]></span><span
 style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
 "Times New Roman";color:#444444'><o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:7.5pt;line-height:normal'><span
 style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
-"Times New Roman";color:#444444'>Use Message Status and Error Code to sequence
-through a series of messages. For example, trigger a message and wait for
-Message Status to be true.&nbsp;This means that the message was executed. Then
-check Error Code.&nbsp;If Error Code is 0, the message was successfully
-sent.&nbsp;Then go on to trigger the next <span class=GramE>message.&#8203;</span>
-Timestamp can be used in a similar fashion. Trigger a message, wait for
-Timestamp to change, check Error Code.<o:p></o:p></span></p>
+"Times New Roman";color:#444444'>So do error code&nbsp;channels.&#8203;<o:p></o:p></span></p>
+
+<p class=MsoNormal align=center style='margin-bottom:7.5pt;text-align:center;
+line-height:normal'><span style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;
+mso-fareast-font-family:"Times New Roman";color:#444444;mso-no-proof:yes'><!--[if gte vml 1]><v:shape
+ id="Picture_x0020_27" o:spid="_x0000_i1032" type="#_x0000_t75" style='width:748.2pt;
+ height:388.8pt;visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="Instrument%20Addon%20Quick%20Start_files/image027.png"
+  o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=998 height=518
+src="Instrument%20Addon%20Quick%20Start_files/image028.jpg" v:shapes="Picture_x0020_27"><![endif]></span><span
+style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+"Times New Roman";color:#444444'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;line-height:normal'><span
+style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+"Times New Roman";color:#444444'>Use Message Status and Error Code to sequence through
+a series of messages. For example, trigger a message and wait for Message
+Status to be true.&nbsp;This means that the message was executed. Then check
+Error Code.&nbsp;If Error Code is 0, the message was successfully
+sent.&nbsp;Then go on to trigger the next message.&#8203; Timestamp can be used
+in a similar fashion. Trigger a message, wait for Timestamp to change, check
+Error Code.<o:p></o:p></span></p>
 
 <p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
 line-height:normal;mso-outline-level:2'><span style='font-size:17.5pt;
@@ -1340,10 +1547,10 @@ line-height:normal'><span style='font-size:10.0pt;font-family:"Segoe UI",sans-se
 mso-fareast-font-family:"Times New Roman";color:#444444;mso-no-proof:yes'><!--[if gte vml 1]><v:shape
  id="Picture_x0020_8" o:spid="_x0000_i1031" type="#_x0000_t75" style='width:863.4pt;
  height:315pt;visibility:visible;mso-wrap-style:square'>
- <v:imagedata src="Instrument%20Addon%20Quick%20Start_files/image018.png"
+ <v:imagedata src="Instrument%20Addon%20Quick%20Start_files/image029.png"
   o:title=""/>
 </v:shape><![endif]--><![if !vml]><img border=0 width=1151 height=420
-src="Instrument%20Addon%20Quick%20Start_files/image034.jpg" v:shapes="Picture_x0020_8"><![endif]></span><span
+src="Instrument%20Addon%20Quick%20Start_files/image030.jpg" v:shapes="Picture_x0020_8"><![endif]></span><span
 style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
 "Times New Roman";color:#444444'><o:p></o:p></span></p>
 
@@ -1357,44 +1564,44 @@ line-height:normal'><span style='font-size:10.0pt;font-family:"Segoe UI",sans-se
 mso-fareast-font-family:"Times New Roman";color:#444444;mso-no-proof:yes'><!--[if gte vml 1]><v:shape
  id="Picture_x0020_7" o:spid="_x0000_i1030" type="#_x0000_t75" style='width:12in;
  height:156pt;visibility:visible;mso-wrap-style:square'>
- <v:imagedata src="Instrument%20Addon%20Quick%20Start_files/image019.png"
+ <v:imagedata src="Instrument%20Addon%20Quick%20Start_files/image031.png"
   o:title=""/>
 </v:shape><![endif]--><![if !vml]><img border=0 width=1152 height=208
-src="Instrument%20Addon%20Quick%20Start_files/image035.jpg" v:shapes="Picture_x0020_7"><![endif]></span><span
+src="Instrument%20Addon%20Quick%20Start_files/image032.jpg" v:shapes="Picture_x0020_7"><![endif]></span><span
 style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
 "Times New Roman";color:#444444'><o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:7.5pt;line-height:normal'><span
 style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
 "Times New Roman";color:#444444'>Click open on the file or select the
-configured button to launch the <span class=GramE>tool.&#8203;</span><o:p></o:p></span></p>
+configured button to launch the tool.&#8203;<o:p></o:p></span></p>
 
 <p class=MsoNormal align=center style='margin-bottom:7.5pt;text-align:center;
 line-height:normal'><span style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;
 mso-fareast-font-family:"Times New Roman";color:#444444;mso-no-proof:yes'><!--[if gte vml 1]><v:shape
  id="Picture_x0020_6" o:spid="_x0000_i1029" type="#_x0000_t75" style='width:308.4pt;
  height:321.6pt;visibility:visible;mso-wrap-style:square'>
- <v:imagedata src="Instrument%20Addon%20Quick%20Start_files/image020.png"
+ <v:imagedata src="Instrument%20Addon%20Quick%20Start_files/image033.png"
   o:title=""/>
 </v:shape><![endif]--><![if !vml]><img border=0 width=411 height=429
-src="Instrument%20Addon%20Quick%20Start_files/image020.png" v:shapes="Picture_x0020_6"><![endif]></span><span
+src="Instrument%20Addon%20Quick%20Start_files/image033.png" v:shapes="Picture_x0020_6"><![endif]></span><span
 style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
 "Times New Roman";color:#444444'><o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:7.5pt;line-height:normal'><span
 style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
 "Times New Roman";color:#444444'>Select File &gt;&gt; Configure and select the
-desired <span class=GramE>addon.&#8203;</span><o:p></o:p></span></p>
+desired addon.&#8203;<o:p></o:p></span></p>
 
 <p class=MsoNormal align=center style='margin-bottom:7.5pt;text-align:center;
 line-height:normal'><span style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;
 mso-fareast-font-family:"Times New Roman";color:#444444;mso-no-proof:yes'><!--[if gte vml 1]><v:shape
  id="Picture_x0020_5" o:spid="_x0000_i1028" type="#_x0000_t75" style='width:222.6pt;
  height:204.6pt;visibility:visible;mso-wrap-style:square'>
- <v:imagedata src="Instrument%20Addon%20Quick%20Start_files/image021.png"
+ <v:imagedata src="Instrument%20Addon%20Quick%20Start_files/image034.png"
   o:title=""/>
 </v:shape><![endif]--><![if !vml]><img border=0 width=297 height=273
-src="Instrument%20Addon%20Quick%20Start_files/image021.png" v:shapes="Picture_x0020_5"><![endif]></span><span
+src="Instrument%20Addon%20Quick%20Start_files/image034.png" v:shapes="Picture_x0020_5"><![endif]></span><span
 style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
 "Times New Roman";color:#444444'><o:p></o:p></span></p>
 
@@ -1416,10 +1623,10 @@ line-height:normal'><span style='font-size:10.0pt;font-family:"Segoe UI",sans-se
 mso-fareast-font-family:"Times New Roman";color:#444444;mso-no-proof:yes'><!--[if gte vml 1]><v:shape
  id="Picture_x0020_4" o:spid="_x0000_i1027" type="#_x0000_t75" style='width:308.4pt;
  height:321.6pt;visibility:visible;mso-wrap-style:square'>
- <v:imagedata src="Instrument%20Addon%20Quick%20Start_files/image022.png"
+ <v:imagedata src="Instrument%20Addon%20Quick%20Start_files/image035.png"
   o:title=""/>
 </v:shape><![endif]--><![if !vml]><img border=0 width=411 height=429
-src="Instrument%20Addon%20Quick%20Start_files/image022.png" v:shapes="Picture_x0020_4"><![endif]></span><span
+src="Instrument%20Addon%20Quick%20Start_files/image035.png" v:shapes="Picture_x0020_4"><![endif]></span><span
 style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
 "Times New Roman";color:#444444'><o:p></o:p></span></p>
 
@@ -1430,15 +1637,15 @@ color:#0072C6'>Host Automation API<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:7.5pt;line-height:normal'><span
 style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
-"Times New Roman";color:#444444'>In addition to the above items, there is an
-automation API that can be used from Windows to initiate commands with the
+"Times New Roman";color:#444444'>In addition to the above items, there is an automation
+API that can be used from Windows to initiate commands with the
 add-on.&nbsp;This is installed at:<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:7.5pt;line-height:normal'><span
 style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
 "Times New Roman";color:#444444'>C:\Users\Public\Documents\National
-Instruments\NI VeriStand &lt;Year&gt;\Custom Devices\Instrument Addon\Windows\Host
-Automation API<o:p></o:p></span></p>
+Instruments\NI VeriStand &lt;Year&gt;\Custom Devices\Instrument
+Addon\Windows\Host Automation API<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:7.5pt;line-height:normal'><span
 style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
@@ -1449,10 +1656,10 @@ line-height:normal'><span style='font-size:10.0pt;font-family:"Segoe UI",sans-se
 mso-fareast-font-family:"Times New Roman";color:#444444;mso-no-proof:yes'><!--[if gte vml 1]><v:shape
  id="Picture_x0020_3" o:spid="_x0000_i1026" type="#_x0000_t75" style='width:420.6pt;
  height:125.4pt;visibility:visible;mso-wrap-style:square'>
- <v:imagedata src="Instrument%20Addon%20Quick%20Start_files/image023.png"
+ <v:imagedata src="Instrument%20Addon%20Quick%20Start_files/image036.png"
   o:title=""/>
 </v:shape><![endif]--><![if !vml]><img border=0 width=561 height=167
-src="Instrument%20Addon%20Quick%20Start_files/image023.png" v:shapes="Picture_x0020_3"><![endif]></span><span
+src="Instrument%20Addon%20Quick%20Start_files/image036.png" v:shapes="Picture_x0020_3"><![endif]></span><span
 style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
 "Times New Roman";color:#444444'>&nbsp;<o:p></o:p></span></p>
 
@@ -1470,9 +1677,8 @@ color:#0072C6'>System Definition API<o:p></o:p></span></p>
 <p class=MsoNormal style='margin-bottom:7.5pt;line-height:normal'><span
 style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
 "Times New Roman";color:#444444'>There is also a system definition API that
-allows the user to <span class=SpellE>programatically</span> create an instance
-of the addon&nbsp;from a previously exported configuration.&nbsp;This&nbsp;is
-installed at:<o:p></o:p></span></p>
+allows the user to programatically create an instance of the addon&nbsp;from a
+previously exported configuration.&nbsp;This&nbsp;is installed at:<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:7.5pt;line-height:normal'><span
 style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
@@ -1482,8 +1688,7 @@ Devices\Instrument&nbsp;Addon\Windows\System Definition&nbsp;API<o:p></o:p></spa
 
 <p class=MsoNormal style='margin-bottom:7.5pt;line-height:normal'><span
 style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
-"Times New Roman";color:#444444'>An example of using this API is as <span
-class=GramE>follows:&#8203;</span>&#8203;&#8203;<o:p></o:p></span></p>
+"Times New Roman";color:#444444'>An example of using this API is as follows:&#8203;&#8203;&#8203;<o:p></o:p></span></p>
 
 <p class=MsoNormal align=center style='margin-bottom:7.5pt;text-align:center;
 line-height:normal'><span style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;
@@ -1491,10 +1696,10 @@ mso-fareast-font-family:"Times New Roman";color:#444444'>&#8203;<span
 style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape id="Picture_x0020_2"
  o:spid="_x0000_i1025" type="#_x0000_t75" style='width:863.4pt;height:121.8pt;
  visibility:visible;mso-wrap-style:square'>
- <v:imagedata src="Instrument%20Addon%20Quick%20Start_files/image024.png"
+ <v:imagedata src="Instrument%20Addon%20Quick%20Start_files/image037.png"
   o:title=""/>
 </v:shape><![endif]--><![if !vml]><img border=0 width=1151 height=162
-src="Instrument%20Addon%20Quick%20Start_files/image036.jpg" v:shapes="Picture_x0020_2"><![endif]></span>&nbsp;<o:p></o:p></span></p>
+src="Instrument%20Addon%20Quick%20Start_files/image038.jpg" v:shapes="Picture_x0020_2"><![endif]></span>&nbsp;<o:p></o:p></span></p>
 
 </div>
 
