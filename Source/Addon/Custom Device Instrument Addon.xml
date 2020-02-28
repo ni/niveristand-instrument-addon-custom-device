@@ -5,7 +5,7 @@
     <eng>Instrument Addon</eng>
     <loc>Instrument Addon</loc>
   </AddMenu>
-  <Version>1.5.4.0</Version>
+  <Version>1.5.4</Version>
   <Type>Inline HW Interface</Type>
   <MaxOccurrence>-1</MaxOccurrence>
   <MainPageGUID>5a19fd09-df16-47f0-8250-c59b5cb8c757</MainPageGUID>
