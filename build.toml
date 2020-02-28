@@ -89,7 +89,7 @@ dependency_target = 'pharlap'
 
 [package]
 type = 'nipkg'
-name = 'instrument-addon-{veristand_version}'
+name = 'ni-instrument-addon-{veristand_version}'
 dev_xml_path = 'Source\Addon\Custom Device Instrument Addon.xml'
 install_destination = 'documents\National Instruments\NI VeriStand {veristand_version}'
 
