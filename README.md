@@ -1,11 +1,19 @@
-Instrument-Custom-Device
+Instrument-Addon
 ========================
+
+### Description ###
 
 This addon allows the user to define instrument commands generically.  NI-VISA(GPIB, RS232, RS485, RS422), TCP, UDP, AK TCP, and AK RS232 are supported base protocols. The communication structure should be command response.  Meaning that the instrument doesn't initiate any of the communications.  Communication rates should be for 10s of Hz.
 
-### LabVIEW Version ###
+### Help ###
 
-LabVIEW 2019.
+Quick Start Documentation is at
+
+Built: C:\Users\Public\Documents\National Instruments\NI VeriStand (Year)\Custom Devices\Instrument Addon\Windows\Quick Start Documentation
+
+Source: Source\Addon\Support Files\Quick Start Documentation
+
+Help is also included in most System Explorer sections.
 
 ### Built Availability ###
 
@@ -24,6 +32,10 @@ IP has been tested by developer. It meets VeriStand addon coding best practices.
 Addon does not support push messaging, meaning the instrument can't send unsolicited messages.
 
 Addon is intended for slower rates, though the addon supports decimation so the NI VeriStand PCL can still be fast.
+
+### Source Version ###
+
+LabVIEW 2019
 
 ### Source Dependencies ###
 
