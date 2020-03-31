@@ -1,6 +1,6 @@
-- [ ] This contribution adheres to [CONTRIBUTING.md](https://github.com/ni/niveristand-routing-and-faulting-custom-device/blob/master/CONTRIBUTING.md).
+- [ ] This contribution adheres to [CONTRIBUTING.md](https://github.com/ni/niveristand-instrument-addon-custom-device/blob/master/CONTRIBUTING.md).
 
-TODO: Check the above box with an 'x' indicating you've read and followed [CONTRIBUTING.md](https://github.com/ni/niveristand-routing-and-faulting-custom-device/blob/master/CONTRIBUTING.md).
+TODO: Check the above box with an 'x' indicating you've read and followed [CONTRIBUTING.md](https://github.com/ni/niveristand-instrument-addon-custom-device/blob/master/CONTRIBUTING.md).
 
 ### What does this Pull Request accomplish?
 
