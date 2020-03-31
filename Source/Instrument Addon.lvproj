@@ -83,7 +83,7 @@
 		</Item>
 		<Item Name="Tests" Type="Folder">
 			<Item Name="Unit" Type="Folder">
-				<Item Name="Addon Unit Tests.lvclass" Type="LVClass" URL="../Tests/Unit Tests/Addon Unit Tests.lvclass"/>
+				<Item Name="Instrument Addon Unit Tests.lvclass" Type="LVClass" URL="../Tests/Unit Tests/Instrument Addon Unit Tests.lvclass"/>
 			</Item>
 		</Item>
 		<Item Name="UIs" Type="Folder">
