@@ -136,6 +136,8 @@
 				<Item Name="cluster_Graph Plot Settings.ctl" Type="VI" URL="/&lt;vilib&gt;/NI VeriStand/Display Template Support/DisplayTemplateSupport.llb/cluster_Graph Plot Settings.ctl"/>
 				<Item Name="cluster_Graph Scale Settings.ctl" Type="VI" URL="/&lt;vilib&gt;/NI VeriStand/Display Template Support/DisplayTemplateSupport.llb/cluster_Graph Scale Settings.ctl"/>
 				<Item Name="cluster_Screen Item Settings.ctl" Type="VI" URL="/&lt;vilib&gt;/NI VeriStand/Display Template Support/DisplayTemplateSupport.llb/cluster_Screen Item Settings.ctl"/>
+				<Item Name="Comm Command Engine.vi" Type="VI" URL="/&lt;vilib&gt;/NI/NI VeriStand Addon Network Comm/Engine/_subVIs/Comm Command Engine.vi"/>
+				<Item Name="Comm Connection Engine.vi" Type="VI" URL="/&lt;vilib&gt;/NI/NI VeriStand Addon Network Comm/Engine/_subVIs/Comm Connection Engine.vi"/>
 				<Item Name="Comm Constants.vi" Type="VI" URL="/&lt;vilib&gt;/NI/NI VeriStand Addon Network Comm/Shared/Comm Constants.vi"/>
 				<Item Name="Comm Send and Receive.vi" Type="VI" URL="/&lt;vilib&gt;/NI/NI VeriStand Addon Network Comm/Shared/Comm Send and Receive.vi"/>
 				<Item Name="Compare Two Paths.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Compare Two Paths.vi"/>
@@ -168,6 +170,7 @@
 				<Item Name="Convert EOLs__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Convert EOLs__ogtk__jki_vi_tester.vi"/>
 				<Item Name="Convert property node font to graphics font.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Convert property node font to graphics font.vi"/>
 				<Item Name="Create Message Queue.vi" Type="VI" URL="/&lt;vilib&gt;/NI/AMC/Create Message Queue.vi"/>
+				<Item Name="Create Single Message.vi" Type="VI" URL="/&lt;vilib&gt;/NI/AMC/Create Single Message.vi"/>
 				<Item Name="Custom Device API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device API/Custom Device API.lvlib"/>
 				<Item Name="Custom Device Utility Library.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device Tools/Custom Device Utility Library/Custom Device Utility Library.lvlib"/>
 				<Item Name="Data Access Engine.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_Data Access Engine/Data Access Engine.lvlib"/>
@@ -273,7 +276,9 @@
 				<Item Name="Format Variant Into String__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Format Variant Into String__ogtk__jki_vi_tester.vi"/>
 				<Item Name="General Error Handler Core CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler Core CORE.vi"/>
 				<Item Name="General Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler.vi"/>
+				<Item Name="Generate STM Error.vi" Type="VI" URL="/&lt;vilib&gt;/NI/STM/SubVIs/Generate STM Error.vi"/>
 				<Item Name="Get Array Element TDEnum__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Get Array Element TDEnum__ogtk__jki_vi_tester.vi"/>
+				<Item Name="Get Case Matching.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Tools/String/Get Case Matching.vi"/>
 				<Item Name="Get Connection Reference (TCP).vi" Type="VI" URL="/&lt;vilib&gt;/NI/STM/TCP/Get Connection Reference (TCP).vi"/>
 				<Item Name="Get Connection Reference.vi" Type="VI" URL="/&lt;vilib&gt;/NI/STM/Get Connection Reference.vi"/>
 				<Item Name="Get Data Name from TD__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Get Data Name from TD__ogtk__jki_vi_tester.vi"/>
@@ -297,8 +302,10 @@
 				<Item Name="Get Waveform Type Enum from TD__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Get Waveform Type Enum from TD__ogtk__jki_vi_tester.vi"/>
 				<Item Name="GetHelpDir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetHelpDir.vi"/>
 				<Item Name="GetRTHostConnectedProp.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetRTHostConnectedProp.vi"/>
+				<Item Name="Globals.vi" Type="VI" URL="/&lt;vilib&gt;/NI/AMC/Globals.vi"/>
 				<Item Name="imagedata.ctl" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/imagedata.ctl"/>
 				<Item Name="ImportExport.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NI VeriStand Custom Device Import and Export Tool/ImportExport.lvlib"/>
+				<Item Name="Index.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Tools/Keyed Array/Index.vi"/>
 				<Item Name="Initialize Comm Refs.vi" Type="VI" URL="/&lt;vilib&gt;/NI/NI VeriStand Addon Network Comm/Engine/Process/Initialize Comm Refs.vi"/>
 				<Item Name="Is an Error (any error array element)__jki_lib_error_handling VI Tester__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Is an Error (any error array element)__jki_lib_error_handling VI Tester__jki_vi_tester.vi"/>
 				<Item Name="Is an Error (error array)__jki_lib_error_handling -- VI Tester__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Is an Error (error array)__jki_lib_error_handling -- VI Tester__jki_vi_tester.vi"/>
@@ -314,6 +321,7 @@
 				<Item Name="LVNumericRepresentation.ctl" Type="VI" URL="/&lt;vilib&gt;/numeric/LVNumericRepresentation.ctl"/>
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
 				<Item Name="Main Comm Loops.vi" Type="VI" URL="/&lt;vilib&gt;/NI/NI VeriStand Addon Network Comm/Engine/Process/Main Comm Loops.vi"/>
+				<Item Name="Map String.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Tools/Keyed Array/Map String.vi"/>
 				<Item Name="MergeError.vi" Type="VI" URL="/&lt;vilib&gt;/NI VeriStand/Execution/Shared/MergeError.vi"/>
 				<Item Name="Message Queue.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/AMC/Message Queue.ctl"/>
 				<Item Name="Message.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/AMC/Message.ctl"/>
@@ -329,7 +337,13 @@
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
 				<Item Name="Random Number - Within Range__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Random Number - Within Range__ogtk__jki_vi_tester.vi"/>
 				<Item Name="Read Command.vi" Type="VI" URL="/&lt;vilib&gt;/NI/NI VeriStand Addon Network Comm/Engine/Comm API/Read Command.vi"/>
+				<Item Name="Read Message (TCP).vi" Type="VI" URL="/&lt;vilib&gt;/NI/STM/TCP/Read Message (TCP).vi"/>
+				<Item Name="Read Message.vi" Type="VI" URL="/&lt;vilib&gt;/NI/STM/Read Message.vi"/>
+				<Item Name="Read Meta Data (TCP Clst).vi" Type="VI" URL="/&lt;vilib&gt;/NI/STM/TCP/Read Meta Data (TCP Clst).vi"/>
+				<Item Name="Read Meta Data (TCP Ref).vi" Type="VI" URL="/&lt;vilib&gt;/NI/STM/TCP/Read Meta Data (TCP Ref).vi"/>
+				<Item Name="Read Meta Data.vi" Type="VI" URL="/&lt;vilib&gt;/NI/STM/Read Meta Data.vi"/>
 				<Item Name="Read Next Message.vi" Type="VI" URL="/&lt;vilib&gt;/NI/AMC/Read Next Message.vi"/>
+				<Item Name="Read Termination Message.vi" Type="VI" URL="/&lt;vilib&gt;/NI/AMC/Read Termination Message.vi"/>
 				<Item Name="Recursive File List.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Recursive File List.vi"/>
 				<Item Name="ref_Display Template Handler RunPauseStop.ctl" Type="VI" URL="/&lt;vilib&gt;/NI VeriStand/Display Template Support/DisplayTemplateSupport.llb/ref_Display Template Handler RunPauseStop.ctl"/>
 				<Item Name="Refnum Subtype Enum__ogtk__jki_vi_tester.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Refnum Subtype Enum__ogtk__jki_vi_tester.ctl"/>
@@ -421,6 +435,8 @@
 				<Item Name="Search or Split String__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Search or Split String__ogtk__jki_vi_tester.vi"/>
 				<Item Name="Select Device Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/NI/NI VeriStand Hardware Resource Discovery/Select Device Dialog.vi"/>
 				<Item Name="Send Command.vi" Type="VI" URL="/&lt;vilib&gt;/NI/NI VeriStand Addon Network Comm/Engine/Comm API/Send Command.vi"/>
+				<Item Name="Send Local Message.vi" Type="VI" URL="/&lt;vilib&gt;/NI/AMC/Send Local Message.vi"/>
+				<Item Name="Send Message.vi" Type="VI" URL="/&lt;vilib&gt;/NI/AMC/Send Message.vi"/>
 				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
 				<Item Name="Set Busy.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Busy.vi"/>
 				<Item Name="Set Cursor (Cursor ID).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Cursor (Cursor ID).vi"/>
@@ -484,7 +500,10 @@
 				<Item Name="System Directory Type.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/sysdir.llb/System Directory Type.ctl"/>
 				<Item Name="System Exec.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/System Exec.vi"/>
 				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
+				<Item Name="TCP Check Connection (By Reference).vi" Type="VI" URL="/&lt;vilib&gt;/NI/STM/Connection Manager/TCP/Advanced/TCP Check Connection (By Reference).vi"/>
 				<Item Name="TCP Connection Info.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/STM/TCP/TCP Connection Info.ctl"/>
+				<Item Name="TCP Connection Manager (By Reference).vi" Type="VI" URL="/&lt;vilib&gt;/NI/STM/Connection Manager/TCP/Advanced/TCP Connection Manager (By Reference).vi"/>
+				<Item Name="TCP Initialize Connection Manager (By Reference).vi" Type="VI" URL="/&lt;vilib&gt;/NI/STM/Connection Manager/TCP/Advanced/TCP Initialize Connection Manager (By Reference).vi"/>
 				<Item Name="TestCase.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/TestCase.llb/TestCase.lvclass"/>
 				<Item Name="TestLoader.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/TestLoader.llb/TestLoader.lvclass"/>
 				<Item Name="TestResult.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/TestResult.llb/TestResult.lvclass"/>
@@ -499,13 +518,17 @@
 				<Item Name="Type Descriptor Header__ogtk__jki_vi_tester.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Type Descriptor Header__ogtk__jki_vi_tester.ctl"/>
 				<Item Name="Type Descriptor__ogtk__jki_vi_tester.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Type Descriptor__ogtk__jki_vi_tester.ctl"/>
 				<Item Name="Unset Busy.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Unset Busy.vi"/>
+				<Item Name="Update Message Routing Info.vi" Type="VI" URL="/&lt;vilib&gt;/NI/AMC/Update Message Routing Info.vi"/>
 				<Item Name="Variant to Header Info__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Variant to Header Info__ogtk__jki_vi_tester.vi"/>
 				<Item Name="VariantType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/VariantDataType/VariantType.lvlib"/>
+				<Item Name="VeriStand Comm.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/NI VeriStand Addon Network Comm/Engine/VeriStand Comm.lvclass/VeriStand Comm.ctl"/>
 				<Item Name="VeriStand Comm.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/NI VeriStand Addon Network Comm/Engine/VeriStand Comm.lvclass"/>
 				<Item Name="VITesterUtilities.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/VITesterUtilities.lvlib"/>
 				<Item Name="VS Inline Async API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_VS Inline Async API/VS Inline Async API.lvlib"/>
 				<Item Name="Waveform Subtype Enum__ogtk__jki_vi_tester.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Waveform Subtype Enum__ogtk__jki_vi_tester.ctl"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
+				<Item Name="Write Message (TCP).vi" Type="VI" URL="/&lt;vilib&gt;/NI/STM/TCP/Write Message (TCP).vi"/>
+				<Item Name="Write Message.vi" Type="VI" URL="/&lt;vilib&gt;/NI/STM/Write Message.vi"/>
 				<Item Name="Write Meta Data (TCP Clst).vi" Type="VI" URL="/&lt;vilib&gt;/NI/STM/TCP/Write Meta Data (TCP Clst).vi"/>
 				<Item Name="Write Meta Data (TCP Ref).vi" Type="VI" URL="/&lt;vilib&gt;/NI/STM/TCP/Write Meta Data (TCP Ref).vi"/>
 				<Item Name="Write Meta Data.vi" Type="VI" URL="/&lt;vilib&gt;/NI/STM/Write Meta Data.vi"/>
@@ -1161,8 +1184,11 @@
 				<Item Name="Advanced System Definition.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NI VeriStand Advanced SysDef API/SysDef API/Advanced System Definition.lvlib"/>
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 				<Item Name="Close Comm Refs.vi" Type="VI" URL="/&lt;vilib&gt;/NI/NI VeriStand Addon Network Comm/Engine/Process/Close Comm Refs.vi"/>
+				<Item Name="Comm Command Engine.vi" Type="VI" URL="/&lt;vilib&gt;/NI/NI VeriStand Addon Network Comm/Engine/_subVIs/Comm Command Engine.vi"/>
+				<Item Name="Comm Connection Engine.vi" Type="VI" URL="/&lt;vilib&gt;/NI/NI VeriStand Addon Network Comm/Engine/_subVIs/Comm Connection Engine.vi"/>
 				<Item Name="Comm Constants.vi" Type="VI" URL="/&lt;vilib&gt;/NI/NI VeriStand Addon Network Comm/Shared/Comm Constants.vi"/>
 				<Item Name="Create Message Queue.vi" Type="VI" URL="/&lt;vilib&gt;/NI/AMC/Create Message Queue.vi"/>
+				<Item Name="Create Single Message.vi" Type="VI" URL="/&lt;vilib&gt;/NI/AMC/Create Single Message.vi"/>
 				<Item Name="Custom Device API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device API/Custom Device API.lvlib"/>
 				<Item Name="Custom Device Utility Library.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device Tools/Custom Device Utility Library/Custom Device Utility Library.lvlib"/>
 				<Item Name="Data Access Engine.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_Data Access Engine/Data Access Engine.lvlib"/>
@@ -1171,30 +1197,52 @@
 				<Item Name="Error Code Database.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Code Database.vi"/>
 				<Item Name="Error Handling Settings.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_VS Inline Async API/VS Inline Async API/Types/Error Handling Settings.ctl"/>
 				<Item Name="Find Tag.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find Tag.vi"/>
+				<Item Name="Generate STM Error.vi" Type="VI" URL="/&lt;vilib&gt;/NI/STM/SubVIs/Generate STM Error.vi"/>
+				<Item Name="Get Case Matching.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Tools/String/Get Case Matching.vi"/>
+				<Item Name="Get Connection Reference (TCP).vi" Type="VI" URL="/&lt;vilib&gt;/NI/STM/TCP/Get Connection Reference (TCP).vi"/>
+				<Item Name="Get Connection Reference.vi" Type="VI" URL="/&lt;vilib&gt;/NI/STM/Get Connection Reference.vi"/>
 				<Item Name="Get File Extension.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Get File Extension.vi"/>
 				<Item Name="Get LV Class Default Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Default Value.vi"/>
+				<Item Name="Globals.vi" Type="VI" URL="/&lt;vilib&gt;/NI/AMC/Globals.vi"/>
+				<Item Name="Index.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Tools/Keyed Array/Index.vi"/>
 				<Item Name="Initialize Comm Refs.vi" Type="VI" URL="/&lt;vilib&gt;/NI/NI VeriStand Addon Network Comm/Engine/Process/Initialize Comm Refs.vi"/>
 				<Item Name="KeyedArray.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/Tools/Keyed Array/KeyedArray.ctl"/>
 				<Item Name="Main Comm Loops.vi" Type="VI" URL="/&lt;vilib&gt;/NI/NI VeriStand Addon Network Comm/Engine/Process/Main Comm Loops.vi"/>
+				<Item Name="Map String.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Tools/Keyed Array/Map String.vi"/>
 				<Item Name="Message Queue.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/AMC/Message Queue.ctl"/>
 				<Item Name="Message.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/AMC/Message.ctl"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 				<Item Name="NI_SystemLogging.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/SystemLogging/NI_SystemLogging.lvlib"/>
 				<Item Name="NIVeriStand_DataServices.dll" Type="Document" URL="/&lt;vilib&gt;/NI Veristand/Custom Device API/Data/NIVeriStand_DataServices.dll"/>
 				<Item Name="Read Command.vi" Type="VI" URL="/&lt;vilib&gt;/NI/NI VeriStand Addon Network Comm/Engine/Comm API/Read Command.vi"/>
+				<Item Name="Read Message (TCP).vi" Type="VI" URL="/&lt;vilib&gt;/NI/STM/TCP/Read Message (TCP).vi"/>
+				<Item Name="Read Message.vi" Type="VI" URL="/&lt;vilib&gt;/NI/STM/Read Message.vi"/>
+				<Item Name="Read Meta Data (TCP Clst).vi" Type="VI" URL="/&lt;vilib&gt;/NI/STM/TCP/Read Meta Data (TCP Clst).vi"/>
+				<Item Name="Read Meta Data (TCP Ref).vi" Type="VI" URL="/&lt;vilib&gt;/NI/STM/TCP/Read Meta Data (TCP Ref).vi"/>
+				<Item Name="Read Meta Data.vi" Type="VI" URL="/&lt;vilib&gt;/NI/STM/Read Meta Data.vi"/>
 				<Item Name="Read Next Message.vi" Type="VI" URL="/&lt;vilib&gt;/NI/AMC/Read Next Message.vi"/>
+				<Item Name="Read Termination Message.vi" Type="VI" URL="/&lt;vilib&gt;/NI/AMC/Read Termination Message.vi"/>
 				<Item Name="Respond to Command.vi" Type="VI" URL="/&lt;vilib&gt;/NI/NI VeriStand Addon Network Comm/Engine/Comm API/Respond to Command.vi"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
 				<Item Name="Send Command.vi" Type="VI" URL="/&lt;vilib&gt;/NI/NI VeriStand Addon Network Comm/Engine/Comm API/Send Command.vi"/>
+				<Item Name="Send Local Message.vi" Type="VI" URL="/&lt;vilib&gt;/NI/AMC/Send Local Message.vi"/>
+				<Item Name="Send Message.vi" Type="VI" URL="/&lt;vilib&gt;/NI/AMC/Send Message.vi"/>
 				<Item Name="SysDef.Table.Set.vi" Type="VI" URL="/&lt;vilib&gt;/NI/NI VeriStand Advanced SysDef API/SysDef API/SysDef.Table.Set.vi"/>
 				<Item Name="SysDef.Version.Get.vi" Type="VI" URL="/&lt;vilib&gt;/NI/NI VeriStand Advanced SysDef API/SysDef API/SysDef.Version.Get.vi"/>
 				<Item Name="SysDef.Version.Set.vi" Type="VI" URL="/&lt;vilib&gt;/NI/NI VeriStand Advanced SysDef API/SysDef API/SysDef.Version.Set.vi"/>
 				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
+				<Item Name="TCP Check Connection (By Reference).vi" Type="VI" URL="/&lt;vilib&gt;/NI/STM/Connection Manager/TCP/Advanced/TCP Check Connection (By Reference).vi"/>
+				<Item Name="TCP Connection Manager (By Reference).vi" Type="VI" URL="/&lt;vilib&gt;/NI/STM/Connection Manager/TCP/Advanced/TCP Connection Manager (By Reference).vi"/>
+				<Item Name="TCP Initialize Connection Manager (By Reference).vi" Type="VI" URL="/&lt;vilib&gt;/NI/STM/Connection Manager/TCP/Advanced/TCP Initialize Connection Manager (By Reference).vi"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
+				<Item Name="Update Message Routing Info.vi" Type="VI" URL="/&lt;vilib&gt;/NI/AMC/Update Message Routing Info.vi"/>
 				<Item Name="VariantType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/VariantDataType/VariantType.lvlib"/>
+				<Item Name="VeriStand Comm.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/NI VeriStand Addon Network Comm/Engine/VeriStand Comm.lvclass/VeriStand Comm.ctl"/>
 				<Item Name="VeriStand Comm.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/NI VeriStand Addon Network Comm/Engine/VeriStand Comm.lvclass"/>
 				<Item Name="VS Inline Async API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_VS Inline Async API/VS Inline Async API.lvlib"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
+				<Item Name="Write Message (TCP).vi" Type="VI" URL="/&lt;vilib&gt;/NI/STM/TCP/Write Message (TCP).vi"/>
+				<Item Name="Write Message.vi" Type="VI" URL="/&lt;vilib&gt;/NI/STM/Write Message.vi"/>
 			</Item>
 			<Item Name="Instrument Addon Shared.lvlib" Type="Library" URL="../Addon/Addon Shared/Instrument Addon Shared.lvlib"/>
 			<Item Name="LV Config Read String.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read String.vi"/>
