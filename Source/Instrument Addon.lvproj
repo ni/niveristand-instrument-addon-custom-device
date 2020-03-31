@@ -529,7 +529,6 @@
 			<Item Name="systemLogging.dll" Type="Document" URL="systemLogging.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="temp_VI_UnderTest.vi" Type="VI" URL="../Tests/Unit Tests/temp_VI_UnderTest.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Configuration Release" Type="Source Distribution">
