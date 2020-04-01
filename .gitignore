@@ -3,3 +3,5 @@ Built
 /Source/Classes/Protections/*.aliases
 *.lvlps
 *.aliases
+Source/Instrument Addon.lvproj
+Source/Tests/Unit Tests/Instrument Addon Unit Tests.lvclass
