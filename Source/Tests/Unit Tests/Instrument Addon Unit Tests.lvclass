@@ -167,14 +167,14 @@
 		</Item>
 	</Item>
 	<Item Name="Format Numeric To String.vi" Type="Folder">
-		<Item Name="formatBackslashCodeSubVI.vi" Type="VI" URL="../formatBackslashCodeSubVI.vi">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%Z!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!"*!-0````]*6'6Y&gt;#Z5:8BU!"2!1!!"`````Q!&amp;"F:B&lt;(6F=Q!!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1"7!0%!!!!!!!!!!BV*&lt;H.U=H6N:7ZU)%&amp;E:'^O)&amp;.I98*F:#ZM&gt;GRJ9AJ&amp;&lt;G2J97YO9X2M!#6!&amp;A!$"EZB&gt;'FW:1:-;82U&lt;'5$1GFH!!:&amp;&lt;G2J97Y!!&amp;1!]!!-!!-!"!!%!!9!"!!%!!1!"!!(!!1!"!!)!Q!!?!!!$1A!!!!!!!!!!!!!#1!!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!!!!!!!)!!!!!!%!#1!!!!!</Property>
+		<Item Name="Compare endian values subVI.vi" Type="VI" URL="../Compare endian values subVI.vi">
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;"!!!!#Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!!5!"1!!(%"!!!,``````````Q!&amp;#F:B&lt;(6F=S"0&gt;81!!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!$5!+!!&gt;/&gt;7VF=GFD!&amp;9!]1!!!!!!!!!#(5FO=X2S&gt;7VF&lt;H1A172E&lt;WYA5WBB=G6E,GRW&lt;'FC#E6O:'FB&lt;CZD&gt;'Q!*5!7!!-'4G&amp;U;8:F"ERJ&gt;(2M:1.#;7=!"E6O:'FB&lt;A!!6!$Q!!Q!!Q!%!!1!"A!%!!1!"!!%!!=!"!!)!!E#!!"Y!!!.#!!!!!!!!!!!!!!*!!!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!#!!!!!A!!!!!!1!+!!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-			<Property Name="NI.ClassItem.Flags" Type="Int">262432</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">16777216</Property>
 			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
 			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1082130960</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1342710275</Property>
 		</Item>
 		<Item Name="test_Format Numeric To String_double array element to string(empty array).vi" Type="VI" URL="../test_Format Numeric To String_double array element to string(empty array).vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;!!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$R!=!!?!!!F)UFO=X2S&gt;7VF&lt;H1A172E&lt;WYA67ZJ&gt;#"5:8.U=SZM&gt;G.M98.T!!R5:8.U1W&amp;T:3"P&gt;81!!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!/E"Q!"Y!!#5D37ZT&gt;(*V&lt;76O&gt;#"":'2P&lt;C"6&lt;GFU)&amp;2F=X2T,GRW9WRB=X-!#V2F=X2$98.F)'FO!'%!]!!-!!-!"!!%!!5!"!!%!!1!"!!'!!1!"!!(!Q!!?!!!$1A!!!!!!!!!!!!!$1M!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!!!!!!!3!!!.!!!!$!!!!!!!!!!!!!!"!!A!!!!!</Property>
@@ -206,11 +206,11 @@
 		<Item Name="test_Format Numeric To String_double to string using big endian.vi" Type="VI" URL="../test_Format Numeric To String_double to string using big endian.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;!!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$R!=!!?!!!F)UFO=X2S&gt;7VF&lt;H1A172E&lt;WYA67ZJ&gt;#"5:8.U=SZM&gt;G.M98.T!!R5:8.U1W&amp;T:3"P&gt;81!!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!/E"Q!"Y!!#5D37ZT&gt;(*V&lt;76O&gt;#"":'2P&lt;C"6&lt;GFU)&amp;2F=X2T,GRW9WRB=X-!#V2F=X2$98.F)'FO!'%!]!!-!!-!"!!%!!5!"!!%!!1!"!!'!!1!"!!(!Q!!?!!!$1A!!!!!!!!!!!!!$1M!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!!!!!!!3!!!.!!!!$!!!!!!!!!!!!!!"!!A!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-			<Property Name="NI.ClassItem.Flags" Type="Int">32</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">16777216</Property>
 			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
 			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1082130960</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1074274838</Property>
 		</Item>
 		<Item Name="test_Format Numeric To String_double to string using Format Value node (No format string).vi" Type="VI" URL="../test_Format Numeric To String_double to string using Format Value node (No format string).vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;!!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$R!=!!?!!!F)UFO=X2S&gt;7VF&lt;H1A172E&lt;WYA67ZJ&gt;#"5:8.U=SZM&gt;G.M98.T!!R5:8.U1W&amp;T:3"P&gt;81!!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!/E"Q!"Y!!#5D37ZT&gt;(*V&lt;76O&gt;#"":'2P&lt;C"6&lt;GFU)&amp;2F=X2T,GRW9WRB=X-!#V2F=X2$98.F)'FO!'%!]!!-!!-!"!!%!!5!"!!%!!1!"!!'!!1!"!!(!Q!!?!!!$1A!!!!!!!!!!!!!$1M!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!!!!!!!3!!!.!!!!$!!!!!!!!!!!!!!"!!A!!!!!</Property>
@@ -255,7 +255,7 @@
 			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
 			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1082130960</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1074274832</Property>
 		</Item>
 		<Item Name="test_Format Numeric To String_double to string using native endian.vi" Type="VI" URL="../test_Format Numeric To String_double to string using native endian.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;!!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$R!=!!?!!!F)UFO=X2S&gt;7VF&lt;H1A172E&lt;WYA67ZJ&gt;#"5:8.U=SZM&gt;G.M98.T!!R5:8.U1W&amp;T:3"P&gt;81!!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!/E"Q!"Y!!#5D37ZT&gt;(*V&lt;76O&gt;#"":'2P&lt;C"6&lt;GFU)&amp;2F=X2T,GRW9WRB=X-!#V2F=X2$98.F)'FO!'%!]!!-!!-!"!!%!!5!"!!%!!1!"!!'!!1!"!!(!Q!!?!!!$1A!!!!!!!!!!!!!$1M!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!!!!!!!3!!!.!!!!$!!!!!!!!!!!!!!"!!A!!!!!</Property>
