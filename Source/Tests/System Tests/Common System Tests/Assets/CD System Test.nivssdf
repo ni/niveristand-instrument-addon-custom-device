@@ -10,7 +10,7 @@
 				<String>CD System Test</String>
 			</Property>
 			<Property Name="Version">
-				<String>1.0.0.112</String>
+				<String>1.0.0.235</String>
 			</Property>
 			<Property Name="Creator">
 				<String />
@@ -357,6 +357,72 @@
 									</Property>
 								</Properties>
 								<Errors />
+								<Channel Name="Array Enumerated 0" TypeGUID="193453c7-2cce-4840-9490-648855c0cf25" RowDim="1" ColDim="1" Units="" BitFields="11">
+									<Description />
+									<Properties>
+										<Property Name="Value Table">
+											<Dictionary>
+												<Elem Key="5.000">
+													<Double>0</Double>
+												</Elem>
+												<Elem Key="10.000">
+													<Double>1</Double>
+												</Elem>
+												<Elem Key="15.000">
+													<Double>2</Double>
+												</Elem>
+											</Dictionary>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="Array Enumerated 1" TypeGUID="193453c7-2cce-4840-9490-648855c0cf25" RowDim="1" ColDim="1" Units="" BitFields="11">
+									<Description />
+									<Properties>
+										<Property Name="Value Table">
+											<Dictionary>
+												<Elem Key="5.000">
+													<Double>0</Double>
+												</Elem>
+												<Elem Key="10.000">
+													<Double>1</Double>
+												</Elem>
+												<Elem Key="15.000">
+													<Double>2</Double>
+												</Elem>
+											</Dictionary>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="Array Enumerated 2" TypeGUID="193453c7-2cce-4840-9490-648855c0cf25" RowDim="1" ColDim="1" Units="" BitFields="11">
+									<Description />
+									<Properties>
+										<Property Name="Value Table">
+											<Dictionary>
+												<Elem Key="5.000">
+													<Double>0</Double>
+												</Elem>
+												<Elem Key="10.000">
+													<Double>1</Double>
+												</Elem>
+												<Elem Key="15.000">
+													<Double>2</Double>
+												</Elem>
+											</Dictionary>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
 							</Section>
 							<Section Name="Array Format" TypeGUID="1d30d097-ad35-4eb1-81b5-9d3a9f7f2d88">
 								<Description />
@@ -431,7 +497,7 @@
 										<StringArray />
 									</Property>
 									<Property Name="user.CD.MetaData.FormatString">
-										<String>%.2f</String>
+										<String>%.4f</String>
 									</Property>
 									<Property Name="user.CD.MetaData.TypeCastType">
 										<U32>1</U32>
@@ -448,10 +514,10 @@
 								</Properties>
 								<Errors />
 								<DefaultValue>
-									<Elem>5</Elem>
+									<Elem>0</Elem>
 								</DefaultValue>
 							</Channel>
-							<Channel Name="Single Channel Enum" TypeGUID="1d30d097-ad35-4eb1-81b5-9d3a9f7f2d88" RowDim="1" ColDim="1" Units="V" BitFields="11">
+							<Channel Name="Single Channel Enum" TypeGUID="1d30d097-ad35-4eb1-81b5-9d3a9f7f2d88" RowDim="1" ColDim="1" Units="" BitFields="11">
 								<Description />
 								<Properties>
 									<Property Name="user.CD.MetaData.DataType">
@@ -462,8 +528,9 @@
 									</Property>
 									<Property Name="user.CD.MetaData.List">
 										<StringArray>
-											<Elem>OFF</Elem>
-											<Elem>ON</Elem>
+											<Elem>START</Elem>
+											<Elem>STOP</Elem>
+											<Elem>RESET</Elem>
 										</StringArray>
 									</Property>
 									<Property Name="user.CD.MetaData.FormatString">
@@ -483,18 +550,21 @@
 									</Property>
 									<Property Name="Value Table">
 										<Dictionary>
-											<Elem Key="OFF">
+											<Elem Key="START">
 												<Double>0</Double>
 											</Elem>
-											<Elem Key="ON">
+											<Elem Key="STOP">
 												<Double>1</Double>
+											</Elem>
+											<Elem Key="RESET">
+												<Double>2</Double>
 											</Elem>
 										</Dictionary>
 									</Property>
 								</Properties>
 								<Errors />
 								<DefaultValue>
-									<Elem>147</Elem>
+									<Elem>0</Elem>
 								</DefaultValue>
 							</Channel>
 							<Channel Name="Single Channel Type Cast" TypeGUID="1d30d097-ad35-4eb1-81b5-9d3a9f7f2d88" RowDim="1" ColDim="1" Units="V" BitFields="11">
@@ -513,13 +583,13 @@
 										<String>%.3g</String>
 									</Property>
 									<Property Name="user.CD.MetaData.TypeCastType">
-										<U32>0</U32>
+										<U32>4</U32>
 									</Property>
 									<Property Name="user.CD.MetaData.Delimiter">
 										<String />
 									</Property>
 									<Property Name="user.CD.MetaData.Endian">
-										<U32>0</U32>
+										<U32>1</U32>
 									</Property>
 									<Property Name="user.CD.ConfigGUID">
 										<BinaryString>ZWIyNjVmMjMtMThjOS00NWY5LTliNGItY2QyZjljY2JiZTM4</BinaryString>
@@ -527,7 +597,7 @@
 								</Properties>
 								<Errors />
 								<DefaultValue>
-									<Elem>5</Elem>
+									<Elem>0</Elem>
 								</DefaultValue>
 							</Channel>
 						</Section>
@@ -535,7 +605,7 @@
 							<Description />
 							<Properties />
 							<Errors />
-							<Section Name="SingleChan_CmdOnly_TrigOnly_PadOff_ProtOff" TypeGUID="672eb08e-4747-4725-8ff4-4749baa5e2a0">
+							<Section Name="SingleChan_Static_Cmd_Trig" TypeGUID="672eb08e-4747-4725-8ff4-4749baa5e2a0">
 								<Description />
 								<Properties>
 									<Property Name="user.CD.Msg.GenType">
@@ -664,17 +734,13 @@
 									<Description />
 									<Properties>
 										<Property Name="user.CD.Cmd.Cmd">
-											<BinaryString>MTZDb21tYW5kT25seTpbVmFsdWVd</BinaryString>
+											<BinaryString>MTdDb21tYW5kT25seTpTdGFydA==</BinaryString>
 										</Property>
 										<Property Name="user.CD.Cmd.LinkedChans">
-											<StringArray>
-												<Elem>Value</Elem>
-											</StringArray>
+											<StringArray />
 										</Property>
 										<Property Name="user.CD.Cmd.LinkedGUID">
-											<StringArray>
-												<Elem>f29282b0-9e25-4ebb-8b5c-72096c2a272f</Elem>
-											</StringArray>
+											<StringArray />
 										</Property>
 										<Property Name="user.CD.Cmd.Pad">
 											<Boolean>false</Boolean>
@@ -689,7 +755,7 @@
 									<Errors />
 								</Section>
 							</Section>
-							<Section Name="SingleChan_CmdResp_TrigOnly_PadOff_ProtOff" TypeGUID="672eb08e-4747-4725-8ff4-4749baa5e2a0">
+							<Section Name="SingleChan_Static_CmdResp_Trig" TypeGUID="672eb08e-4747-4725-8ff4-4749baa5e2a0">
 								<Description />
 								<Properties>
 									<Property Name="user.CD.Msg.GenType">
@@ -818,17 +884,13 @@
 									<Description />
 									<Properties>
 										<Property Name="user.CD.Cmd.Cmd">
-											<BinaryString>MjBDb21tYW5kUmVzcG9uc2U6W1ZhbHVlXQ==</BinaryString>
+											<BinaryString>MjVDb21tYW5kUmVzcG9uc2U6UmVhZERhdGFY</BinaryString>
 										</Property>
 										<Property Name="user.CD.Cmd.LinkedChans">
-											<StringArray>
-												<Elem>Value</Elem>
-											</StringArray>
+											<StringArray />
 										</Property>
 										<Property Name="user.CD.Cmd.LinkedGUID">
-											<StringArray>
-												<Elem>f29282b0-9e25-4ebb-8b5c-72096c2a272f</Elem>
-											</StringArray>
+											<StringArray />
 										</Property>
 										<Property Name="user.CD.Cmd.Pad">
 											<Boolean>false</Boolean>
@@ -846,7 +908,7 @@
 									<Description />
 									<Properties>
 										<Property Name="user.CD.Rsp.Rsp">
-											<BinaryString>MjBDb21tYW5kUmVzcG9uc2U6NS4wMA==</BinaryString>
+											<BinaryString>MjVDb21tYW5kUmVzcG9uc2U6UmVhZERhdGFY</BinaryString>
 										</Property>
 										<Property Name="user.CD.Rsp.LinkedChans">
 											<StringArray />
@@ -870,7 +932,7 @@
 									<Errors />
 								</Section>
 							</Section>
-							<Section Name="SingleChan_CmdOnly_PeriodTrig_PadOn_ProtOff" TypeGUID="672eb08e-4747-4725-8ff4-4749baa5e2a0">
+							<Section Name="SingleChan_Static_Cmd_PeriodTrig_Pad" TypeGUID="672eb08e-4747-4725-8ff4-4749baa5e2a0">
 								<Description />
 								<Properties>
 									<Property Name="user.CD.Msg.GenType">
@@ -992,17 +1054,13 @@
 									<Description />
 									<Properties>
 										<Property Name="user.CD.Cmd.Cmd">
-											<BinaryString>MjNDb21tYW5kUGVyaW9kaWM6W1ZhbHVlXQ==</BinaryString>
+											<BinaryString>MjNDb21tYW5kUGVyaW9kaWM6UmVhZA==</BinaryString>
 										</Property>
 										<Property Name="user.CD.Cmd.LinkedChans">
-											<StringArray>
-												<Elem>Value</Elem>
-											</StringArray>
+											<StringArray />
 										</Property>
 										<Property Name="user.CD.Cmd.LinkedGUID">
-											<StringArray>
-												<Elem>f29282b0-9e25-4ebb-8b5c-72096c2a272f</Elem>
-											</StringArray>
+											<StringArray />
 										</Property>
 										<Property Name="user.CD.Cmd.Pad">
 											<Boolean>true</Boolean>
@@ -1017,7 +1075,7 @@
 									<Errors />
 								</Section>
 							</Section>
-							<Section Name="SingleChan_CmdOnly_ValueAndTrig_PadOn_ProtOn" TypeGUID="672eb08e-4747-4725-8ff4-4749baa5e2a0">
+							<Section Name="SingleChan_Static_Cmd_ValueAndTrig_Pad_Prot" TypeGUID="672eb08e-4747-4725-8ff4-4749baa5e2a0">
 								<Description />
 								<Properties>
 									<Property Name="user.CD.Msg.GenType">
@@ -1163,6 +1221,1222 @@
 										</Property>
 										<Property Name="user.CD.Cmd.PadLength">
 											<U32>40</U32>
+										</Property>
+										<Property Name="user.CD.Cmd.PadVal">
+											<U32>32</U32>
+										</Property>
+									</Properties>
+									<Errors />
+								</Section>
+							</Section>
+							<Section Name="SingleChan_Static_Cmd_Trig_Prot" TypeGUID="672eb08e-4747-4725-8ff4-4749baa5e2a0">
+								<Description />
+								<Properties>
+									<Property Name="user.CD.Msg.GenType">
+										<U32>0</U32>
+									</Property>
+									<Property Name="user.CD.Msg.Period">
+										<Double>1</Double>
+									</Property>
+									<Property Name="user.CD.Msg.UseProtect">
+										<Boolean>true</Boolean>
+									</Property>
+									<Property Name="user.CD.Msg.ProtectType">
+										<String>Checksum U32</String>
+									</Property>
+								</Properties>
+								<Errors />
+								<Section Name="Message Channels" TypeGUID="72ad4790-7ba8-47a2-8882-5ec6ff5aad5f">
+									<Description />
+									<Properties />
+									<Errors />
+									<Channel Name="Trigger" TypeGUID="74948967-ac25-4bb0-8b12-32de2b2e343b" RowDim="1" ColDim="1" Units="" BitFields="3">
+										<Description />
+										<Properties />
+										<Errors />
+										<DefaultValue>
+											<Elem>0</Elem>
+										</DefaultValue>
+									</Channel>
+									<Channel Name="Error Code" TypeGUID="c36593c7-9ffd-4a3f-8db5-ade8f2d84760" RowDim="1" ColDim="1" Units="" BitFields="1">
+										<Description />
+										<Properties>
+											<Property Name="Value Table">
+												<Dictionary>
+													<Elem Key="&lt;0&gt; No Error.">
+														<Double>0</Double>
+													</Elem>
+													<Elem Key="&lt;53&gt; Manager call not supported.">
+														<Double>53</Double>
+													</Elem>
+													<Elem Key="&lt;54&gt; The network address is ill-formed.">
+														<Double>54</Double>
+													</Elem>
+													<Elem Key="&lt;55&gt; The network operation is in progress.">
+														<Double>55</Double>
+													</Elem>
+													<Elem Key="&lt;56&gt; The network operation exceeded the user-specified or system time limit.">
+														<Double>56</Double>
+													</Elem>
+													<Elem Key="&lt;57&gt; The network connection is busy.">
+														<Double>57</Double>
+													</Elem>
+													<Elem Key="&lt;58&gt; The network function is not supported by the system.">
+														<Double>58</Double>
+													</Elem>
+													<Elem Key="&lt;59&gt; The network is down, unreachable, or has been reset.">
+														<Double>59</Double>
+													</Elem>
+													<Elem Key="&lt;60&gt; The specified port or network address is currently in use.">
+														<Double>60</Double>
+													</Elem>
+													<Elem Key="&lt;61&gt; The system could not allocate the necessary memory.">
+														<Double>61</Double>
+													</Elem>
+													<Elem Key="&lt;62&gt; The system caused the network connection to be aborted.">
+														<Double>62</Double>
+													</Elem>
+													<Elem Key="&lt;63&gt; The network connection was refused by the server.">
+														<Double>63</Double>
+													</Elem>
+													<Elem Key="&lt;64&gt; The network connection is not yet established.">
+														<Double>64</Double>
+													</Elem>
+													<Elem Key="&lt;65&gt; The network connection is already established.">
+														<Double>65</Double>
+													</Elem>
+													<Elem Key="&lt;66&gt; The network connection was closed by the peer.">
+														<Double>66</Double>
+													</Elem>
+													<Elem Key="&lt;114&gt; Could not create TCP listener port because the port, service name, or net address conflict with a TCP listener that already exists.">
+														<Double>114</Double>
+													</Elem>
+													<Elem Key="&lt;127&gt; The specified socket is not an IPv4 socket.">
+														<Double>127</Double>
+													</Elem>
+												</Dictionary>
+											</Property>
+										</Properties>
+										<Errors />
+										<DefaultValue>
+											<Elem>0</Elem>
+										</DefaultValue>
+									</Channel>
+									<Channel Name="Timestamp" TypeGUID="7FC4C151-104F-4070-A177-5B2CF22F1FC4" RowDim="1" ColDim="1" Units="" BitFields="1">
+										<Description />
+										<Properties />
+										<Errors />
+										<DefaultValue>
+											<Elem>0</Elem>
+										</DefaultValue>
+									</Channel>
+									<Channel Name="Message Status" TypeGUID="a618186b-06ee-4c96-843e-7b3da3094e99" RowDim="1" ColDim="1" Units="" BitFields="1">
+										<Description />
+										<Properties />
+										<Errors />
+										<DefaultValue>
+											<Elem>0</Elem>
+										</DefaultValue>
+									</Channel>
+									<Channel Name="Enable Periodic" TypeGUID="0766e40f-9a8b-40a8-8d2d-c67262ede28a" RowDim="1" ColDim="1" Units="" BitFields="3">
+										<Description />
+										<Properties />
+										<Errors />
+										<DefaultValue>
+											<Elem>1</Elem>
+										</DefaultValue>
+									</Channel>
+								</Section>
+								<Section Name="Command" TypeGUID="9428600d-6a85-43b8-aaac-a755da7e0c9b">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Cmd.Cmd">
+											<BinaryString>MTdDb21tYW5kOlN0YXJ0</BinaryString>
+										</Property>
+										<Property Name="user.CD.Cmd.LinkedChans">
+											<StringArray />
+										</Property>
+										<Property Name="user.CD.Cmd.LinkedGUID">
+											<StringArray />
+										</Property>
+										<Property Name="user.CD.Cmd.Pad">
+											<Boolean>false</Boolean>
+										</Property>
+										<Property Name="user.CD.Cmd.PadLength">
+											<U32>25</U32>
+										</Property>
+										<Property Name="user.CD.Cmd.PadVal">
+											<U32>0</U32>
+										</Property>
+									</Properties>
+									<Errors />
+								</Section>
+							</Section>
+							<Section Name="SingleChan_Static_CmdResp_Trig_Prot_Pad" TypeGUID="672eb08e-4747-4725-8ff4-4749baa5e2a0">
+								<Description />
+								<Properties>
+									<Property Name="user.CD.Msg.GenType">
+										<U32>0</U32>
+									</Property>
+									<Property Name="user.CD.Msg.Period">
+										<Double>1</Double>
+									</Property>
+									<Property Name="user.CD.Msg.UseProtect">
+										<Boolean>true</Boolean>
+									</Property>
+									<Property Name="user.CD.Msg.ProtectType">
+										<String>Checksum U16</String>
+									</Property>
+								</Properties>
+								<Errors />
+								<Section Name="Message Channels" TypeGUID="72ad4790-7ba8-47a2-8882-5ec6ff5aad5f">
+									<Description />
+									<Properties />
+									<Errors />
+									<Channel Name="Trigger" TypeGUID="74948967-ac25-4bb0-8b12-32de2b2e343b" RowDim="1" ColDim="1" Units="" BitFields="3">
+										<Description />
+										<Properties />
+										<Errors />
+										<DefaultValue>
+											<Elem>0</Elem>
+										</DefaultValue>
+									</Channel>
+									<Channel Name="Error Code" TypeGUID="c36593c7-9ffd-4a3f-8db5-ade8f2d84760" RowDim="1" ColDim="1" Units="" BitFields="1">
+										<Description />
+										<Properties>
+											<Property Name="Value Table">
+												<Dictionary>
+													<Elem Key="&lt;0&gt; No Error.">
+														<Double>0</Double>
+													</Elem>
+													<Elem Key="&lt;53&gt; Manager call not supported.">
+														<Double>53</Double>
+													</Elem>
+													<Elem Key="&lt;54&gt; The network address is ill-formed.">
+														<Double>54</Double>
+													</Elem>
+													<Elem Key="&lt;55&gt; The network operation is in progress.">
+														<Double>55</Double>
+													</Elem>
+													<Elem Key="&lt;56&gt; The network operation exceeded the user-specified or system time limit.">
+														<Double>56</Double>
+													</Elem>
+													<Elem Key="&lt;57&gt; The network connection is busy.">
+														<Double>57</Double>
+													</Elem>
+													<Elem Key="&lt;58&gt; The network function is not supported by the system.">
+														<Double>58</Double>
+													</Elem>
+													<Elem Key="&lt;59&gt; The network is down, unreachable, or has been reset.">
+														<Double>59</Double>
+													</Elem>
+													<Elem Key="&lt;60&gt; The specified port or network address is currently in use.">
+														<Double>60</Double>
+													</Elem>
+													<Elem Key="&lt;61&gt; The system could not allocate the necessary memory.">
+														<Double>61</Double>
+													</Elem>
+													<Elem Key="&lt;62&gt; The system caused the network connection to be aborted.">
+														<Double>62</Double>
+													</Elem>
+													<Elem Key="&lt;63&gt; The network connection was refused by the server.">
+														<Double>63</Double>
+													</Elem>
+													<Elem Key="&lt;64&gt; The network connection is not yet established.">
+														<Double>64</Double>
+													</Elem>
+													<Elem Key="&lt;65&gt; The network connection is already established.">
+														<Double>65</Double>
+													</Elem>
+													<Elem Key="&lt;66&gt; The network connection was closed by the peer.">
+														<Double>66</Double>
+													</Elem>
+													<Elem Key="&lt;114&gt; Could not create TCP listener port because the port, service name, or net address conflict with a TCP listener that already exists.">
+														<Double>114</Double>
+													</Elem>
+													<Elem Key="&lt;127&gt; The specified socket is not an IPv4 socket.">
+														<Double>127</Double>
+													</Elem>
+												</Dictionary>
+											</Property>
+										</Properties>
+										<Errors />
+										<DefaultValue>
+											<Elem>0</Elem>
+										</DefaultValue>
+									</Channel>
+									<Channel Name="Timestamp" TypeGUID="7FC4C151-104F-4070-A177-5B2CF22F1FC4" RowDim="1" ColDim="1" Units="" BitFields="1">
+										<Description />
+										<Properties />
+										<Errors />
+										<DefaultValue>
+											<Elem>0</Elem>
+										</DefaultValue>
+									</Channel>
+									<Channel Name="Message Status" TypeGUID="a618186b-06ee-4c96-843e-7b3da3094e99" RowDim="1" ColDim="1" Units="" BitFields="1">
+										<Description />
+										<Properties />
+										<Errors />
+										<DefaultValue>
+											<Elem>0</Elem>
+										</DefaultValue>
+									</Channel>
+									<Channel Name="Enable Periodic" TypeGUID="0766e40f-9a8b-40a8-8d2d-c67262ede28a" RowDim="1" ColDim="1" Units="" BitFields="3">
+										<Description />
+										<Properties />
+										<Errors />
+										<DefaultValue>
+											<Elem>1</Elem>
+										</DefaultValue>
+									</Channel>
+								</Section>
+								<Section Name="Command" TypeGUID="9428600d-6a85-43b8-aaac-a755da7e0c9b">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Cmd.Cmd">
+											<BinaryString>MzNDb21tYW5kUmVzcG9uc2U6R2V0U3RhdHVz</BinaryString>
+										</Property>
+										<Property Name="user.CD.Cmd.LinkedChans">
+											<StringArray />
+										</Property>
+										<Property Name="user.CD.Cmd.LinkedGUID">
+											<StringArray />
+										</Property>
+										<Property Name="user.CD.Cmd.Pad">
+											<Boolean>true</Boolean>
+										</Property>
+										<Property Name="user.CD.Cmd.PadLength">
+											<U32>35</U32>
+										</Property>
+										<Property Name="user.CD.Cmd.PadVal">
+											<U32>32</U32>
+										</Property>
+									</Properties>
+									<Errors />
+								</Section>
+								<Section Name="Response" TypeGUID="e90b6266-233a-4552-94b4-54222f1875a2">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Rsp.Rsp">
+											<BinaryString>MzNDb21tYW5kUmVzcG9uc2U6R2V0U3RhdHVzICAgICAg</BinaryString>
+										</Property>
+										<Property Name="user.CD.Rsp.LinkedChans">
+											<StringArray />
+										</Property>
+										<Property Name="user.CD.Rsp.LinkedGUIDs">
+											<StringArray />
+										</Property>
+										<Property Name="user.CD.Rsp.WaitVal">
+											<Double>35</Double>
+										</Property>
+										<Property Name="user.CD.Rsp.WaitType">
+											<U32>0</U32>
+										</Property>
+										<Property Name="user.CD.Rsp.UseChan">
+											<Boolean>false</Boolean>
+										</Property>
+										<Property Name="user.CD.Rsp.ChanPath">
+											<String />
+										</Property>
+									</Properties>
+									<Errors />
+								</Section>
+							</Section>
+							<Section Name="SingleChan_Static_Cmd_Trig_Pad" TypeGUID="672eb08e-4747-4725-8ff4-4749baa5e2a0">
+								<Description />
+								<Properties>
+									<Property Name="user.CD.Msg.GenType">
+										<U32>0</U32>
+									</Property>
+									<Property Name="user.CD.Msg.Period">
+										<Double>1</Double>
+									</Property>
+									<Property Name="user.CD.Msg.UseProtect">
+										<Boolean>false</Boolean>
+									</Property>
+									<Property Name="user.CD.Msg.ProtectType">
+										<String />
+									</Property>
+								</Properties>
+								<Errors />
+								<Section Name="Message Channels" TypeGUID="72ad4790-7ba8-47a2-8882-5ec6ff5aad5f">
+									<Description />
+									<Properties />
+									<Errors />
+									<Channel Name="Trigger" TypeGUID="74948967-ac25-4bb0-8b12-32de2b2e343b" RowDim="1" ColDim="1" Units="" BitFields="3">
+										<Description />
+										<Properties />
+										<Errors />
+										<DefaultValue>
+											<Elem>0</Elem>
+										</DefaultValue>
+									</Channel>
+									<Channel Name="Error Code" TypeGUID="c36593c7-9ffd-4a3f-8db5-ade8f2d84760" RowDim="1" ColDim="1" Units="" BitFields="1">
+										<Description />
+										<Properties>
+											<Property Name="Value Table">
+												<Dictionary>
+													<Elem Key="&lt;0&gt; No Error.">
+														<Double>0</Double>
+													</Elem>
+													<Elem Key="&lt;53&gt; Manager call not supported.">
+														<Double>53</Double>
+													</Elem>
+													<Elem Key="&lt;54&gt; The network address is ill-formed.">
+														<Double>54</Double>
+													</Elem>
+													<Elem Key="&lt;55&gt; The network operation is in progress.">
+														<Double>55</Double>
+													</Elem>
+													<Elem Key="&lt;56&gt; The network operation exceeded the user-specified or system time limit.">
+														<Double>56</Double>
+													</Elem>
+													<Elem Key="&lt;57&gt; The network connection is busy.">
+														<Double>57</Double>
+													</Elem>
+													<Elem Key="&lt;58&gt; The network function is not supported by the system.">
+														<Double>58</Double>
+													</Elem>
+													<Elem Key="&lt;59&gt; The network is down, unreachable, or has been reset.">
+														<Double>59</Double>
+													</Elem>
+													<Elem Key="&lt;60&gt; The specified port or network address is currently in use.">
+														<Double>60</Double>
+													</Elem>
+													<Elem Key="&lt;61&gt; The system could not allocate the necessary memory.">
+														<Double>61</Double>
+													</Elem>
+													<Elem Key="&lt;62&gt; The system caused the network connection to be aborted.">
+														<Double>62</Double>
+													</Elem>
+													<Elem Key="&lt;63&gt; The network connection was refused by the server.">
+														<Double>63</Double>
+													</Elem>
+													<Elem Key="&lt;64&gt; The network connection is not yet established.">
+														<Double>64</Double>
+													</Elem>
+													<Elem Key="&lt;65&gt; The network connection is already established.">
+														<Double>65</Double>
+													</Elem>
+													<Elem Key="&lt;66&gt; The network connection was closed by the peer.">
+														<Double>66</Double>
+													</Elem>
+													<Elem Key="&lt;114&gt; Could not create TCP listener port because the port, service name, or net address conflict with a TCP listener that already exists.">
+														<Double>114</Double>
+													</Elem>
+													<Elem Key="&lt;127&gt; The specified socket is not an IPv4 socket.">
+														<Double>127</Double>
+													</Elem>
+												</Dictionary>
+											</Property>
+										</Properties>
+										<Errors />
+										<DefaultValue>
+											<Elem>0</Elem>
+										</DefaultValue>
+									</Channel>
+									<Channel Name="Timestamp" TypeGUID="7FC4C151-104F-4070-A177-5B2CF22F1FC4" RowDim="1" ColDim="1" Units="" BitFields="1">
+										<Description />
+										<Properties />
+										<Errors />
+										<DefaultValue>
+											<Elem>0</Elem>
+										</DefaultValue>
+									</Channel>
+									<Channel Name="Message Status" TypeGUID="a618186b-06ee-4c96-843e-7b3da3094e99" RowDim="1" ColDim="1" Units="" BitFields="1">
+										<Description />
+										<Properties />
+										<Errors />
+										<DefaultValue>
+											<Elem>0</Elem>
+										</DefaultValue>
+									</Channel>
+									<Channel Name="Enable Periodic" TypeGUID="0766e40f-9a8b-40a8-8d2d-c67262ede28a" RowDim="1" ColDim="1" Units="" BitFields="3">
+										<Description />
+										<Properties />
+										<Errors />
+										<DefaultValue>
+											<Elem>1</Elem>
+										</DefaultValue>
+									</Channel>
+								</Section>
+								<Section Name="Command" TypeGUID="9428600d-6a85-43b8-aaac-a755da7e0c9b">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Cmd.Cmd">
+											<BinaryString>MjNDb21tYW5kT25seTpTdGFydA==</BinaryString>
+										</Property>
+										<Property Name="user.CD.Cmd.LinkedChans">
+											<StringArray />
+										</Property>
+										<Property Name="user.CD.Cmd.LinkedGUID">
+											<StringArray />
+										</Property>
+										<Property Name="user.CD.Cmd.Pad">
+											<Boolean>true</Boolean>
+										</Property>
+										<Property Name="user.CD.Cmd.PadLength">
+											<U32>25</U32>
+										</Property>
+										<Property Name="user.CD.Cmd.PadVal">
+											<U32>32</U32>
+										</Property>
+									</Properties>
+									<Errors />
+								</Section>
+							</Section>
+							<Section Name="SingleChan_Format_Cmd_Trig" TypeGUID="672eb08e-4747-4725-8ff4-4749baa5e2a0">
+								<Description />
+								<Properties>
+									<Property Name="user.CD.Msg.GenType">
+										<U32>0</U32>
+									</Property>
+									<Property Name="user.CD.Msg.Period">
+										<Double>1</Double>
+									</Property>
+									<Property Name="user.CD.Msg.UseProtect">
+										<Boolean>false</Boolean>
+									</Property>
+									<Property Name="user.CD.Msg.ProtectType">
+										<String />
+									</Property>
+								</Properties>
+								<Errors />
+								<Section Name="Message Channels" TypeGUID="72ad4790-7ba8-47a2-8882-5ec6ff5aad5f">
+									<Description />
+									<Properties />
+									<Errors />
+									<Channel Name="Trigger" TypeGUID="74948967-ac25-4bb0-8b12-32de2b2e343b" RowDim="1" ColDim="1" Units="" BitFields="3">
+										<Description />
+										<Properties />
+										<Errors />
+										<DefaultValue>
+											<Elem>0</Elem>
+										</DefaultValue>
+									</Channel>
+									<Channel Name="Error Code" TypeGUID="c36593c7-9ffd-4a3f-8db5-ade8f2d84760" RowDim="1" ColDim="1" Units="" BitFields="1">
+										<Description />
+										<Properties>
+											<Property Name="Value Table">
+												<Dictionary>
+													<Elem Key="&lt;0&gt; No Error.">
+														<Double>0</Double>
+													</Elem>
+													<Elem Key="&lt;53&gt; Manager call not supported.">
+														<Double>53</Double>
+													</Elem>
+													<Elem Key="&lt;54&gt; The network address is ill-formed.">
+														<Double>54</Double>
+													</Elem>
+													<Elem Key="&lt;55&gt; The network operation is in progress.">
+														<Double>55</Double>
+													</Elem>
+													<Elem Key="&lt;56&gt; The network operation exceeded the user-specified or system time limit.">
+														<Double>56</Double>
+													</Elem>
+													<Elem Key="&lt;57&gt; The network connection is busy.">
+														<Double>57</Double>
+													</Elem>
+													<Elem Key="&lt;58&gt; The network function is not supported by the system.">
+														<Double>58</Double>
+													</Elem>
+													<Elem Key="&lt;59&gt; The network is down, unreachable, or has been reset.">
+														<Double>59</Double>
+													</Elem>
+													<Elem Key="&lt;60&gt; The specified port or network address is currently in use.">
+														<Double>60</Double>
+													</Elem>
+													<Elem Key="&lt;61&gt; The system could not allocate the necessary memory.">
+														<Double>61</Double>
+													</Elem>
+													<Elem Key="&lt;62&gt; The system caused the network connection to be aborted.">
+														<Double>62</Double>
+													</Elem>
+													<Elem Key="&lt;63&gt; The network connection was refused by the server.">
+														<Double>63</Double>
+													</Elem>
+													<Elem Key="&lt;64&gt; The network connection is not yet established.">
+														<Double>64</Double>
+													</Elem>
+													<Elem Key="&lt;65&gt; The network connection is already established.">
+														<Double>65</Double>
+													</Elem>
+													<Elem Key="&lt;66&gt; The network connection was closed by the peer.">
+														<Double>66</Double>
+													</Elem>
+													<Elem Key="&lt;114&gt; Could not create TCP listener port because the port, service name, or net address conflict with a TCP listener that already exists.">
+														<Double>114</Double>
+													</Elem>
+													<Elem Key="&lt;127&gt; The specified socket is not an IPv4 socket.">
+														<Double>127</Double>
+													</Elem>
+												</Dictionary>
+											</Property>
+										</Properties>
+										<Errors />
+										<DefaultValue>
+											<Elem>0</Elem>
+										</DefaultValue>
+									</Channel>
+									<Channel Name="Timestamp" TypeGUID="7FC4C151-104F-4070-A177-5B2CF22F1FC4" RowDim="1" ColDim="1" Units="" BitFields="1">
+										<Description />
+										<Properties />
+										<Errors />
+										<DefaultValue>
+											<Elem>0</Elem>
+										</DefaultValue>
+									</Channel>
+									<Channel Name="Message Status" TypeGUID="a618186b-06ee-4c96-843e-7b3da3094e99" RowDim="1" ColDim="1" Units="" BitFields="1">
+										<Description />
+										<Properties />
+										<Errors />
+										<DefaultValue>
+											<Elem>0</Elem>
+										</DefaultValue>
+									</Channel>
+									<Channel Name="Enable Periodic" TypeGUID="0766e40f-9a8b-40a8-8d2d-c67262ede28a" RowDim="1" ColDim="1" Units="" BitFields="3">
+										<Description />
+										<Properties />
+										<Errors />
+										<DefaultValue>
+											<Elem>1</Elem>
+										</DefaultValue>
+									</Channel>
+								</Section>
+								<Section Name="Command" TypeGUID="9428600d-6a85-43b8-aaac-a755da7e0c9b">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Cmd.Cmd">
+											<BinaryString>MTdTZXRWb2x0YWdlOlt2YWx1ZV0=</BinaryString>
+										</Property>
+										<Property Name="user.CD.Cmd.LinkedChans">
+											<StringArray>
+												<Elem>value</Elem>
+											</StringArray>
+										</Property>
+										<Property Name="user.CD.Cmd.LinkedGUID">
+											<StringArray>
+												<Elem>f29282b0-9e25-4ebb-8b5c-72096c2a272f</Elem>
+											</StringArray>
+										</Property>
+										<Property Name="user.CD.Cmd.Pad">
+											<Boolean>false</Boolean>
+										</Property>
+										<Property Name="user.CD.Cmd.PadLength">
+											<U32>25</U32>
+										</Property>
+										<Property Name="user.CD.Cmd.PadVal">
+											<U32>0</U32>
+										</Property>
+									</Properties>
+									<Errors />
+								</Section>
+							</Section>
+							<Section Name="SingleChan_Enum_Cmd_Trig_Pad" TypeGUID="672eb08e-4747-4725-8ff4-4749baa5e2a0">
+								<Description />
+								<Properties>
+									<Property Name="user.CD.Msg.GenType">
+										<U32>0</U32>
+									</Property>
+									<Property Name="user.CD.Msg.Period">
+										<Double>1</Double>
+									</Property>
+									<Property Name="user.CD.Msg.UseProtect">
+										<Boolean>false</Boolean>
+									</Property>
+									<Property Name="user.CD.Msg.ProtectType">
+										<String />
+									</Property>
+								</Properties>
+								<Errors />
+								<Section Name="Message Channels" TypeGUID="72ad4790-7ba8-47a2-8882-5ec6ff5aad5f">
+									<Description />
+									<Properties />
+									<Errors />
+									<Channel Name="Trigger" TypeGUID="74948967-ac25-4bb0-8b12-32de2b2e343b" RowDim="1" ColDim="1" Units="" BitFields="3">
+										<Description />
+										<Properties />
+										<Errors />
+										<DefaultValue>
+											<Elem>0</Elem>
+										</DefaultValue>
+									</Channel>
+									<Channel Name="Error Code" TypeGUID="c36593c7-9ffd-4a3f-8db5-ade8f2d84760" RowDim="1" ColDim="1" Units="" BitFields="1">
+										<Description />
+										<Properties>
+											<Property Name="Value Table">
+												<Dictionary>
+													<Elem Key="&lt;0&gt; No Error.">
+														<Double>0</Double>
+													</Elem>
+													<Elem Key="&lt;53&gt; Manager call not supported.">
+														<Double>53</Double>
+													</Elem>
+													<Elem Key="&lt;54&gt; The network address is ill-formed.">
+														<Double>54</Double>
+													</Elem>
+													<Elem Key="&lt;55&gt; The network operation is in progress.">
+														<Double>55</Double>
+													</Elem>
+													<Elem Key="&lt;56&gt; The network operation exceeded the user-specified or system time limit.">
+														<Double>56</Double>
+													</Elem>
+													<Elem Key="&lt;57&gt; The network connection is busy.">
+														<Double>57</Double>
+													</Elem>
+													<Elem Key="&lt;58&gt; The network function is not supported by the system.">
+														<Double>58</Double>
+													</Elem>
+													<Elem Key="&lt;59&gt; The network is down, unreachable, or has been reset.">
+														<Double>59</Double>
+													</Elem>
+													<Elem Key="&lt;60&gt; The specified port or network address is currently in use.">
+														<Double>60</Double>
+													</Elem>
+													<Elem Key="&lt;61&gt; The system could not allocate the necessary memory.">
+														<Double>61</Double>
+													</Elem>
+													<Elem Key="&lt;62&gt; The system caused the network connection to be aborted.">
+														<Double>62</Double>
+													</Elem>
+													<Elem Key="&lt;63&gt; The network connection was refused by the server.">
+														<Double>63</Double>
+													</Elem>
+													<Elem Key="&lt;64&gt; The network connection is not yet established.">
+														<Double>64</Double>
+													</Elem>
+													<Elem Key="&lt;65&gt; The network connection is already established.">
+														<Double>65</Double>
+													</Elem>
+													<Elem Key="&lt;66&gt; The network connection was closed by the peer.">
+														<Double>66</Double>
+													</Elem>
+													<Elem Key="&lt;114&gt; Could not create TCP listener port because the port, service name, or net address conflict with a TCP listener that already exists.">
+														<Double>114</Double>
+													</Elem>
+													<Elem Key="&lt;127&gt; The specified socket is not an IPv4 socket.">
+														<Double>127</Double>
+													</Elem>
+												</Dictionary>
+											</Property>
+										</Properties>
+										<Errors />
+										<DefaultValue>
+											<Elem>0</Elem>
+										</DefaultValue>
+									</Channel>
+									<Channel Name="Timestamp" TypeGUID="7FC4C151-104F-4070-A177-5B2CF22F1FC4" RowDim="1" ColDim="1" Units="" BitFields="1">
+										<Description />
+										<Properties />
+										<Errors />
+										<DefaultValue>
+											<Elem>0</Elem>
+										</DefaultValue>
+									</Channel>
+									<Channel Name="Message Status" TypeGUID="a618186b-06ee-4c96-843e-7b3da3094e99" RowDim="1" ColDim="1" Units="" BitFields="1">
+										<Description />
+										<Properties />
+										<Errors />
+										<DefaultValue>
+											<Elem>0</Elem>
+										</DefaultValue>
+									</Channel>
+									<Channel Name="Enable Periodic" TypeGUID="0766e40f-9a8b-40a8-8d2d-c67262ede28a" RowDim="1" ColDim="1" Units="" BitFields="3">
+										<Description />
+										<Properties />
+										<Errors />
+										<DefaultValue>
+											<Elem>1</Elem>
+										</DefaultValue>
+									</Channel>
+								</Section>
+								<Section Name="Command" TypeGUID="9428600d-6a85-43b8-aaac-a755da7e0c9b">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Cmd.Cmd">
+											<BinaryString>MTNTZXQ6W3N0YXR1c10=</BinaryString>
+										</Property>
+										<Property Name="user.CD.Cmd.LinkedChans">
+											<StringArray>
+												<Elem>status</Elem>
+											</StringArray>
+										</Property>
+										<Property Name="user.CD.Cmd.LinkedGUID">
+											<StringArray>
+												<Elem>57a1a0c6-d53e-42ce-a003-9d56bed1df83</Elem>
+											</StringArray>
+										</Property>
+										<Property Name="user.CD.Cmd.Pad">
+											<Boolean>true</Boolean>
+										</Property>
+										<Property Name="user.CD.Cmd.PadLength">
+											<U32>15</U32>
+										</Property>
+										<Property Name="user.CD.Cmd.PadVal">
+											<U32>32</U32>
+										</Property>
+									</Properties>
+									<Errors />
+								</Section>
+							</Section>
+							<Section Name="SingleChan_Static_CmdResp_Trig_Prot" TypeGUID="672eb08e-4747-4725-8ff4-4749baa5e2a0">
+								<Description />
+								<Properties>
+									<Property Name="user.CD.Msg.GenType">
+										<U32>0</U32>
+									</Property>
+									<Property Name="user.CD.Msg.Period">
+										<Double>1</Double>
+									</Property>
+									<Property Name="user.CD.Msg.UseProtect">
+										<Boolean>true</Boolean>
+									</Property>
+									<Property Name="user.CD.Msg.ProtectType">
+										<String>CRC-32</String>
+									</Property>
+								</Properties>
+								<Errors />
+								<Section Name="Message Channels" TypeGUID="72ad4790-7ba8-47a2-8882-5ec6ff5aad5f">
+									<Description />
+									<Properties />
+									<Errors />
+									<Channel Name="Trigger" TypeGUID="74948967-ac25-4bb0-8b12-32de2b2e343b" RowDim="1" ColDim="1" Units="" BitFields="3">
+										<Description />
+										<Properties />
+										<Errors />
+										<DefaultValue>
+											<Elem>0</Elem>
+										</DefaultValue>
+									</Channel>
+									<Channel Name="Error Code" TypeGUID="c36593c7-9ffd-4a3f-8db5-ade8f2d84760" RowDim="1" ColDim="1" Units="" BitFields="1">
+										<Description />
+										<Properties>
+											<Property Name="Value Table">
+												<Dictionary>
+													<Elem Key="&lt;0&gt; No Error.">
+														<Double>0</Double>
+													</Elem>
+													<Elem Key="&lt;53&gt; Manager call not supported.">
+														<Double>53</Double>
+													</Elem>
+													<Elem Key="&lt;54&gt; The network address is ill-formed.">
+														<Double>54</Double>
+													</Elem>
+													<Elem Key="&lt;55&gt; The network operation is in progress.">
+														<Double>55</Double>
+													</Elem>
+													<Elem Key="&lt;56&gt; The network operation exceeded the user-specified or system time limit.">
+														<Double>56</Double>
+													</Elem>
+													<Elem Key="&lt;57&gt; The network connection is busy.">
+														<Double>57</Double>
+													</Elem>
+													<Elem Key="&lt;58&gt; The network function is not supported by the system.">
+														<Double>58</Double>
+													</Elem>
+													<Elem Key="&lt;59&gt; The network is down, unreachable, or has been reset.">
+														<Double>59</Double>
+													</Elem>
+													<Elem Key="&lt;60&gt; The specified port or network address is currently in use.">
+														<Double>60</Double>
+													</Elem>
+													<Elem Key="&lt;61&gt; The system could not allocate the necessary memory.">
+														<Double>61</Double>
+													</Elem>
+													<Elem Key="&lt;62&gt; The system caused the network connection to be aborted.">
+														<Double>62</Double>
+													</Elem>
+													<Elem Key="&lt;63&gt; The network connection was refused by the server.">
+														<Double>63</Double>
+													</Elem>
+													<Elem Key="&lt;64&gt; The network connection is not yet established.">
+														<Double>64</Double>
+													</Elem>
+													<Elem Key="&lt;65&gt; The network connection is already established.">
+														<Double>65</Double>
+													</Elem>
+													<Elem Key="&lt;66&gt; The network connection was closed by the peer.">
+														<Double>66</Double>
+													</Elem>
+													<Elem Key="&lt;114&gt; Could not create TCP listener port because the port, service name, or net address conflict with a TCP listener that already exists.">
+														<Double>114</Double>
+													</Elem>
+													<Elem Key="&lt;127&gt; The specified socket is not an IPv4 socket.">
+														<Double>127</Double>
+													</Elem>
+												</Dictionary>
+											</Property>
+										</Properties>
+										<Errors />
+										<DefaultValue>
+											<Elem>0</Elem>
+										</DefaultValue>
+									</Channel>
+									<Channel Name="Timestamp" TypeGUID="7FC4C151-104F-4070-A177-5B2CF22F1FC4" RowDim="1" ColDim="1" Units="" BitFields="1">
+										<Description />
+										<Properties />
+										<Errors />
+										<DefaultValue>
+											<Elem>0</Elem>
+										</DefaultValue>
+									</Channel>
+									<Channel Name="Message Status" TypeGUID="a618186b-06ee-4c96-843e-7b3da3094e99" RowDim="1" ColDim="1" Units="" BitFields="1">
+										<Description />
+										<Properties />
+										<Errors />
+										<DefaultValue>
+											<Elem>0</Elem>
+										</DefaultValue>
+									</Channel>
+									<Channel Name="Enable Periodic" TypeGUID="0766e40f-9a8b-40a8-8d2d-c67262ede28a" RowDim="1" ColDim="1" Units="" BitFields="3">
+										<Description />
+										<Properties />
+										<Errors />
+										<DefaultValue>
+											<Elem>1</Elem>
+										</DefaultValue>
+									</Channel>
+								</Section>
+								<Section Name="Command" TypeGUID="9428600d-6a85-43b8-aaac-a755da7e0c9b">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Cmd.Cmd">
+											<BinaryString>MjdDb21tYW5kUmVzcG9uc2U6QWNxdWlyZQ==</BinaryString>
+										</Property>
+										<Property Name="user.CD.Cmd.LinkedChans">
+											<StringArray />
+										</Property>
+										<Property Name="user.CD.Cmd.LinkedGUID">
+											<StringArray />
+										</Property>
+										<Property Name="user.CD.Cmd.Pad">
+											<Boolean>false</Boolean>
+										</Property>
+										<Property Name="user.CD.Cmd.PadLength">
+											<U32>25</U32>
+										</Property>
+										<Property Name="user.CD.Cmd.PadVal">
+											<U32>0</U32>
+										</Property>
+									</Properties>
+									<Errors />
+								</Section>
+								<Section Name="Response" TypeGUID="e90b6266-233a-4552-94b4-54222f1875a2">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Rsp.Rsp">
+											<BinaryString>MjdDb21tYW5kUmVzcG9uc2U6QWNxdWlyZQ==</BinaryString>
+										</Property>
+										<Property Name="user.CD.Rsp.LinkedChans">
+											<StringArray />
+										</Property>
+										<Property Name="user.CD.Rsp.LinkedGUIDs">
+											<StringArray />
+										</Property>
+										<Property Name="user.CD.Rsp.WaitVal">
+											<Double>29</Double>
+										</Property>
+										<Property Name="user.CD.Rsp.WaitType">
+											<U32>0</U32>
+										</Property>
+										<Property Name="user.CD.Rsp.UseChan">
+											<Boolean>false</Boolean>
+										</Property>
+										<Property Name="user.CD.Rsp.ChanPath">
+											<String />
+										</Property>
+									</Properties>
+									<Errors />
+								</Section>
+							</Section>
+							<Section Name="SingleChan_TypeCast_Cmd_Trig_Pad" TypeGUID="672eb08e-4747-4725-8ff4-4749baa5e2a0">
+								<Description />
+								<Properties>
+									<Property Name="user.CD.Msg.GenType">
+										<U32>0</U32>
+									</Property>
+									<Property Name="user.CD.Msg.Period">
+										<Double>1</Double>
+									</Property>
+									<Property Name="user.CD.Msg.UseProtect">
+										<Boolean>false</Boolean>
+									</Property>
+									<Property Name="user.CD.Msg.ProtectType">
+										<String />
+									</Property>
+								</Properties>
+								<Errors />
+								<Section Name="Message Channels" TypeGUID="72ad4790-7ba8-47a2-8882-5ec6ff5aad5f">
+									<Description />
+									<Properties />
+									<Errors />
+									<Channel Name="Trigger" TypeGUID="74948967-ac25-4bb0-8b12-32de2b2e343b" RowDim="1" ColDim="1" Units="" BitFields="3">
+										<Description />
+										<Properties />
+										<Errors />
+										<DefaultValue>
+											<Elem>0</Elem>
+										</DefaultValue>
+									</Channel>
+									<Channel Name="Error Code" TypeGUID="c36593c7-9ffd-4a3f-8db5-ade8f2d84760" RowDim="1" ColDim="1" Units="" BitFields="1">
+										<Description />
+										<Properties>
+											<Property Name="Value Table">
+												<Dictionary>
+													<Elem Key="&lt;0&gt; No Error.">
+														<Double>0</Double>
+													</Elem>
+													<Elem Key="&lt;53&gt; Manager call not supported.">
+														<Double>53</Double>
+													</Elem>
+													<Elem Key="&lt;54&gt; The network address is ill-formed.">
+														<Double>54</Double>
+													</Elem>
+													<Elem Key="&lt;55&gt; The network operation is in progress.">
+														<Double>55</Double>
+													</Elem>
+													<Elem Key="&lt;56&gt; The network operation exceeded the user-specified or system time limit.">
+														<Double>56</Double>
+													</Elem>
+													<Elem Key="&lt;57&gt; The network connection is busy.">
+														<Double>57</Double>
+													</Elem>
+													<Elem Key="&lt;58&gt; The network function is not supported by the system.">
+														<Double>58</Double>
+													</Elem>
+													<Elem Key="&lt;59&gt; The network is down, unreachable, or has been reset.">
+														<Double>59</Double>
+													</Elem>
+													<Elem Key="&lt;60&gt; The specified port or network address is currently in use.">
+														<Double>60</Double>
+													</Elem>
+													<Elem Key="&lt;61&gt; The system could not allocate the necessary memory.">
+														<Double>61</Double>
+													</Elem>
+													<Elem Key="&lt;62&gt; The system caused the network connection to be aborted.">
+														<Double>62</Double>
+													</Elem>
+													<Elem Key="&lt;63&gt; The network connection was refused by the server.">
+														<Double>63</Double>
+													</Elem>
+													<Elem Key="&lt;64&gt; The network connection is not yet established.">
+														<Double>64</Double>
+													</Elem>
+													<Elem Key="&lt;65&gt; The network connection is already established.">
+														<Double>65</Double>
+													</Elem>
+													<Elem Key="&lt;66&gt; The network connection was closed by the peer.">
+														<Double>66</Double>
+													</Elem>
+													<Elem Key="&lt;114&gt; Could not create TCP listener port because the port, service name, or net address conflict with a TCP listener that already exists.">
+														<Double>114</Double>
+													</Elem>
+													<Elem Key="&lt;127&gt; The specified socket is not an IPv4 socket.">
+														<Double>127</Double>
+													</Elem>
+												</Dictionary>
+											</Property>
+										</Properties>
+										<Errors />
+										<DefaultValue>
+											<Elem>0</Elem>
+										</DefaultValue>
+									</Channel>
+									<Channel Name="Timestamp" TypeGUID="7FC4C151-104F-4070-A177-5B2CF22F1FC4" RowDim="1" ColDim="1" Units="" BitFields="1">
+										<Description />
+										<Properties />
+										<Errors />
+										<DefaultValue>
+											<Elem>0</Elem>
+										</DefaultValue>
+									</Channel>
+									<Channel Name="Message Status" TypeGUID="a618186b-06ee-4c96-843e-7b3da3094e99" RowDim="1" ColDim="1" Units="" BitFields="1">
+										<Description />
+										<Properties />
+										<Errors />
+										<DefaultValue>
+											<Elem>0</Elem>
+										</DefaultValue>
+									</Channel>
+									<Channel Name="Enable Periodic" TypeGUID="0766e40f-9a8b-40a8-8d2d-c67262ede28a" RowDim="1" ColDim="1" Units="" BitFields="3">
+										<Description />
+										<Properties />
+										<Errors />
+										<DefaultValue>
+											<Elem>1</Elem>
+										</DefaultValue>
+									</Channel>
+								</Section>
+								<Section Name="Command" TypeGUID="9428600d-6a85-43b8-aaac-a755da7e0c9b">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Cmd.Cmd">
+											<BinaryString>MjNDb21tYW5kOkluaXQ6W3R5cGVjYXN0XQ==</BinaryString>
+										</Property>
+										<Property Name="user.CD.Cmd.LinkedChans">
+											<StringArray>
+												<Elem>typecast</Elem>
+											</StringArray>
+										</Property>
+										<Property Name="user.CD.Cmd.LinkedGUID">
+											<StringArray>
+												<Elem>eb265f23-18c9-45f9-9b4b-cd2f9ccbbe38</Elem>
+											</StringArray>
+										</Property>
+										<Property Name="user.CD.Cmd.Pad">
+											<Boolean>true</Boolean>
+										</Property>
+										<Property Name="user.CD.Cmd.PadLength">
+											<U32>25</U32>
+										</Property>
+										<Property Name="user.CD.Cmd.PadVal">
+											<U32>32</U32>
+										</Property>
+									</Properties>
+									<Errors />
+								</Section>
+							</Section>
+							<Section Name="SingleChan_EnumFormat_Cmd_Trig_Pad_Prot" TypeGUID="672eb08e-4747-4725-8ff4-4749baa5e2a0">
+								<Description />
+								<Properties>
+									<Property Name="user.CD.Msg.GenType">
+										<U32>0</U32>
+									</Property>
+									<Property Name="user.CD.Msg.Period">
+										<Double>1</Double>
+									</Property>
+									<Property Name="user.CD.Msg.UseProtect">
+										<Boolean>true</Boolean>
+									</Property>
+									<Property Name="user.CD.Msg.ProtectType">
+										<String>Checksum U32</String>
+									</Property>
+								</Properties>
+								<Errors />
+								<Section Name="Message Channels" TypeGUID="72ad4790-7ba8-47a2-8882-5ec6ff5aad5f">
+									<Description />
+									<Properties />
+									<Errors />
+									<Channel Name="Trigger" TypeGUID="74948967-ac25-4bb0-8b12-32de2b2e343b" RowDim="1" ColDim="1" Units="" BitFields="3">
+										<Description />
+										<Properties />
+										<Errors />
+										<DefaultValue>
+											<Elem>0</Elem>
+										</DefaultValue>
+									</Channel>
+									<Channel Name="Error Code" TypeGUID="c36593c7-9ffd-4a3f-8db5-ade8f2d84760" RowDim="1" ColDim="1" Units="" BitFields="1">
+										<Description />
+										<Properties>
+											<Property Name="Value Table">
+												<Dictionary>
+													<Elem Key="&lt;0&gt; No Error.">
+														<Double>0</Double>
+													</Elem>
+													<Elem Key="&lt;53&gt; Manager call not supported.">
+														<Double>53</Double>
+													</Elem>
+													<Elem Key="&lt;54&gt; The network address is ill-formed.">
+														<Double>54</Double>
+													</Elem>
+													<Elem Key="&lt;55&gt; The network operation is in progress.">
+														<Double>55</Double>
+													</Elem>
+													<Elem Key="&lt;56&gt; The network operation exceeded the user-specified or system time limit.">
+														<Double>56</Double>
+													</Elem>
+													<Elem Key="&lt;57&gt; The network connection is busy.">
+														<Double>57</Double>
+													</Elem>
+													<Elem Key="&lt;58&gt; The network function is not supported by the system.">
+														<Double>58</Double>
+													</Elem>
+													<Elem Key="&lt;59&gt; The network is down, unreachable, or has been reset.">
+														<Double>59</Double>
+													</Elem>
+													<Elem Key="&lt;60&gt; The specified port or network address is currently in use.">
+														<Double>60</Double>
+													</Elem>
+													<Elem Key="&lt;61&gt; The system could not allocate the necessary memory.">
+														<Double>61</Double>
+													</Elem>
+													<Elem Key="&lt;62&gt; The system caused the network connection to be aborted.">
+														<Double>62</Double>
+													</Elem>
+													<Elem Key="&lt;63&gt; The network connection was refused by the server.">
+														<Double>63</Double>
+													</Elem>
+													<Elem Key="&lt;64&gt; The network connection is not yet established.">
+														<Double>64</Double>
+													</Elem>
+													<Elem Key="&lt;65&gt; The network connection is already established.">
+														<Double>65</Double>
+													</Elem>
+													<Elem Key="&lt;66&gt; The network connection was closed by the peer.">
+														<Double>66</Double>
+													</Elem>
+													<Elem Key="&lt;114&gt; Could not create TCP listener port because the port, service name, or net address conflict with a TCP listener that already exists.">
+														<Double>114</Double>
+													</Elem>
+													<Elem Key="&lt;127&gt; The specified socket is not an IPv4 socket.">
+														<Double>127</Double>
+													</Elem>
+												</Dictionary>
+											</Property>
+										</Properties>
+										<Errors />
+										<DefaultValue>
+											<Elem>0</Elem>
+										</DefaultValue>
+									</Channel>
+									<Channel Name="Timestamp" TypeGUID="7FC4C151-104F-4070-A177-5B2CF22F1FC4" RowDim="1" ColDim="1" Units="" BitFields="1">
+										<Description />
+										<Properties />
+										<Errors />
+										<DefaultValue>
+											<Elem>0</Elem>
+										</DefaultValue>
+									</Channel>
+									<Channel Name="Message Status" TypeGUID="a618186b-06ee-4c96-843e-7b3da3094e99" RowDim="1" ColDim="1" Units="" BitFields="1">
+										<Description />
+										<Properties />
+										<Errors />
+										<DefaultValue>
+											<Elem>0</Elem>
+										</DefaultValue>
+									</Channel>
+									<Channel Name="Enable Periodic" TypeGUID="0766e40f-9a8b-40a8-8d2d-c67262ede28a" RowDim="1" ColDim="1" Units="" BitFields="3">
+										<Description />
+										<Properties />
+										<Errors />
+										<DefaultValue>
+											<Elem>1</Elem>
+										</DefaultValue>
+									</Channel>
+								</Section>
+								<Section Name="Command" TypeGUID="9428600d-6a85-43b8-aaac-a755da7e0c9b">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Cmd.Cmd">
+											<BinaryString>MzBDb21tYW5kOltzdGF0ZV06W3ZhbHVlXQ==</BinaryString>
+										</Property>
+										<Property Name="user.CD.Cmd.LinkedChans">
+											<StringArray>
+												<Elem>state</Elem>
+												<Elem>value</Elem>
+											</StringArray>
+										</Property>
+										<Property Name="user.CD.Cmd.LinkedGUID">
+											<StringArray>
+												<Elem>57a1a0c6-d53e-42ce-a003-9d56bed1df83</Elem>
+												<Elem>f29282b0-9e25-4ebb-8b5c-72096c2a272f</Elem>
+											</StringArray>
+										</Property>
+										<Property Name="user.CD.Cmd.Pad">
+											<Boolean>true</Boolean>
+										</Property>
+										<Property Name="user.CD.Cmd.PadLength">
+											<U32>32</U32>
 										</Property>
 										<Property Name="user.CD.Cmd.PadVal">
 											<U32>32</U32>
@@ -2184,38 +3458,110 @@
 				<Description />
 				<Properties />
 				<Errors />
-				<Alias Name="SingleChan_CmdResp_TrigOnly_PadOff_ProtOff" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
+				<Alias Name="SingleChan_Static_CmdResp_Trig" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
 					<Description />
 					<Properties>
 						<Property Name="Referenced Channel">
-							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon/Message Group/SingleChan_CmdResp_TrigOnly_PadOff_ProtOff/Message Channels/Error Code" />
+							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon/Message Group/SingleChan_Static_CmdResp_Trig/Message Channels/Error Code" />
 						</Property>
 					</Properties>
 					<Errors />
 				</Alias>
-				<Alias Name="SingleChan_CmdOnly_TrigOnly_PadOff_ProtOff" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
+				<Alias Name="SingleChan_Static_Cmd_Trig" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
 					<Description />
 					<Properties>
 						<Property Name="Referenced Channel">
-							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon/Message Group/SingleChan_CmdOnly_TrigOnly_PadOff_ProtOff/Message Channels/Error Code" />
+							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon/Message Group/SingleChan_Static_Cmd_Trig/Message Channels/Error Code" />
 						</Property>
 					</Properties>
 					<Errors />
 				</Alias>
-				<Alias Name="SingleChan_CmdOnly_PeriodTrig_PadOn_ProtOff" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
+				<Alias Name="SingleChan_Static_Cmd_PeriodTrig_Pad" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
 					<Description />
 					<Properties>
 						<Property Name="Referenced Channel">
-							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon/Message Group/SingleChan_CmdOnly_PeriodTrig_PadOn_ProtOff/Message Channels/Error Code" />
+							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon/Message Group/SingleChan_Static_Cmd_PeriodTrig_Pad/Message Channels/Error Code" />
 						</Property>
 					</Properties>
 					<Errors />
 				</Alias>
-				<Alias Name="SingleChan_CmdOnly_ValueAndTrig_PadOn_ProtOn" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
+				<Alias Name="SingleChan_Static_Cmd_ValueAndTrig_Pad_Prot" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
 					<Description />
 					<Properties>
 						<Property Name="Referenced Channel">
-							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon/Message Group/SingleChan_CmdOnly_ValueAndTrig_PadOn_ProtOn/Message Channels/Error Code" />
+							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon/Message Group/SingleChan_Static_Cmd_ValueAndTrig_Pad_Prot/Message Channels/Error Code" />
+						</Property>
+					</Properties>
+					<Errors />
+				</Alias>
+				<Alias Name="SingleChan_Static_Cmd_Trig_Prot" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
+					<Description />
+					<Properties>
+						<Property Name="Referenced Channel">
+							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon/Message Group/SingleChan_Static_Cmd_Trig_Prot/Message Channels/Error Code" />
+						</Property>
+					</Properties>
+					<Errors />
+				</Alias>
+				<Alias Name="SingleChan_Static_CmdResp_Trig_Prot_Pad" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
+					<Description />
+					<Properties>
+						<Property Name="Referenced Channel">
+							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon/Message Group/SingleChan_Static_CmdResp_Trig_Prot_Pad/Message Channels/Error Code" />
+						</Property>
+					</Properties>
+					<Errors />
+				</Alias>
+				<Alias Name="SingleChan_Static_Cmd_Trig_Pad" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
+					<Description />
+					<Properties>
+						<Property Name="Referenced Channel">
+							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon/Message Group/SingleChan_Static_Cmd_Trig_Pad/Message Channels/Error Code" />
+						</Property>
+					</Properties>
+					<Errors />
+				</Alias>
+				<Alias Name="SingleChan_Format_Cmd_Trig" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
+					<Description />
+					<Properties>
+						<Property Name="Referenced Channel">
+							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon/Message Group/SingleChan_Format_Cmd_Trig/Message Channels/Error Code" />
+						</Property>
+					</Properties>
+					<Errors />
+				</Alias>
+				<Alias Name="SingleChan_Enum_Cmd_Trig_Pad" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
+					<Description />
+					<Properties>
+						<Property Name="Referenced Channel">
+							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon/Message Group/SingleChan_Enum_Cmd_Trig_Pad/Message Channels/Error Code" />
+						</Property>
+					</Properties>
+					<Errors />
+				</Alias>
+				<Alias Name="SingleChan_Static_CmdResp_Trig_Prot" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
+					<Description />
+					<Properties>
+						<Property Name="Referenced Channel">
+							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon/Message Group/SingleChan_Static_CmdResp_Trig_Prot/Message Channels/Error Code" />
+						</Property>
+					</Properties>
+					<Errors />
+				</Alias>
+				<Alias Name="SingleChan_TypeCast_Cmd_Trig_Pad" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
+					<Description />
+					<Properties>
+						<Property Name="Referenced Channel">
+							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon/Message Group/SingleChan_TypeCast_Cmd_Trig_Pad/Message Channels/Error Code" />
+						</Property>
+					</Properties>
+					<Errors />
+				</Alias>
+				<Alias Name="SingleChan_EnumFormat_Cmd_Trig_Pad_Prot" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
+					<Description />
+					<Properties>
+						<Property Name="Referenced Channel">
+							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon/Message Group/SingleChan_EnumFormat_Cmd_Trig_Pad_Prot/Message Channels/Error Code" />
 						</Property>
 					</Properties>
 					<Errors />
@@ -2225,38 +3571,110 @@
 				<Description />
 				<Properties />
 				<Errors />
-				<Alias Name="SingleChan_CmdOnly_TrigOnly_PadOff_ProtOff" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
+				<Alias Name="SingleChan_Static_Cmd_Trig" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
 					<Description />
 					<Properties>
 						<Property Name="Referenced Channel">
-							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon/Message Group/SingleChan_CmdOnly_TrigOnly_PadOff_ProtOff/Message Channels/Message Status" />
+							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon/Message Group/SingleChan_Static_Cmd_Trig/Message Channels/Message Status" />
 						</Property>
 					</Properties>
 					<Errors />
 				</Alias>
-				<Alias Name="SingleChan_CmdResp_TrigOnly_PadOff_ProtOff" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
+				<Alias Name="SingleChan_Static_CmdResp_Trig" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
 					<Description />
 					<Properties>
 						<Property Name="Referenced Channel">
-							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon/Message Group/SingleChan_CmdResp_TrigOnly_PadOff_ProtOff/Message Channels/Message Status" />
+							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon/Message Group/SingleChan_Static_CmdResp_Trig/Message Channels/Message Status" />
 						</Property>
 					</Properties>
 					<Errors />
 				</Alias>
-				<Alias Name="SingleChan_CmdOnly_PeriodTrig_PadOn_ProtOff" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
+				<Alias Name="SingleChan_Static_Cmd_PeriodTrig_Pad" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
 					<Description />
 					<Properties>
 						<Property Name="Referenced Channel">
-							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon/Message Group/SingleChan_CmdOnly_PeriodTrig_PadOn_ProtOff/Message Channels/Message Status" />
+							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon/Message Group/SingleChan_Static_Cmd_PeriodTrig_Pad/Message Channels/Message Status" />
 						</Property>
 					</Properties>
 					<Errors />
 				</Alias>
-				<Alias Name="SingleChan_CmdOnly_ValueAndTrig_PadOn_ProtOn" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
+				<Alias Name="SingleChan_Static_Cmd_ValueAndTrig_Pad_Prot" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
 					<Description />
 					<Properties>
 						<Property Name="Referenced Channel">
-							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon/Message Group/SingleChan_CmdOnly_ValueAndTrig_PadOn_ProtOn/Message Channels/Message Status" />
+							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon/Message Group/SingleChan_Static_Cmd_ValueAndTrig_Pad_Prot/Message Channels/Message Status" />
+						</Property>
+					</Properties>
+					<Errors />
+				</Alias>
+				<Alias Name="SingleChan_Static_Cmd_Trig_Prot" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
+					<Description />
+					<Properties>
+						<Property Name="Referenced Channel">
+							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon/Message Group/SingleChan_Static_Cmd_Trig_Prot/Message Channels/Message Status" />
+						</Property>
+					</Properties>
+					<Errors />
+				</Alias>
+				<Alias Name="SingleChan_Static_CmdResp_Trig_Prot_Pad" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
+					<Description />
+					<Properties>
+						<Property Name="Referenced Channel">
+							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon/Message Group/SingleChan_Static_CmdResp_Trig_Prot_Pad/Message Channels/Message Status" />
+						</Property>
+					</Properties>
+					<Errors />
+				</Alias>
+				<Alias Name="SingleChan_Static_Cmd_Trig_Pad" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
+					<Description />
+					<Properties>
+						<Property Name="Referenced Channel">
+							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon/Message Group/SingleChan_Static_Cmd_Trig_Pad/Message Channels/Message Status" />
+						</Property>
+					</Properties>
+					<Errors />
+				</Alias>
+				<Alias Name="SingleChan_Format_Cmd_Trig" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
+					<Description />
+					<Properties>
+						<Property Name="Referenced Channel">
+							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon/Message Group/SingleChan_Format_Cmd_Trig/Message Channels/Message Status" />
+						</Property>
+					</Properties>
+					<Errors />
+				</Alias>
+				<Alias Name="SingleChan_Enum_Cmd_Trig_Pad" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
+					<Description />
+					<Properties>
+						<Property Name="Referenced Channel">
+							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon/Message Group/SingleChan_Enum_Cmd_Trig_Pad/Message Channels/Message Status" />
+						</Property>
+					</Properties>
+					<Errors />
+				</Alias>
+				<Alias Name="SingleChan_Static_CmdResp_Trig_Prot" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
+					<Description />
+					<Properties>
+						<Property Name="Referenced Channel">
+							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon/Message Group/SingleChan_Static_CmdResp_Trig_Prot/Message Channels/Message Status" />
+						</Property>
+					</Properties>
+					<Errors />
+				</Alias>
+				<Alias Name="SingleChan_TypeCast_Cmd_Trig_Pad" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
+					<Description />
+					<Properties>
+						<Property Name="Referenced Channel">
+							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon/Message Group/SingleChan_TypeCast_Cmd_Trig_Pad/Message Channels/Message Status" />
+						</Property>
+					</Properties>
+					<Errors />
+				</Alias>
+				<Alias Name="SingleChan_EnumFormat_Cmd_Trig_Pad_Prot" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
+					<Description />
+					<Properties>
+						<Property Name="Referenced Channel">
+							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon/Message Group/SingleChan_EnumFormat_Cmd_Trig_Pad_Prot/Message Channels/Message Status" />
 						</Property>
 					</Properties>
 					<Errors />
@@ -2266,43 +3684,142 @@
 				<Description />
 				<Properties />
 				<Errors />
-				<Alias Name="SingleChan_CmdResp_TrigOnly_PadOff_ProtOff" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
+				<Alias Name="SingleChan_Static_CmdResp_Trig" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
 					<Description />
 					<Properties>
 						<Property Name="Referenced Channel">
-							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon/Message Group/SingleChan_CmdResp_TrigOnly_PadOff_ProtOff/Message Channels/Trigger" />
+							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon/Message Group/SingleChan_Static_CmdResp_Trig/Message Channels/Trigger" />
 						</Property>
 					</Properties>
 					<Errors />
 				</Alias>
-				<Alias Name="SingleChan_CmdOnly_TrigOnly_PadOff_ProtOff" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
+				<Alias Name="SingleChan_Static_Cmd_Trig" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
 					<Description />
 					<Properties>
 						<Property Name="Referenced Channel">
-							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon/Message Group/SingleChan_CmdOnly_TrigOnly_PadOff_ProtOff/Message Channels/Trigger" />
+							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon/Message Group/SingleChan_Static_Cmd_Trig/Message Channels/Trigger" />
 						</Property>
 					</Properties>
 					<Errors />
 				</Alias>
-				<Alias Name="SingleChan_CmdOnly_PeriodTrig_PadOn_ProtOff" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
+				<Alias Name="SingleChan_Static_Cmd_PeriodTrig_Pad" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
 					<Description />
 					<Properties>
 						<Property Name="Referenced Channel">
-							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon/Message Group/SingleChan_CmdOnly_PeriodTrig_PadOn_ProtOff/Message Channels/Trigger" />
+							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon/Message Group/SingleChan_Static_Cmd_PeriodTrig_Pad/Message Channels/Trigger" />
 						</Property>
 					</Properties>
 					<Errors />
 				</Alias>
-				<Alias Name="SingleChan_CmdOnly_ValueAndTrig_PadOn_ProtOn" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
+				<Alias Name="SingleChan_Static_Cmd_ValueAndTrig_Pad_Prot" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
 					<Description />
 					<Properties>
 						<Property Name="Referenced Channel">
-							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon/Message Group/SingleChan_CmdOnly_ValueAndTrig_PadOn_ProtOn/Message Channels/Trigger" />
+							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon/Message Group/SingleChan_Static_Cmd_ValueAndTrig_Pad_Prot/Message Channels/Trigger" />
+						</Property>
+					</Properties>
+					<Errors />
+				</Alias>
+				<Alias Name="SingleChan_Static_Cmd_Trig_Prot" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
+					<Description />
+					<Properties>
+						<Property Name="Referenced Channel">
+							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon/Message Group/SingleChan_Static_Cmd_Trig_Prot/Message Channels/Trigger" />
+						</Property>
+					</Properties>
+					<Errors />
+				</Alias>
+				<Alias Name="SingleChan_Static_CmdResp_Trig_Prot_Pad" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
+					<Description />
+					<Properties>
+						<Property Name="Referenced Channel">
+							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon/Message Group/SingleChan_Static_CmdResp_Trig_Prot_Pad/Message Channels/Trigger" />
+						</Property>
+					</Properties>
+					<Errors />
+				</Alias>
+				<Alias Name="SingleChan_Static_Cmd_Trig_Pad" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
+					<Description />
+					<Properties>
+						<Property Name="Referenced Channel">
+							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon/Message Group/SingleChan_Static_Cmd_Trig_Pad/Message Channels/Trigger" />
+						</Property>
+					</Properties>
+					<Errors />
+				</Alias>
+				<Alias Name="SingleChan_Format_Cmd_Trig" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
+					<Description />
+					<Properties>
+						<Property Name="Referenced Channel">
+							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon/Message Group/SingleChan_Format_Cmd_Trig/Message Channels/Trigger" />
+						</Property>
+					</Properties>
+					<Errors />
+				</Alias>
+				<Alias Name="SingleChan_Enum_Cmd_Trig_Pad" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
+					<Description />
+					<Properties>
+						<Property Name="Referenced Channel">
+							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon/Message Group/SingleChan_Enum_Cmd_Trig_Pad/Message Channels/Trigger" />
+						</Property>
+					</Properties>
+					<Errors />
+				</Alias>
+				<Alias Name="SingleChan_Static_CmdResp_Trig_Prot" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
+					<Description />
+					<Properties>
+						<Property Name="Referenced Channel">
+							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon/Message Group/SingleChan_Static_CmdResp_Trig_Prot/Message Channels/Trigger" />
+						</Property>
+					</Properties>
+					<Errors />
+				</Alias>
+				<Alias Name="SingleChan_TypeCast_Cmd_Trig_Pad" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
+					<Description />
+					<Properties>
+						<Property Name="Referenced Channel">
+							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon/Message Group/SingleChan_TypeCast_Cmd_Trig_Pad/Message Channels/Trigger" />
+						</Property>
+					</Properties>
+					<Errors />
+				</Alias>
+				<Alias Name="SingleChan_EnumFormat_Cmd_Trig_Pad_Prot" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
+					<Description />
+					<Properties>
+						<Property Name="Referenced Channel">
+							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon/Message Group/SingleChan_EnumFormat_Cmd_Trig_Pad_Prot/Message Channels/Trigger" />
 						</Property>
 					</Properties>
 					<Errors />
 				</Alias>
 			</Section>
+			<Alias Name="Single Channel Enum" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
+				<Description />
+				<Properties>
+					<Property Name="Referenced Channel">
+						<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon/Global MetaData Channels/Single Channel Enum" />
+					</Property>
+				</Properties>
+				<Errors />
+			</Alias>
+			<Alias Name="Single Channel Format" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
+				<Description />
+				<Properties>
+					<Property Name="Referenced Channel">
+						<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon/Global MetaData Channels/Single Channel Format" />
+					</Property>
+				</Properties>
+				<Errors />
+			</Alias>
+			<Alias Name="Single Channel Type Cast" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
+				<Description />
+				<Properties>
+					<Property Name="Referenced Channel">
+						<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon/Global MetaData Channels/Single Channel Type Cast" />
+					</Property>
+				</Properties>
+				<Errors />
+			</Alias>
 		</Section>
 		<Section Name="Scales" TypeGUID="032c8aec-ce5b-6d40-06c5-5703bbc7ccee">
 			<Description />
