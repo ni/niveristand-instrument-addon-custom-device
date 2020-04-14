@@ -83,6 +83,12 @@
 		</Item>
 		<Item Name="Tests" Type="Folder">
 			<Item Name="System" Type="Folder">
+				<Item Name="Assets" Type="Folder">
+					<Property Name="NI.SortType" Type="Int">3</Property>
+					<Item Name="TCP Listener.vi" Type="VI" URL="../Tests/System Tests/Assets/TCP Listener.vi"/>
+					<Item Name="TCP Data Reader.vi" Type="VI" URL="../Tests/System Tests/Assets/TCP Data Reader.vi"/>
+					<Item Name="TCP HeartBeat Generator.vi" Type="VI" URL="../Tests/System Tests/Assets/TCP HeartBeat Generator.vi"/>
+				</Item>
 				<Item Name="Common System Tests.lvclass" Type="LVClass" URL="../Tests/System Tests/Common System Tests/Common System Tests.lvclass"/>
 			</Item>
 			<Item Name="Unit" Type="Folder">
