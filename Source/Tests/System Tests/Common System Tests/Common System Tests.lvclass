@@ -49,22 +49,22 @@
 		<Item Name="CD System Test.nivssdf" Type="Document" URL="../Assets/CD System Test.nivssdf"/>
 	</Item>
 	<Item Name="setUp.vi" Type="VI" URL="../setUp.vi">
-		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%S!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$2!=!!?!!!&gt;'U.P&lt;7VP&lt;C"4?8.U:7UA6'6T&gt;(-O&lt;(:D&lt;'&amp;T=Q!.=G6G:8*F&lt;G.F)'^V&gt;!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!$2!=!!?!!!&gt;'U.P&lt;7VP&lt;C"4?8.U:7UA6'6T&gt;(-O&lt;(:D&lt;'&amp;T=Q!-=G6G:8*F&lt;G.F)'FO!!"B!0!!$!!$!!1!"!!&amp;!!1!"!!%!!1!"A!%!!1!"Q-!!(A!!!U)!!!!!!!!!!!!!!U,!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!!!!!!!%!!!$1!!!!Q!!!!!!!!!!!!!!1!)!!!!!!</Property>
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%S!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$2!=!!?!!!&gt;'U.P&lt;7VP&lt;C"4?8.U:7UA6'6T&gt;(-O&lt;(:D&lt;'&amp;T=Q!.=G6G:8*F&lt;G.F)'^V&gt;!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!$2!=!!?!!!&gt;'U.P&lt;7VP&lt;C"4?8.U:7UA6'6T&gt;(-O&lt;(:D&lt;'&amp;T=Q!-=G6G:8*F&lt;G.F)'FO!!"B!0!!$!!$!!1!"!!&amp;!!1!"!!%!!1!"A!%!!1!"Q-!!(A!!!E!!!!!!!!!!!!!!!U,!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!!!!!!!%!!!$1!!!!Q!!!!!!!!!!!!!!1!)!!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
 		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
 		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-		<Property Name="NI.ClassItem.State" Type="Int">1082401296</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1115685392</Property>
 	</Item>
 	<Item Name="tearDown.vi" Type="VI" URL="../tearDown.vi">
-		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%S!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$2!=!!?!!!&gt;'U.P&lt;7VP&lt;C"4?8.U:7UA6'6T&gt;(-O&lt;(:D&lt;'&amp;T=Q!.=G6G:8*F&lt;G.F)'^V&gt;!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!$2!=!!?!!!&gt;'U.P&lt;7VP&lt;C"4?8.U:7UA6'6T&gt;(-O&lt;(:D&lt;'&amp;T=Q!-=G6G:8*F&lt;G.F)'FO!!"B!0!!$!!$!!1!"!!&amp;!!1!"!!%!!1!"A!%!!1!"Q-!!(A!!!U)!!!!!!!!!!!!!!U,!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!!!!!!!%!!!$1!!!!Q!!!!!!!!!!!!!!1!)!!!!!!</Property>
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%S!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$2!=!!?!!!&gt;'U.P&lt;7VP&lt;C"4?8.U:7UA6'6T&gt;(-O&lt;(:D&lt;'&amp;T=Q!.=G6G:8*F&lt;G.F)'^V&gt;!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!$2!=!!?!!!&gt;'U.P&lt;7VP&lt;C"4?8.U:7UA6'6T&gt;(-O&lt;(:D&lt;'&amp;T=Q!-=G6G:8*F&lt;G.F)'FO!!"B!0!!$!!$!!1!"!!&amp;!!1!"!!%!!1!"A!%!!1!"Q-!!(A!!!E!!!!!!!!!!!!!!!U,!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!!!!!!!%!!!$1!!!!Q!!!!!!!!!!!!!!1!)!!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
 		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
 		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-		<Property Name="NI.ClassItem.State" Type="Int">1082401296</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1082130960</Property>
 	</Item>
 	<Item Name="test_Basic Deployment.vi" Type="VI" URL="../test_Basic Deployment.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%Q!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$2!=!!?!!!&gt;'U.P&lt;7VP&lt;C"4?8.U:7UA6'6T&gt;(-O&lt;(:D&lt;'&amp;T=Q!-6'6T&gt;%.B=W5A&lt;X6U!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!$*!=!!?!!!&gt;'U.P&lt;7VP&lt;C"4?8.U:7UA6'6T&gt;(-O&lt;(:D&lt;'&amp;T=Q!,6'6T&gt;%.B=W5A;7Y!91$Q!!Q!!Q!%!!1!"1!%!!1!"!!%!!9!"!!%!!=$!!"Y!!!.#!!!!!!!!!!!!!!.#Q!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!!!!!!")!!!U!!!!-!!!!!!!!!!!!!!%!#!!!!!!</Property>
@@ -120,7 +120,7 @@
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1082130960</Property>
 	</Item>
-	<Item Name="test_Multiple Enum Single Channel Command Message using Trigger and Padding.vi" Type="VI" URL="../test_Multiple Enum Single Channel Command Message using Trigger and Padding.vi">
+	<Item Name="test_Multiple Global Enum Single Channel Command Message using Trigger and Padding.vi" Type="VI" URL="../test_Multiple Global Enum Single Channel Command Message using Trigger and Padding.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%Q!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$2!=!!?!!!&gt;'U.P&lt;7VP&lt;C"4?8.U:7UA6'6T&gt;(-O&lt;(:D&lt;'&amp;T=Q!-6'6T&gt;%.B=W5A&lt;X6U!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!$*!=!!?!!!&gt;'U.P&lt;7VP&lt;C"4?8.U:7UA6'6T&gt;(-O&lt;(:D&lt;'&amp;T=Q!,6'6T&gt;%.B=W5A;7Y!91$Q!!Q!!Q!%!!1!"1!%!!1!"!!%!!9!"!!%!!=$!!"Y!!!*!!!!!!!!!!!!!!!.#Q!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!!!!!!")!!!U!!!!-!!!!!!!!!!!!!!%!#!!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 		<Property Name="NI.ClassItem.Flags" Type="Int">16777216</Property>
@@ -129,7 +129,7 @@
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1082401296</Property>
 	</Item>
-	<Item Name="test_Multiple Format Single Channel Command Message using Trigger.vi" Type="VI" URL="../test_Multiple Format Single Channel Command Message using Trigger.vi">
+	<Item Name="test_Multiple Global Format Single Channel Command Message using Trigger.vi" Type="VI" URL="../test_Multiple Global Format Single Channel Command Message using Trigger.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%Q!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$2!=!!?!!!&gt;'U.P&lt;7VP&lt;C"4?8.U:7UA6'6T&gt;(-O&lt;(:D&lt;'&amp;T=Q!-6'6T&gt;%.B=W5A&lt;X6U!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!$*!=!!?!!!&gt;'U.P&lt;7VP&lt;C"4?8.U:7UA6'6T&gt;(-O&lt;(:D&lt;'&amp;T=Q!,6'6T&gt;%.B=W5A;7Y!91$Q!!Q!!Q!%!!1!"1!%!!1!"!!%!!9!"!!%!!=$!!"Y!!!*!!!!!!!!!!!!!!!.#Q!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!!!!!!")!!!U!!!!-!!!!!!!!!!!!!!%!#!!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 		<Property Name="NI.ClassItem.Flags" Type="Int">16777216</Property>
@@ -138,7 +138,7 @@
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1082401296</Property>
 	</Item>
-	<Item Name="test_Multiple Type Cast Single Channel Command Message using Trigger and Padding.vi" Type="VI" URL="../test_Multiple Type Cast Single Channel Command Message using Trigger and Padding.vi">
+	<Item Name="test_Multiple Global Type Cast Single Channel Command Message using Trigger and Padding.vi" Type="VI" URL="../test_Multiple Global Type Cast Single Channel Command Message using Trigger and Padding.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%Q!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$2!=!!?!!!&gt;'U.P&lt;7VP&lt;C"4?8.U:7UA6'6T&gt;(-O&lt;(:D&lt;'&amp;T=Q!-6'6T&gt;%.B=W5A&lt;X6U!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!$*!=!!?!!!&gt;'U.P&lt;7VP&lt;C"4?8.U:7UA6'6T&gt;(-O&lt;(:D&lt;'&amp;T=Q!,6'6T&gt;%.B=W5A;7Y!91$Q!!Q!!Q!%!!1!"1!%!!1!"!!%!!9!"!!%!!=$!!"Y!!!*!!!!!!!!!!!!!!!.#Q!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!!!!!!")!!!U!!!!-!!!!!!!!!!!!!!%!#!!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 		<Property Name="NI.ClassItem.Flags" Type="Int">32</Property>
@@ -147,7 +147,7 @@
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1082130960</Property>
 	</Item>
-	<Item Name="test_Multiple Format and Enum Single Channel Command Message using Trigger with Padding and Protection.vi" Type="VI" URL="../test_Multiple Format and Enum Single Channel Command Message using Trigger with Padding and Protection.vi">
+	<Item Name="test_Multiple Global Format and Enum Single Channel Command Message using Trigger with Padding and Protection.vi" Type="VI" URL="../test_Multiple Global Format and Enum Single Channel Command Message using Trigger with Padding and Protection.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%Q!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$2!=!!?!!!&gt;'U.P&lt;7VP&lt;C"4?8.U:7UA6'6T&gt;(-O&lt;(:D&lt;'&amp;T=Q!-6'6T&gt;%.B=W5A&lt;X6U!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!$*!=!!?!!!&gt;'U.P&lt;7VP&lt;C"4?8.U:7UA6'6T&gt;(-O&lt;(:D&lt;'&amp;T=Q!,6'6T&gt;%.B=W5A;7Y!91$Q!!Q!!Q!%!!1!"1!%!!1!"!!%!!9!"!!%!!=$!!"Y!!!*!!!!!!!!!!!!!!!.#Q!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!!!!!!")!!!U!!!!-!!!!!!!!!!!!!!%!#!!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 		<Property Name="NI.ClassItem.Flags" Type="Int">32</Property>
@@ -155,6 +155,51 @@
 		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1082130960</Property>
+	</Item>
+	<Item Name="test_Multiple Global Enumerated Array Command Messages using Trigger with Padding.vi" Type="VI" URL="../test_Multiple Global Enumerated Array Command Messages using Trigger with Padding.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%Q!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$2!=!!?!!!&gt;'U.P&lt;7VP&lt;C"4?8.U:7UA6'6T&gt;(-O&lt;(:D&lt;'&amp;T=Q!-6'6T&gt;%.B=W5A&lt;X6U!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!$*!=!!?!!!&gt;'U.P&lt;7VP&lt;C"4?8.U:7UA6'6T&gt;(-O&lt;(:D&lt;'&amp;T=Q!,6'6T&gt;%.B=W5A;7Y!91$Q!!Q!!Q!%!!1!"1!%!!1!"!!%!!9!"!!%!!=$!!"Y!!!*!!!!!!!!!!!!!!!.#Q!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!!!!!!")!!!U!!!!-!!!!!!!!!!!!!!%!#!!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">16777216</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1342710288</Property>
+	</Item>
+	<Item Name="test_Multiple Global Enumerated Array Command Messages using Trigger with Padding and Protection.vi" Type="VI" URL="../test_Multiple Global Enumerated Array Command Messages using Trigger with Padding and Protection.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%Q!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$2!=!!?!!!&gt;'U.P&lt;7VP&lt;C"4?8.U:7UA6'6T&gt;(-O&lt;(:D&lt;'&amp;T=Q!-6'6T&gt;%.B=W5A&lt;X6U!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!$*!=!!?!!!&gt;'U.P&lt;7VP&lt;C"4?8.U:7UA6'6T&gt;(-O&lt;(:D&lt;'&amp;T=Q!,6'6T&gt;%.B=W5A;7Y!91$Q!!Q!!Q!%!!1!"1!%!!1!"!!%!!9!"!!%!!=$!!"Y!!!*!!!!!!!!!!!!!!!.#Q!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!!!!!!")!!!U!!!!-!!!!!!!!!!!!!!%!#!!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">32</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1074278928</Property>
+	</Item>
+	<Item Name="test_Multiple Global Format Array Command Messages using Trigger and Protection.vi" Type="VI" URL="../test_Multiple Global Format Array Command Messages using Trigger and Protection.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%Q!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$2!=!!?!!!&gt;'U.P&lt;7VP&lt;C"4?8.U:7UA6'6T&gt;(-O&lt;(:D&lt;'&amp;T=Q!-6'6T&gt;%.B=W5A&lt;X6U!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!$*!=!!?!!!&gt;'U.P&lt;7VP&lt;C"4?8.U:7UA6'6T&gt;(-O&lt;(:D&lt;'&amp;T=Q!,6'6T&gt;%.B=W5A;7Y!91$Q!!Q!!Q!%!!1!"1!%!!1!"!!%!!9!"!!%!!=$!!"Y!!!*!!!!!!!!!!!!!!!.#Q!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!!!!!!")!!!U!!!!-!!!!!!!!!!!!!!%!#!!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">32</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1074278928</Property>
+	</Item>
+	<Item Name="test_Multiple Global Type Cast Array Command Messages using Trigger.vi" Type="VI" URL="../test_Multiple Global Type Cast Array Command Messages using Trigger.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%Q!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$2!=!!?!!!&gt;'U.P&lt;7VP&lt;C"4?8.U:7UA6'6T&gt;(-O&lt;(:D&lt;'&amp;T=Q!-6'6T&gt;%.B=W5A&lt;X6U!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!$*!=!!?!!!&gt;'U.P&lt;7VP&lt;C"4?8.U:7UA6'6T&gt;(-O&lt;(:D&lt;'&amp;T=Q!,6'6T&gt;%.B=W5A;7Y!91$Q!!Q!!Q!%!!1!"1!%!!1!"!!%!!9!"!!%!!=$!!"Y!!!*!!!!!!!!!!!!!!!.#Q!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!!!!!!")!!!U!!!!-!!!!!!!!!!!!!!%!#!!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">32</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1074278928</Property>
+	</Item>
+	<Item Name="test_Multiple Global Enum with Format and Type Cast Array Command Messages using Trigger and Protection.vi" Type="VI" URL="../test_Multiple Global Enum with Format and Type Cast Array Command Messages using Trigger and Protection.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%Q!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$2!=!!?!!!&gt;'U.P&lt;7VP&lt;C"4?8.U:7UA6'6T&gt;(-O&lt;(:D&lt;'&amp;T=Q!-6'6T&gt;%.B=W5A&lt;X6U!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!$*!=!!?!!!&gt;'U.P&lt;7VP&lt;C"4?8.U:7UA6'6T&gt;(-O&lt;(:D&lt;'&amp;T=Q!,6'6T&gt;%.B=W5A;7Y!91$Q!!Q!!Q!%!!1!"1!%!!1!"!!%!!9!"!!%!!=$!!"Y!!!*!!!!!!!!!!!!!!!.#Q!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!!!!!!")!!!U!!!!-!!!!!!!!!!!!!!%!#!!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">32</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1074278928</Property>
 	</Item>
 	<Item Name="test_One Static Single Channel Command-Response Message using Trigger.vi" Type="VI" URL="../test_One Static Single Channel Command-Response Message using Trigger.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%Q!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$2!=!!?!!!&gt;'U.P&lt;7VP&lt;C"4?8.U:7UA6'6T&gt;(-O&lt;(:D&lt;'&amp;T=Q!-6'6T&gt;%.B=W5A&lt;X6U!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!$*!=!!?!!!&gt;'U.P&lt;7VP&lt;C"4?8.U:7UA6'6T&gt;(-O&lt;(:D&lt;'&amp;T=Q!,6'6T&gt;%.B=W5A;7Y!91$Q!!Q!!Q!%!!1!"1!%!!1!"!!%!!9!"!!%!!=$!!"Y!!!*!!!!!!!!!!!!!!!.#Q!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!!!!!!")!!!U!!!!-!!!!!!!!!!!!!!%!#!!!!!!</Property>
@@ -165,7 +210,7 @@
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1082401296</Property>
 	</Item>
-	<Item Name="test_Periodic and Multiple Static Single Channel Command-Response messages using Trigger.vi" Type="VI" URL="../test_Periodic and Multiple Static Single Channel Command-Response messages using Trigger.vi">
+	<Item Name="test_Periodic and Multiple Static Single Channel Command-Response Messages using Trigger with Protection.vi" Type="VI" URL="../test_Periodic and Multiple Static Single Channel Command-Response Messages using Trigger with Protection.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%Q!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$2!=!!?!!!&gt;'U.P&lt;7VP&lt;C"4?8.U:7UA6'6T&gt;(-O&lt;(:D&lt;'&amp;T=Q!-6'6T&gt;%.B=W5A&lt;X6U!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!$*!=!!?!!!&gt;'U.P&lt;7VP&lt;C"4?8.U:7UA6'6T&gt;(-O&lt;(:D&lt;'&amp;T=Q!,6'6T&gt;%.B=W5A;7Y!91$Q!!Q!!Q!%!!1!"1!%!!1!"!!%!!9!"!!%!!=$!!"Y!!!*!!!!!!!!!!!!!!!.#Q!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!!!!!!")!!!U!!!!-!!!!!!!!!!!!!!%!#!!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 		<Property Name="NI.ClassItem.Flags" Type="Int">32</Property>
@@ -174,7 +219,7 @@
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1082130960</Property>
 	</Item>
-	<Item Name="test_Periodic and Multiple Static Single Channel Command-Response Messages using Trigger with Protection.vi" Type="VI" URL="../test_Periodic and Multiple Static Single Channel Command-Response Messages using Trigger with Protection.vi">
+	<Item Name="test_Periodic and Multiple Static Single Channel Command-Response messages using Trigger.vi" Type="VI" URL="../test_Periodic and Multiple Static Single Channel Command-Response messages using Trigger.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%Q!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$2!=!!?!!!&gt;'U.P&lt;7VP&lt;C"4?8.U:7UA6'6T&gt;(-O&lt;(:D&lt;'&amp;T=Q!-6'6T&gt;%.B=W5A&lt;X6U!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!$*!=!!?!!!&gt;'U.P&lt;7VP&lt;C"4?8.U:7UA6'6T&gt;(-O&lt;(:D&lt;'&amp;T=Q!,6'6T&gt;%.B=W5A;7Y!91$Q!!Q!!Q!%!!1!"1!%!!1!"!!%!!9!"!!%!!=$!!"Y!!!*!!!!!!!!!!!!!!!.#Q!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!!!!!!")!!!U!!!!-!!!!!!!!!!!!!!%!#!!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 		<Property Name="NI.ClassItem.Flags" Type="Int">32</Property>
@@ -191,5 +236,95 @@
 		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1082130960</Property>
+	</Item>
+	<Item Name="test_Multiple Global Enumerated Array Command-Response Messages using Trigger with Padding and Protection.vi" Type="VI" URL="../test_Multiple Global Enumerated Array Command-Response Messages using Trigger with Padding and Protection.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%Q!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$2!=!!?!!!&gt;'U.P&lt;7VP&lt;C"4?8.U:7UA6'6T&gt;(-O&lt;(:D&lt;'&amp;T=Q!-6'6T&gt;%.B=W5A&lt;X6U!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!$*!=!!?!!!&gt;'U.P&lt;7VP&lt;C"4?8.U:7UA6'6T&gt;(-O&lt;(:D&lt;'&amp;T=Q!,6'6T&gt;%.B=W5A;7Y!91$Q!!Q!!Q!%!!1!"1!%!!1!"!!%!!9!"!!%!!=$!!"Y!!!*!!!!!!!!!!!!!!!.#Q!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!!!!!!")!!!U!!!!-!!!!!!!!!!!!!!%!#!!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">32</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1074278928</Property>
+	</Item>
+	<Item Name="test_Multiple Local Enumerated Channel Command-Response Messages using Trigger with Padding and Protection.vi" Type="VI" URL="../test_Multiple Local Enumerated Channel Command-Response Messages using Trigger with Padding and Protection.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%Q!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$2!=!!?!!!&gt;'U.P&lt;7VP&lt;C"4?8.U:7UA6'6T&gt;(-O&lt;(:D&lt;'&amp;T=Q!-6'6T&gt;%.B=W5A&lt;X6U!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!$*!=!!?!!!&gt;'U.P&lt;7VP&lt;C"4?8.U:7UA6'6T&gt;(-O&lt;(:D&lt;'&amp;T=Q!,6'6T&gt;%.B=W5A;7Y!91$Q!!Q!!Q!%!!1!"1!%!!1!"!!%!!9!"!!%!!=$!!"Y!!!*!!!!!!!!!!!!!!!.#Q!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!!!!!!")!!!U!!!!-!!!!!!!!!!!!!!%!#!!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">32</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1074278928</Property>
+	</Item>
+	<Item Name="test_Multiple Local Format Channel Command-Response Messages using Trigger with Padding and Protection.vi" Type="VI" URL="../test_Multiple Local Format Channel Command-Response Messages using Trigger with Padding and Protection.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%Q!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$2!=!!?!!!&gt;'U.P&lt;7VP&lt;C"4?8.U:7UA6'6T&gt;(-O&lt;(:D&lt;'&amp;T=Q!-6'6T&gt;%.B=W5A&lt;X6U!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!$*!=!!?!!!&gt;'U.P&lt;7VP&lt;C"4?8.U:7UA6'6T&gt;(-O&lt;(:D&lt;'&amp;T=Q!,6'6T&gt;%.B=W5A;7Y!91$Q!!Q!!Q!%!!1!"1!%!!1!"!!%!!9!"!!%!!=$!!"Y!!!*!!!!!!!!!!!!!!!.#Q!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!!!!!!")!!!U!!!!-!!!!!!!!!!!!!!%!#!!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">32</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1074278928</Property>
+	</Item>
+	<Item Name="test_Multiple Local Type Cast Channel Command-Response Messages using Trigger and Protection.vi" Type="VI" URL="../test_Multiple Local Type Cast Channel Command-Response Messages using Trigger and Protection.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%Q!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$2!=!!?!!!&gt;'U.P&lt;7VP&lt;C"4?8.U:7UA6'6T&gt;(-O&lt;(:D&lt;'&amp;T=Q!-6'6T&gt;%.B=W5A&lt;X6U!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!$*!=!!?!!!&gt;'U.P&lt;7VP&lt;C"4?8.U:7UA6'6T&gt;(-O&lt;(:D&lt;'&amp;T=Q!,6'6T&gt;%.B=W5A;7Y!91$Q!!Q!!Q!%!!1!"1!%!!1!"!!%!!9!"!!%!!=$!!"Y!!!*!!!!!!!!!!!!!!!.#Q!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!!!!!!")!!!U!!!!-!!!!!!!!!!!!!!%!#!!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">32</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1074278928</Property>
+	</Item>
+	<Item Name="test_Multiple Local Comparison Channel Command-Response Messages using Trigger and Padding.vi" Type="VI" URL="../test_Multiple Local Comparison Channel Command-Response Messages using Trigger and Padding.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%Q!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$2!=!!?!!!&gt;'U.P&lt;7VP&lt;C"4?8.U:7UA6'6T&gt;(-O&lt;(:D&lt;'&amp;T=Q!-6'6T&gt;%.B=W5A&lt;X6U!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!$*!=!!?!!!&gt;'U.P&lt;7VP&lt;C"4?8.U:7UA6'6T&gt;(-O&lt;(:D&lt;'&amp;T=Q!,6'6T&gt;%.B=W5A;7Y!91$Q!!Q!!Q!%!!1!"1!%!!1!"!!%!!9!"!!%!!=$!!"Y!!!*!!!!!!!!!!!!!!!.#Q!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!!!!!!")!!!U!!!!-!!!!!!!!!!!!!!%!#!!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">32</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1074278928</Property>
+	</Item>
+	<Item Name="test_Multiple Local Array Enumerated Channel Command-Response Messages using Trigger and Padding.vi" Type="VI" URL="../test_Multiple Local Array Enumerated Channel Command-Response Messages using Trigger and Padding.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%Q!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$2!=!!?!!!&gt;'U.P&lt;7VP&lt;C"4?8.U:7UA6'6T&gt;(-O&lt;(:D&lt;'&amp;T=Q!-6'6T&gt;%.B=W5A&lt;X6U!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!$*!=!!?!!!&gt;'U.P&lt;7VP&lt;C"4?8.U:7UA6'6T&gt;(-O&lt;(:D&lt;'&amp;T=Q!,6'6T&gt;%.B=W5A;7Y!91$Q!!Q!!Q!%!!1!"1!%!!1!"!!%!!9!"!!%!!=$!!"Y!!!*!!!!!!!!!!!!!!!.#Q!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!!!!!!")!!!U!!!!-!!!!!!!!!!!!!!%!#!!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">32</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1074278928</Property>
+	</Item>
+	<Item Name="test_Multiple Local Array Format Channel Command-Response Messages using Trigger with Padding and Protection.vi" Type="VI" URL="../test_Multiple Local Array Format Channel Command-Response Messages using Trigger with Padding and Protection.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%Q!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$2!=!!?!!!&gt;'U.P&lt;7VP&lt;C"4?8.U:7UA6'6T&gt;(-O&lt;(:D&lt;'&amp;T=Q!-6'6T&gt;%.B=W5A&lt;X6U!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!$*!=!!?!!!&gt;'U.P&lt;7VP&lt;C"4?8.U:7UA6'6T&gt;(-O&lt;(:D&lt;'&amp;T=Q!,6'6T&gt;%.B=W5A;7Y!91$Q!!Q!!Q!%!!1!"1!%!!1!"!!%!!9!"!!%!!=$!!"Y!!!*!!!!!!!!!!!!!!!.#Q!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!!!!!!")!!!U!!!!-!!!!!!!!!!!!!!%!#!!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">32</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1074278928</Property>
+	</Item>
+	<Item Name="test_Multiple Local Array Type Cast Channel Command-Response Messages using Trigger.vi" Type="VI" URL="../test_Multiple Local Array Type Cast Channel Command-Response Messages using Trigger.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%Q!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$2!=!!?!!!&gt;'U.P&lt;7VP&lt;C"4?8.U:7UA6'6T&gt;(-O&lt;(:D&lt;'&amp;T=Q!-6'6T&gt;%.B=W5A&lt;X6U!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!$*!=!!?!!!&gt;'U.P&lt;7VP&lt;C"4?8.U:7UA6'6T&gt;(-O&lt;(:D&lt;'&amp;T=Q!,6'6T&gt;%.B=W5A;7Y!91$Q!!Q!!Q!%!!1!"1!%!!1!"!!%!!9!"!!%!!=$!!"Y!!!*!!!!!!!!!!!!!!!.#Q!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!!!!!!")!!!U!!!!-!!!!!!!!!!!!!!%!#!!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">32</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1074278928</Property>
+	</Item>
+	<Item Name="test_Multiple Local Array Comparison Channel Command-Response Messages using Trigger.vi" Type="VI" URL="../test_Multiple Local Array Comparison Channel Command-Response Messages using Trigger.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%Q!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$2!=!!?!!!&gt;'U.P&lt;7VP&lt;C"4?8.U:7UA6'6T&gt;(-O&lt;(:D&lt;'&amp;T=Q!-6'6T&gt;%.B=W5A&lt;X6U!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!$*!=!!?!!!&gt;'U.P&lt;7VP&lt;C"4?8.U:7UA6'6T&gt;(-O&lt;(:D&lt;'&amp;T=Q!,6'6T&gt;%.B=W5A;7Y!91$Q!!Q!!Q!%!!1!"1!%!!1!"!!%!!9!"!!%!!=$!!"Y!!!*!!!!!!!!!!!!!!!.#Q!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!!!!!!")!!!U!!!!-!!!!!!!!!!!!!!%!#!!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">32</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1074278928</Property>
+	</Item>
+	<Item Name="test_Multiple Global and Local MetaData Single and Array Channel Command-Response Messages using Trigger and Padding.vi" Type="VI" URL="../test_Multiple Global and Local MetaData Single and Array Channel Command-Response Messages using Trigger and Padding.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%Q!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$2!=!!?!!!&gt;'U.P&lt;7VP&lt;C"4?8.U:7UA6'6T&gt;(-O&lt;(:D&lt;'&amp;T=Q!-6'6T&gt;%.B=W5A&lt;X6U!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!$*!=!!?!!!&gt;'U.P&lt;7VP&lt;C"4?8.U:7UA6'6T&gt;(-O&lt;(:D&lt;'&amp;T=Q!,6'6T&gt;%.B=W5A;7Y!91$Q!!Q!!Q!%!!1!"1!%!!1!"!!%!!9!"!!%!!=$!!"Y!!!*!!!!!!!!!!!!!!!.#Q!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!!!!!!")!!!U!!!!-!!!!!!!!!!!!!!%!#!!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">32</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1074278928</Property>
 	</Item>
 </LVClass>
