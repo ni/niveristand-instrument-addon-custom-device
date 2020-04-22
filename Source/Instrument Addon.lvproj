@@ -46,6 +46,11 @@
 						<Item Name="Format AK Command.vi" Type="VI" URL="../Addon/Support Libraries/Protocols.lvlibp/AK/Format AK Command.vi"/>
 						<Item Name="Format AK Response.vi" Type="VI" URL="../Addon/Support Libraries/Protocols.lvlibp/AK/Format AK Response.vi"/>
 					</Item>
+					<Item Name="Generated" Type="Folder">
+						<Item Name="RS_wrapper.vi" Type="VI" URL="../Addon/Support Libraries/Protocols.lvlibp/Generated/RS_wrapper.vi"/>
+						<Item Name="TCP_wrapper.vi" Type="VI" URL="../Addon/Support Libraries/Protocols.lvlibp/Generated/TCP_wrapper.vi"/>
+						<Item Name="Wrapper.vi" Type="VI" URL="../Addon/Support Libraries/Protocols.lvlibp/Generated/Wrapper.vi"/>
+					</Item>
 					<Item Name="Protocol Parent" Type="Folder">
 						<Item Name="Protocol Parent.lvclass" Type="LVClass" URL="../Addon/Support Libraries/Protocols.lvlibp/Protocol Parent/Protocol Parent.lvclass"/>
 					</Item>
@@ -64,10 +69,15 @@
 					<Item Name="VISA" Type="Folder">
 						<Item Name="VISA.lvclass" Type="LVClass" URL="../Addon/Support Libraries/Protocols.lvlibp/VISA/VISA.lvclass"/>
 					</Item>
+					<Item Name="YetAnotherProtocol" Type="Folder">
+						<Item Name="YetAnotherProtocol.lvclass" Type="LVClass" URL="../Addon/Support Libraries/Protocols.lvlibp/YetAnotherProtocol.lvclass"/>
+					</Item>
 					<Item Name="Clear Errors.vi" Type="VI" URL="../Addon/Support Libraries/Protocols.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Clear Errors.vi"/>
 					<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="../Addon/Support Libraries/Protocols.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Error Cluster From Error Code.vi"/>
 					<Item Name="GPIB Status Boolean Array.ctl" Type="VI" URL="../Addon/Support Libraries/Protocols.lvlibp/1abvi3w/vi.lib/Instr/_visa.llb/GPIB Status Boolean Array.ctl"/>
+					<Item Name="NewProtocol.lvclass" Type="LVClass" URL="../Addon/Support Libraries/Protocols.lvlibp/NewProtocol/NewProtocol.lvclass"/>
 					<Item Name="nirviCommon.vi" Type="VI" URL="../Addon/Support Libraries/Protocols.lvlibp/1abvi3w/vi.lib/express/rvi/timingcommon/nirviCommon.vi"/>
+					<Item Name="Protocols List.ctl" Type="VI" URL="../Addon/Support Libraries/Protocols.lvlibp/Publisher/Protocols List.ctl"/>
 					<Item Name="Space Constant.vi" Type="VI" URL="../Addon/Support Libraries/Protocols.lvlibp/1abvi3w/vi.lib/dlg_ctls.llb/Space Constant.vi"/>
 					<Item Name="VISA Configure Serial Port (Instr).vi" Type="VI" URL="../Addon/Support Libraries/Protocols.lvlibp/1abvi3w/vi.lib/Instr/_visa.llb/VISA Configure Serial Port (Instr).vi"/>
 					<Item Name="VISA Flush IO Buffer Mask.ctl" Type="VI" URL="../Addon/Support Libraries/Protocols.lvlibp/1abvi3w/vi.lib/Instr/_visa.llb/VISA Flush IO Buffer Mask.ctl"/>
@@ -332,7 +342,6 @@
 				<Item Name="Get File System Separator.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/sysinfo.llb/Get File System Separator.vi"/>
 				<Item Name="Get Header from TD__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Get Header from TD__ogtk__jki_vi_tester.vi"/>
 				<Item Name="Get Last PString__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Get Last PString__ogtk__jki_vi_tester.vi"/>
-				<Item Name="Get LV Class Default Value By Name.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Default Value By Name.vi"/>
 				<Item Name="Get LV Class Default Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Default Value.vi"/>
 				<Item Name="Get LV Class Path.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Path.vi"/>
 				<Item Name="Get PString__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Get PString__ogtk__jki_vi_tester.vi"/>
@@ -348,7 +357,6 @@
 				<Item Name="Get Waveform Type Enum from TD__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Get Waveform Type Enum from TD__ogtk__jki_vi_tester.vi"/>
 				<Item Name="GetHelpDir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetHelpDir.vi"/>
 				<Item Name="GetRTHostConnectedProp.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetRTHostConnectedProp.vi"/>
-				<Item Name="GPIB Status Boolean Array.ctl" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/GPIB Status Boolean Array.ctl"/>
 				<Item Name="imagedata.ctl" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/imagedata.ctl"/>
 				<Item Name="ImportExport.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NI VeriStand Custom Device Import and Export Tool/ImportExport.lvlib"/>
 				<Item Name="Internecine Avoider.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/Internecine Avoider.vi"/>
@@ -557,10 +565,6 @@
 				<Item Name="Unset Busy.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Unset Busy.vi"/>
 				<Item Name="Variant to Header Info__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Variant to Header Info__ogtk__jki_vi_tester.vi"/>
 				<Item Name="VariantType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/VariantDataType/VariantType.lvlib"/>
-				<Item Name="VISA Configure Serial Port" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port"/>
-				<Item Name="VISA Configure Serial Port (Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Instr).vi"/>
-				<Item Name="VISA Configure Serial Port (Serial Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Serial Instr).vi"/>
-				<Item Name="VISA Flush IO Buffer Mask.ctl" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Flush IO Buffer Mask.ctl"/>
 				<Item Name="VITesterUtilities.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/VITesterUtilities.lvlib"/>
 				<Item Name="VS Inline Async API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_VS Inline Async API/VS Inline Async API.lvlib"/>
 				<Item Name="Waveform Subtype Enum__ogtk__jki_vi_tester.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Waveform Subtype Enum__ogtk__jki_vi_tester.ctl"/>
@@ -595,8 +599,6 @@
 			<Item Name="nisyscfg.dll" Type="Document" URL="nisyscfg.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Protections.lvlib" Type="Library" URL="../../../niveristand-instrument-addon-classes/Source/Protections/Protections.lvlib"/>
-			<Item Name="Protocols.lvlib" Type="Library" URL="../../../niveristand-instrument-addon-classes/Source/Protocols/Protocols.lvlib"/>
 			<Item Name="systemLogging.dll" Type="Document" URL="systemLogging.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -1199,6 +1201,11 @@
 				<Item Name="Format AK Command.vi" Type="VI" URL="../Addon/Support Libraries/Protocols.lvlibp/AK/Format AK Command.vi"/>
 				<Item Name="Format AK Response.vi" Type="VI" URL="../Addon/Support Libraries/Protocols.lvlibp/AK/Format AK Response.vi"/>
 			</Item>
+			<Item Name="Generated" Type="Folder">
+				<Item Name="RS_wrapper.vi" Type="VI" URL="../Addon/Support Libraries/Protocols.lvlibp/Generated/RS_wrapper.vi"/>
+				<Item Name="TCP_wrapper.vi" Type="VI" URL="../Addon/Support Libraries/Protocols.lvlibp/Generated/TCP_wrapper.vi"/>
+				<Item Name="Wrapper.vi" Type="VI" URL="../Addon/Support Libraries/Protocols.lvlibp/Generated/Wrapper.vi"/>
+			</Item>
 			<Item Name="Protocol Parent" Type="Folder">
 				<Item Name="Protocol Parent.lvclass" Type="LVClass" URL="../Addon/Support Libraries/Protocols.lvlibp/Protocol Parent/Protocol Parent.lvclass"/>
 			</Item>
@@ -1217,10 +1224,15 @@
 			<Item Name="VISA" Type="Folder">
 				<Item Name="VISA.lvclass" Type="LVClass" URL="../Addon/Support Libraries/Protocols.lvlibp/VISA/VISA.lvclass"/>
 			</Item>
+			<Item Name="YetAnotherProtocol" Type="Folder">
+				<Item Name="YetAnotherProtocol.lvclass" Type="LVClass" URL="../Addon/Support Libraries/Protocols.lvlibp/YetAnotherProtocol.lvclass"/>
+			</Item>
 			<Item Name="Clear Errors.vi" Type="VI" URL="../Addon/Support Libraries/Protocols.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Clear Errors.vi"/>
 			<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="../Addon/Support Libraries/Protocols.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Error Cluster From Error Code.vi"/>
 			<Item Name="GPIB Status Boolean Array.ctl" Type="VI" URL="../Addon/Support Libraries/Protocols.lvlibp/1abvi3w/vi.lib/Instr/_visa.llb/GPIB Status Boolean Array.ctl"/>
+			<Item Name="NewProtocol.lvclass" Type="LVClass" URL="../Addon/Support Libraries/Protocols.lvlibp/NewProtocol/NewProtocol.lvclass"/>
 			<Item Name="nirviCommon.vi" Type="VI" URL="../Addon/Support Libraries/Protocols.lvlibp/1abvi3w/vi.lib/express/rvi/timingcommon/nirviCommon.vi"/>
+			<Item Name="Protocols List.ctl" Type="VI" URL="../Addon/Support Libraries/Protocols.lvlibp/Publisher/Protocols List.ctl"/>
 			<Item Name="Space Constant.vi" Type="VI" URL="../Addon/Support Libraries/Protocols.lvlibp/1abvi3w/vi.lib/dlg_ctls.llb/Space Constant.vi"/>
 			<Item Name="VISA Configure Serial Port (Instr).vi" Type="VI" URL="../Addon/Support Libraries/Protocols.lvlibp/1abvi3w/vi.lib/Instr/_visa.llb/VISA Configure Serial Port (Instr).vi"/>
 			<Item Name="VISA Flush IO Buffer Mask.ctl" Type="VI" URL="../Addon/Support Libraries/Protocols.lvlibp/1abvi3w/vi.lib/Instr/_visa.llb/VISA Flush IO Buffer Mask.ctl"/>
