@@ -10,7 +10,7 @@
 				<String>CD System Test</String>
 			</Property>
 			<Property Name="Version">
-				<String>1.0.0.527</String>
+				<String>1.0.0.642</String>
 			</Property>
 			<Property Name="Creator">
 				<String />
@@ -540,6 +540,106 @@
 									</DefaultValue>
 								</Channel>
 							</Section>
+							<Section Name="Array Enum for Value Change" TypeGUID="1d30d097-ad35-4eb1-81b5-9d3a9f7f2d88">
+								<Description />
+								<Properties>
+									<Property Name="user.CD.MetaData.DataType">
+										<U32>1</U32>
+									</Property>
+									<Property Name="user.CD.MetaData.ChanType">
+										<U32>0</U32>
+									</Property>
+									<Property Name="user.CD.MetaData.List">
+										<StringArray>
+											<Elem>State1</Elem>
+											<Elem>State2</Elem>
+											<Elem>State3</Elem>
+										</StringArray>
+									</Property>
+									<Property Name="user.CD.MetaData.FormatString">
+										<String>%.3g</String>
+									</Property>
+									<Property Name="user.CD.MetaData.TypeCastType">
+										<U32>1</U32>
+									</Property>
+									<Property Name="user.CD.MetaData.Delimiter">
+										<String>^</String>
+									</Property>
+									<Property Name="user.CD.MetaData.Endian">
+										<U32>0</U32>
+									</Property>
+									<Property Name="user.CD.ConfigGUID">
+										<BinaryString>ZjNjYjE2YmMtYmM1ZS00NjM4LTk5MWQtNmUwNzhjNGE2ZTMy</BinaryString>
+									</Property>
+								</Properties>
+								<Errors />
+								<Channel Name="Array Enum for Value Change 0" TypeGUID="193453c7-2cce-4840-9490-648855c0cf25" RowDim="1" ColDim="1" Units="" BitFields="11">
+									<Description />
+									<Properties>
+										<Property Name="Value Table">
+											<Dictionary>
+												<Elem Key="State1">
+													<Double>0</Double>
+												</Elem>
+												<Elem Key="State2">
+													<Double>1</Double>
+												</Elem>
+												<Elem Key="State3">
+													<Double>2</Double>
+												</Elem>
+											</Dictionary>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="Array Enum for Value Change 1" TypeGUID="193453c7-2cce-4840-9490-648855c0cf25" RowDim="1" ColDim="1" Units="" BitFields="11">
+									<Description />
+									<Properties>
+										<Property Name="Value Table">
+											<Dictionary>
+												<Elem Key="State1">
+													<Double>0</Double>
+												</Elem>
+												<Elem Key="State2">
+													<Double>1</Double>
+												</Elem>
+												<Elem Key="State3">
+													<Double>2</Double>
+												</Elem>
+											</Dictionary>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="Array Enum for Value Change 2" TypeGUID="193453c7-2cce-4840-9490-648855c0cf25" RowDim="1" ColDim="1" Units="" BitFields="11">
+									<Description />
+									<Properties>
+										<Property Name="Value Table">
+											<Dictionary>
+												<Elem Key="State1">
+													<Double>0</Double>
+												</Elem>
+												<Elem Key="State2">
+													<Double>1</Double>
+												</Elem>
+												<Elem Key="State3">
+													<Double>2</Double>
+												</Elem>
+											</Dictionary>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+							</Section>
 							<Channel Name="Single Channel Format" TypeGUID="1d30d097-ad35-4eb1-81b5-9d3a9f7f2d88" RowDim="1" ColDim="1" Units="V" BitFields="11">
 								<Description />
 								<Properties>
@@ -656,8 +756,74 @@
 									<Elem>0</Elem>
 								</DefaultValue>
 							</Channel>
+							<Channel Name="Single Chan Format for Value Change" TypeGUID="1d30d097-ad35-4eb1-81b5-9d3a9f7f2d88" RowDim="1" ColDim="1" Units="" BitFields="11">
+								<Description />
+								<Properties>
+									<Property Name="user.CD.MetaData.DataType">
+										<U32>0</U32>
+									</Property>
+									<Property Name="user.CD.MetaData.ChanType">
+										<U32>1</U32>
+									</Property>
+									<Property Name="user.CD.MetaData.List">
+										<StringArray />
+									</Property>
+									<Property Name="user.CD.MetaData.FormatString">
+										<String>%.2g</String>
+									</Property>
+									<Property Name="user.CD.MetaData.TypeCastType">
+										<U32>1</U32>
+									</Property>
+									<Property Name="user.CD.MetaData.Delimiter">
+										<String />
+									</Property>
+									<Property Name="user.CD.MetaData.Endian">
+										<U32>0</U32>
+									</Property>
+									<Property Name="user.CD.ConfigGUID">
+										<BinaryString>ODYwMmRlYzYtNmY5NC00ZTgwLWIzNjUtM2EyNThjNzg0OTM4</BinaryString>
+									</Property>
+								</Properties>
+								<Errors />
+								<DefaultValue>
+									<Elem>0</Elem>
+								</DefaultValue>
+							</Channel>
+							<Channel Name="Wait Sec Value" TypeGUID="1d30d097-ad35-4eb1-81b5-9d3a9f7f2d88" RowDim="1" ColDim="1" Units="" BitFields="11">
+								<Description />
+								<Properties>
+									<Property Name="user.CD.MetaData.DataType">
+										<U32>0</U32>
+									</Property>
+									<Property Name="user.CD.MetaData.ChanType">
+										<U32>1</U32>
+									</Property>
+									<Property Name="user.CD.MetaData.List">
+										<StringArray />
+									</Property>
+									<Property Name="user.CD.MetaData.FormatString">
+										<String>%d</String>
+									</Property>
+									<Property Name="user.CD.MetaData.TypeCastType">
+										<U32>1</U32>
+									</Property>
+									<Property Name="user.CD.MetaData.Delimiter">
+										<String />
+									</Property>
+									<Property Name="user.CD.MetaData.Endian">
+										<U32>0</U32>
+									</Property>
+									<Property Name="user.CD.ConfigGUID">
+										<BinaryString>MGMzZGRkZmYtNTYyMy00OTQ4LWEyMGEtMjQzNWY4YTcyNzlh</BinaryString>
+									</Property>
+								</Properties>
+								<Errors />
+								<DefaultValue>
+									<Elem>5</Elem>
+								</DefaultValue>
+							</Channel>
 						</Section>
-						<Section Name="Message Group" TypeGUID="ca2af2c4-f6de-4981-9e7c-f3a7dc921a83">
+						<Section Name="Trigger and Periodic" TypeGUID="ca2af2c4-f6de-4981-9e7c-f3a7dc921a83">
 							<Description />
 							<Properties />
 							<Errors />
@@ -1123,160 +1289,6 @@
 										</Property>
 										<Property Name="user.CD.Cmd.PadLength">
 											<U32>25</U32>
-										</Property>
-										<Property Name="user.CD.Cmd.PadVal">
-											<U32>32</U32>
-										</Property>
-									</Properties>
-									<Errors />
-								</Section>
-							</Section>
-							<Section Name="Static_Cmd_ValueAndTrig_Pad_Prot" TypeGUID="672eb08e-4747-4725-8ff4-4749baa5e2a0">
-								<Description />
-								<Properties>
-									<Property Name="user.CD.Msg.GenType">
-										<U32>0</U32>
-									</Property>
-									<Property Name="user.CD.Msg.Period">
-										<Double>4</Double>
-									</Property>
-									<Property Name="user.CD.Msg.UseProtect">
-										<Boolean>true</Boolean>
-									</Property>
-									<Property Name="user.CD.Msg.ProtectType">
-										<String>Checksum U8</String>
-									</Property>
-								</Properties>
-								<Errors />
-								<Section Name="Message Channels" TypeGUID="72ad4790-7ba8-47a2-8882-5ec6ff5aad5f">
-									<Description />
-									<Properties />
-									<Errors />
-									<Channel Name="Trigger" TypeGUID="74948967-ac25-4bb0-8b12-32de2b2e343b" RowDim="1" ColDim="1" Units="" BitFields="3">
-										<Description />
-										<Properties>
-											<Property Name="user.CD.Trigger.UseChan">
-												<Boolean>false</Boolean>
-											</Property>
-											<Property Name="user.CD.Trigger.ChanPath">
-												<String />
-											</Property>
-										</Properties>
-										<Errors />
-										<DefaultValue>
-											<Elem>0</Elem>
-										</DefaultValue>
-									</Channel>
-									<Channel Name="Error Code" TypeGUID="c36593c7-9ffd-4a3f-8db5-ade8f2d84760" RowDim="1" ColDim="1" Units="" BitFields="1">
-										<Description />
-										<Properties>
-											<Property Name="Value Table">
-												<Dictionary>
-													<Elem Key="&lt;0&gt; No Error.">
-														<Double>0</Double>
-													</Elem>
-													<Elem Key="&lt;53&gt; Manager call not supported.">
-														<Double>53</Double>
-													</Elem>
-													<Elem Key="&lt;54&gt; The network address is ill-formed.">
-														<Double>54</Double>
-													</Elem>
-													<Elem Key="&lt;55&gt; The network operation is in progress.">
-														<Double>55</Double>
-													</Elem>
-													<Elem Key="&lt;56&gt; The network operation exceeded the user-specified or system time limit.">
-														<Double>56</Double>
-													</Elem>
-													<Elem Key="&lt;57&gt; The network connection is busy.">
-														<Double>57</Double>
-													</Elem>
-													<Elem Key="&lt;58&gt; The network function is not supported by the system.">
-														<Double>58</Double>
-													</Elem>
-													<Elem Key="&lt;59&gt; The network is down, unreachable, or has been reset.">
-														<Double>59</Double>
-													</Elem>
-													<Elem Key="&lt;60&gt; The specified port or network address is currently in use.">
-														<Double>60</Double>
-													</Elem>
-													<Elem Key="&lt;61&gt; The system could not allocate the necessary memory.">
-														<Double>61</Double>
-													</Elem>
-													<Elem Key="&lt;62&gt; The system caused the network connection to be aborted.">
-														<Double>62</Double>
-													</Elem>
-													<Elem Key="&lt;63&gt; The network connection was refused by the server.">
-														<Double>63</Double>
-													</Elem>
-													<Elem Key="&lt;64&gt; The network connection is not yet established.">
-														<Double>64</Double>
-													</Elem>
-													<Elem Key="&lt;65&gt; The network connection is already established.">
-														<Double>65</Double>
-													</Elem>
-													<Elem Key="&lt;66&gt; The network connection was closed by the peer.">
-														<Double>66</Double>
-													</Elem>
-													<Elem Key="&lt;114&gt; Could not create TCP listener port because the port, service name, or net address conflict with a TCP listener that already exists.">
-														<Double>114</Double>
-													</Elem>
-													<Elem Key="&lt;127&gt; The specified socket is not an IPv4 socket.">
-														<Double>127</Double>
-													</Elem>
-												</Dictionary>
-											</Property>
-										</Properties>
-										<Errors />
-										<DefaultValue>
-											<Elem>0</Elem>
-										</DefaultValue>
-									</Channel>
-									<Channel Name="Timestamp" TypeGUID="7FC4C151-104F-4070-A177-5B2CF22F1FC4" RowDim="1" ColDim="1" Units="" BitFields="1">
-										<Description />
-										<Properties />
-										<Errors />
-										<DefaultValue>
-											<Elem>0</Elem>
-										</DefaultValue>
-									</Channel>
-									<Channel Name="Message Status" TypeGUID="a618186b-06ee-4c96-843e-7b3da3094e99" RowDim="1" ColDim="1" Units="" BitFields="1">
-										<Description />
-										<Properties />
-										<Errors />
-										<DefaultValue>
-											<Elem>0</Elem>
-										</DefaultValue>
-									</Channel>
-									<Channel Name="Enable Periodic" TypeGUID="0766e40f-9a8b-40a8-8d2d-c67262ede28a" RowDim="1" ColDim="1" Units="" BitFields="3">
-										<Description />
-										<Properties />
-										<Errors />
-										<DefaultValue>
-											<Elem>0</Elem>
-										</DefaultValue>
-									</Channel>
-								</Section>
-								<Section Name="Command" TypeGUID="9428600d-6a85-43b8-aaac-a755da7e0c9b">
-									<Description />
-									<Properties>
-										<Property Name="user.CD.Cmd.Cmd">
-											<BinaryString>MjhDb21tYW5kVmFsdWVBbmRUcmlnZ2VyOltWYWx1ZV0=</BinaryString>
-										</Property>
-										<Property Name="user.CD.Cmd.LinkedChans">
-											<StringArray>
-												<Elem>Value</Elem>
-											</StringArray>
-										</Property>
-										<Property Name="user.CD.Cmd.LinkedGUID">
-											<StringArray>
-												<Elem>57a1a0c6-d53e-42ce-a003-9d56bed1df83</Elem>
-											</StringArray>
-										</Property>
-										<Property Name="user.CD.Cmd.Pad">
-											<Boolean>false</Boolean>
-										</Property>
-										<Property Name="user.CD.Cmd.PadLength">
-											<U32>40</U32>
 										</Property>
 										<Property Name="user.CD.Cmd.PadVal">
 											<U32>32</U32>
@@ -4641,10 +4653,10 @@
 											<U32>1</U32>
 										</Property>
 										<Property Name="user.CD.Rsp.UseChan">
-											<Boolean>false</Boolean>
+											<Boolean>true</Boolean>
 										</Property>
 										<Property Name="user.CD.Rsp.ChanPath">
-											<String />
+											<String>Custom Devices/Instrument Addon Main Tests/Global MetaData Channels/Wait Sec Value</String>
 										</Property>
 									</Properties>
 									<Errors />
@@ -5761,6 +5773,846 @@
 								</Section>
 							</Section>
 						</Section>
+						<Section Name="Value Change &amp; Trigger" TypeGUID="ca2af2c4-f6de-4981-9e7c-f3a7dc921a83">
+							<Description />
+							<Properties />
+							<Errors />
+							<Section Name="LocalFormat_CmdResp_ValueChange_Pad_Prot" TypeGUID="672eb08e-4747-4725-8ff4-4749baa5e2a0">
+								<Description />
+								<Properties>
+									<Property Name="user.CD.Msg.GenType">
+										<U32>2</U32>
+									</Property>
+									<Property Name="user.CD.Msg.Period">
+										<Double>1</Double>
+									</Property>
+									<Property Name="user.CD.Msg.UseProtect">
+										<Boolean>true</Boolean>
+									</Property>
+									<Property Name="user.CD.Msg.ProtectType">
+										<String>Checksum U8</String>
+									</Property>
+								</Properties>
+								<Errors />
+								<Section Name="Message Channels" TypeGUID="72ad4790-7ba8-47a2-8882-5ec6ff5aad5f">
+									<Description />
+									<Properties />
+									<Errors />
+									<Channel Name="Trigger" TypeGUID="74948967-ac25-4bb0-8b12-32de2b2e343b" RowDim="1" ColDim="1" Units="" BitFields="3">
+										<Description />
+										<Properties />
+										<Errors />
+										<DefaultValue>
+											<Elem>0</Elem>
+										</DefaultValue>
+									</Channel>
+									<Channel Name="Error Code" TypeGUID="c36593c7-9ffd-4a3f-8db5-ade8f2d84760" RowDim="1" ColDim="1" Units="" BitFields="1">
+										<Description />
+										<Properties>
+											<Property Name="Value Table">
+												<Dictionary>
+													<Elem Key="&lt;0&gt; No Error.">
+														<Double>0</Double>
+													</Elem>
+													<Elem Key="&lt;53&gt; Manager call not supported.">
+														<Double>53</Double>
+													</Elem>
+													<Elem Key="&lt;54&gt; The network address is ill-formed.">
+														<Double>54</Double>
+													</Elem>
+													<Elem Key="&lt;55&gt; The network operation is in progress.">
+														<Double>55</Double>
+													</Elem>
+													<Elem Key="&lt;56&gt; The network operation exceeded the user-specified or system time limit.">
+														<Double>56</Double>
+													</Elem>
+													<Elem Key="&lt;57&gt; The network connection is busy.">
+														<Double>57</Double>
+													</Elem>
+													<Elem Key="&lt;58&gt; The network function is not supported by the system.">
+														<Double>58</Double>
+													</Elem>
+													<Elem Key="&lt;59&gt; The network is down, unreachable, or has been reset.">
+														<Double>59</Double>
+													</Elem>
+													<Elem Key="&lt;60&gt; The specified port or network address is currently in use.">
+														<Double>60</Double>
+													</Elem>
+													<Elem Key="&lt;61&gt; The system could not allocate the necessary memory.">
+														<Double>61</Double>
+													</Elem>
+													<Elem Key="&lt;62&gt; The system caused the network connection to be aborted.">
+														<Double>62</Double>
+													</Elem>
+													<Elem Key="&lt;63&gt; The network connection was refused by the server.">
+														<Double>63</Double>
+													</Elem>
+													<Elem Key="&lt;64&gt; The network connection is not yet established.">
+														<Double>64</Double>
+													</Elem>
+													<Elem Key="&lt;65&gt; The network connection is already established.">
+														<Double>65</Double>
+													</Elem>
+													<Elem Key="&lt;66&gt; The network connection was closed by the peer.">
+														<Double>66</Double>
+													</Elem>
+													<Elem Key="&lt;114&gt; Could not create TCP listener port because the port, service name, or net address conflict with a TCP listener that already exists.">
+														<Double>114</Double>
+													</Elem>
+													<Elem Key="&lt;127&gt; The specified socket is not an IPv4 socket.">
+														<Double>127</Double>
+													</Elem>
+												</Dictionary>
+											</Property>
+										</Properties>
+										<Errors />
+										<DefaultValue>
+											<Elem>0</Elem>
+										</DefaultValue>
+									</Channel>
+									<Channel Name="Timestamp" TypeGUID="7FC4C151-104F-4070-A177-5B2CF22F1FC4" RowDim="1" ColDim="1" Units="" BitFields="1">
+										<Description />
+										<Properties />
+										<Errors />
+										<DefaultValue>
+											<Elem>0</Elem>
+										</DefaultValue>
+									</Channel>
+									<Channel Name="Message Status" TypeGUID="a618186b-06ee-4c96-843e-7b3da3094e99" RowDim="1" ColDim="1" Units="" BitFields="1">
+										<Description />
+										<Properties />
+										<Errors />
+										<DefaultValue>
+											<Elem>0</Elem>
+										</DefaultValue>
+									</Channel>
+									<Channel Name="Enable Periodic" TypeGUID="0766e40f-9a8b-40a8-8d2d-c67262ede28a" RowDim="1" ColDim="1" Units="" BitFields="3">
+										<Description />
+										<Properties />
+										<Errors />
+										<DefaultValue>
+											<Elem>1</Elem>
+										</DefaultValue>
+									</Channel>
+								</Section>
+								<Section Name="Command" TypeGUID="9428600d-6a85-43b8-aaac-a755da7e0c9b">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Cmd.Cmd">
+											<BinaryString>MjNDb21tYW5kUmVzcG9uc2U6W0xvY2FsX0Zvcm1hdF0=</BinaryString>
+										</Property>
+										<Property Name="user.CD.Cmd.LinkedChans">
+											<StringArray>
+												<Elem>Local_Format</Elem>
+											</StringArray>
+										</Property>
+										<Property Name="user.CD.Cmd.LinkedGUID">
+											<StringArray>
+												<Elem>7da30a1b-ce28-4515-a84e-c5304683a7f2</Elem>
+											</StringArray>
+										</Property>
+										<Property Name="user.CD.Cmd.Pad">
+											<Boolean>true</Boolean>
+										</Property>
+										<Property Name="user.CD.Cmd.PadLength">
+											<U32>25</U32>
+										</Property>
+										<Property Name="user.CD.Cmd.PadVal">
+											<U32>32</U32>
+										</Property>
+									</Properties>
+									<Errors />
+									<Channel Name="Local Format" TypeGUID="1d30d097-ad35-4eb1-81b5-9d3a9f7f2d88" RowDim="1" ColDim="1" Units="" BitFields="11">
+										<Description />
+										<Properties>
+											<Property Name="user.CD.MetaData.DataType">
+												<U32>0</U32>
+											</Property>
+											<Property Name="user.CD.MetaData.ChanType">
+												<U32>1</U32>
+											</Property>
+											<Property Name="user.CD.MetaData.List">
+												<StringArray />
+											</Property>
+											<Property Name="user.CD.MetaData.FormatString">
+												<String>%.2g</String>
+											</Property>
+											<Property Name="user.CD.MetaData.TypeCastType">
+												<U32>1</U32>
+											</Property>
+											<Property Name="user.CD.MetaData.Delimiter">
+												<String />
+											</Property>
+											<Property Name="user.CD.MetaData.Endian">
+												<U32>0</U32>
+											</Property>
+											<Property Name="user.CD.ConfigGUID">
+												<BinaryString>N2RhMzBhMWItY2UyOC00NTE1LWE4NGUtYzUzMDQ2ODNhN2Yy</BinaryString>
+											</Property>
+										</Properties>
+										<Errors />
+										<DefaultValue>
+											<Elem>0</Elem>
+										</DefaultValue>
+									</Channel>
+								</Section>
+								<Section Name="Response" TypeGUID="e90b6266-233a-4552-94b4-54222f1875a2">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Rsp.Rsp">
+											<BinaryString>MjNDb21tYW5kUmVzcG9uc2U6W0xvY2FsX0Zvcm1hdF0=</BinaryString>
+										</Property>
+										<Property Name="user.CD.Rsp.LinkedChans">
+											<StringArray>
+												<Elem>Local_Format</Elem>
+											</StringArray>
+										</Property>
+										<Property Name="user.CD.Rsp.LinkedGUIDs">
+											<StringArray>
+												<Elem>686e1d81-d096-467f-8ee1-9fedbd375669</Elem>
+											</StringArray>
+										</Property>
+										<Property Name="user.CD.Rsp.WaitVal">
+											<Double>25</Double>
+										</Property>
+										<Property Name="user.CD.Rsp.WaitType">
+											<U32>0</U32>
+										</Property>
+										<Property Name="user.CD.Rsp.UseChan">
+											<Boolean>false</Boolean>
+										</Property>
+										<Property Name="user.CD.Rsp.ChanPath">
+											<String />
+										</Property>
+									</Properties>
+									<Errors />
+									<Channel Name="Local Format" TypeGUID="b473b5ce-647b-4798-814d-3247489a3409" RowDim="1" ColDim="1" Units="" BitFields="9">
+										<Description />
+										<Properties>
+											<Property Name="user.CD.Data.DataType">
+												<U32>0</U32>
+											</Property>
+											<Property Name="user.CD.Data.ChanType">
+												<U32>0</U32>
+											</Property>
+											<Property Name="user.CD.Data.FormatString">
+												<String>%.2g</String>
+											</Property>
+											<Property Name="user.CD.Data.ExpectedString">
+												<BinaryString />
+											</Property>
+											<Property Name="user.CD.Data.TypeCastType">
+												<U32>1</U32>
+											</Property>
+											<Property Name="user.CD.Data.List">
+												<StringArray />
+											</Property>
+											<Property Name="user.CD.Data.Delimiter">
+												<String>,</String>
+											</Property>
+											<Property Name="user.CD.Data.Endian">
+												<U32>0</U32>
+											</Property>
+											<Property Name="user.CD.ConfigGUID">
+												<BinaryString>Njg2ZTFkODEtZDA5Ni00NjdmLThlZTEtOWZlZGJkMzc1NjY5</BinaryString>
+											</Property>
+										</Properties>
+										<Errors />
+										<DefaultValue>
+											<Elem>0</Elem>
+										</DefaultValue>
+									</Channel>
+								</Section>
+							</Section>
+							<Section Name="EnumArray_Cmd_ValueChange_Pad" TypeGUID="672eb08e-4747-4725-8ff4-4749baa5e2a0">
+								<Description />
+								<Properties>
+									<Property Name="user.CD.Msg.GenType">
+										<U32>2</U32>
+									</Property>
+									<Property Name="user.CD.Msg.Period">
+										<Double>1</Double>
+									</Property>
+									<Property Name="user.CD.Msg.UseProtect">
+										<Boolean>false</Boolean>
+									</Property>
+									<Property Name="user.CD.Msg.ProtectType">
+										<String />
+									</Property>
+								</Properties>
+								<Errors />
+								<Section Name="Message Channels" TypeGUID="72ad4790-7ba8-47a2-8882-5ec6ff5aad5f">
+									<Description />
+									<Properties />
+									<Errors />
+									<Channel Name="Trigger" TypeGUID="74948967-ac25-4bb0-8b12-32de2b2e343b" RowDim="1" ColDim="1" Units="" BitFields="3">
+										<Description />
+										<Properties />
+										<Errors />
+										<DefaultValue>
+											<Elem>0</Elem>
+										</DefaultValue>
+									</Channel>
+									<Channel Name="Error Code" TypeGUID="c36593c7-9ffd-4a3f-8db5-ade8f2d84760" RowDim="1" ColDim="1" Units="" BitFields="1">
+										<Description />
+										<Properties>
+											<Property Name="Value Table">
+												<Dictionary>
+													<Elem Key="&lt;0&gt; No Error.">
+														<Double>0</Double>
+													</Elem>
+													<Elem Key="&lt;53&gt; Manager call not supported.">
+														<Double>53</Double>
+													</Elem>
+													<Elem Key="&lt;54&gt; The network address is ill-formed.">
+														<Double>54</Double>
+													</Elem>
+													<Elem Key="&lt;55&gt; The network operation is in progress.">
+														<Double>55</Double>
+													</Elem>
+													<Elem Key="&lt;56&gt; The network operation exceeded the user-specified or system time limit.">
+														<Double>56</Double>
+													</Elem>
+													<Elem Key="&lt;57&gt; The network connection is busy.">
+														<Double>57</Double>
+													</Elem>
+													<Elem Key="&lt;58&gt; The network function is not supported by the system.">
+														<Double>58</Double>
+													</Elem>
+													<Elem Key="&lt;59&gt; The network is down, unreachable, or has been reset.">
+														<Double>59</Double>
+													</Elem>
+													<Elem Key="&lt;60&gt; The specified port or network address is currently in use.">
+														<Double>60</Double>
+													</Elem>
+													<Elem Key="&lt;61&gt; The system could not allocate the necessary memory.">
+														<Double>61</Double>
+													</Elem>
+													<Elem Key="&lt;62&gt; The system caused the network connection to be aborted.">
+														<Double>62</Double>
+													</Elem>
+													<Elem Key="&lt;63&gt; The network connection was refused by the server.">
+														<Double>63</Double>
+													</Elem>
+													<Elem Key="&lt;64&gt; The network connection is not yet established.">
+														<Double>64</Double>
+													</Elem>
+													<Elem Key="&lt;65&gt; The network connection is already established.">
+														<Double>65</Double>
+													</Elem>
+													<Elem Key="&lt;66&gt; The network connection was closed by the peer.">
+														<Double>66</Double>
+													</Elem>
+													<Elem Key="&lt;114&gt; Could not create TCP listener port because the port, service name, or net address conflict with a TCP listener that already exists.">
+														<Double>114</Double>
+													</Elem>
+													<Elem Key="&lt;127&gt; The specified socket is not an IPv4 socket.">
+														<Double>127</Double>
+													</Elem>
+												</Dictionary>
+											</Property>
+										</Properties>
+										<Errors />
+										<DefaultValue>
+											<Elem>0</Elem>
+										</DefaultValue>
+									</Channel>
+									<Channel Name="Timestamp" TypeGUID="7FC4C151-104F-4070-A177-5B2CF22F1FC4" RowDim="1" ColDim="1" Units="" BitFields="1">
+										<Description />
+										<Properties />
+										<Errors />
+										<DefaultValue>
+											<Elem>0</Elem>
+										</DefaultValue>
+									</Channel>
+									<Channel Name="Message Status" TypeGUID="a618186b-06ee-4c96-843e-7b3da3094e99" RowDim="1" ColDim="1" Units="" BitFields="1">
+										<Description />
+										<Properties />
+										<Errors />
+										<DefaultValue>
+											<Elem>0</Elem>
+										</DefaultValue>
+									</Channel>
+									<Channel Name="Enable Periodic" TypeGUID="0766e40f-9a8b-40a8-8d2d-c67262ede28a" RowDim="1" ColDim="1" Units="" BitFields="3">
+										<Description />
+										<Properties />
+										<Errors />
+										<DefaultValue>
+											<Elem>1</Elem>
+										</DefaultValue>
+									</Channel>
+								</Section>
+								<Section Name="Command" TypeGUID="9428600d-6a85-43b8-aaac-a755da7e0c9b">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Cmd.Cmd">
+											<BinaryString>MjhDb21tYW5kOltHbG9iYWxfRW51bUFycmF5XQ==</BinaryString>
+										</Property>
+										<Property Name="user.CD.Cmd.LinkedChans">
+											<StringArray>
+												<Elem>Global_EnumArray</Elem>
+											</StringArray>
+										</Property>
+										<Property Name="user.CD.Cmd.LinkedGUID">
+											<StringArray>
+												<Elem>f3cb16bc-bc5e-4638-991d-6e078c4a6e32</Elem>
+											</StringArray>
+										</Property>
+										<Property Name="user.CD.Cmd.Pad">
+											<Boolean>true</Boolean>
+										</Property>
+										<Property Name="user.CD.Cmd.PadLength">
+											<U32>30</U32>
+										</Property>
+										<Property Name="user.CD.Cmd.PadVal">
+											<U32>32</U32>
+										</Property>
+									</Properties>
+									<Errors />
+								</Section>
+							</Section>
+							<Section Name="Format_Cmd_ValueChange_Pad" TypeGUID="672eb08e-4747-4725-8ff4-4749baa5e2a0">
+								<Description />
+								<Properties>
+									<Property Name="user.CD.Msg.GenType">
+										<U32>2</U32>
+									</Property>
+									<Property Name="user.CD.Msg.Period">
+										<Double>1</Double>
+									</Property>
+									<Property Name="user.CD.Msg.UseProtect">
+										<Boolean>false</Boolean>
+									</Property>
+									<Property Name="user.CD.Msg.ProtectType">
+										<String />
+									</Property>
+								</Properties>
+								<Errors />
+								<Section Name="Message Channels" TypeGUID="72ad4790-7ba8-47a2-8882-5ec6ff5aad5f">
+									<Description />
+									<Properties />
+									<Errors />
+									<Channel Name="Trigger" TypeGUID="74948967-ac25-4bb0-8b12-32de2b2e343b" RowDim="1" ColDim="1" Units="" BitFields="3">
+										<Description />
+										<Properties />
+										<Errors />
+										<DefaultValue>
+											<Elem>0</Elem>
+										</DefaultValue>
+									</Channel>
+									<Channel Name="Error Code" TypeGUID="c36593c7-9ffd-4a3f-8db5-ade8f2d84760" RowDim="1" ColDim="1" Units="" BitFields="1">
+										<Description />
+										<Properties>
+											<Property Name="Value Table">
+												<Dictionary>
+													<Elem Key="&lt;0&gt; No Error.">
+														<Double>0</Double>
+													</Elem>
+													<Elem Key="&lt;53&gt; Manager call not supported.">
+														<Double>53</Double>
+													</Elem>
+													<Elem Key="&lt;54&gt; The network address is ill-formed.">
+														<Double>54</Double>
+													</Elem>
+													<Elem Key="&lt;55&gt; The network operation is in progress.">
+														<Double>55</Double>
+													</Elem>
+													<Elem Key="&lt;56&gt; The network operation exceeded the user-specified or system time limit.">
+														<Double>56</Double>
+													</Elem>
+													<Elem Key="&lt;57&gt; The network connection is busy.">
+														<Double>57</Double>
+													</Elem>
+													<Elem Key="&lt;58&gt; The network function is not supported by the system.">
+														<Double>58</Double>
+													</Elem>
+													<Elem Key="&lt;59&gt; The network is down, unreachable, or has been reset.">
+														<Double>59</Double>
+													</Elem>
+													<Elem Key="&lt;60&gt; The specified port or network address is currently in use.">
+														<Double>60</Double>
+													</Elem>
+													<Elem Key="&lt;61&gt; The system could not allocate the necessary memory.">
+														<Double>61</Double>
+													</Elem>
+													<Elem Key="&lt;62&gt; The system caused the network connection to be aborted.">
+														<Double>62</Double>
+													</Elem>
+													<Elem Key="&lt;63&gt; The network connection was refused by the server.">
+														<Double>63</Double>
+													</Elem>
+													<Elem Key="&lt;64&gt; The network connection is not yet established.">
+														<Double>64</Double>
+													</Elem>
+													<Elem Key="&lt;65&gt; The network connection is already established.">
+														<Double>65</Double>
+													</Elem>
+													<Elem Key="&lt;66&gt; The network connection was closed by the peer.">
+														<Double>66</Double>
+													</Elem>
+													<Elem Key="&lt;114&gt; Could not create TCP listener port because the port, service name, or net address conflict with a TCP listener that already exists.">
+														<Double>114</Double>
+													</Elem>
+													<Elem Key="&lt;127&gt; The specified socket is not an IPv4 socket.">
+														<Double>127</Double>
+													</Elem>
+												</Dictionary>
+											</Property>
+										</Properties>
+										<Errors />
+										<DefaultValue>
+											<Elem>0</Elem>
+										</DefaultValue>
+									</Channel>
+									<Channel Name="Timestamp" TypeGUID="7FC4C151-104F-4070-A177-5B2CF22F1FC4" RowDim="1" ColDim="1" Units="" BitFields="1">
+										<Description />
+										<Properties />
+										<Errors />
+										<DefaultValue>
+											<Elem>0</Elem>
+										</DefaultValue>
+									</Channel>
+									<Channel Name="Message Status" TypeGUID="a618186b-06ee-4c96-843e-7b3da3094e99" RowDim="1" ColDim="1" Units="" BitFields="1">
+										<Description />
+										<Properties />
+										<Errors />
+										<DefaultValue>
+											<Elem>0</Elem>
+										</DefaultValue>
+									</Channel>
+									<Channel Name="Enable Periodic" TypeGUID="0766e40f-9a8b-40a8-8d2d-c67262ede28a" RowDim="1" ColDim="1" Units="" BitFields="3">
+										<Description />
+										<Properties />
+										<Errors />
+										<DefaultValue>
+											<Elem>1</Elem>
+										</DefaultValue>
+									</Channel>
+								</Section>
+								<Section Name="Command" TypeGUID="9428600d-6a85-43b8-aaac-a755da7e0c9b">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Cmd.Cmd">
+											<BinaryString>MjNDb21tYW5kMVZhbHVlOltHbG9iYWxfRm9ybWF0XQ==</BinaryString>
+										</Property>
+										<Property Name="user.CD.Cmd.LinkedChans">
+											<StringArray>
+												<Elem>Global_Format</Elem>
+											</StringArray>
+										</Property>
+										<Property Name="user.CD.Cmd.LinkedGUID">
+											<StringArray>
+												<Elem>8602dec6-6f94-4e80-b365-3a258c784938</Elem>
+											</StringArray>
+										</Property>
+										<Property Name="user.CD.Cmd.Pad">
+											<Boolean>true</Boolean>
+										</Property>
+										<Property Name="user.CD.Cmd.PadLength">
+											<U32>25</U32>
+										</Property>
+										<Property Name="user.CD.Cmd.PadVal">
+											<U32>32</U32>
+										</Property>
+									</Properties>
+									<Errors />
+								</Section>
+							</Section>
+							<Section Name="Format_Cmd_ValueChange_Pad_Prot" TypeGUID="672eb08e-4747-4725-8ff4-4749baa5e2a0">
+								<Description />
+								<Properties>
+									<Property Name="user.CD.Msg.GenType">
+										<U32>2</U32>
+									</Property>
+									<Property Name="user.CD.Msg.Period">
+										<Double>1</Double>
+									</Property>
+									<Property Name="user.CD.Msg.UseProtect">
+										<Boolean>true</Boolean>
+									</Property>
+									<Property Name="user.CD.Msg.ProtectType">
+										<String>Checksum U16</String>
+									</Property>
+								</Properties>
+								<Errors />
+								<Section Name="Message Channels" TypeGUID="72ad4790-7ba8-47a2-8882-5ec6ff5aad5f">
+									<Description />
+									<Properties />
+									<Errors />
+									<Channel Name="Trigger" TypeGUID="74948967-ac25-4bb0-8b12-32de2b2e343b" RowDim="1" ColDim="1" Units="" BitFields="3">
+										<Description />
+										<Properties />
+										<Errors />
+										<DefaultValue>
+											<Elem>0</Elem>
+										</DefaultValue>
+									</Channel>
+									<Channel Name="Error Code" TypeGUID="c36593c7-9ffd-4a3f-8db5-ade8f2d84760" RowDim="1" ColDim="1" Units="" BitFields="1">
+										<Description />
+										<Properties>
+											<Property Name="Value Table">
+												<Dictionary>
+													<Elem Key="&lt;0&gt; No Error.">
+														<Double>0</Double>
+													</Elem>
+													<Elem Key="&lt;53&gt; Manager call not supported.">
+														<Double>53</Double>
+													</Elem>
+													<Elem Key="&lt;54&gt; The network address is ill-formed.">
+														<Double>54</Double>
+													</Elem>
+													<Elem Key="&lt;55&gt; The network operation is in progress.">
+														<Double>55</Double>
+													</Elem>
+													<Elem Key="&lt;56&gt; The network operation exceeded the user-specified or system time limit.">
+														<Double>56</Double>
+													</Elem>
+													<Elem Key="&lt;57&gt; The network connection is busy.">
+														<Double>57</Double>
+													</Elem>
+													<Elem Key="&lt;58&gt; The network function is not supported by the system.">
+														<Double>58</Double>
+													</Elem>
+													<Elem Key="&lt;59&gt; The network is down, unreachable, or has been reset.">
+														<Double>59</Double>
+													</Elem>
+													<Elem Key="&lt;60&gt; The specified port or network address is currently in use.">
+														<Double>60</Double>
+													</Elem>
+													<Elem Key="&lt;61&gt; The system could not allocate the necessary memory.">
+														<Double>61</Double>
+													</Elem>
+													<Elem Key="&lt;62&gt; The system caused the network connection to be aborted.">
+														<Double>62</Double>
+													</Elem>
+													<Elem Key="&lt;63&gt; The network connection was refused by the server.">
+														<Double>63</Double>
+													</Elem>
+													<Elem Key="&lt;64&gt; The network connection is not yet established.">
+														<Double>64</Double>
+													</Elem>
+													<Elem Key="&lt;65&gt; The network connection is already established.">
+														<Double>65</Double>
+													</Elem>
+													<Elem Key="&lt;66&gt; The network connection was closed by the peer.">
+														<Double>66</Double>
+													</Elem>
+													<Elem Key="&lt;114&gt; Could not create TCP listener port because the port, service name, or net address conflict with a TCP listener that already exists.">
+														<Double>114</Double>
+													</Elem>
+													<Elem Key="&lt;127&gt; The specified socket is not an IPv4 socket.">
+														<Double>127</Double>
+													</Elem>
+												</Dictionary>
+											</Property>
+										</Properties>
+										<Errors />
+										<DefaultValue>
+											<Elem>0</Elem>
+										</DefaultValue>
+									</Channel>
+									<Channel Name="Timestamp" TypeGUID="7FC4C151-104F-4070-A177-5B2CF22F1FC4" RowDim="1" ColDim="1" Units="" BitFields="1">
+										<Description />
+										<Properties />
+										<Errors />
+										<DefaultValue>
+											<Elem>0</Elem>
+										</DefaultValue>
+									</Channel>
+									<Channel Name="Message Status" TypeGUID="a618186b-06ee-4c96-843e-7b3da3094e99" RowDim="1" ColDim="1" Units="" BitFields="1">
+										<Description />
+										<Properties />
+										<Errors />
+										<DefaultValue>
+											<Elem>0</Elem>
+										</DefaultValue>
+									</Channel>
+									<Channel Name="Enable Periodic" TypeGUID="0766e40f-9a8b-40a8-8d2d-c67262ede28a" RowDim="1" ColDim="1" Units="" BitFields="3">
+										<Description />
+										<Properties />
+										<Errors />
+										<DefaultValue>
+											<Elem>1</Elem>
+										</DefaultValue>
+									</Channel>
+								</Section>
+								<Section Name="Command" TypeGUID="9428600d-6a85-43b8-aaac-a755da7e0c9b">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Cmd.Cmd">
+											<BinaryString>MjNDb21tYW5kMlZhbHVlOltHbG9iYWxfZm9ybWF0XQ==</BinaryString>
+										</Property>
+										<Property Name="user.CD.Cmd.LinkedChans">
+											<StringArray>
+												<Elem>Global_format</Elem>
+											</StringArray>
+										</Property>
+										<Property Name="user.CD.Cmd.LinkedGUID">
+											<StringArray>
+												<Elem>8602dec6-6f94-4e80-b365-3a258c784938</Elem>
+											</StringArray>
+										</Property>
+										<Property Name="user.CD.Cmd.Pad">
+											<Boolean>true</Boolean>
+										</Property>
+										<Property Name="user.CD.Cmd.PadLength">
+											<U32>25</U32>
+										</Property>
+										<Property Name="user.CD.Cmd.PadVal">
+											<U32>0</U32>
+										</Property>
+									</Properties>
+									<Errors />
+								</Section>
+							</Section>
+							<Section Name="Format_Cmd_ValueChange" TypeGUID="672eb08e-4747-4725-8ff4-4749baa5e2a0">
+								<Description />
+								<Properties>
+									<Property Name="user.CD.Msg.GenType">
+										<U32>2</U32>
+									</Property>
+									<Property Name="user.CD.Msg.Period">
+										<Double>1</Double>
+									</Property>
+									<Property Name="user.CD.Msg.UseProtect">
+										<Boolean>false</Boolean>
+									</Property>
+									<Property Name="user.CD.Msg.ProtectType">
+										<String />
+									</Property>
+								</Properties>
+								<Errors />
+								<Section Name="Message Channels" TypeGUID="72ad4790-7ba8-47a2-8882-5ec6ff5aad5f">
+									<Description />
+									<Properties />
+									<Errors />
+									<Channel Name="Trigger" TypeGUID="74948967-ac25-4bb0-8b12-32de2b2e343b" RowDim="1" ColDim="1" Units="" BitFields="3">
+										<Description />
+										<Properties />
+										<Errors />
+										<DefaultValue>
+											<Elem>0</Elem>
+										</DefaultValue>
+									</Channel>
+									<Channel Name="Error Code" TypeGUID="c36593c7-9ffd-4a3f-8db5-ade8f2d84760" RowDim="1" ColDim="1" Units="" BitFields="1">
+										<Description />
+										<Properties>
+											<Property Name="Value Table">
+												<Dictionary>
+													<Elem Key="&lt;0&gt; No Error.">
+														<Double>0</Double>
+													</Elem>
+													<Elem Key="&lt;53&gt; Manager call not supported.">
+														<Double>53</Double>
+													</Elem>
+													<Elem Key="&lt;54&gt; The network address is ill-formed.">
+														<Double>54</Double>
+													</Elem>
+													<Elem Key="&lt;55&gt; The network operation is in progress.">
+														<Double>55</Double>
+													</Elem>
+													<Elem Key="&lt;56&gt; The network operation exceeded the user-specified or system time limit.">
+														<Double>56</Double>
+													</Elem>
+													<Elem Key="&lt;57&gt; The network connection is busy.">
+														<Double>57</Double>
+													</Elem>
+													<Elem Key="&lt;58&gt; The network function is not supported by the system.">
+														<Double>58</Double>
+													</Elem>
+													<Elem Key="&lt;59&gt; The network is down, unreachable, or has been reset.">
+														<Double>59</Double>
+													</Elem>
+													<Elem Key="&lt;60&gt; The specified port or network address is currently in use.">
+														<Double>60</Double>
+													</Elem>
+													<Elem Key="&lt;61&gt; The system could not allocate the necessary memory.">
+														<Double>61</Double>
+													</Elem>
+													<Elem Key="&lt;62&gt; The system caused the network connection to be aborted.">
+														<Double>62</Double>
+													</Elem>
+													<Elem Key="&lt;63&gt; The network connection was refused by the server.">
+														<Double>63</Double>
+													</Elem>
+													<Elem Key="&lt;64&gt; The network connection is not yet established.">
+														<Double>64</Double>
+													</Elem>
+													<Elem Key="&lt;65&gt; The network connection is already established.">
+														<Double>65</Double>
+													</Elem>
+													<Elem Key="&lt;66&gt; The network connection was closed by the peer.">
+														<Double>66</Double>
+													</Elem>
+													<Elem Key="&lt;114&gt; Could not create TCP listener port because the port, service name, or net address conflict with a TCP listener that already exists.">
+														<Double>114</Double>
+													</Elem>
+													<Elem Key="&lt;127&gt; The specified socket is not an IPv4 socket.">
+														<Double>127</Double>
+													</Elem>
+												</Dictionary>
+											</Property>
+										</Properties>
+										<Errors />
+										<DefaultValue>
+											<Elem>0</Elem>
+										</DefaultValue>
+									</Channel>
+									<Channel Name="Timestamp" TypeGUID="7FC4C151-104F-4070-A177-5B2CF22F1FC4" RowDim="1" ColDim="1" Units="" BitFields="1">
+										<Description />
+										<Properties />
+										<Errors />
+										<DefaultValue>
+											<Elem>0</Elem>
+										</DefaultValue>
+									</Channel>
+									<Channel Name="Message Status" TypeGUID="a618186b-06ee-4c96-843e-7b3da3094e99" RowDim="1" ColDim="1" Units="" BitFields="1">
+										<Description />
+										<Properties />
+										<Errors />
+										<DefaultValue>
+											<Elem>0</Elem>
+										</DefaultValue>
+									</Channel>
+									<Channel Name="Enable Periodic" TypeGUID="0766e40f-9a8b-40a8-8d2d-c67262ede28a" RowDim="1" ColDim="1" Units="" BitFields="3">
+										<Description />
+										<Properties />
+										<Errors />
+										<DefaultValue>
+											<Elem>1</Elem>
+										</DefaultValue>
+									</Channel>
+								</Section>
+								<Section Name="Command" TypeGUID="9428600d-6a85-43b8-aaac-a755da7e0c9b">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Cmd.Cmd">
+											<BinaryString>MThDb21tYW5kM1ZhbHVlOltHbG9iYWxfZm9ybWF0XQ==</BinaryString>
+										</Property>
+										<Property Name="user.CD.Cmd.LinkedChans">
+											<StringArray>
+												<Elem>Global_format</Elem>
+											</StringArray>
+										</Property>
+										<Property Name="user.CD.Cmd.LinkedGUID">
+											<StringArray>
+												<Elem>8602dec6-6f94-4e80-b365-3a258c784938</Elem>
+											</StringArray>
+										</Property>
+										<Property Name="user.CD.Cmd.Pad">
+											<Boolean>false</Boolean>
+										</Property>
+										<Property Name="user.CD.Cmd.PadLength">
+											<U32>25</U32>
+										</Property>
+										<Property Name="user.CD.Cmd.PadVal">
+											<U32>0</U32>
+										</Property>
+									</Properties>
+									<Errors />
+								</Section>
+							</Section>
+						</Section>
 					</Section>
 					<Section Name="Instrument Addon Response Only" TypeGUID="5a19fd09-df16-47f0-8250-c59b5cb8c757">
 						<Description />
@@ -5897,12 +6749,45 @@
 							<Description />
 							<Properties />
 							<Errors />
+							<Channel Name="Wait Byte Count" TypeGUID="1d30d097-ad35-4eb1-81b5-9d3a9f7f2d88" RowDim="1" ColDim="1" Units="" BitFields="11">
+								<Description />
+								<Properties>
+									<Property Name="user.CD.MetaData.DataType">
+										<U32>0</U32>
+									</Property>
+									<Property Name="user.CD.MetaData.ChanType">
+										<U32>1</U32>
+									</Property>
+									<Property Name="user.CD.MetaData.List">
+										<StringArray />
+									</Property>
+									<Property Name="user.CD.MetaData.FormatString">
+										<String>%d</String>
+									</Property>
+									<Property Name="user.CD.MetaData.TypeCastType">
+										<U32>1</U32>
+									</Property>
+									<Property Name="user.CD.MetaData.Delimiter">
+										<String />
+									</Property>
+									<Property Name="user.CD.MetaData.Endian">
+										<U32>0</U32>
+									</Property>
+									<Property Name="user.CD.ConfigGUID">
+										<BinaryString>NzhjZmM3NDItNTYxNi00YzJiLTlhNmItYzgxMDQyMTc4Yzhh</BinaryString>
+									</Property>
+								</Properties>
+								<Errors />
+								<DefaultValue>
+									<Elem>0</Elem>
+								</DefaultValue>
+							</Channel>
 						</Section>
-						<Section Name="SingleChannel" TypeGUID="ca2af2c4-f6de-4981-9e7c-f3a7dc921a83">
+						<Section Name="Response Only" TypeGUID="ca2af2c4-f6de-4981-9e7c-f3a7dc921a83">
 							<Description />
 							<Properties />
 							<Errors />
-							<Section Name="Static_Resp" TypeGUID="672eb08e-4747-4725-8ff4-4749baa5e2a0">
+							<Section Name="Static_Resp_Trig" TypeGUID="672eb08e-4747-4725-8ff4-4749baa5e2a0">
 								<Description />
 								<Properties>
 									<Property Name="user.CD.Msg.GenType">
@@ -6046,6 +6931,156 @@
 											<U32>0</U32>
 										</Property>
 										<Property Name="user.CD.Rsp.UseChan">
+											<Boolean>true</Boolean>
+										</Property>
+										<Property Name="user.CD.Rsp.ChanPath">
+											<String>Custom Devices/Instrument Addon Response Only/Global MetaData Channels/Wait Byte Count</String>
+										</Property>
+									</Properties>
+									<Errors />
+								</Section>
+							</Section>
+							<Section Name="LocalEnum_Resp_Trig" TypeGUID="672eb08e-4747-4725-8ff4-4749baa5e2a0">
+								<Description />
+								<Properties>
+									<Property Name="user.CD.Msg.GenType">
+										<U32>0</U32>
+									</Property>
+									<Property Name="user.CD.Msg.Period">
+										<Double>8</Double>
+									</Property>
+									<Property Name="user.CD.Msg.UseProtect">
+										<Boolean>false</Boolean>
+									</Property>
+									<Property Name="user.CD.Msg.ProtectType">
+										<String />
+									</Property>
+								</Properties>
+								<Errors />
+								<Section Name="Message Channels" TypeGUID="72ad4790-7ba8-47a2-8882-5ec6ff5aad5f">
+									<Description />
+									<Properties />
+									<Errors />
+									<Channel Name="Trigger" TypeGUID="74948967-ac25-4bb0-8b12-32de2b2e343b" RowDim="1" ColDim="1" Units="" BitFields="3">
+										<Description />
+										<Properties />
+										<Errors />
+										<DefaultValue>
+											<Elem>0</Elem>
+										</DefaultValue>
+									</Channel>
+									<Channel Name="Error Code" TypeGUID="c36593c7-9ffd-4a3f-8db5-ade8f2d84760" RowDim="1" ColDim="1" Units="" BitFields="1">
+										<Description />
+										<Properties>
+											<Property Name="Value Table">
+												<Dictionary>
+													<Elem Key="&lt;0&gt; No Error.">
+														<Double>0</Double>
+													</Elem>
+													<Elem Key="&lt;53&gt; Manager call not supported.">
+														<Double>53</Double>
+													</Elem>
+													<Elem Key="&lt;54&gt; The network address is ill-formed.">
+														<Double>54</Double>
+													</Elem>
+													<Elem Key="&lt;55&gt; The network operation is in progress.">
+														<Double>55</Double>
+													</Elem>
+													<Elem Key="&lt;56&gt; The network operation exceeded the user-specified or system time limit.">
+														<Double>56</Double>
+													</Elem>
+													<Elem Key="&lt;57&gt; The network connection is busy.">
+														<Double>57</Double>
+													</Elem>
+													<Elem Key="&lt;58&gt; The network function is not supported by the system.">
+														<Double>58</Double>
+													</Elem>
+													<Elem Key="&lt;59&gt; The network is down, unreachable, or has been reset.">
+														<Double>59</Double>
+													</Elem>
+													<Elem Key="&lt;60&gt; The specified port or network address is currently in use.">
+														<Double>60</Double>
+													</Elem>
+													<Elem Key="&lt;61&gt; The system could not allocate the necessary memory.">
+														<Double>61</Double>
+													</Elem>
+													<Elem Key="&lt;62&gt; The system caused the network connection to be aborted.">
+														<Double>62</Double>
+													</Elem>
+													<Elem Key="&lt;63&gt; The network connection was refused by the server.">
+														<Double>63</Double>
+													</Elem>
+													<Elem Key="&lt;64&gt; The network connection is not yet established.">
+														<Double>64</Double>
+													</Elem>
+													<Elem Key="&lt;65&gt; The network connection is already established.">
+														<Double>65</Double>
+													</Elem>
+													<Elem Key="&lt;66&gt; The network connection was closed by the peer.">
+														<Double>66</Double>
+													</Elem>
+													<Elem Key="&lt;114&gt; Could not create TCP listener port because the port, service name, or net address conflict with a TCP listener that already exists.">
+														<Double>114</Double>
+													</Elem>
+													<Elem Key="&lt;127&gt; The specified socket is not an IPv4 socket.">
+														<Double>127</Double>
+													</Elem>
+												</Dictionary>
+											</Property>
+										</Properties>
+										<Errors />
+										<DefaultValue>
+											<Elem>0</Elem>
+										</DefaultValue>
+									</Channel>
+									<Channel Name="Timestamp" TypeGUID="7FC4C151-104F-4070-A177-5B2CF22F1FC4" RowDim="1" ColDim="1" Units="" BitFields="1">
+										<Description />
+										<Properties />
+										<Errors />
+										<DefaultValue>
+											<Elem>0</Elem>
+										</DefaultValue>
+									</Channel>
+									<Channel Name="Message Status" TypeGUID="a618186b-06ee-4c96-843e-7b3da3094e99" RowDim="1" ColDim="1" Units="" BitFields="1">
+										<Description />
+										<Properties />
+										<Errors />
+										<DefaultValue>
+											<Elem>0</Elem>
+										</DefaultValue>
+									</Channel>
+									<Channel Name="Enable Periodic" TypeGUID="0766e40f-9a8b-40a8-8d2d-c67262ede28a" RowDim="1" ColDim="1" Units="" BitFields="3">
+										<Description />
+										<Properties />
+										<Errors />
+										<DefaultValue>
+											<Elem>1</Elem>
+										</DefaultValue>
+									</Channel>
+								</Section>
+								<Section Name="Response" TypeGUID="e90b6266-233a-4552-94b4-54222f1875a2">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Rsp.Rsp">
+											<BinaryString>SGVhcnRCZWF0W0xvY2FsX0VudW1d</BinaryString>
+										</Property>
+										<Property Name="user.CD.Rsp.LinkedChans">
+											<StringArray>
+												<Elem>Local_Enum</Elem>
+											</StringArray>
+										</Property>
+										<Property Name="user.CD.Rsp.LinkedGUIDs">
+											<StringArray>
+												<Elem>04c5beae-1a66-4448-a2cf-5246ae822347</Elem>
+											</StringArray>
+										</Property>
+										<Property Name="user.CD.Rsp.WaitVal">
+											<Double>16</Double>
+										</Property>
+										<Property Name="user.CD.Rsp.WaitType">
+											<U32>0</U32>
+										</Property>
+										<Property Name="user.CD.Rsp.UseChan">
 											<Boolean>false</Boolean>
 										</Property>
 										<Property Name="user.CD.Rsp.ChanPath">
@@ -6053,6 +7088,245 @@
 										</Property>
 									</Properties>
 									<Errors />
+									<Channel Name="Local Enum" TypeGUID="b473b5ce-647b-4798-814d-3247489a3409" RowDim="1" ColDim="1" Units="" BitFields="9">
+										<Description />
+										<Properties>
+											<Property Name="user.CD.Data.DataType">
+												<U32>0</U32>
+											</Property>
+											<Property Name="user.CD.Data.ChanType">
+												<U32>3</U32>
+											</Property>
+											<Property Name="user.CD.Data.FormatString">
+												<String>%.3g</String>
+											</Property>
+											<Property Name="user.CD.Data.ExpectedString">
+												<BinaryString />
+											</Property>
+											<Property Name="user.CD.Data.TypeCastType">
+												<U32>1</U32>
+											</Property>
+											<Property Name="user.CD.Data.List">
+												<StringArray>
+													<Elem>message</Elem>
+													<Elem>MESSAGE</Elem>
+													<Elem>Message</Elem>
+												</StringArray>
+											</Property>
+											<Property Name="user.CD.Data.Delimiter">
+												<String>,</String>
+											</Property>
+											<Property Name="user.CD.Data.Endian">
+												<U32>0</U32>
+											</Property>
+											<Property Name="user.CD.ConfigGUID">
+												<BinaryString>MDRjNWJlYWUtMWE2Ni00NDQ4LWEyY2YtNTI0NmFlODIyMzQ3</BinaryString>
+											</Property>
+											<Property Name="Value Table">
+												<Dictionary>
+													<Elem Key="message">
+														<Double>0</Double>
+													</Elem>
+													<Elem Key="MESSAGE">
+														<Double>1</Double>
+													</Elem>
+													<Elem Key="Message">
+														<Double>2</Double>
+													</Elem>
+												</Dictionary>
+											</Property>
+										</Properties>
+										<Errors />
+										<DefaultValue>
+											<Elem>0</Elem>
+										</DefaultValue>
+									</Channel>
+								</Section>
+							</Section>
+							<Section Name="Comparison_Resp_Trig" TypeGUID="672eb08e-4747-4725-8ff4-4749baa5e2a0">
+								<Description />
+								<Properties>
+									<Property Name="user.CD.Msg.GenType">
+										<U32>0</U32>
+									</Property>
+									<Property Name="user.CD.Msg.Period">
+										<Double>1</Double>
+									</Property>
+									<Property Name="user.CD.Msg.UseProtect">
+										<Boolean>false</Boolean>
+									</Property>
+									<Property Name="user.CD.Msg.ProtectType">
+										<String />
+									</Property>
+								</Properties>
+								<Errors />
+								<Section Name="Message Channels" TypeGUID="72ad4790-7ba8-47a2-8882-5ec6ff5aad5f">
+									<Description />
+									<Properties />
+									<Errors />
+									<Channel Name="Trigger" TypeGUID="74948967-ac25-4bb0-8b12-32de2b2e343b" RowDim="1" ColDim="1" Units="" BitFields="3">
+										<Description />
+										<Properties />
+										<Errors />
+										<DefaultValue>
+											<Elem>0</Elem>
+										</DefaultValue>
+									</Channel>
+									<Channel Name="Error Code" TypeGUID="c36593c7-9ffd-4a3f-8db5-ade8f2d84760" RowDim="1" ColDim="1" Units="" BitFields="1">
+										<Description />
+										<Properties>
+											<Property Name="Value Table">
+												<Dictionary>
+													<Elem Key="&lt;0&gt; No Error.">
+														<Double>0</Double>
+													</Elem>
+													<Elem Key="&lt;53&gt; Manager call not supported.">
+														<Double>53</Double>
+													</Elem>
+													<Elem Key="&lt;54&gt; The network address is ill-formed.">
+														<Double>54</Double>
+													</Elem>
+													<Elem Key="&lt;55&gt; The network operation is in progress.">
+														<Double>55</Double>
+													</Elem>
+													<Elem Key="&lt;56&gt; The network operation exceeded the user-specified or system time limit.">
+														<Double>56</Double>
+													</Elem>
+													<Elem Key="&lt;57&gt; The network connection is busy.">
+														<Double>57</Double>
+													</Elem>
+													<Elem Key="&lt;58&gt; The network function is not supported by the system.">
+														<Double>58</Double>
+													</Elem>
+													<Elem Key="&lt;59&gt; The network is down, unreachable, or has been reset.">
+														<Double>59</Double>
+													</Elem>
+													<Elem Key="&lt;60&gt; The specified port or network address is currently in use.">
+														<Double>60</Double>
+													</Elem>
+													<Elem Key="&lt;61&gt; The system could not allocate the necessary memory.">
+														<Double>61</Double>
+													</Elem>
+													<Elem Key="&lt;62&gt; The system caused the network connection to be aborted.">
+														<Double>62</Double>
+													</Elem>
+													<Elem Key="&lt;63&gt; The network connection was refused by the server.">
+														<Double>63</Double>
+													</Elem>
+													<Elem Key="&lt;64&gt; The network connection is not yet established.">
+														<Double>64</Double>
+													</Elem>
+													<Elem Key="&lt;65&gt; The network connection is already established.">
+														<Double>65</Double>
+													</Elem>
+													<Elem Key="&lt;66&gt; The network connection was closed by the peer.">
+														<Double>66</Double>
+													</Elem>
+													<Elem Key="&lt;114&gt; Could not create TCP listener port because the port, service name, or net address conflict with a TCP listener that already exists.">
+														<Double>114</Double>
+													</Elem>
+													<Elem Key="&lt;127&gt; The specified socket is not an IPv4 socket.">
+														<Double>127</Double>
+													</Elem>
+												</Dictionary>
+											</Property>
+										</Properties>
+										<Errors />
+										<DefaultValue>
+											<Elem>0</Elem>
+										</DefaultValue>
+									</Channel>
+									<Channel Name="Timestamp" TypeGUID="7FC4C151-104F-4070-A177-5B2CF22F1FC4" RowDim="1" ColDim="1" Units="" BitFields="1">
+										<Description />
+										<Properties />
+										<Errors />
+										<DefaultValue>
+											<Elem>0</Elem>
+										</DefaultValue>
+									</Channel>
+									<Channel Name="Message Status" TypeGUID="a618186b-06ee-4c96-843e-7b3da3094e99" RowDim="1" ColDim="1" Units="" BitFields="1">
+										<Description />
+										<Properties />
+										<Errors />
+										<DefaultValue>
+											<Elem>0</Elem>
+										</DefaultValue>
+									</Channel>
+									<Channel Name="Enable Periodic" TypeGUID="0766e40f-9a8b-40a8-8d2d-c67262ede28a" RowDim="1" ColDim="1" Units="" BitFields="3">
+										<Description />
+										<Properties />
+										<Errors />
+										<DefaultValue>
+											<Elem>1</Elem>
+										</DefaultValue>
+									</Channel>
+								</Section>
+								<Section Name="Response" TypeGUID="e90b6266-233a-4552-94b4-54222f1875a2">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Rsp.Rsp">
+											<BinaryString>SGVhcnRbdmFsdWVdTWVzc2FnZQ==</BinaryString>
+										</Property>
+										<Property Name="user.CD.Rsp.LinkedChans">
+											<StringArray>
+												<Elem>value</Elem>
+											</StringArray>
+										</Property>
+										<Property Name="user.CD.Rsp.LinkedGUIDs">
+											<StringArray>
+												<Elem>0b373ae9-878f-4a2d-b7d3-3f09f30f182a</Elem>
+											</StringArray>
+										</Property>
+										<Property Name="user.CD.Rsp.WaitVal">
+											<Double>16</Double>
+										</Property>
+										<Property Name="user.CD.Rsp.WaitType">
+											<U32>0</U32>
+										</Property>
+										<Property Name="user.CD.Rsp.UseChan">
+											<Boolean>false</Boolean>
+										</Property>
+										<Property Name="user.CD.Rsp.ChanPath">
+											<String />
+										</Property>
+									</Properties>
+									<Errors />
+									<Channel Name="Comparison" TypeGUID="b473b5ce-647b-4798-814d-3247489a3409" RowDim="1" ColDim="1" Units="" BitFields="9">
+										<Description />
+										<Properties>
+											<Property Name="user.CD.Data.DataType">
+												<U32>0</U32>
+											</Property>
+											<Property Name="user.CD.Data.ChanType">
+												<U32>1</U32>
+											</Property>
+											<Property Name="user.CD.Data.FormatString">
+												<String>%.3g</String>
+											</Property>
+											<Property Name="user.CD.Data.ExpectedString">
+												<BinaryString>QmVhdA==</BinaryString>
+											</Property>
+											<Property Name="user.CD.Data.TypeCastType">
+												<U32>1</U32>
+											</Property>
+											<Property Name="user.CD.Data.List">
+												<StringArray />
+											</Property>
+											<Property Name="user.CD.Data.Delimiter">
+												<String>,</String>
+											</Property>
+											<Property Name="user.CD.Data.Endian">
+												<U32>0</U32>
+											</Property>
+											<Property Name="user.CD.ConfigGUID">
+												<BinaryString>MGIzNzNhZTktODc4Zi00YTJkLWI3ZDMtM2YwOWYzMGYxODJh</BinaryString>
+											</Property>
+										</Properties>
+										<Errors />
+										<DefaultValue>
+											<Elem>0</Elem>
+										</DefaultValue>
+									</Channel>
 								</Section>
 							</Section>
 						</Section>
@@ -7072,7 +8346,7 @@
 					<Description />
 					<Properties>
 						<Property Name="Referenced Channel">
-							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Message Group/Static_CmdResp_Trig/Message Channels/Error Code" />
+							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Trigger and Periodic/Static_CmdResp_Trig/Message Channels/Error Code" />
 						</Property>
 					</Properties>
 					<Errors />
@@ -7081,7 +8355,7 @@
 					<Description />
 					<Properties>
 						<Property Name="Referenced Channel">
-							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Message Group/Static_Cmd_Trig/Message Channels/Error Code" />
+							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Trigger and Periodic/Static_Cmd_Trig/Message Channels/Error Code" />
 						</Property>
 					</Properties>
 					<Errors />
@@ -7090,16 +8364,7 @@
 					<Description />
 					<Properties>
 						<Property Name="Referenced Channel">
-							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Message Group/Static_Cmd_PeriodTrig_Pad/Message Channels/Error Code" />
-						</Property>
-					</Properties>
-					<Errors />
-				</Alias>
-				<Alias Name="SingleChan_Static_Cmd_ValueAndTrig_Pad_Prot" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
-					<Description />
-					<Properties>
-						<Property Name="Referenced Channel">
-							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Message Group/Static_Cmd_ValueAndTrig_Pad_Prot/Message Channels/Error Code" />
+							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Trigger and Periodic/Static_Cmd_PeriodTrig_Pad/Message Channels/Error Code" />
 						</Property>
 					</Properties>
 					<Errors />
@@ -7108,7 +8373,7 @@
 					<Description />
 					<Properties>
 						<Property Name="Referenced Channel">
-							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Message Group/Static_Cmd_Trig_Prot/Message Channels/Error Code" />
+							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Trigger and Periodic/Static_Cmd_Trig_Prot/Message Channels/Error Code" />
 						</Property>
 					</Properties>
 					<Errors />
@@ -7117,7 +8382,7 @@
 					<Description />
 					<Properties>
 						<Property Name="Referenced Channel">
-							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Message Group/Static_CmdResp_Trig_Prot_Pad/Message Channels/Error Code" />
+							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Trigger and Periodic/Static_CmdResp_Trig_Prot_Pad/Message Channels/Error Code" />
 						</Property>
 					</Properties>
 					<Errors />
@@ -7126,7 +8391,7 @@
 					<Description />
 					<Properties>
 						<Property Name="Referenced Channel">
-							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Message Group/Static_Cmd_Trig_Pad/Message Channels/Error Code" />
+							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Trigger and Periodic/Static_Cmd_Trig_Pad/Message Channels/Error Code" />
 						</Property>
 					</Properties>
 					<Errors />
@@ -7135,7 +8400,7 @@
 					<Description />
 					<Properties>
 						<Property Name="Referenced Channel">
-							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Message Group/Format_Cmd_Trig/Message Channels/Error Code" />
+							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Trigger and Periodic/Format_Cmd_Trig/Message Channels/Error Code" />
 						</Property>
 					</Properties>
 					<Errors />
@@ -7144,7 +8409,7 @@
 					<Description />
 					<Properties>
 						<Property Name="Referenced Channel">
-							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Message Group/Enum_Cmd_Trig_Pad/Message Channels/Error Code" />
+							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Trigger and Periodic/Enum_Cmd_Trig_Pad/Message Channels/Error Code" />
 						</Property>
 					</Properties>
 					<Errors />
@@ -7153,7 +8418,7 @@
 					<Description />
 					<Properties>
 						<Property Name="Referenced Channel">
-							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Message Group/Static_CmdResp_Trig_Prot/Message Channels/Error Code" />
+							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Trigger and Periodic/Static_CmdResp_Trig_Prot/Message Channels/Error Code" />
 						</Property>
 					</Properties>
 					<Errors />
@@ -7162,7 +8427,7 @@
 					<Description />
 					<Properties>
 						<Property Name="Referenced Channel">
-							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Message Group/TypeCast_Cmd_Trig_Pad/Message Channels/Error Code" />
+							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Trigger and Periodic/TypeCast_Cmd_Trig_Pad/Message Channels/Error Code" />
 						</Property>
 					</Properties>
 					<Errors />
@@ -7171,7 +8436,7 @@
 					<Description />
 					<Properties>
 						<Property Name="Referenced Channel">
-							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Message Group/EnumFormat_Cmd_Trig_Pad_Prot/Message Channels/Error Code" />
+							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Trigger and Periodic/EnumFormat_Cmd_Trig_Pad_Prot/Message Channels/Error Code" />
 						</Property>
 					</Properties>
 					<Errors />
@@ -7180,7 +8445,7 @@
 					<Description />
 					<Properties>
 						<Property Name="Referenced Channel">
-							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Message Group/EnumArray_Cmd_Trig_Pad/Message Channels/Error Code" />
+							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Trigger and Periodic/EnumArray_Cmd_Trig_Pad/Message Channels/Error Code" />
 						</Property>
 					</Properties>
 					<Errors />
@@ -7189,7 +8454,7 @@
 					<Description />
 					<Properties>
 						<Property Name="Referenced Channel">
-							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Message Group/EnumArray_Cmd_Trig_Pad_Prot/Message Channels/Error Code" />
+							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Trigger and Periodic/EnumArray_Cmd_Trig_Pad_Prot/Message Channels/Error Code" />
 						</Property>
 					</Properties>
 					<Errors />
@@ -7198,7 +8463,7 @@
 					<Description />
 					<Properties>
 						<Property Name="Referenced Channel">
-							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Message Group/FormatArray_Cmd_Trig_Prot/Message Channels/Error Code" />
+							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Trigger and Periodic/FormatArray_Cmd_Trig_Prot/Message Channels/Error Code" />
 						</Property>
 					</Properties>
 					<Errors />
@@ -7207,7 +8472,7 @@
 					<Description />
 					<Properties>
 						<Property Name="Referenced Channel">
-							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Message Group/TypeCastArray_Cmd_Trig/Message Channels/Error Code" />
+							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Trigger and Periodic/TypeCastArray_Cmd_Trig/Message Channels/Error Code" />
 						</Property>
 					</Properties>
 					<Errors />
@@ -7216,7 +8481,7 @@
 					<Description />
 					<Properties>
 						<Property Name="Referenced Channel">
-							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Message Group/EnumFormatTypeCastArray_Cmd_Trig_Pad_Prot/Message Channels/Error Code" />
+							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Trigger and Periodic/EnumFormatTypeCastArray_Cmd_Trig_Pad_Prot/Message Channels/Error Code" />
 						</Property>
 					</Properties>
 					<Errors />
@@ -7225,7 +8490,7 @@
 					<Description />
 					<Properties>
 						<Property Name="Referenced Channel">
-							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Message Group/EnumArray_CmdResp_Trig_Pad_Prot/Message Channels/Error Code" />
+							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Trigger and Periodic/EnumArray_CmdResp_Trig_Pad_Prot/Message Channels/Error Code" />
 						</Property>
 					</Properties>
 					<Errors />
@@ -7234,7 +8499,7 @@
 					<Description />
 					<Properties>
 						<Property Name="Referenced Channel">
-							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Message Group/LocalEnum_CmdResp_Trig_Pad_Prot/Message Channels/Error Code" />
+							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Trigger and Periodic/LocalEnum_CmdResp_Trig_Pad_Prot/Message Channels/Error Code" />
 						</Property>
 					</Properties>
 					<Errors />
@@ -7243,7 +8508,7 @@
 					<Description />
 					<Properties>
 						<Property Name="Referenced Channel">
-							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Message Group/LocalFormat_CmdResp_Trig_Prot/Message Channels/Error Code" />
+							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Trigger and Periodic/LocalFormat_CmdResp_Trig_Prot/Message Channels/Error Code" />
 						</Property>
 					</Properties>
 					<Errors />
@@ -7252,7 +8517,7 @@
 					<Description />
 					<Properties>
 						<Property Name="Referenced Channel">
-							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Message Group/LocalTypeCast_CmdResp_Trig_Prot/Message Channels/Error Code" />
+							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Trigger and Periodic/LocalTypeCast_CmdResp_Trig_Prot/Message Channels/Error Code" />
 						</Property>
 					</Properties>
 					<Errors />
@@ -7261,7 +8526,7 @@
 					<Description />
 					<Properties>
 						<Property Name="Referenced Channel">
-							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Message Group/Comparison_CmdResp_Trig_Pad/Message Channels/Error Code" />
+							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Trigger and Periodic/Comparison_CmdResp_Trig_Pad/Message Channels/Error Code" />
 						</Property>
 					</Properties>
 					<Errors />
@@ -7270,7 +8535,7 @@
 					<Description />
 					<Properties>
 						<Property Name="Referenced Channel">
-							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Message Group/LocalArrayEnum_CmdResp_Trig_Pad/Message Channels/Error Code" />
+							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Trigger and Periodic/LocalArrayEnum_CmdResp_Trig_Pad/Message Channels/Error Code" />
 						</Property>
 					</Properties>
 					<Errors />
@@ -7279,7 +8544,7 @@
 					<Description />
 					<Properties>
 						<Property Name="Referenced Channel">
-							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Message Group/LocalArrayFormat_CmdResp_Trigger_Pad_Prot/Message Channels/Error Code" />
+							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Trigger and Periodic/LocalArrayFormat_CmdResp_Trigger_Pad_Prot/Message Channels/Error Code" />
 						</Property>
 					</Properties>
 					<Errors />
@@ -7288,7 +8553,7 @@
 					<Description />
 					<Properties>
 						<Property Name="Referenced Channel">
-							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Message Group/LocalArrayTypeCast_CmdResp_Trig/Message Channels/Error Code" />
+							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Trigger and Periodic/LocalArrayTypeCast_CmdResp_Trig/Message Channels/Error Code" />
 						</Property>
 					</Properties>
 					<Errors />
@@ -7297,7 +8562,7 @@
 					<Description />
 					<Properties>
 						<Property Name="Referenced Channel">
-							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Message Group/LocalArrayComparison_CmdResp_Trig/Message Channels/Error Code" />
+							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Trigger and Periodic/LocalArrayComparison_CmdResp_Trig/Message Channels/Error Code" />
 						</Property>
 					</Properties>
 					<Errors />
@@ -7306,7 +8571,79 @@
 					<Description />
 					<Properties>
 						<Property Name="Referenced Channel">
-							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Message Group/LocalAndGlobalMetaData_CmdResp_Trig_Pad/Message Channels/Error Code" />
+							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Trigger and Periodic/LocalAndGlobalMetaData_CmdResp_Trig_Pad/Message Channels/Error Code" />
+						</Property>
+					</Properties>
+					<Errors />
+				</Alias>
+				<Alias Name="Static_Resp_Trig" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
+					<Description />
+					<Properties>
+						<Property Name="Referenced Channel">
+							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Response Only/Response Only/Static_Resp_Trig/Message Channels/Error Code" />
+						</Property>
+					</Properties>
+					<Errors />
+				</Alias>
+				<Alias Name="LocalEnum_Resp_Trig" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
+					<Description />
+					<Properties>
+						<Property Name="Referenced Channel">
+							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Response Only/Response Only/LocalEnum_Resp_Trig/Message Channels/Error Code" />
+						</Property>
+					</Properties>
+					<Errors />
+				</Alias>
+				<Alias Name="Comparison_Resp_Trig" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
+					<Description />
+					<Properties>
+						<Property Name="Referenced Channel">
+							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Response Only/Response Only/Comparison_Resp_Trig/Message Channels/Error Code" />
+						</Property>
+					</Properties>
+					<Errors />
+				</Alias>
+				<Alias Name="LocalFormat_CmdResp_ValueChange_Pad_Prot" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
+					<Description />
+					<Properties>
+						<Property Name="Referenced Channel">
+							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Value Change &amp; Trigger/LocalFormat_CmdResp_ValueChange_Pad_Prot/Message Channels/Error Code" />
+						</Property>
+					</Properties>
+					<Errors />
+				</Alias>
+				<Alias Name="EnumArray_Cmd_ValueChange_Pad" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
+					<Description />
+					<Properties>
+						<Property Name="Referenced Channel">
+							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Value Change &amp; Trigger/EnumArray_Cmd_ValueChange_Pad/Message Channels/Error Code" />
+						</Property>
+					</Properties>
+					<Errors />
+				</Alias>
+				<Alias Name="Format_Cmd_ValueChange_Pad" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
+					<Description />
+					<Properties>
+						<Property Name="Referenced Channel">
+							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Value Change &amp; Trigger/Format_Cmd_ValueChange_Pad/Message Channels/Error Code" />
+						</Property>
+					</Properties>
+					<Errors />
+				</Alias>
+				<Alias Name="Format_Cmd_ValueChange_Pad_Prot" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
+					<Description />
+					<Properties>
+						<Property Name="Referenced Channel">
+							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Value Change &amp; Trigger/Format_Cmd_ValueChange_Pad_Prot/Message Channels/Error Code" />
+						</Property>
+					</Properties>
+					<Errors />
+				</Alias>
+				<Alias Name="Format_Cmd_ValueChange" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
+					<Description />
+					<Properties>
+						<Property Name="Referenced Channel">
+							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Value Change &amp; Trigger/Format_Cmd_ValueChange/Message Channels/Error Code" />
 						</Property>
 					</Properties>
 					<Errors />
@@ -7320,7 +8657,7 @@
 					<Description />
 					<Properties>
 						<Property Name="Referenced Channel">
-							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Message Group/Static_Cmd_Trig/Message Channels/Message Status" />
+							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Trigger and Periodic/Static_Cmd_Trig/Message Channels/Message Status" />
 						</Property>
 					</Properties>
 					<Errors />
@@ -7329,7 +8666,7 @@
 					<Description />
 					<Properties>
 						<Property Name="Referenced Channel">
-							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Message Group/Static_CmdResp_Trig/Message Channels/Message Status" />
+							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Trigger and Periodic/Static_CmdResp_Trig/Message Channels/Message Status" />
 						</Property>
 					</Properties>
 					<Errors />
@@ -7338,16 +8675,7 @@
 					<Description />
 					<Properties>
 						<Property Name="Referenced Channel">
-							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Message Group/Static_Cmd_PeriodTrig_Pad/Message Channels/Message Status" />
-						</Property>
-					</Properties>
-					<Errors />
-				</Alias>
-				<Alias Name="SingleChan_Static_Cmd_ValueAndTrig_Pad_Prot" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
-					<Description />
-					<Properties>
-						<Property Name="Referenced Channel">
-							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Message Group/Static_Cmd_ValueAndTrig_Pad_Prot/Message Channels/Message Status" />
+							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Trigger and Periodic/Static_Cmd_PeriodTrig_Pad/Message Channels/Message Status" />
 						</Property>
 					</Properties>
 					<Errors />
@@ -7356,7 +8684,7 @@
 					<Description />
 					<Properties>
 						<Property Name="Referenced Channel">
-							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Message Group/Static_Cmd_Trig_Prot/Message Channels/Message Status" />
+							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Trigger and Periodic/Static_Cmd_Trig_Prot/Message Channels/Message Status" />
 						</Property>
 					</Properties>
 					<Errors />
@@ -7365,7 +8693,7 @@
 					<Description />
 					<Properties>
 						<Property Name="Referenced Channel">
-							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Message Group/Static_CmdResp_Trig_Prot_Pad/Message Channels/Message Status" />
+							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Trigger and Periodic/Static_CmdResp_Trig_Prot_Pad/Message Channels/Message Status" />
 						</Property>
 					</Properties>
 					<Errors />
@@ -7374,7 +8702,7 @@
 					<Description />
 					<Properties>
 						<Property Name="Referenced Channel">
-							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Message Group/Static_Cmd_Trig_Pad/Message Channels/Message Status" />
+							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Trigger and Periodic/Static_Cmd_Trig_Pad/Message Channels/Message Status" />
 						</Property>
 					</Properties>
 					<Errors />
@@ -7383,7 +8711,7 @@
 					<Description />
 					<Properties>
 						<Property Name="Referenced Channel">
-							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Message Group/Format_Cmd_Trig/Message Channels/Message Status" />
+							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Trigger and Periodic/Format_Cmd_Trig/Message Channels/Message Status" />
 						</Property>
 					</Properties>
 					<Errors />
@@ -7392,7 +8720,7 @@
 					<Description />
 					<Properties>
 						<Property Name="Referenced Channel">
-							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Message Group/Enum_Cmd_Trig_Pad/Message Channels/Message Status" />
+							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Trigger and Periodic/Enum_Cmd_Trig_Pad/Message Channels/Message Status" />
 						</Property>
 					</Properties>
 					<Errors />
@@ -7401,7 +8729,7 @@
 					<Description />
 					<Properties>
 						<Property Name="Referenced Channel">
-							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Message Group/Static_CmdResp_Trig_Prot/Message Channels/Message Status" />
+							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Trigger and Periodic/Static_CmdResp_Trig_Prot/Message Channels/Message Status" />
 						</Property>
 					</Properties>
 					<Errors />
@@ -7410,7 +8738,7 @@
 					<Description />
 					<Properties>
 						<Property Name="Referenced Channel">
-							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Message Group/TypeCast_Cmd_Trig_Pad/Message Channels/Message Status" />
+							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Trigger and Periodic/TypeCast_Cmd_Trig_Pad/Message Channels/Message Status" />
 						</Property>
 					</Properties>
 					<Errors />
@@ -7419,7 +8747,7 @@
 					<Description />
 					<Properties>
 						<Property Name="Referenced Channel">
-							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Message Group/EnumFormat_Cmd_Trig_Pad_Prot/Message Channels/Message Status" />
+							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Trigger and Periodic/EnumFormat_Cmd_Trig_Pad_Prot/Message Channels/Message Status" />
 						</Property>
 					</Properties>
 					<Errors />
@@ -7428,7 +8756,7 @@
 					<Description />
 					<Properties>
 						<Property Name="Referenced Channel">
-							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Message Group/EnumArray_Cmd_Trig_Pad/Message Channels/Message Status" />
+							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Trigger and Periodic/EnumArray_Cmd_Trig_Pad/Message Channels/Message Status" />
 						</Property>
 					</Properties>
 					<Errors />
@@ -7437,7 +8765,7 @@
 					<Description />
 					<Properties>
 						<Property Name="Referenced Channel">
-							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Message Group/EnumArray_Cmd_Trig_Pad_Prot/Message Channels/Message Status" />
+							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Trigger and Periodic/EnumArray_Cmd_Trig_Pad_Prot/Message Channels/Message Status" />
 						</Property>
 					</Properties>
 					<Errors />
@@ -7446,7 +8774,7 @@
 					<Description />
 					<Properties>
 						<Property Name="Referenced Channel">
-							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Message Group/FormatArray_Cmd_Trig_Prot/Message Channels/Message Status" />
+							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Trigger and Periodic/FormatArray_Cmd_Trig_Prot/Message Channels/Message Status" />
 						</Property>
 					</Properties>
 					<Errors />
@@ -7455,7 +8783,7 @@
 					<Description />
 					<Properties>
 						<Property Name="Referenced Channel">
-							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Message Group/TypeCastArray_Cmd_Trig/Message Channels/Message Status" />
+							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Trigger and Periodic/TypeCastArray_Cmd_Trig/Message Channels/Message Status" />
 						</Property>
 					</Properties>
 					<Errors />
@@ -7464,7 +8792,7 @@
 					<Description />
 					<Properties>
 						<Property Name="Referenced Channel">
-							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Message Group/EnumFormatTypeCastArray_Cmd_Trig_Pad_Prot/Message Channels/Message Status" />
+							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Trigger and Periodic/EnumFormatTypeCastArray_Cmd_Trig_Pad_Prot/Message Channels/Message Status" />
 						</Property>
 					</Properties>
 					<Errors />
@@ -7473,7 +8801,7 @@
 					<Description />
 					<Properties>
 						<Property Name="Referenced Channel">
-							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Message Group/EnumArray_CmdResp_Trig_Pad_Prot/Message Channels/Message Status" />
+							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Trigger and Periodic/EnumArray_CmdResp_Trig_Pad_Prot/Message Channels/Message Status" />
 						</Property>
 					</Properties>
 					<Errors />
@@ -7482,7 +8810,7 @@
 					<Description />
 					<Properties>
 						<Property Name="Referenced Channel">
-							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Message Group/LocalEnum_CmdResp_Trig_Pad_Prot/Message Channels/Message Status" />
+							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Trigger and Periodic/LocalEnum_CmdResp_Trig_Pad_Prot/Message Channels/Message Status" />
 						</Property>
 					</Properties>
 					<Errors />
@@ -7491,7 +8819,7 @@
 					<Description />
 					<Properties>
 						<Property Name="Referenced Channel">
-							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Message Group/LocalFormat_CmdResp_Trig_Prot/Message Channels/Message Status" />
+							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Trigger and Periodic/LocalFormat_CmdResp_Trig_Prot/Message Channels/Message Status" />
 						</Property>
 					</Properties>
 					<Errors />
@@ -7500,7 +8828,7 @@
 					<Description />
 					<Properties>
 						<Property Name="Referenced Channel">
-							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Message Group/LocalTypeCast_CmdResp_Trig_Prot/Message Channels/Message Status" />
+							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Trigger and Periodic/LocalTypeCast_CmdResp_Trig_Prot/Message Channels/Message Status" />
 						</Property>
 					</Properties>
 					<Errors />
@@ -7509,7 +8837,7 @@
 					<Description />
 					<Properties>
 						<Property Name="Referenced Channel">
-							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Message Group/Comparison_CmdResp_Trig_Pad/Message Channels/Message Status" />
+							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Trigger and Periodic/Comparison_CmdResp_Trig_Pad/Message Channels/Message Status" />
 						</Property>
 					</Properties>
 					<Errors />
@@ -7518,7 +8846,7 @@
 					<Description />
 					<Properties>
 						<Property Name="Referenced Channel">
-							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Message Group/LocalArrayEnum_CmdResp_Trig_Pad/Message Channels/Message Status" />
+							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Trigger and Periodic/LocalArrayEnum_CmdResp_Trig_Pad/Message Channels/Message Status" />
 						</Property>
 					</Properties>
 					<Errors />
@@ -7527,7 +8855,7 @@
 					<Description />
 					<Properties>
 						<Property Name="Referenced Channel">
-							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Message Group/LocalArrayFormat_CmdResp_Trigger_Pad_Prot/Message Channels/Message Status" />
+							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Trigger and Periodic/LocalArrayFormat_CmdResp_Trigger_Pad_Prot/Message Channels/Message Status" />
 						</Property>
 					</Properties>
 					<Errors />
@@ -7536,7 +8864,7 @@
 					<Description />
 					<Properties>
 						<Property Name="Referenced Channel">
-							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Message Group/LocalArrayTypeCast_CmdResp_Trig/Message Channels/Message Status" />
+							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Trigger and Periodic/LocalArrayTypeCast_CmdResp_Trig/Message Channels/Message Status" />
 						</Property>
 					</Properties>
 					<Errors />
@@ -7545,7 +8873,7 @@
 					<Description />
 					<Properties>
 						<Property Name="Referenced Channel">
-							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Message Group/LocalArrayComparison_CmdResp_Trig/Message Channels/Message Status" />
+							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Trigger and Periodic/LocalArrayComparison_CmdResp_Trig/Message Channels/Message Status" />
 						</Property>
 					</Properties>
 					<Errors />
@@ -7554,7 +8882,79 @@
 					<Description />
 					<Properties>
 						<Property Name="Referenced Channel">
-							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Message Group/LocalAndGlobalMetaData_CmdResp_Trig_Pad/Message Channels/Message Status" />
+							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Trigger and Periodic/LocalAndGlobalMetaData_CmdResp_Trig_Pad/Message Channels/Message Status" />
+						</Property>
+					</Properties>
+					<Errors />
+				</Alias>
+				<Alias Name="Static_Resp_Trig" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
+					<Description />
+					<Properties>
+						<Property Name="Referenced Channel">
+							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Response Only/Response Only/Static_Resp_Trig/Message Channels/Message Status" />
+						</Property>
+					</Properties>
+					<Errors />
+				</Alias>
+				<Alias Name="LocalEnum_Resp_Trig" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
+					<Description />
+					<Properties>
+						<Property Name="Referenced Channel">
+							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Response Only/Response Only/LocalEnum_Resp_Trig/Message Channels/Message Status" />
+						</Property>
+					</Properties>
+					<Errors />
+				</Alias>
+				<Alias Name="Comparison_Resp_Trig" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
+					<Description />
+					<Properties>
+						<Property Name="Referenced Channel">
+							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Response Only/Response Only/Comparison_Resp_Trig/Message Channels/Message Status" />
+						</Property>
+					</Properties>
+					<Errors />
+				</Alias>
+				<Alias Name="LocalFormat_CmdResp_ValueChange_Pad_Prot" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
+					<Description />
+					<Properties>
+						<Property Name="Referenced Channel">
+							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Value Change &amp; Trigger/LocalFormat_CmdResp_ValueChange_Pad_Prot/Message Channels/Message Status" />
+						</Property>
+					</Properties>
+					<Errors />
+				</Alias>
+				<Alias Name="EnumArray_Cmd_ValueChange_Pad" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
+					<Description />
+					<Properties>
+						<Property Name="Referenced Channel">
+							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Value Change &amp; Trigger/EnumArray_Cmd_ValueChange_Pad/Message Channels/Message Status" />
+						</Property>
+					</Properties>
+					<Errors />
+				</Alias>
+				<Alias Name="Format_Cmd_ValueChange_Pad" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
+					<Description />
+					<Properties>
+						<Property Name="Referenced Channel">
+							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Value Change &amp; Trigger/Format_Cmd_ValueChange_Pad/Message Channels/Message Status" />
+						</Property>
+					</Properties>
+					<Errors />
+				</Alias>
+				<Alias Name="Format_Cmd_ValueChange_Pad_Prot" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
+					<Description />
+					<Properties>
+						<Property Name="Referenced Channel">
+							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Value Change &amp; Trigger/Format_Cmd_ValueChange_Pad/Message Channels/Message Status" />
+						</Property>
+					</Properties>
+					<Errors />
+				</Alias>
+				<Alias Name="Format_Cmd_ValueChange" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
+					<Description />
+					<Properties>
+						<Property Name="Referenced Channel">
+							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Value Change &amp; Trigger/Format_Cmd_ValueChange/Message Channels/Message Status" />
 						</Property>
 					</Properties>
 					<Errors />
@@ -7568,7 +8968,7 @@
 					<Description />
 					<Properties>
 						<Property Name="Referenced Channel">
-							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Message Group/Static_CmdResp_Trig/Message Channels/Trigger" />
+							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Trigger and Periodic/Static_CmdResp_Trig/Message Channels/Trigger" />
 						</Property>
 					</Properties>
 					<Errors />
@@ -7577,7 +8977,7 @@
 					<Description />
 					<Properties>
 						<Property Name="Referenced Channel">
-							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Message Group/Static_Cmd_Trig/Message Channels/Trigger" />
+							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Trigger and Periodic/Static_Cmd_Trig/Message Channels/Trigger" />
 						</Property>
 					</Properties>
 					<Errors />
@@ -7586,16 +8986,7 @@
 					<Description />
 					<Properties>
 						<Property Name="Referenced Channel">
-							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Message Group/Static_Cmd_PeriodTrig_Pad/Message Channels/Trigger" />
-						</Property>
-					</Properties>
-					<Errors />
-				</Alias>
-				<Alias Name="SingleChan_Static_Cmd_ValueAndTrig_Pad_Prot" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
-					<Description />
-					<Properties>
-						<Property Name="Referenced Channel">
-							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Message Group/Static_Cmd_ValueAndTrig_Pad_Prot/Message Channels/Trigger" />
+							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Trigger and Periodic/Static_Cmd_PeriodTrig_Pad/Message Channels/Trigger" />
 						</Property>
 					</Properties>
 					<Errors />
@@ -7604,7 +8995,7 @@
 					<Description />
 					<Properties>
 						<Property Name="Referenced Channel">
-							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Message Group/Static_Cmd_Trig_Prot/Message Channels/Trigger" />
+							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Trigger and Periodic/Static_Cmd_Trig_Prot/Message Channels/Trigger" />
 						</Property>
 					</Properties>
 					<Errors />
@@ -7613,7 +9004,7 @@
 					<Description />
 					<Properties>
 						<Property Name="Referenced Channel">
-							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Message Group/Static_CmdResp_Trig_Prot_Pad/Message Channels/Trigger" />
+							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Trigger and Periodic/Static_CmdResp_Trig_Prot_Pad/Message Channels/Trigger" />
 						</Property>
 					</Properties>
 					<Errors />
@@ -7622,7 +9013,7 @@
 					<Description />
 					<Properties>
 						<Property Name="Referenced Channel">
-							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Message Group/Static_Cmd_Trig_Pad/Message Channels/Trigger" />
+							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Trigger and Periodic/Static_Cmd_Trig_Pad/Message Channels/Trigger" />
 						</Property>
 					</Properties>
 					<Errors />
@@ -7631,7 +9022,7 @@
 					<Description />
 					<Properties>
 						<Property Name="Referenced Channel">
-							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Message Group/Format_Cmd_Trig/Message Channels/Trigger" />
+							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Trigger and Periodic/Format_Cmd_Trig/Message Channels/Trigger" />
 						</Property>
 					</Properties>
 					<Errors />
@@ -7640,7 +9031,7 @@
 					<Description />
 					<Properties>
 						<Property Name="Referenced Channel">
-							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Message Group/Enum_Cmd_Trig_Pad/Message Channels/Trigger" />
+							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Trigger and Periodic/Enum_Cmd_Trig_Pad/Message Channels/Trigger" />
 						</Property>
 					</Properties>
 					<Errors />
@@ -7649,7 +9040,7 @@
 					<Description />
 					<Properties>
 						<Property Name="Referenced Channel">
-							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Message Group/Static_CmdResp_Trig_Prot/Message Channels/Trigger" />
+							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Trigger and Periodic/Static_CmdResp_Trig_Prot/Message Channels/Trigger" />
 						</Property>
 					</Properties>
 					<Errors />
@@ -7658,7 +9049,7 @@
 					<Description />
 					<Properties>
 						<Property Name="Referenced Channel">
-							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Message Group/TypeCast_Cmd_Trig_Pad/Message Channels/Trigger" />
+							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Trigger and Periodic/TypeCast_Cmd_Trig_Pad/Message Channels/Trigger" />
 						</Property>
 					</Properties>
 					<Errors />
@@ -7667,7 +9058,7 @@
 					<Description />
 					<Properties>
 						<Property Name="Referenced Channel">
-							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Message Group/EnumFormat_Cmd_Trig_Pad_Prot/Message Channels/Trigger" />
+							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Trigger and Periodic/EnumFormat_Cmd_Trig_Pad_Prot/Message Channels/Trigger" />
 						</Property>
 					</Properties>
 					<Errors />
@@ -7676,7 +9067,7 @@
 					<Description />
 					<Properties>
 						<Property Name="Referenced Channel">
-							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Message Group/EnumArray_Cmd_Trig_Pad/Message Channels/Trigger" />
+							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Trigger and Periodic/EnumArray_Cmd_Trig_Pad/Message Channels/Trigger" />
 						</Property>
 					</Properties>
 					<Errors />
@@ -7685,7 +9076,7 @@
 					<Description />
 					<Properties>
 						<Property Name="Referenced Channel">
-							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Message Group/EnumArray_Cmd_Trig_Pad_Prot/Message Channels/Trigger" />
+							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Trigger and Periodic/EnumArray_Cmd_Trig_Pad_Prot/Message Channels/Trigger" />
 						</Property>
 					</Properties>
 					<Errors />
@@ -7694,7 +9085,7 @@
 					<Description />
 					<Properties>
 						<Property Name="Referenced Channel">
-							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Message Group/FormatArray_Cmd_Trig_Prot/Message Channels/Trigger" />
+							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Trigger and Periodic/FormatArray_Cmd_Trig_Prot/Message Channels/Trigger" />
 						</Property>
 					</Properties>
 					<Errors />
@@ -7703,7 +9094,7 @@
 					<Description />
 					<Properties>
 						<Property Name="Referenced Channel">
-							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Message Group/TypeCastArray_Cmd_Trig/Message Channels/Trigger" />
+							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Trigger and Periodic/TypeCastArray_Cmd_Trig/Message Channels/Trigger" />
 						</Property>
 					</Properties>
 					<Errors />
@@ -7712,7 +9103,7 @@
 					<Description />
 					<Properties>
 						<Property Name="Referenced Channel">
-							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Message Group/EnumFormatTypeCastArray_Cmd_Trig_Pad_Prot/Message Channels/Trigger" />
+							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Trigger and Periodic/EnumFormatTypeCastArray_Cmd_Trig_Pad_Prot/Message Channels/Trigger" />
 						</Property>
 					</Properties>
 					<Errors />
@@ -7721,7 +9112,7 @@
 					<Description />
 					<Properties>
 						<Property Name="Referenced Channel">
-							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Message Group/EnumArray_CmdResp_Trig_Pad_Prot/Message Channels/Trigger" />
+							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Trigger and Periodic/EnumArray_CmdResp_Trig_Pad_Prot/Message Channels/Trigger" />
 						</Property>
 					</Properties>
 					<Errors />
@@ -7730,7 +9121,7 @@
 					<Description />
 					<Properties>
 						<Property Name="Referenced Channel">
-							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Message Group/LocalEnum_CmdResp_Trig_Pad_Prot/Message Channels/Trigger" />
+							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Trigger and Periodic/LocalEnum_CmdResp_Trig_Pad_Prot/Message Channels/Trigger" />
 						</Property>
 					</Properties>
 					<Errors />
@@ -7739,7 +9130,7 @@
 					<Description />
 					<Properties>
 						<Property Name="Referenced Channel">
-							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Message Group/LocalFormat_CmdResp_Trig_Prot/Message Channels/Trigger" />
+							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Trigger and Periodic/LocalFormat_CmdResp_Trig_Prot/Message Channels/Trigger" />
 						</Property>
 					</Properties>
 					<Errors />
@@ -7748,7 +9139,7 @@
 					<Description />
 					<Properties>
 						<Property Name="Referenced Channel">
-							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Message Group/LocalTypeCast_CmdResp_Trig_Prot/Message Channels/Trigger" />
+							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Trigger and Periodic/LocalTypeCast_CmdResp_Trig_Prot/Message Channels/Trigger" />
 						</Property>
 					</Properties>
 					<Errors />
@@ -7757,7 +9148,7 @@
 					<Description />
 					<Properties>
 						<Property Name="Referenced Channel">
-							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Message Group/Comparison_CmdResp_Trig_Pad/Message Channels/Trigger" />
+							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Trigger and Periodic/Comparison_CmdResp_Trig_Pad/Message Channels/Trigger" />
 						</Property>
 					</Properties>
 					<Errors />
@@ -7766,7 +9157,7 @@
 					<Description />
 					<Properties>
 						<Property Name="Referenced Channel">
-							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Message Group/LocalArrayEnum_CmdResp_Trig_Pad/Message Channels/Trigger" />
+							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Trigger and Periodic/LocalArrayEnum_CmdResp_Trig_Pad/Message Channels/Trigger" />
 						</Property>
 					</Properties>
 					<Errors />
@@ -7775,7 +9166,7 @@
 					<Description />
 					<Properties>
 						<Property Name="Referenced Channel">
-							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Message Group/LocalArrayFormat_CmdResp_Trigger_Pad_Prot/Message Channels/Trigger" />
+							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Trigger and Periodic/LocalArrayFormat_CmdResp_Trigger_Pad_Prot/Message Channels/Trigger" />
 						</Property>
 					</Properties>
 					<Errors />
@@ -7784,7 +9175,7 @@
 					<Description />
 					<Properties>
 						<Property Name="Referenced Channel">
-							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Message Group/LocalArrayTypeCast_CmdResp_Trig/Message Channels/Trigger" />
+							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Trigger and Periodic/LocalArrayTypeCast_CmdResp_Trig/Message Channels/Trigger" />
 						</Property>
 					</Properties>
 					<Errors />
@@ -7793,7 +9184,7 @@
 					<Description />
 					<Properties>
 						<Property Name="Referenced Channel">
-							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Message Group/LocalArrayComparison_CmdResp_Trig/Message Channels/Trigger" />
+							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Trigger and Periodic/LocalArrayComparison_CmdResp_Trig/Message Channels/Trigger" />
 						</Property>
 					</Properties>
 					<Errors />
@@ -7802,7 +9193,79 @@
 					<Description />
 					<Properties>
 						<Property Name="Referenced Channel">
-							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Message Group/LocalAndGlobalMetaData_CmdResp_Trig_Pad/Message Channels/Trigger" />
+							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Trigger and Periodic/LocalAndGlobalMetaData_CmdResp_Trig_Pad/Message Channels/Trigger" />
+						</Property>
+					</Properties>
+					<Errors />
+				</Alias>
+				<Alias Name="Static_Resp_Trig" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
+					<Description />
+					<Properties>
+						<Property Name="Referenced Channel">
+							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Response Only/Response Only/Static_Resp_Trig/Message Channels/Trigger" />
+						</Property>
+					</Properties>
+					<Errors />
+				</Alias>
+				<Alias Name="LocalEnum_Resp_Trig" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
+					<Description />
+					<Properties>
+						<Property Name="Referenced Channel">
+							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Response Only/Response Only/LocalEnum_Resp_Trig/Message Channels/Trigger" />
+						</Property>
+					</Properties>
+					<Errors />
+				</Alias>
+				<Alias Name="Comparison_Resp_Trig" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
+					<Description />
+					<Properties>
+						<Property Name="Referenced Channel">
+							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Response Only/Response Only/Comparison_Resp_Trig/Message Channels/Trigger" />
+						</Property>
+					</Properties>
+					<Errors />
+				</Alias>
+				<Alias Name="LocalFormat_CmdResp_ValueChange_Pad_Prot" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
+					<Description />
+					<Properties>
+						<Property Name="Referenced Channel">
+							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Value Change &amp; Trigger/LocalFormat_CmdResp_ValueChange_Pad_Prot/Message Channels/Trigger" />
+						</Property>
+					</Properties>
+					<Errors />
+				</Alias>
+				<Alias Name="EnumArray_Cmd_ValueChange_Pad" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
+					<Description />
+					<Properties>
+						<Property Name="Referenced Channel">
+							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Value Change &amp; Trigger/EnumArray_Cmd_ValueChange_Pad/Message Channels/Trigger" />
+						</Property>
+					</Properties>
+					<Errors />
+				</Alias>
+				<Alias Name="Format_Cmd_ValueChange_Pad" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
+					<Description />
+					<Properties>
+						<Property Name="Referenced Channel">
+							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Value Change &amp; Trigger/Format_Cmd_ValueChange_Pad/Message Channels/Trigger" />
+						</Property>
+					</Properties>
+					<Errors />
+				</Alias>
+				<Alias Name="Format_Cmd_ValueChange_Pad_Prot" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
+					<Description />
+					<Properties>
+						<Property Name="Referenced Channel">
+							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Value Change &amp; Trigger/Format_Cmd_ValueChange_Pad_Prot/Message Channels/Trigger" />
+						</Property>
+					</Properties>
+					<Errors />
+				</Alias>
+				<Alias Name="Format_Cmd_ValueChange" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
+					<Description />
+					<Properties>
+						<Property Name="Referenced Channel">
+							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Value Change &amp; Trigger/Format_Cmd_ValueChange/Message Channels/Trigger" />
 						</Property>
 					</Properties>
 					<Errors />
@@ -7929,6 +9392,60 @@
 					</Properties>
 					<Errors />
 				</Alias>
+				<Alias Name="Format for Value Change" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
+					<Description />
+					<Properties>
+						<Property Name="Referenced Channel">
+							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Global MetaData Channels/Single Chan Format for Value Change" />
+						</Property>
+					</Properties>
+					<Errors />
+				</Alias>
+				<Alias Name="Array Enum for Value Change 0" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
+					<Description />
+					<Properties>
+						<Property Name="Referenced Channel">
+							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Global MetaData Channels/Array Enum for Value Change/Array Enum for Value Change 0" />
+						</Property>
+					</Properties>
+					<Errors />
+				</Alias>
+				<Alias Name="Array Enum for Value Change 1" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
+					<Description />
+					<Properties>
+						<Property Name="Referenced Channel">
+							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Global MetaData Channels/Array Enum for Value Change/Array Enum for Value Change 1" />
+						</Property>
+					</Properties>
+					<Errors />
+				</Alias>
+				<Alias Name="Array Enum for Value Change 2" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
+					<Description />
+					<Properties>
+						<Property Name="Referenced Channel">
+							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Global MetaData Channels/Array Enum for Value Change/Array Enum for Value Change 2" />
+						</Property>
+					</Properties>
+					<Errors />
+				</Alias>
+				<Alias Name="Wait Byte Count" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
+					<Description />
+					<Properties>
+						<Property Name="Referenced Channel">
+							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Response Only/Global MetaData Channels/Wait Byte Count" />
+						</Property>
+					</Properties>
+					<Errors />
+				</Alias>
+				<Alias Name="Wait Sec Value" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
+					<Description />
+					<Properties>
+						<Property Name="Referenced Channel">
+							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Global MetaData Channels/Wait Sec Value" />
+						</Property>
+					</Properties>
+					<Errors />
+				</Alias>
 			</Section>
 			<Section Name="Local MetaData" TypeGUID="A579F6FF-5680-1F22-249C-2C499E16CDB8">
 				<Description />
@@ -7938,7 +9455,7 @@
 					<Description />
 					<Properties>
 						<Property Name="Referenced Channel">
-							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Message Group/LocalEnum_CmdResp_Trig_Pad_Prot/Command/Local Enum" />
+							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Trigger and Periodic/LocalEnum_CmdResp_Trig_Pad_Prot/Command/Local Enum" />
 						</Property>
 					</Properties>
 					<Errors />
@@ -7947,7 +9464,7 @@
 					<Description />
 					<Properties>
 						<Property Name="Referenced Channel">
-							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Message Group/LocalEnum_CmdResp_Trig_Pad_Prot/Response/Local Enum" />
+							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Trigger and Periodic/LocalEnum_CmdResp_Trig_Pad_Prot/Response/Local Enum" />
 						</Property>
 					</Properties>
 					<Errors />
@@ -7956,7 +9473,7 @@
 					<Description />
 					<Properties>
 						<Property Name="Referenced Channel">
-							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Message Group/LocalFormat_CmdResp_Trig_Prot/Command/Local Format" />
+							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Trigger and Periodic/LocalFormat_CmdResp_Trig_Prot/Command/Local Format" />
 						</Property>
 					</Properties>
 					<Errors />
@@ -7965,7 +9482,7 @@
 					<Description />
 					<Properties>
 						<Property Name="Referenced Channel">
-							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Message Group/LocalFormat_CmdResp_Trig_Prot/Response/Local Format" />
+							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Trigger and Periodic/LocalFormat_CmdResp_Trig_Prot/Response/Local Format" />
 						</Property>
 					</Properties>
 					<Errors />
@@ -7974,7 +9491,7 @@
 					<Description />
 					<Properties>
 						<Property Name="Referenced Channel">
-							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Message Group/LocalTypeCast_CmdResp_Trig_Prot/Command/Local TypeCast" />
+							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Trigger and Periodic/LocalTypeCast_CmdResp_Trig_Prot/Command/Local TypeCast" />
 						</Property>
 					</Properties>
 					<Errors />
@@ -7983,7 +9500,7 @@
 					<Description />
 					<Properties>
 						<Property Name="Referenced Channel">
-							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Message Group/LocalTypeCast_CmdResp_Trig_Prot/Response/Local TypeCast" />
+							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Trigger and Periodic/LocalTypeCast_CmdResp_Trig_Prot/Response/Local TypeCast" />
 						</Property>
 					</Properties>
 					<Errors />
@@ -7992,7 +9509,7 @@
 					<Description />
 					<Properties>
 						<Property Name="Referenced Channel">
-							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Message Group/LocalArrayEnum_CmdResp_Trig_Pad/Command/Enumerated Array/Enumerated Array 0" />
+							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Trigger and Periodic/LocalArrayEnum_CmdResp_Trig_Pad/Command/Enumerated Array/Enumerated Array 0" />
 						</Property>
 					</Properties>
 					<Errors />
@@ -8001,7 +9518,7 @@
 					<Description />
 					<Properties>
 						<Property Name="Referenced Channel">
-							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Message Group/LocalArrayEnum_CmdResp_Trig_Pad/Command/Enumerated Array/Enumerated Array 1" />
+							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Trigger and Periodic/LocalArrayEnum_CmdResp_Trig_Pad/Command/Enumerated Array/Enumerated Array 1" />
 						</Property>
 					</Properties>
 					<Errors />
@@ -8010,7 +9527,7 @@
 					<Description />
 					<Properties>
 						<Property Name="Referenced Channel">
-							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Message Group/LocalArrayEnum_CmdResp_Trig_Pad/Response/Enumerated Array/Enumerated Array 0" />
+							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Trigger and Periodic/LocalArrayEnum_CmdResp_Trig_Pad/Response/Enumerated Array/Enumerated Array 0" />
 						</Property>
 					</Properties>
 					<Errors />
@@ -8019,7 +9536,7 @@
 					<Description />
 					<Properties>
 						<Property Name="Referenced Channel">
-							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Message Group/LocalArrayEnum_CmdResp_Trig_Pad/Response/Enumerated Array/Enumerated Array 1" />
+							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Trigger and Periodic/LocalArrayEnum_CmdResp_Trig_Pad/Response/Enumerated Array/Enumerated Array 1" />
 						</Property>
 					</Properties>
 					<Errors />
@@ -8028,7 +9545,7 @@
 					<Description />
 					<Properties>
 						<Property Name="Referenced Channel">
-							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Message Group/LocalArrayFormat_CmdResp_Trigger_Pad_Prot/Command/Format Array/Format Array 0" />
+							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Trigger and Periodic/LocalArrayFormat_CmdResp_Trigger_Pad_Prot/Command/Format Array/Format Array 0" />
 						</Property>
 					</Properties>
 					<Errors />
@@ -8037,7 +9554,7 @@
 					<Description />
 					<Properties>
 						<Property Name="Referenced Channel">
-							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Message Group/LocalArrayFormat_CmdResp_Trigger_Pad_Prot/Command/Format Array/Format Array 1" />
+							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Trigger and Periodic/LocalArrayFormat_CmdResp_Trigger_Pad_Prot/Command/Format Array/Format Array 1" />
 						</Property>
 					</Properties>
 					<Errors />
@@ -8046,7 +9563,7 @@
 					<Description />
 					<Properties>
 						<Property Name="Referenced Channel">
-							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Message Group/LocalArrayFormat_CmdResp_Trigger_Pad_Prot/Command/Format Array/Format Array 2" />
+							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Trigger and Periodic/LocalArrayFormat_CmdResp_Trigger_Pad_Prot/Command/Format Array/Format Array 2" />
 						</Property>
 					</Properties>
 					<Errors />
@@ -8055,7 +9572,7 @@
 					<Description />
 					<Properties>
 						<Property Name="Referenced Channel">
-							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Message Group/LocalArrayFormat_CmdResp_Trigger_Pad_Prot/Response/Format Array/Format Array 0" />
+							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Trigger and Periodic/LocalArrayFormat_CmdResp_Trigger_Pad_Prot/Response/Format Array/Format Array 0" />
 						</Property>
 					</Properties>
 					<Errors />
@@ -8064,7 +9581,7 @@
 					<Description />
 					<Properties>
 						<Property Name="Referenced Channel">
-							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Message Group/LocalArrayFormat_CmdResp_Trigger_Pad_Prot/Response/Format Array/Format Array 1" />
+							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Trigger and Periodic/LocalArrayFormat_CmdResp_Trigger_Pad_Prot/Response/Format Array/Format Array 1" />
 						</Property>
 					</Properties>
 					<Errors />
@@ -8073,7 +9590,7 @@
 					<Description />
 					<Properties>
 						<Property Name="Referenced Channel">
-							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Message Group/LocalArrayFormat_CmdResp_Trigger_Pad_Prot/Response/Format Array/Format Array 2" />
+							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Trigger and Periodic/LocalArrayFormat_CmdResp_Trigger_Pad_Prot/Response/Format Array/Format Array 2" />
 						</Property>
 					</Properties>
 					<Errors />
@@ -8082,7 +9599,7 @@
 					<Description />
 					<Properties>
 						<Property Name="Referenced Channel">
-							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Message Group/LocalArrayTypeCast_CmdResp_Trig/Command/TypeCast Array/TypeCast Array 0" />
+							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Trigger and Periodic/LocalArrayTypeCast_CmdResp_Trig/Command/TypeCast Array/TypeCast Array 0" />
 						</Property>
 					</Properties>
 					<Errors />
@@ -8091,7 +9608,7 @@
 					<Description />
 					<Properties>
 						<Property Name="Referenced Channel">
-							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Message Group/LocalArrayTypeCast_CmdResp_Trig/Command/TypeCast Array/TypeCast Array 1" />
+							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Trigger and Periodic/LocalArrayTypeCast_CmdResp_Trig/Command/TypeCast Array/TypeCast Array 1" />
 						</Property>
 					</Properties>
 					<Errors />
@@ -8100,7 +9617,7 @@
 					<Description />
 					<Properties>
 						<Property Name="Referenced Channel">
-							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Message Group/LocalArrayTypeCast_CmdResp_Trig/Response/TypeCast Array/TypeCast Array 0" />
+							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Trigger and Periodic/LocalArrayTypeCast_CmdResp_Trig/Response/TypeCast Array/TypeCast Array 0" />
 						</Property>
 					</Properties>
 					<Errors />
@@ -8109,7 +9626,7 @@
 					<Description />
 					<Properties>
 						<Property Name="Referenced Channel">
-							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Message Group/LocalArrayTypeCast_CmdResp_Trig/Response/TypeCast Array/TypeCast Array 1" />
+							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Trigger and Periodic/LocalArrayTypeCast_CmdResp_Trig/Response/TypeCast Array/TypeCast Array 1" />
 						</Property>
 					</Properties>
 					<Errors />
@@ -8118,7 +9635,7 @@
 					<Description />
 					<Properties>
 						<Property Name="Referenced Channel">
-							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Message Group/LocalArrayComparison_CmdResp_Trig/Response/Comparison Array/Comparison Array 0" />
+							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Trigger and Periodic/LocalArrayComparison_CmdResp_Trig/Response/Comparison Array/Comparison Array 0" />
 						</Property>
 					</Properties>
 					<Errors />
@@ -8127,7 +9644,7 @@
 					<Description />
 					<Properties>
 						<Property Name="Referenced Channel">
-							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Message Group/LocalArrayComparison_CmdResp_Trig/Response/Comparison Array/Comparison Array 1" />
+							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Trigger and Periodic/LocalArrayComparison_CmdResp_Trig/Response/Comparison Array/Comparison Array 1" />
 						</Property>
 					</Properties>
 					<Errors />
@@ -8136,7 +9653,7 @@
 					<Description />
 					<Properties>
 						<Property Name="Referenced Channel">
-							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Message Group/LocalAndGlobalMetaData_CmdResp_Trig_Pad/Command/Format" />
+							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Trigger and Periodic/LocalAndGlobalMetaData_CmdResp_Trig_Pad/Command/Format" />
 						</Property>
 					</Properties>
 					<Errors />
@@ -8145,7 +9662,43 @@
 					<Description />
 					<Properties>
 						<Property Name="Referenced Channel">
-							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Message Group/LocalAndGlobalMetaData_CmdResp_Trig_Pad/Response/Format" />
+							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Trigger and Periodic/LocalAndGlobalMetaData_CmdResp_Trig_Pad/Response/Format" />
+						</Property>
+					</Properties>
+					<Errors />
+				</Alias>
+				<Alias Name="RespEnum_LocalEnum_Resp_Trig" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
+					<Description />
+					<Properties>
+						<Property Name="Referenced Channel">
+							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Response Only/Response Only/LocalEnum_Resp_Trig/Response/Local Enum" />
+						</Property>
+					</Properties>
+					<Errors />
+				</Alias>
+				<Alias Name="RespComparison_Resp_Trig" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
+					<Description />
+					<Properties>
+						<Property Name="Referenced Channel">
+							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Response Only/Response Only/Comparison_Resp_Trig/Response/Comparison" />
+						</Property>
+					</Properties>
+					<Errors />
+				</Alias>
+				<Alias Name="CmdLocalFormat_CmdResp_ValueChange_Pad_Prot" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
+					<Description />
+					<Properties>
+						<Property Name="Referenced Channel">
+							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Value Change &amp; Trigger/LocalFormat_CmdResp_ValueChange_Pad_Prot/Command/Local Format" />
+						</Property>
+					</Properties>
+					<Errors />
+				</Alias>
+				<Alias Name="RespLocalFormat_CmdResp_ValueChange_Pad_Prot" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
+					<Description />
+					<Properties>
+						<Property Name="Referenced Channel">
+							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Value Change &amp; Trigger/LocalFormat_CmdResp_ValueChange_Pad_Prot/Response/Local Format" />
 						</Property>
 					</Properties>
 					<Errors />
