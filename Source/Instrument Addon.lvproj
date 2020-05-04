@@ -90,6 +90,7 @@
 					<Item Name="TCP HeartBeat Generator.vi" Type="VI" URL="../Tests/System Tests/Assets/TCP HeartBeat Generator.vi"/>
 				</Item>
 				<Item Name="Common System Tests.lvclass" Type="LVClass" URL="../Tests/System Tests/Common System Tests/Common System Tests.lvclass"/>
+				<Item Name="Host API Tests.lvclass" Type="LVClass" URL="../Tests/System Tests/Host API Tests/Host API Tests.lvclass"/>
 			</Item>
 			<Item Name="Unit" Type="Folder">
 				<Item Name="Instrument Addon Unit Tests.lvclass" Type="LVClass" URL="../Tests/Unit Tests/Instrument Addon Unit Tests.lvclass"/>
@@ -164,6 +165,13 @@
 				<Item Name="Advanced System Definition.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NI VeriStand Advanced SysDef API/SysDef API/Advanced System Definition.lvlib"/>
 				<Item Name="AMC.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/AMC/AMC.lvlib"/>
 				<Item Name="Array Size(s)__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Array Size(s)__ogtk__jki_vi_tester.vi"/>
+				<Item Name="Async.Engine.Close.vi" Type="VI" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_VS Inline Async API/VS Inline Async API/Methods/Async.Engine.Close.vi"/>
+				<Item Name="Async.Engine.Initialize.vi" Type="VI" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_VS Inline Async API/VS Inline Async API/Methods/Async.Engine.Initialize.vi"/>
+				<Item Name="Async.Engine.Read Data from HW.vi" Type="VI" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_VS Inline Async API/VS Inline Async API/Methods/Async.Engine.Read Data from HW.vi"/>
+				<Item Name="Async.Engine.Start.vi" Type="VI" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_VS Inline Async API/VS Inline Async API/Methods/Async.Engine.Start.vi"/>
+				<Item Name="Async.Engine.Write Data to HW.vi" Type="VI" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_VS Inline Async API/VS Inline Async API/Methods/Async.Engine.Write Data to HW.vi"/>
+				<Item Name="Async.Processes.Report.vi" Type="VI" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_VS Inline Async API/Process/Methods/Async.Processes.Report.vi"/>
+				<Item Name="Async.Processes.WaitonStart.vi" Type="VI" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_VS Inline Async API/Process/Methods/Async.Processes.WaitonStart.vi"/>
 				<Item Name="Build Error Cluster__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Build Error Cluster__ogtk__jki_vi_tester.vi"/>
 				<Item Name="Build Path - File Names and Paths Arrays - path__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Build Path - File Names and Paths Arrays - path__ogtk__jki_vi_tester.vi"/>
 				<Item Name="Build Path - File Names and Paths Arrays__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Build Path - File Names and Paths Arrays__ogtk__jki_vi_tester.vi"/>
@@ -191,7 +199,7 @@
 				<Item Name="cluster_Graph Plot Settings.ctl" Type="VI" URL="/&lt;vilib&gt;/NI VeriStand/Display Template Support/DisplayTemplateSupport.llb/cluster_Graph Plot Settings.ctl"/>
 				<Item Name="cluster_Graph Scale Settings.ctl" Type="VI" URL="/&lt;vilib&gt;/NI VeriStand/Display Template Support/DisplayTemplateSupport.llb/cluster_Graph Scale Settings.ctl"/>
 				<Item Name="cluster_Screen Item Settings.ctl" Type="VI" URL="/&lt;vilib&gt;/NI VeriStand/Display Template Support/DisplayTemplateSupport.llb/cluster_Screen Item Settings.ctl"/>
-				<Item Name="Compare Two Paths.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Compare Two Paths.vi"/>
+				<Item Name="Compile CHM.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Compiled HTML Menu Tool/CHM Generator/Compile CHM.vi"/>
 				<Item Name="Conditional Auto-Indexing Tunnel (Bool)__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Conditional Auto-Indexing Tunnel (Bool)__ogtk__jki_vi_tester.vi"/>
 				<Item Name="Conditional Auto-Indexing Tunnel (CDB)__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Conditional Auto-Indexing Tunnel (CDB)__ogtk__jki_vi_tester.vi"/>
 				<Item Name="Conditional Auto-Indexing Tunnel (CSG)__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Conditional Auto-Indexing Tunnel (CSG)__ogtk__jki_vi_tester.vi"/>
@@ -223,8 +231,10 @@
 				<Item Name="Create File with Incrementing Suffix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Create File with Incrementing Suffix.vi"/>
 				<Item Name="Custom Device API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device API/Custom Device API.lvlib"/>
 				<Item Name="Custom Device Utility Library.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device Tools/Custom Device Utility Library/Custom Device Utility Library.lvlib"/>
-				<Item Name="Data Access Engine.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_Data Access Engine/Data Access Engine.lvlib"/>
-				<Item Name="Data Access System Explorer.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_Data Access System Explorer/Data Access System Explorer.lvlib"/>
+				<Item Name="Data Access Engine.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_Data Access Engine/Data Access Engine/Data Access Engine.lvclass"/>
+				<Item Name="Data.OnCompile.Execute.vi" Type="VI" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_Data Access System Explorer/Methods/Data.OnCompile.Execute.vi"/>
+				<Item Name="Data.Processes.Execute.vi" Type="VI" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_Data Access Engine/Data Access Engine/Methods/Data.Processes.Execute.vi"/>
+				<Item Name="Data.Processes.Lookup.vi" Type="VI" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_Data Access Engine/Data Access Engine/Methods/Data.Processes.Lookup.vi"/>
 				<Item Name="Delete Elements from 1D Array (Boolean)__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Delete Elements from 1D Array (Boolean)__ogtk__jki_vi_tester.vi"/>
 				<Item Name="Delete Elements from 1D Array (CDB)__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Delete Elements from 1D Array (CDB)__ogtk__jki_vi_tester.vi"/>
 				<Item Name="Delete Elements from 1D Array (CSG)__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Delete Elements from 1D Array (CSG)__ogtk__jki_vi_tester.vi"/>
@@ -272,6 +282,8 @@
 				<Item Name="enum_Graph Handler Message.ctl" Type="VI" URL="/&lt;vilib&gt;/NI VeriStand/Display Template Support/DisplayTemplateSupport.llb/enum_Graph Handler Message.ctl"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="Error Code Database.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Code Database.vi"/>
+				<Item Name="Error Handling Settings.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_VS Inline Async API/VS Inline Async API/Types/Error Handling Settings.ctl"/>
+				<Item Name="Error.ConvertArray.vi" Type="VI" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_VS Inline Async API/Error Handling Process/SubVIs/Error.ConvertArray.vi"/>
 				<Item Name="ErrWarn.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/ErrWarn.ctl"/>
 				<Item Name="eventvkey.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/eventvkey.ctl"/>
 				<Item Name="ex_CorrectErrorChain.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/ex_CorrectErrorChain.vi"/>
@@ -317,6 +329,7 @@
 				<Item Name="Filter Error Codes (Array)__jki_lib_error_handling -- VI Tester__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Filter Error Codes (Array)__jki_lib_error_handling -- VI Tester__jki_vi_tester.vi"/>
 				<Item Name="Filter Error Codes (Scalar)__jki_lib_error_handling -- VI Tester__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Filter Error Codes (Scalar)__jki_lib_error_handling -- VI Tester__jki_vi_tester.vi"/>
 				<Item Name="Filter Error Codes__jki_lib_error_handling -- VI Tester__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Filter Error Codes__jki_lib_error_handling -- VI Tester__jki_vi_tester.vi"/>
+				<Item Name="Filter Type.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/NI VeriStand Hardware Resource Discovery/_Types/Filter Type.ctl"/>
 				<Item Name="Filtered Error Details - Cluster__jki_lib_error_handling -- VI Tester__jki_vi_tester.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Filtered Error Details - Cluster__jki_lib_error_handling -- VI Tester__jki_vi_tester.ctl"/>
 				<Item Name="Find Tag.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find Tag.vi"/>
 				<Item Name="Format Message String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Format Message String.vi"/>
@@ -354,7 +367,6 @@
 				<Item Name="Is an Error (error cluster)__jki_lib_error_handling -- VI Tester__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Is an Error (error cluster)__jki_lib_error_handling -- VI Tester__jki_vi_tester.vi"/>
 				<Item Name="Is an Error__jki_lib_error_handling -- VI Tester__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Is an Error__jki_lib_error_handling -- VI Tester__jki_vi_tester.vi"/>
 				<Item Name="Is Path and Not Empty.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Is Path and Not Empty.vi"/>
-				<Item Name="Keyed Value Tree.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Compiled HTML Menu Tool/Keyed Value Tree/Keyed Value Tree.lvclass"/>
 				<Item Name="List Directory and LLBs.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/List Directory and LLBs.vi"/>
 				<Item Name="Load CHM Page.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Compiled HTML Menu Tool/Load CHM Page.vi"/>
 				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
@@ -364,6 +376,7 @@
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
 				<Item Name="MergeError.vi" Type="VI" URL="/&lt;vilib&gt;/NI VeriStand/Execution/Shared/MergeError.vi"/>
 				<Item Name="Multi-line String to Array__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Multi-line String to Array__ogtk__jki_vi_tester.vi"/>
+				<Item Name="New.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Compiled HTML Menu Tool/CHM Generator/New.vi"/>
 				<Item Name="NI STM.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/STM/NI STM.lvlib"/>
 				<Item Name="NI VeriStand Addon Network Comm Shared.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NI VeriStand Addon Network Comm/Shared/NI VeriStand Addon Network Comm Shared.lvlib"/>
 				<Item Name="NI VeriStand Addon Network Comm.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NI VeriStand Addon Network Comm/Engine/NI VeriStand Addon Network Comm.lvlib"/>
@@ -379,10 +392,28 @@
 				<Item Name="NI_XML.lvlib" Type="Library" URL="/&lt;vilib&gt;/xml/NI_XML.lvlib"/>
 				<Item Name="nisyscfg.lvlib" Type="Library" URL="/&lt;vilib&gt;/nisyscfg/nisyscfg.lvlib"/>
 				<Item Name="NIVeriStand_DataServices.dll" Type="Document" URL="/&lt;vilib&gt;/NI Veristand/Custom Device API/Data/NIVeriStand_DataServices.dll"/>
-				<Item Name="NIVS Hardware Discovery.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NI VeriStand Hardware Resource Discovery/NIVS Hardware Discovery.lvlib"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
 				<Item Name="PackedMatrixToFlatVector.vi" Type="VI" URL="/&lt;vilib&gt;/NI VeriStand/Execution/Shared/PackedMatrixToFlatVector.vi"/>
+				<Item Name="Process.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_VS Inline Async API/Process/Process.lvclass/Process.ctl"/>
+				<Item Name="Process.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_VS Inline Async API/Process/Process.lvclass"/>
 				<Item Name="Random Number - Within Range__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Random Number - Within Range__ogtk__jki_vi_tester.vi"/>
+				<Item Name="Read Data Access.vi" Type="VI" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_VS Inline Async API/Process/Data Member Access/Read Data Access.vi"/>
+				<Item Name="Read.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_Data Access Engine/Access Type Classes/Read/Read.lvclass/Read.ctl"/>
+				<Item Name="Read.Data.Detect.vi" Type="VI" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_Data Access Engine/Data Access Engine/Methods/Read.Data.Detect.vi"/>
+				<Item Name="Read.Data.vi" Type="VI" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_Data Access Engine/Data Access Engine/Methods/Read.Data.vi"/>
+				<Item Name="Read.DVR.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_Data Access Engine/Data Access Engine/Types/Read.DVR.ctl"/>
+				<Item Name="Read.Lookup.vi" Type="VI" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_Data Access Engine/Data Access Engine/Methods/Read.Lookup.vi"/>
+				<Item Name="Read.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_Data Access Engine/Access Type Classes/Read/Read.lvclass"/>
+				<Item Name="Read.ProcessData.Detect.vi" Type="VI" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_Data Access Engine/Access Type Classes/Read/Read.ProcessData.Detect.vi"/>
+				<Item Name="Read.ProcessData.vi" Type="VI" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_Data Access Engine/Access Type Classes/Read/Read.ProcessData.vi"/>
+				<Item Name="ReadWrite.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_Data Access Engine/Access Type Classes/ReadWrite/ReadWrite.lvclass/ReadWrite.ctl"/>
+				<Item Name="ReadWrite.Data.Read.vi" Type="VI" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_Data Access Engine/Data Access Engine/Methods/ReadWrite.Data.Read.vi"/>
+				<Item Name="ReadWrite.Data.Reset.vi" Type="VI" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_Data Access Engine/Data Access Engine/Methods/ReadWrite.Data.Reset.vi"/>
+				<Item Name="ReadWrite.DVR.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_Data Access Engine/Data Access Engine/Types/ReadWrite.DVR.ctl"/>
+				<Item Name="ReadWrite.Lookup.vi" Type="VI" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_Data Access Engine/Data Access Engine/Methods/ReadWrite.Lookup.vi"/>
+				<Item Name="ReadWrite.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_Data Access Engine/Access Type Classes/ReadWrite/ReadWrite.lvclass"/>
+				<Item Name="ReadWrite.ProcessData.Read.vi" Type="VI" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_Data Access Engine/Access Type Classes/ReadWrite/ReadWrite.ProcessData.Read.vi"/>
+				<Item Name="ReadWrite.ProcessData.Reset.vi" Type="VI" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_Data Access Engine/Access Type Classes/ReadWrite/ReadWrite.ProcessData.Reset.vi"/>
 				<Item Name="Recursive File List.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Recursive File List.vi"/>
 				<Item Name="ref_Display Template Handler RunPauseStop.ctl" Type="VI" URL="/&lt;vilib&gt;/NI VeriStand/Display Template Support/DisplayTemplateSupport.llb/ref_Display Template Handler RunPauseStop.ctl"/>
 				<Item Name="Refnum Subtype Enum__ogtk__jki_vi_tester.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Refnum Subtype Enum__ogtk__jki_vi_tester.ctl"/>
@@ -471,6 +502,7 @@
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
 				<Item Name="Search Array__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Search Array__ogtk__jki_vi_tester.vi"/>
 				<Item Name="Search or Split String__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Search or Split String__ogtk__jki_vi_tester.vi"/>
+				<Item Name="Select Device Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/NI/NI VeriStand Hardware Resource Discovery/Select Device Dialog.vi"/>
 				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
 				<Item Name="Set Busy.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Busy.vi"/>
 				<Item Name="Set Cursor (Cursor ID).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Cursor (Cursor ID).vi"/>
@@ -555,9 +587,17 @@
 				<Item Name="Variant to Header Info__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Variant to Header Info__ogtk__jki_vi_tester.vi"/>
 				<Item Name="VariantType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/VariantDataType/VariantType.lvlib"/>
 				<Item Name="VITesterUtilities.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/VITesterUtilities.lvlib"/>
-				<Item Name="VS Inline Async API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_VS Inline Async API/VS Inline Async API.lvlib"/>
+				<Item Name="VS Inline Async API.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_VS Inline Async API/VS Inline Async API/VS Inline Async API.lvclass"/>
 				<Item Name="Waveform Subtype Enum__ogtk__jki_vi_tester.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Waveform Subtype Enum__ogtk__jki_vi_tester.ctl"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
+				<Item Name="Write.Buffer.vi" Type="VI" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_Data Access Engine/Access Type Classes/Write/Write.Buffer.vi"/>
+				<Item Name="Write.Commit.vi" Type="VI" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_Data Access Engine/Access Type Classes/Write/Write.Commit.vi"/>
+				<Item Name="Write.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_Data Access Engine/Access Type Classes/Write/Write.lvclass/Write.ctl"/>
+				<Item Name="Write.Data.vi" Type="VI" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_Data Access Engine/Data Access Engine/Methods/Write.Data.vi"/>
+				<Item Name="Write.DVR.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_Data Access Engine/Data Access Engine/Types/Write.DVR.ctl"/>
+				<Item Name="Write.Lookup.vi" Type="VI" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_Data Access Engine/Data Access Engine/Methods/Write.Lookup.vi"/>
+				<Item Name="Write.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_Data Access Engine/Access Type Classes/Write/Write.lvclass"/>
+				<Item Name="Write.ProcessData.vi" Type="VI" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_Data Access Engine/Access Type Classes/Write/Write.ProcessData.vi"/>
 			</Item>
 			<Item Name="DOMUserDefRef.dll" Type="Document" URL="DOMUserDefRef.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -583,9 +623,6 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="NationalInstruments.VeriStand.XMLReader" Type="Document" URL="NationalInstruments.VeriStand.XMLReader">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
-			<Item Name="nisyscfg.dll" Type="Document" URL="nisyscfg.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="systemLogging.dll" Type="Document" URL="systemLogging.dll">
@@ -1220,13 +1257,22 @@
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Advanced System Definition.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NI VeriStand Advanced SysDef API/SysDef API/Advanced System Definition.lvlib"/>
 				<Item Name="AMC.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/AMC/AMC.lvlib"/>
+				<Item Name="Async.Engine.Close.vi" Type="VI" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_VS Inline Async API/VS Inline Async API/Methods/Async.Engine.Close.vi"/>
+				<Item Name="Async.Engine.Initialize.vi" Type="VI" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_VS Inline Async API/VS Inline Async API/Methods/Async.Engine.Initialize.vi"/>
+				<Item Name="Async.Engine.Read Data from HW.vi" Type="VI" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_VS Inline Async API/VS Inline Async API/Methods/Async.Engine.Read Data from HW.vi"/>
+				<Item Name="Async.Engine.Start.vi" Type="VI" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_VS Inline Async API/VS Inline Async API/Methods/Async.Engine.Start.vi"/>
+				<Item Name="Async.Engine.Write Data to HW.vi" Type="VI" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_VS Inline Async API/VS Inline Async API/Methods/Async.Engine.Write Data to HW.vi"/>
+				<Item Name="Async.Processes.Report.vi" Type="VI" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_VS Inline Async API/Process/Methods/Async.Processes.Report.vi"/>
+				<Item Name="Async.Processes.WaitonStart.vi" Type="VI" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_VS Inline Async API/Process/Methods/Async.Processes.WaitonStart.vi"/>
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 				<Item Name="Custom Device API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device API/Custom Device API.lvlib"/>
 				<Item Name="Custom Device Utility Library.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device Tools/Custom Device Utility Library/Custom Device Utility Library.lvlib"/>
-				<Item Name="Data Access Engine.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_Data Access Engine/Data Access Engine.lvlib"/>
+				<Item Name="Data Access Engine.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_Data Access Engine/Data Access Engine/Data Access Engine.lvclass"/>
+				<Item Name="Data.Processes.Execute.vi" Type="VI" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_Data Access Engine/Data Access Engine/Methods/Data.Processes.Execute.vi"/>
+				<Item Name="Data.Processes.Lookup.vi" Type="VI" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_Data Access Engine/Data Access Engine/Methods/Data.Processes.Lookup.vi"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
-				<Item Name="Error Code Database.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Code Database.vi"/>
-				<Item Name="Find Tag.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find Tag.vi"/>
+				<Item Name="Error Handling Settings.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_VS Inline Async API/VS Inline Async API/Types/Error Handling Settings.ctl"/>
+				<Item Name="Error.ConvertArray.vi" Type="VI" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_VS Inline Async API/Error Handling Process/SubVIs/Error.ConvertArray.vi"/>
 				<Item Name="Get File Extension.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Get File Extension.vi"/>
 				<Item Name="Get LV Class Default Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Default Value.vi"/>
 				<Item Name="NI STM.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/STM/NI STM.lvlib"/>
@@ -1236,14 +1282,37 @@
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 				<Item Name="NI_SystemLogging.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/SystemLogging/NI_SystemLogging.lvlib"/>
 				<Item Name="NIVeriStand_DataServices.dll" Type="Document" URL="/&lt;vilib&gt;/NI Veristand/Custom Device API/Data/NIVeriStand_DataServices.dll"/>
-				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
-				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
+				<Item Name="Process.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_VS Inline Async API/Process/Process.lvclass/Process.ctl"/>
+				<Item Name="Process.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_VS Inline Async API/Process/Process.lvclass"/>
+				<Item Name="Read Data Access.vi" Type="VI" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_VS Inline Async API/Process/Data Member Access/Read Data Access.vi"/>
+				<Item Name="Read.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_Data Access Engine/Access Type Classes/Read/Read.lvclass/Read.ctl"/>
+				<Item Name="Read.Data.Detect.vi" Type="VI" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_Data Access Engine/Data Access Engine/Methods/Read.Data.Detect.vi"/>
+				<Item Name="Read.Data.vi" Type="VI" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_Data Access Engine/Data Access Engine/Methods/Read.Data.vi"/>
+				<Item Name="Read.DVR.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_Data Access Engine/Data Access Engine/Types/Read.DVR.ctl"/>
+				<Item Name="Read.Lookup.vi" Type="VI" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_Data Access Engine/Data Access Engine/Methods/Read.Lookup.vi"/>
+				<Item Name="Read.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_Data Access Engine/Access Type Classes/Read/Read.lvclass"/>
+				<Item Name="Read.ProcessData.Detect.vi" Type="VI" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_Data Access Engine/Access Type Classes/Read/Read.ProcessData.Detect.vi"/>
+				<Item Name="Read.ProcessData.vi" Type="VI" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_Data Access Engine/Access Type Classes/Read/Read.ProcessData.vi"/>
+				<Item Name="ReadWrite.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_Data Access Engine/Access Type Classes/ReadWrite/ReadWrite.lvclass/ReadWrite.ctl"/>
+				<Item Name="ReadWrite.Data.Read.vi" Type="VI" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_Data Access Engine/Data Access Engine/Methods/ReadWrite.Data.Read.vi"/>
+				<Item Name="ReadWrite.Data.Reset.vi" Type="VI" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_Data Access Engine/Data Access Engine/Methods/ReadWrite.Data.Reset.vi"/>
+				<Item Name="ReadWrite.DVR.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_Data Access Engine/Data Access Engine/Types/ReadWrite.DVR.ctl"/>
+				<Item Name="ReadWrite.Lookup.vi" Type="VI" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_Data Access Engine/Data Access Engine/Methods/ReadWrite.Lookup.vi"/>
+				<Item Name="ReadWrite.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_Data Access Engine/Access Type Classes/ReadWrite/ReadWrite.lvclass"/>
+				<Item Name="ReadWrite.ProcessData.Read.vi" Type="VI" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_Data Access Engine/Access Type Classes/ReadWrite/ReadWrite.ProcessData.Read.vi"/>
+				<Item Name="ReadWrite.ProcessData.Reset.vi" Type="VI" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_Data Access Engine/Access Type Classes/ReadWrite/ReadWrite.ProcessData.Reset.vi"/>
 				<Item Name="Tools_KeyedArray.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/Tools/Keyed Array/Tools_KeyedArray.lvlib"/>
 				<Item Name="Tools_String.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/Tools/String/Tools_String.lvlib"/>
-				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="VariantType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/VariantDataType/VariantType.lvlib"/>
-				<Item Name="VS Inline Async API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_VS Inline Async API/VS Inline Async API.lvlib"/>
-				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
+				<Item Name="VS Inline Async API.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_VS Inline Async API/VS Inline Async API/VS Inline Async API.lvclass"/>
+				<Item Name="Write.Buffer.vi" Type="VI" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_Data Access Engine/Access Type Classes/Write/Write.Buffer.vi"/>
+				<Item Name="Write.Commit.vi" Type="VI" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_Data Access Engine/Access Type Classes/Write/Write.Commit.vi"/>
+				<Item Name="Write.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_Data Access Engine/Access Type Classes/Write/Write.lvclass/Write.ctl"/>
+				<Item Name="Write.Data.vi" Type="VI" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_Data Access Engine/Data Access Engine/Methods/Write.Data.vi"/>
+				<Item Name="Write.DVR.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_Data Access Engine/Data Access Engine/Types/Write.DVR.ctl"/>
+				<Item Name="Write.Lookup.vi" Type="VI" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_Data Access Engine/Data Access Engine/Methods/Write.Lookup.vi"/>
+				<Item Name="Write.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_Data Access Engine/Access Type Classes/Write/Write.lvclass"/>
+				<Item Name="Write.ProcessData.vi" Type="VI" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_Data Access Engine/Access Type Classes/Write/Write.ProcessData.vi"/>
 			</Item>
 			<Item Name="Instrument Addon Shared.lvlib" Type="Library" URL="../Addon/Addon Shared/Instrument Addon Shared.lvlib"/>
 			<Item Name="LV Config Read String.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read String.vi"/>
