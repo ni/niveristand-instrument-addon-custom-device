@@ -15,15 +15,37 @@
 		<hr width="100%" noshade>
 	</noscript>
 <h1>Message</h1>
-<p class="Body">
-This section contains the items for defining a message.  If the message is a write only, configure <strong>Command</strong> and delete the <strong>Response</strong>.  If the message is a read only, configure the <strong>Response</strong> and delete the <strong>Command</strong>.  If the message is a query (write then read) configure both.
-<h2>What do you want to do?</h2>
-<h3>Set Generation Type</h3>
-<p>There are two types of generation that are currently supported.  One is a Trigger.  Triggers are mainly for single event messages.  As an example, setting the instrument configuration at the beginning of a test.  The other is Periodic & Trigger.  This has the same triggerable function but will automatically execute the message after a set period.  So, if you have a period of 1 second and don't trigger the message, it will automatically execute by itself.  If you trigger the message, the periodic timers get reset.</p>
-<p>Note: The starting and stopping of the periodic generation can be controlled through the Enable Periodic channel.</p>
-<p>Select the generation type from the <strong>Generation Type</strong> field.  <strong>Trigger</strong> will be the most common.  If you are sellecting <strong>Periodic & Trigger</strong>, set the <strong>Period (ms)</strong> to the desired setting.</p>
-<p>Note: Limit the number of periodic messages as much as possible on slower protocols and baud rates as this could delay other messages.</p>
-<h3>Automatically Include Message Protection</h3>
-<p>Message protections are often used to make sure the data sent and received match.  Common protection schemes include checksums or CRCs.  To enable this, check the <strong>Include Protection</strong> field and select the desired type.  The protection will be automatically calculated for you and placed at the end of the message.</p>
+   <p class="Body">
+   This section contains the items for defining a message.  If the message is a write only, configure the <strong>Command</strong> and delete the <strong>Response</strong>.  If the message is a read only, configure the <strong>Response</strong> and delete the <strong>Command</strong>.  If the message is a query (write then read), configure both.
+      <h2>What do you want to do?</h2>
+      <h3>Set Generation Type</h3>
+         <p>
+            Currently three message generation types are supported: <strong>Trigger Only</strong>, <strong>Periodic & Trigger</strong>, and <strong>Value Change & Trigger</strong>.
+         </p>
+         <p>
+            <strong>Trigger Only</strong> fits for single event messages.  As an example, setting the instrument configuration at the beginning of a test.
+         </p>
+         <p>
+            <strong>Periodic & Trigger</strong> has the same triggerable function as Trigger Only, but will automatically execute the message after a set period.  So, if you have a period of 1 second and don't trigger the message, it will automatically execute by itself.  If you trigger the message, the periodic timers get reset.
+         </p>
+         <p>
+            Note: The starting and stopping of the periodic generation can be controlled through the Enable Periodic channel.
+         </p>
+         <p>
+            <strong>Value Change & Trigger</strong> will trigger the message by using the Trigger Channel or anytime a VeriStand channel used in the command field is changed.  If the command message contains multiple VeriStand channels, the message will be sent each time one of the channels has changed.
+         </p>
+         <p>
+            Note: For absolute control when using Value Change & Trigger with multiple VeriStand channels in a command, Trigger Only generation type is recommended.
+         </p>
+         <p>
+            Select the generation type from the <strong>Generation Type</strong> field.  <strong>Trigger Only</strong> will be the most common.  If you are selecting <strong>Periodic & Trigger</strong>, set the <strong>Period (ms)</strong> to the desired setting.
+         </p>
+         <p>
+            Note: Limit the number of periodic messages as much as possible on slower protocols and baud rates as this could delay other messages.
+         </p>
+      <h3>Automatically Include Message Protection</h3>
+         <p>
+            Message protections are often used to make sure the data sent and received match.  Common protection schemes include checksums or CRCs.  To enable this, check the <strong>Include Protection</strong> field and select the desired type.  The protection will be automatically calculated for you and placed at the end of the message.
+         </p>
 </body>
 </html>
