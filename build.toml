@@ -28,7 +28,7 @@ type = 'lvBuildSpec'
 target = 'RT PXI Target - Pharlap'
 project = '{cd}'
 build_spec = 'Engine Release'
-dependency_target = 
+dependency_target = 'Pharlap'
 
 [[build.steps]]
 name = 'Linux ARM Engine Libraries'
@@ -36,6 +36,7 @@ type = 'lvBuildSpec'
 target = 'RT CompactRIO Target - Linux ARM'
 project = '{cd}'
 build_spec = 'Engine Release'
+dependency_target = 'Linux_32_ARM'
 
 [[build.steps]]
 name = 'Linux x64 Engine Libraries'
@@ -43,3 +44,4 @@ type = 'lvBuildSpec'
 target = 'RT CompactRIO Target - Linux x64'
 project = '{cd}'
 build_spec = 'Engine Release'
+dependency_target = 'Linux_x64'
