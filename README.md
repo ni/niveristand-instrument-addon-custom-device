@@ -37,6 +37,8 @@ LabVIEW 2018
 - [HTML Help File Tools](https://github.com/NIVeriStandAdd-Ons/HTML-Help-File-Tools)
 - Microsoft HTML Help Workshop and Documentation >= 1.32
 - [NI VeriStand Custom Device Testing Tools](https://github.com/ni/niveristand-custom-device-testing-tools)
+- jki_labs_tool_vi_tester >= v3.0.2.294-1
+
 
 ## Git History & Rebasing Policy
 
