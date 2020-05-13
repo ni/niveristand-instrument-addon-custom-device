@@ -10,7 +10,7 @@
 				<String>CD System Test</String>
 			</Property>
 			<Property Name="Version">
-				<String>1.0.0.647</String>
+				<String>1.0.0.650</String>
 			</Property>
 			<Property Name="Creator">
 				<String />
@@ -9749,6 +9749,20 @@
 					<Properties>
 						<Property Name="Referenced Channel">
 							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Trigger and Periodic/Static_Cmd_PeriodTrig_Pad/Message Channels/Enable Periodic" />
+						</Property>
+					</Properties>
+					<Errors />
+				</Alias>
+			</Section>
+			<Section Name="Timestamp" TypeGUID="A579F6FF-5680-1F22-249C-2C499E16CDB8">
+				<Description />
+				<Properties />
+				<Errors />
+				<Alias Name="SingleChan_Static_CmdResp_Trig_Prot_Pad" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
+					<Description />
+					<Properties>
+						<Property Name="Referenced Channel">
+							<DependentNode Path="Targets/Controller/Custom Devices/Instrument Addon Main Tests/Trigger and Periodic/Static_CmdResp_Trig_Prot_Pad/Message Channels/Timestamp" />
 						</Property>
 					</Properties>
 					<Errors />
