@@ -50,6 +50,6 @@ dependency_target = 'Linux_x64'
 
 [package]
 type = 'nipkg'
-payload_dir = 'Source\Built'
+payload_dir = 'Built'
 install_destination = 'documents\National Instruments\NI VeriStand {veristand_version}\Custom Devices\National Instruments' 
-package_output_dir = 'Source\Built'
+package_output_dir = 'Built'
