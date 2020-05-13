@@ -10,6 +10,19 @@ copy_location = 'Source\Addon\Support Libraries'
 path = 'Source\Instrument Addon.lvproj'
 
 [[build.steps]]
+name = 'Configuration Library'
+type = 'lvBuildSpec'
+project = '{cd}'
+target = 'My Computer'
+build_spec = 'Configuration Release'
+
+[[build.steps]]
+name = 'Engine Libraries'
+type = 'lvBuildSpecAllTargets'
+project = '{cd}'
+build_spec = 'Engine Release'
+
+[[build.steps]]
 name = 'PharLap Engine Libraries'
 type = 'lvBuildSpec'
 target = 'RT PXI Target - Pharlap'
