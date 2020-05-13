@@ -47,3 +47,8 @@ target = 'RT CompactRIO Target - Linux x64'
 project = '{cd}'
 build_spec = 'Engine Release'
 dependency_target = 'Linux_x64'
+
+[package]
+type = 'nipkg'
+payload_dir = 'Source\Built'
+install_destination = 'documents\National Instruments\NI VeriStand {veristand_version}\Custom Devices\National Instruments' 
