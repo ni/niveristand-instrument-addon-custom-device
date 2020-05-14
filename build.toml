@@ -10,6 +10,38 @@ copy_location = 'Source\Addon\Support Libraries'
 path = 'Source\Instrument Addon.lvproj'
 
 [[build.steps]]
+name = 'Host API'
+type = 'lvBuildSpec'
+project = '{cd}'
+target = 'My Computer'
+build_spec = 'Host API'
+dependency_target = 'Windows'
+
+[[build.steps]]
+name = 'Workspace Object'
+type = 'lvBuildSpec'
+project = '{cd}'
+target = 'My Computer'
+build_spec = 'Host API'
+dependency_target = 'Windows'
+
+[[build.steps]]
+name = 'Workspace Tool'
+type = 'lvBuildSpec'
+project = '{cd}'
+target = 'My Computer'
+build_spec = 'Workspace Tool'
+dependency_target = 'Windows'
+
+[[build.steps]]
+name = 'Workspace Tool EXE'
+type = 'lvBuildSpec'
+project = '{cd}'
+target = 'My Computer'
+build_spec = 'Workspace Tool EXE'
+dependency_target = 'Windows'
+
+[[build.steps]]
 name = 'Configuration Library'
 type = 'lvBuildSpec'
 project = '{cd}'
