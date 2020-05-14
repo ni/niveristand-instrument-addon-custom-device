@@ -1053,23 +1053,6 @@
     </Page>
     <Page>
       <Name>
-        <eng>Remaining Elements</eng>
-        <loc>Remaining Elements</loc>
-      </Name>
-      <DisallowRenaming>true</DisallowRenaming>
-      <DeleteProtection>true</DeleteProtection>
-      <GUID>72826220-a1a4-42f5-a5ae-087df2bbd482</GUID>
-      <Glyph>
-        <Type>To Application Data Dir</Type>
-        <Path>System Explorer\Glyphs\Progress.png</Path>
-      </Glyph>
-      <Item2Launch>
-        <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\Instrument Addon\Windows\Instrument Addon Configuration.llb\Remaining Elements Channel Page.vi</Path>
-      </Item2Launch>
-    </Page>
-    <Page>
-      <Name>
         <eng>Array Metadata Element</eng>
         <loc>Array Metadata Element</loc>
       </Name>
