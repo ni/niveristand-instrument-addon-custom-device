@@ -2,6 +2,10 @@
 build_output_dir = 'Built'
 archive_location = '\\nirvana\Measurements\VeriStandAddons\instrument_addon_custom_device'
 
+[dependencies.niveristand-instrument-addon-classes]
+libraries = ['Protections.lvlibp', 'Protocols.lvlibp']
+copy_location = 'Source\Addon\Support Libraries'
+
 [projects.cd]
 path = 'Source\Instrument Addon.lvproj'
 
@@ -11,14 +15,41 @@ type = 'lvBuildSpec'
 project = '{cd}'
 target = 'My Computer'
 build_spec = 'Configuration Release'
+dependency_target = 'Windows'
 
 [[build.steps]]
 name = 'Engine Libraries'
 type = 'lvBuildSpecAllTargets'
 project = '{cd}'
 build_spec = 'Engine Release'
+dependency_target = 'Windows'
+
+[[build.steps]]
+name = 'PharLap Engine Libraries'
+type = 'lvBuildSpec'
+target = 'RT PXI Target - Pharlap'
+project = '{cd}'
+build_spec = 'Engine Release'
+dependency_target = 'Pharlap'
+
+[[build.steps]]
+name = 'Linux ARM Engine Libraries'
+type = 'lvBuildSpec'
+target = 'RT CompactRIO Target - Linux ARM'
+project = '{cd}'
+build_spec = 'Engine Release'
+dependency_target = 'Linux_32_ARM'
+
+[[build.steps]]
+name = 'Linux x64 Engine Libraries'
+type = 'lvBuildSpec'
+target = 'RT CompactRIO Target - Linux x64'
+project = '{cd}'
+build_spec = 'Engine Release'
+dependency_target = 'Linux_x64'
 
 [package]
 type = 'nipkg'
 payload_dir = 'Built'
-install_destination = 'documents\National Instruments\NI VeriStand {veristand_version}\Custom Devices\National Instruments'
+install_destination = 'documents\National Instruments\NI VeriStand {veristand_version}\Custom Devices\National Instruments' 
+control_file = 'control'
