@@ -54,7 +54,6 @@
 				<Item Name="Message Timestamp Channel.vi" Type="VI" URL="../Extra Pages/Message Timestamp Channel.vi"/>
 				<Item Name="Message.vi" Type="VI" URL="../Extra Pages/Message.vi"/>
 				<Item Name="MetaData Channel.vi" Type="VI" URL="../Extra Pages/MetaData Channel.vi"/>
-				<Item Name="Remaining Elements Channel Page.vi" Type="VI" URL="../Extra Pages/Remaining Elements Channel Page.vi"/>
 				<Item Name="Response.vi" Type="VI" URL="../Extra Pages/Response.vi"/>
 				<Item Name="Trigger Channel.vi" Type="VI" URL="../Extra Pages/Trigger Channel.vi"/>
 			</Item>
