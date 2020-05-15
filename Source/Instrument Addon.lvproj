@@ -720,13 +720,13 @@
 				<Property Name="Destination[0].path" Type="Path">../Built/NI_AB_PROJECTNAME/Windows/Instrument Addon Engine Windows.llb</Property>
 				<Property Name="Destination[0].type" Type="Str">LLB</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../Built/NI_AB_PROJECTNAME/Windows/Data</Property>
+				<Property Name="Destination[1].path" Type="Path">../Built/NI_AB_PROJECTNAME/Windows</Property>
 				<Property Name="Destination[2].destName" Type="Str">Custom Device Directory</Property>
 				<Property Name="Destination[2].path" Type="Path">../Built/NI_AB_PROJECTNAME/Windows</Property>
 				<Property Name="DestinationCount" Type="Int">3</Property>
 				<Property Name="Source[0].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[0].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{12AB958E-6128-46A8-ACA1-6EA7D5779863}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{C869B8D8-12C3-4CA0-8441-3A3114A2891F}</Property>
 				<Property Name="Source[0].properties[0].type" Type="Str">Run when opened</Property>
 				<Property Name="Source[0].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[0].properties[1].type" Type="Str">Allow debugging</Property>
