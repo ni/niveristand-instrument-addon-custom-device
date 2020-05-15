@@ -85,3 +85,4 @@ type = 'nipkg'
 payload_dir = 'Built'
 install_destination = 'documents\National Instruments\NI VeriStand {veristand_version}\Custom Devices\National Instruments' 
 control_file = 'control'
+break
