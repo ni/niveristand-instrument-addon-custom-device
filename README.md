@@ -1,75 +1,50 @@
-Instrument-Addon
-========================
+# Instrument Addon Custom Device
 
-### Description ###
+The **Instrument Addon Custom Device** allows users to define instrument commands generically. It supports: NI-VISA(GPIB, RS232, RS485, RS422), TCP, UDP, AK TCP, and AK RS232 as base protocols. The communication structure should be command-response. The instrument doesn't initiate any of the communications. Communication rates should be 10s of Hz, though the add-on supports decimation so the NI VeriStand PCL can still be fast.
 
-This addon allows the user to define instrument commands generically.  NI-VISA(GPIB, RS232, RS485, RS422), TCP, UDP, AK TCP, and AK RS232 are supported base protocols. The communication structure should be command response.  Meaning that the instrument doesn't initiate any of the communications.  Communication rates should be for 10s of Hz.
+### Quick Start Documentation
 
-### Help ###
+- Built: C:\Users\Public\Documents\National Instruments\NI VeriStand (Year)\Custom Devices\Instrument Addon\Windows\Quick Start Documentation
+- Source: Source\Addon\Support Files\Quick Start Documentation
 
-Quick Start Documentation is at
+## LabVIEW Version
 
-Built: C:\Users\Public\Documents\National Instruments\NI VeriStand (Year)\Custom Devices\Instrument Addon\Windows\Quick Start Documentation
+LabVIEW 2018
 
-Source: Source\Addon\Support Files\Quick Start Documentation
+## Dependencies
 
-Help is also included in most System Explorer sections.
+### Running the add-on
 
-### Built Availability ###
+- NI VeriStand >= 2019​
+- NI VISA >= 19.0
+- NI Serial >= 19.0
 
-https://github.com/NIVeriStandAdd-Ons/Instrument-Custom-Device/releases 
+### Source
 
-### Built Dependencies ###
+- Built Classes from [Instrument Addon Classes](https://github.com/ni/niveristand-instrument-addon-classes)
+- NI VISA >= 19.0
+- NI Serial >= 19.0
+- OpenG LabVIEW Data Library >= 4.2.0.21 
+- OpenG Error Library >= 4.2.0.23
+- NI Simple Messaging Library >= 3.0.0.7
+- NI Asynchronous Messaging Communication Library >= 3.3.1.22
+- NI GXML >= 1.4.2.8
+- [NI VeriStand Addon Inline-Async-API](https://github.com/ni/niveristand-custom-device-inline-async-api)
+- [VeriStand Addon Network Comm](https://github.com/NIVeriStandAdd-Ons/VeriStand-Addon-Network-Comm)
+- [VeriStand Addon System Definition Utilities](https://github.com/NIVeriStandAdd-Ons/VeriStand-Addon-System-Definition-Utilities)
+- [VeriStand Addon CD Import and Export Tool](https://github.com/NIVeriStandAdd-Ons/VeriStand-Addon-CD-Import-and-Export-Tool)
+- [VeriStand Addon Hardware Resource Discovery](https://github.com/NIVeriStandAdd-Ons/Hardware-Resource-Discovery)
+- [HTML Help File Tools](https://github.com/NIVeriStandAdd-Ons/HTML-Help-File-Tools)
+- Microsoft HTML Help Workshop and Documentation >= 1.32
+- [NI VeriStand Custom Device Testing Tools](https://github.com/ni/niveristand-custom-device-testing-tools)
+- JKI VI Tester >= 3.0.2.294-1
 
-NI VISA 19.0 or later
 
-NI Serial 19.0 or later
+## Git History & Rebasing Policy
 
-### Quality, Limitations ###
+Branch rebasing and other history modifications will be listed here, with several notable exceptions:
+- Branches prefixed with `dev/` may be rebased, overwritten, or deleted at any time.
+- Pull requests may be squashed on merge.
 
-IP has been tested by developer. It meets VeriStand addon coding best practices. It is currently used by various customers.
-
-Addon does not support push messaging, meaning the instrument can't send unsolicited messages.
-
-Addon is intended for slower rates, though the addon supports decimation so the NI VeriStand PCL can still be fast.
-
-### Source Version ###
-
-LabVIEW 2019
-
-### Source Dependencies ###
-
-Instrument Custom Device Classes (Must be built from https://github.com/NIVeriStandAdd-Ons/Instrument-Custom-Device-Classes)
-
-NI VISA 19.0 or later
-
-NI Serial 19.0 or later
-
-OpenG LabVIEW Data Library 4.2.0.21 or later
-
-OpenG Error Library 4.2.0.23 or later
-
-NI Simple Messaging Library 3.0.0.7 or later
-
-NI Asynchronous Messaging Communication Library 3.3.1.22 or later
-
-NI GXML 1.4.2.8
-
-VeriStand Addon Inline Async API (https://github.com/ni/niveristand-custom-device-inline-async-api)
-
-VeriStand Addon Network Comm (https://github.com/NIVeriStandAdd-Ons/VeriStand-Addon-Network-Comm)
-
-VeriStand Addon System Definition Utilities (https://github.com/NIVeriStandAdd-Ons/VeriStand-Addon-System-Definition-Utilities)
-
-VeriStand Addon CD Import and Export Tool (https://github.com/NIVeriStandAdd-Ons/VeriStand-Addon-CD-Import-and-Export-Tool)
-
-VeriStand Addon Hardware Resource Discovery (https://github.com/NIVeriStandAdd-Ons/Hardware-Resource-Discovery)
-
-HTML Help File Tools (https://github.com/NIVeriStandAdd-Ons/HTML-Help-File-Tools)
-
-### License ###
-Copyright 2018 National Instruments
-Licensed under the Apache License, Version 2.0 (the "License"); You may not use this file except in compliance with the License.
-You may obtain a copy of the License at http://www.apache.org/licenses/LICENSE-2.0
-Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-See the License for the specific language governing permissions and limitations under the License.
+## License
+The Instrument Addon Custom Device is licensed under an MIT-style license (see LICENSE). Other incorporated projects may be licensed under different licenses. All licenses allow for non-commercial and commercial use.
