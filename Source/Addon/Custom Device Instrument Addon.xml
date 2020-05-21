@@ -24,7 +24,7 @@
 					<Type>To Common Doc Dir</Type>
 					<Path>Custom Devices\Instrument Addon\Windows\Instrument Addon Engine Windows.llb\RT Driver VI.vi</Path>
 				</Source>
-				<RealTimeSystemDestination>c:\ni-rt\NIVeriStand\Custom Devices\Instrument Addon\Instrument Addon Engine Windows.llb\RT Driver VI.vi</RealTimeSystemDestination>
+				<RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\Instrument Addon\Instrument Addon Engine Windows.llb\RT Driver VI.vi</RealTimeSystemDestination>
 			</Source>
 			<Source>
 				<SupportedTarget>Pharlap</SupportedTarget>
@@ -32,7 +32,7 @@
 					<Type>To Common Doc Dir</Type>
 					<Path>Custom Devices\Instrument Addon\Pharlap\Instrument Addon Engine Pharlap.llb\RT Driver VI.vi</Path>
 				</Source>
-				<RealTimeSystemDestination>c:\ni-rt\NIVeriStand\Custom Devices\Instrument Addon\Instrument Addon Engine Pharlap.llb\RT Driver VI.vi</RealTimeSystemDestination>
+				<RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\Instrument Addon\Instrument Addon Engine Pharlap.llb\RT Driver VI.vi</RealTimeSystemDestination>
 			</Source>
 	  		<Source>
 				<SupportedTarget>Linux_32_ARM</SupportedTarget>
@@ -40,7 +40,7 @@
 					<Type>To Common Doc Dir</Type>
 					<Path>Custom Devices\Instrument Addon\Linux_32_ARM\Instrument Addon Engine LinuxARM.llb\RT Driver VI.vi</Path>
 				</Source>
-				<RealTimeSystemDestination>c:\ni-rt\NIVeriStand\Custom Devices\Instrument Addon\Instrument Addon Engine LinuxARM.llb\RT Driver VI.vi</RealTimeSystemDestination>
+				<RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\Instrument Addon\Instrument Addon Engine LinuxARM.llb\RT Driver VI.vi</RealTimeSystemDestination>
 			</Source>
 			<Source>
 				<SupportedTarget>Linux_x64</SupportedTarget>
@@ -48,7 +48,7 @@
 					<Type>To Common Doc Dir</Type>
 					<Path>Custom Devices\Instrument Addon\Linux_x64\Instrument Addon Engine Linux64.llb\RT Driver VI.vi</Path>
 				</Source>
-				<RealTimeSystemDestination>c:\ni-rt\NIVeriStand\Custom Devices\Instrument Addon\Instrument Addon Engine Linux64.llb\RT Driver VI.vi</RealTimeSystemDestination>
+				<RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\Instrument Addon\Instrument Addon Engine Linux64.llb\RT Driver VI.vi</RealTimeSystemDestination>
 			</Source>
     </SourceDistribution>
 	</CustomDeviceVI>
@@ -59,7 +59,7 @@
         <Type>To Common Doc Dir</Type>
         <Path>Custom Devices\Instrument Addon\Windows\Protocols.lvlibp</Path>
       </Source>
-      <RealTimeSystemDestination>c:\ni-rt\NIVeriStand\Custom Devices\Instrument Addon\Protocols.lvlibp</RealTimeSystemDestination>
+      <RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\Instrument Addon\Protocols.lvlibp</RealTimeSystemDestination>
     </Dependency>
     <Dependency>
       <SupportedTarget>Windows</SupportedTarget>
@@ -67,7 +67,7 @@
         <Type>To Common Doc Dir</Type>
         <Path>Custom Devices\Instrument Addon\Windows\Protections.lvlibp</Path>
       </Source>
-      <RealTimeSystemDestination>c:\ni-rt\NIVeriStand\Custom Devices\Instrument Addon\Protections.lvlibp</RealTimeSystemDestination>
+      <RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\Instrument Addon\Protections.lvlibp</RealTimeSystemDestination>
     </Dependency>
       <Dependency>
       <SupportedTarget>Pharlap</SupportedTarget>
@@ -75,7 +75,7 @@
         <Type>To Common Doc Dir</Type>
         <Path>Custom Devices\Instrument Addon\Pharlap\Protocols.lvlibp</Path>
       </Source>
-      <RealTimeSystemDestination>c:\ni-rt\NIVeriStand\Custom Devices\Instrument Addon\Protocols.lvlibp</RealTimeSystemDestination>
+      <RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\Instrument Addon\Protocols.lvlibp</RealTimeSystemDestination>
     </Dependency>
     <Dependency>
       <SupportedTarget>Pharlap</SupportedTarget>
@@ -83,7 +83,7 @@
         <Type>To Common Doc Dir</Type>
         <Path>Custom Devices\Instrument Addon\Pharlap\Protections.lvlibp</Path>
       </Source>
-      <RealTimeSystemDestination>c:\ni-rt\NIVeriStand\Custom Devices\Instrument Addon\Protections.lvlibp</RealTimeSystemDestination>
+      <RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\Instrument Addon\Protections.lvlibp</RealTimeSystemDestination>
     </Dependency>
 	<Dependency>
       <SupportedTarget>Linux_x64</SupportedTarget>
@@ -91,7 +91,7 @@
         <Type>To Common Doc Dir</Type>
         <Path>Custom Devices\Instrument Addon\Linux_x64\Protocols.lvlibp</Path>
       </Source>
-      <RealTimeSystemDestination>c:\ni-rt\NIVeriStand\Custom Devices\Instrument Addon\Protocols.lvlibp</RealTimeSystemDestination>
+      <RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\Instrument Addon\Protocols.lvlibp</RealTimeSystemDestination>
     </Dependency>
     <Dependency>
       <SupportedTarget>Linux_x64</SupportedTarget>
@@ -99,7 +99,7 @@
         <Type>To Common Doc Dir</Type>
         <Path>Custom Devices\Instrument Addon\Linux_x64\Protections.lvlibp</Path>
       </Source>
-      <RealTimeSystemDestination>c:\ni-rt\NIVeriStand\Custom Devices\Instrument Addon\Protections.lvlibp</RealTimeSystemDestination>
+      <RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\Instrument Addon\Protections.lvlibp</RealTimeSystemDestination>
     </Dependency>
 		<Dependency>
       <SupportedTarget>Linux_32_ARM</SupportedTarget>
@@ -107,7 +107,7 @@
         <Type>To Common Doc Dir</Type>
         <Path>Custom Devices\Instrument Addon\Linux_32_ARM\Protocols.lvlibp</Path>
       </Source>
-      <RealTimeSystemDestination>c:\ni-rt\NIVeriStand\Custom Devices\Instrument Addon\Protocols.lvlibp</RealTimeSystemDestination>
+      <RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\Instrument Addon\Protocols.lvlibp</RealTimeSystemDestination>
     </Dependency>
     <Dependency>
       <SupportedTarget>Linux_32_ARM</SupportedTarget>
@@ -115,7 +115,7 @@
         <Type>To Common Doc Dir</Type>
         <Path>Custom Devices\Instrument Addon\Linux_32_ARM\Protections.lvlibp</Path>
       </Source>
-      <RealTimeSystemDestination>c:\ni-rt\NIVeriStand\Custom Devices\Instrument Addon\Protections.lvlibp</RealTimeSystemDestination>
+      <RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\Instrument Addon\Protections.lvlibp</RealTimeSystemDestination>
     </Dependency>
   </Dependencies>
   <Pages>
