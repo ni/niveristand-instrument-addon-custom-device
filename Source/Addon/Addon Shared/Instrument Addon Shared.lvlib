@@ -37,6 +37,7 @@
 		<Item Name="SubVIs" Type="Folder">
 			<Item Name="Command Parameters FG.vi" Type="VI" URL="../SubVIs/Command Parameters FG.vi"/>
 			<Item Name="Constants.vi" Type="VI" URL="../SubVIs/Constants.vi"/>
+			<Item Name="Convert Version String to Cluster.vi" Type="VI" URL="../SubVIs/Convert Version String to Cluster.vi"/>
 			<Item Name="Data Parameters FG.vi" Type="VI" URL="../SubVIs/Data Parameters FG.vi"/>
 			<Item Name="Decimation FG.vi" Type="VI" URL="../SubVIs/Decimation FG.vi"/>
 			<Item Name="Get Protection List.vi" Type="VI" URL="../SubVIs/Get Protection List.vi"/>
