@@ -92,8 +92,10 @@
 					<Item Name="TCP Data Reader.vi" Type="VI" URL="../Tests/System Tests/Assets/TCP Data Reader.vi"/>
 					<Item Name="TCP HeartBeat Generator.vi" Type="VI" URL="../Tests/System Tests/Assets/TCP HeartBeat Generator.vi"/>
 				</Item>
-				<Item Name="Common System Tests.lvclass" Type="LVClass" URL="../Tests/System Tests/Common System Tests/Common System Tests.lvclass"/>
 				<Item Name="Host API Tests.lvclass" Type="LVClass" URL="../Tests/System Tests/Host API Tests/Host API Tests.lvclass"/>
+				<Item Name="Instrument Addon Common System Tests.lvclass" Type="LVClass" URL="../Tests/System Tests/Common System Tests/Instrument Addon Common System Tests.lvclass"/>
+				<Item Name="Instrument Addon Error System Tests.lvclass" Type="LVClass" URL="../Tests/System Tests/Error System Tests/Instrument Addon Error System Tests.lvclass"/>
+				<Item Name="Instrument Addon Specific System Tests.lvclass" Type="LVClass" URL="../Tests/System Tests/Specific System Tests/Instrument Addon Specific System Tests.lvclass"/>
 			</Item>
 			<Item Name="Unit" Type="Folder">
 				<Item Name="Instrument Addon Unit Tests.lvclass" Type="LVClass" URL="../Tests/Unit Tests/Instrument Addon Unit Tests.lvclass"/>
