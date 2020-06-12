@@ -89,10 +89,6 @@
 				<Property Name="NI.SortType" Type="Int">3</Property>
 				<Item Name="Assets" Type="Folder">
 					<Property Name="NI.SortType" Type="Int">3</Property>
-					<Item Name="SubVIs" Type="Folder">
-						<Item Name="Update Sys Def by Target type.vi" Type="VI" URL="../Tests/System Tests/Assets/SubVIs/Update Sys Def by Target type.vi"/>
-						<Item Name="Update TCP IP nodes with Test Machine IP.vi" Type="VI" URL="../Tests/System Tests/Assets/SubVIs/Update TCP IP nodes with Test Machine IP.vi"/>
-					</Item>
 					<Item Name="TCP Listener.vi" Type="VI" URL="../Tests/System Tests/Assets/TCP Listener.vi"/>
 					<Item Name="TCP Data Reader.vi" Type="VI" URL="../Tests/System Tests/Assets/TCP Data Reader.vi"/>
 					<Item Name="TCP HeartBeat Generator.vi" Type="VI" URL="../Tests/System Tests/Assets/TCP HeartBeat Generator.vi"/>
