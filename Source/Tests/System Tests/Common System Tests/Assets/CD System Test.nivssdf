@@ -10,7 +10,7 @@
 				<String>CD System Test</String>
 			</Property>
 			<Property Name="Version">
-				<String>1.0.0.650</String>
+				<String>1.0.0.651</String>
 			</Property>
 			<Property Name="Creator">
 				<String />
@@ -317,6 +317,12 @@
 							</Property>
 							<Property Name="ContentIdentifier">
 								<String>7dd5f0b0b3884c219077ba51e93d7ed6</String>
+							</Property>
+							<Property Name="user.CD.TCP.IP">
+								<String>localhost</String>
+							</Property>
+							<Property Name="user.CD.TCP.Port">
+								<U32>8888</U32>
 							</Property>
 						</Properties>
 						<Errors />
