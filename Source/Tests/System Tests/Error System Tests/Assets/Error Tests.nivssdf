@@ -10,7 +10,7 @@
 				<String>Error Tests</String>
 			</Property>
 			<Property Name="Version">
-				<String>1.0.0.567</String>
+				<String>1.0.0.568</String>
 			</Property>
 			<Property Name="Creator">
 				<String />
@@ -314,6 +314,12 @@
 							</Property>
 							<Property Name="user.CD.Protocol">
 								<String>TCP</String>
+							</Property>
+							<Property Name="user.CD.TCP.IP">
+								<String>localhost</String>
+							</Property>
+							<Property Name="user.CD.TCP.Port">
+								<U32>8888</U32>
 							</Property>
 						</Properties>
 						<Errors />
