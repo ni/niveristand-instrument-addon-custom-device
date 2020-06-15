@@ -15,15 +15,15 @@ LabVIEW 2018
 
 ### Running the add-on
 
-- NI VeriStand >= 2019​
-- NI VISA >= 19.0
-- NI Serial >= 19.0
+- NI VeriStand >= 2018
+- NI VISA >= 18.0
+- NI Serial >= 18.0
 
 ### Source
 
 - Built Classes from [Instrument Addon Classes](https://github.com/ni/niveristand-instrument-addon-classes)
-- NI VISA >= 19.0
-- NI Serial >= 19.0
+- NI VISA >= 18.0
+- NI Serial >= 18.0
 - OpenG LabVIEW Data Library >= 4.2.0.21 
 - OpenG Error Library >= 4.2.0.23
 - NI Simple Messaging Library >= 3.0.0.7
