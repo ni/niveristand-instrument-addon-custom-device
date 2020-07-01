@@ -6,5 +6,5 @@ def lvVersions = ['2018','2019','2020']
 
 List<String> dependencies = ['niveristand-instrument-addon-classes']
 
-ni.vsbuild.PipelineExecutor.execute(this, 'veristand', lvVersions, dependencies)
+ni.vsbuild.PipelineExecutor.execute(this, 'vs_cd_build', lvVersions, dependencies)
 diffPipeline(lvVersions[0])
