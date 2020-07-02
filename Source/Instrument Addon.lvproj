@@ -82,6 +82,7 @@
 			<Item Name="Instrument Addon System Explorer.lvlib" Type="Library" URL="../Addon/Addon System Explorer/Instrument Addon System Explorer.lvlib"/>
 		</Item>
 		<Item Name="APIs" Type="Folder">
+			<Item Name="Instrument Addon Scripting API.lvlib" Type="Library" URL="../APIs/Scripting API/Instrument Addon Scripting API.lvlib"/>
 			<Item Name="Instrument Host Automation API.lvlib" Type="Library" URL="../APIs/Host Automation API/Instrument Host Automation API.lvlib"/>
 		</Item>
 		<Item Name="Tests" Type="Folder">
