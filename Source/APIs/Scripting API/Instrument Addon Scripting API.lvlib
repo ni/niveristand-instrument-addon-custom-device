@@ -4,25 +4,7 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">402685952</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
-	<Item Name="Channels" Type="Folder">
-		<Property Name="NI.SortType" Type="Int">3</Property>
-		<Item Name="Create Global MetaData Channel.vi" Type="VI" URL="../Channels/Create Global MetaData Channel.vi"/>
-		<Item Name="Create Global MetaData - Single Channel - Enumerated List.vi" Type="VI" URL="../Channels/Create Global MetaData - Single Channel - Enumerated List.vi"/>
-		<Item Name="Create Global MetaData - Single Channel - Format.vi" Type="VI" URL="../Channels/Create Global MetaData - Single Channel - Format.vi"/>
-		<Item Name="Create Global MetaData - Single Channel - Type Cast.vi" Type="VI" URL="../Channels/Create Global MetaData - Single Channel - Type Cast.vi"/>
-		<Item Name="Create Global MetaData - Array - Enumerated List.vi" Type="VI" URL="../Channels/Create Global MetaData - Array - Enumerated List.vi"/>
-		<Item Name="Create Global MetaData - Array - Format.vi" Type="VI" URL="../Channels/Create Global MetaData - Array - Format.vi"/>
-		<Item Name="Create Global MetaData - Array - Type Cast.vi" Type="VI" URL="../Channels/Create Global MetaData - Array - Type Cast.vi"/>
-		<Item Name="Create MetaData Channel.vi" Type="VI" URL="../Channels/Create MetaData Channel.vi"/>
-		<Item Name="Create MetaData - Single Channel - Enumerated List.vi" Type="VI" URL="../Channels/Create MetaData - Single Channel - Enumerated List.vi"/>
-		<Item Name="Create MetaData - Single Channel - Format.vi" Type="VI" URL="../Channels/Create MetaData - Single Channel - Format.vi"/>
-		<Item Name="Create MetaData - Single Channel - Type Cast.vi" Type="VI" URL="../Channels/Create MetaData - Single Channel - Type Cast.vi"/>
-		<Item Name="Create MetaData - Array - Enumerated List.vi" Type="VI" URL="../Channels/Create MetaData - Array - Enumerated List.vi"/>
-		<Item Name="Create MetaData - Array - Format.vi" Type="VI" URL="../Channels/Create MetaData - Array - Format.vi"/>
-		<Item Name="Create MetaData - Array - Type Cast.vi" Type="VI" URL="../Channels/Create MetaData - Array - Type Cast.vi"/>
-		<Item Name="Create Data Channel.vi" Type="VI" URL="../Channels/Create Data Channel.vi"/>
-		<Item Name="Create Data - Single Channel - Enumerated List.vi" Type="VI" URL="../Channels/Create Data - Single Channel - Enumerated List.vi"/>
-	</Item>
+	<Property Name="NI.SortType" Type="Int">3</Property>
 	<Item Name="Custom Device" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Item Name="Create Instrument Addon.vi" Type="VI" URL="../Custom Device/Create Instrument Addon.vi"/>
@@ -36,6 +18,32 @@
 		<Item Name="Set Protocol.vi" Type="VI" URL="../Custom Device/Set Protocol.vi"/>
 		<Item Name="Get PCL Decimation.vi" Type="VI" URL="../Custom Device/Get PCL Decimation.vi"/>
 		<Item Name="Set PCL Decimation.vi" Type="VI" URL="../Custom Device/Set PCL Decimation.vi"/>
+	</Item>
+	<Item Name="Channels" Type="Folder">
+		<Property Name="NI.SortType" Type="Int">3</Property>
+		<Item Name="Create Global MetaData Channel.vi" Type="VI" URL="../Channels/Create Global MetaData Channel.vi"/>
+		<Item Name="Create Global MetaData Channel - Single Channel - Enumerated List.vi" Type="VI" URL="../Channels/Create Global MetaData Channel - Single Channel - Enumerated List.vi"/>
+		<Item Name="Create Global MetaData Channel - Single Channel - Format.vi" Type="VI" URL="../Channels/Create Global MetaData Channel - Single Channel - Format.vi"/>
+		<Item Name="Create Global MetaData Channel - Single Channel - Type Cast.vi" Type="VI" URL="../Channels/Create Global MetaData Channel - Single Channel - Type Cast.vi"/>
+		<Item Name="Create Global MetaData Channel - Array - Enumerated List.vi" Type="VI" URL="../Channels/Create Global MetaData Channel - Array - Enumerated List.vi"/>
+		<Item Name="Create Global MetaData Channel - Array - Format.vi" Type="VI" URL="../Channels/Create Global MetaData Channel - Array - Format.vi"/>
+		<Item Name="Create Global MetaData Channel - Array - Type Cast.vi" Type="VI" URL="../Channels/Create Global MetaData Channel - Array - Type Cast.vi"/>
+		<Item Name="Create MetaData Channel.vi" Type="VI" URL="../Channels/Create MetaData Channel.vi"/>
+		<Item Name="Create MetaData Channel - Single Channel - Enumerated List.vi" Type="VI" URL="../Channels/Create MetaData Channel - Single Channel - Enumerated List.vi"/>
+		<Item Name="Create MetaData Channel - Single Channel - Format.vi" Type="VI" URL="../Channels/Create MetaData Channel - Single Channel - Format.vi"/>
+		<Item Name="Create MetaData Channel - Single Channel - Type Cast.vi" Type="VI" URL="../Channels/Create MetaData Channel - Single Channel - Type Cast.vi"/>
+		<Item Name="Create MetaData Channel - Array - Enumerated List.vi" Type="VI" URL="../Channels/Create MetaData Channel - Array - Enumerated List.vi"/>
+		<Item Name="Create MetaData Channel - Array - Format.vi" Type="VI" URL="../Channels/Create MetaData Channel - Array - Format.vi"/>
+		<Item Name="Create MetaData Channel - Array - Type Cast.vi" Type="VI" URL="../Channels/Create MetaData Channel - Array - Type Cast.vi"/>
+		<Item Name="Create Data Channel.vi" Type="VI" URL="../Channels/Create Data Channel.vi"/>
+		<Item Name="Create Data Channel - Single Channel - Enumerated List.vi" Type="VI" URL="../Channels/Create Data Channel - Single Channel - Enumerated List.vi"/>
+		<Item Name="Create Data Channel - Single Channel - Format.vi" Type="VI" URL="../Channels/Create Data Channel - Single Channel - Format.vi"/>
+		<Item Name="Create Data Channel - Single Channel - Type Cast.vi" Type="VI" URL="../Channels/Create Data Channel - Single Channel - Type Cast.vi"/>
+		<Item Name="Create Data Channel - Single Channel - Comparison.vi" Type="VI" URL="../Channels/Create Data Channel - Single Channel - Comparison.vi"/>
+		<Item Name="Create Data Channel - Array - Enumerated List.vi" Type="VI" URL="../Channels/Create Data Channel - Array - Enumerated List.vi"/>
+		<Item Name="Create Data Channel - Array - Format.vi" Type="VI" URL="../Channels/Create Data Channel - Array - Format.vi"/>
+		<Item Name="Create Data Channel - Array - Type Cast.vi" Type="VI" URL="../Channels/Create Data Channel - Array - Type Cast.vi"/>
+		<Item Name="Create Data Channel - Array - Comparison.vi" Type="VI" URL="../Channels/Create Data Channel - Array - Comparison.vi"/>
 	</Item>
 	<Item Name="Messages" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">3</Property>
@@ -54,9 +62,10 @@
 		<Item Name="RS-xxx Factory.vi" Type="VI" URL="../Protocol Factories/RS-xxx Factory.vi"/>
 		<Item Name="AK RS-xxx Factory.vi" Type="VI" URL="../Protocol Factories/AK RS-xxx Factory.vi"/>
 		<Item Name="RS-xxx to GPIB Factory.vi" Type="VI" URL="../Protocol Factories/RS-xxx to GPIB Factory.vi"/>
+		<Item Name="VISA Factory.vi" Type="VI" URL="../Protocol Factories/VISA Factory.vi"/>
 		<Item Name="TCP Factory.vi" Type="VI" URL="../Protocol Factories/TCP Factory.vi"/>
 		<Item Name="AK TCP Factory.vi" Type="VI" URL="../Protocol Factories/AK TCP Factory.vi"/>
 		<Item Name="UDP Factory.vi" Type="VI" URL="../Protocol Factories/UDP Factory.vi"/>
-		<Item Name="VISA Factory.vi" Type="VI" URL="../Protocol Factories/VISA Factory.vi"/>
 	</Item>
+	<Item Name="Palettes" Type="Folder"/>
 </Library>

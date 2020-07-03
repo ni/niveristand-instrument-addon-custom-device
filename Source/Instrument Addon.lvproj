@@ -104,7 +104,10 @@
 				<Item Name="Instrument Addon Host API Tests.lvclass" Type="LVClass" URL="../Tests/System Tests/Host API Tests/Instrument Addon Host API Tests.lvclass"/>
 			</Item>
 			<Item Name="Unit" Type="Folder">
-				<Item Name="Instrument Addon Unit Tests.lvclass" Type="LVClass" URL="../Tests/Unit Tests/Instrument Addon Unit Tests.lvclass"/>
+				<Item Name="Instrument Addon" Type="Folder">
+					<Item Name="Instrument Addon Unit Tests.lvclass" Type="LVClass" URL="../Tests/Unit Tests/Instrument Addon/Instrument Addon Unit Tests.lvclass"/>
+				</Item>
+				<Item Name="Scripting API" Type="Folder"/>
 			</Item>
 		</Item>
 		<Item Name="UIs" Type="Folder">
