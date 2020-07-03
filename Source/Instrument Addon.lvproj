@@ -107,7 +107,13 @@
 				<Item Name="Instrument Addon" Type="Folder">
 					<Item Name="Instrument Addon Unit Tests.lvclass" Type="LVClass" URL="../Tests/Unit Tests/Instrument Addon/Instrument Addon Unit Tests.lvclass"/>
 				</Item>
-				<Item Name="Scripting API" Type="Folder"/>
+				<Item Name="Scripting API" Type="Folder">
+					<Property Name="NI.SortType" Type="Int">3</Property>
+					<Item Name="Instrument Addon Scripting API Custom Device Unit Tests.lvclass" Type="LVClass" URL="../Tests/Unit Tests/Scripting API/Instrument Addon Scripting API Custom Device Unit Tests/Instrument Addon Scripting API Custom Device Unit Tests.lvclass"/>
+					<Item Name="Instrument Addon Scripting API Channels Unit Tests.lvclass" Type="LVClass" URL="../Tests/Unit Tests/Scripting API/Instrument Addon Scripting API Channels Unit Tests/Instrument Addon Scripting API Channels Unit Tests.lvclass"/>
+					<Item Name="Instrument Addon Scripting API Messages Unit Tests.lvclass" Type="LVClass" URL="../Tests/Unit Tests/Scripting API/Instrument Addon Scripting API Messages Unit Tests/Instrument Addon Scripting API Messages Unit Tests.lvclass"/>
+					<Item Name="Instrument Addon Scripting API Protocol Factories Unit Tests.lvclass" Type="LVClass" URL="../Tests/Unit Tests/Scripting API/Instrument Addon Scripting API Protocol Factories Unit Tests/Instrument Addon Scripting API Protocol Factories Unit Tests.lvclass"/>
+				</Item>
 			</Item>
 		</Item>
 		<Item Name="UIs" Type="Folder">
@@ -899,6 +905,42 @@
 				<Property Name="TgtF_productName" Type="Str">Host API</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{1FE83921-0070-47B9-B2B7-B6CCC625D14B}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">Instrument Host Automation API.lvlibp</Property>
+			</Item>
+			<Item Name="Scripting API" Type="Source Distribution">
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{B8218F74-4A0B-4125-B438-9C722D5E8CBC}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Scripting API</Property>
+				<Property Name="Bld_excludedDirectory[0]" Type="Path">vi.lib</Property>
+				<Property Name="Bld_excludedDirectory[0].pathType" Type="Str">relativeToAppDir</Property>
+				<Property Name="Bld_excludedDirectory[1]" Type="Path">resource/objmgr</Property>
+				<Property Name="Bld_excludedDirectory[1].pathType" Type="Str">relativeToAppDir</Property>
+				<Property Name="Bld_excludedDirectory[2]" Type="Path">/C/ProgramData/National Instruments/InstCache/18.0</Property>
+				<Property Name="Bld_excludedDirectory[3]" Type="Path">/C/Users/nitest/Documents/LabVIEW Data/2018(32-bit)/ExtraVILib</Property>
+				<Property Name="Bld_excludedDirectory[4]" Type="Path">instr.lib</Property>
+				<Property Name="Bld_excludedDirectory[4].pathType" Type="Str">relativeToAppDir</Property>
+				<Property Name="Bld_excludedDirectory[5]" Type="Path">user.lib</Property>
+				<Property Name="Bld_excludedDirectory[5].pathType" Type="Str">relativeToAppDir</Property>
+				<Property Name="Bld_excludedDirectoryCount" Type="Int">6</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../Built/Scripting API</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{70757631-4EA5-4C22-A187-59BB2EDF6D85}</Property>
+				<Property Name="Bld_removeVIObj" Type="Int">1</Property>
+				<Property Name="Bld_version.build" Type="Int">1</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
+				<Property Name="Destination[0].path" Type="Path">../Built/Scripting API</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../Built/Scripting API/data</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Source[0].itemID" Type="Str">{753307B5-A3F2-4715-93F8-5012F5BE6853}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/APIs/Instrument Addon Scripting API.lvlib</Property>
+				<Property Name="Source[1].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[1].type" Type="Str">Library</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
 			</Item>
 			<Item Name="Workspace Object" Type="Source Distribution">
 				<Property Name="Bld_buildCacheID" Type="Str">{8C2E298A-2CF4-4CC2-8B89-2C7487E002E8}</Property>
