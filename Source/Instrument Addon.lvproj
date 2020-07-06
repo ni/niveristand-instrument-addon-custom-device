@@ -112,7 +112,6 @@
 					<Item Name="Instrument Addon Scripting API Custom Device Unit Tests.lvclass" Type="LVClass" URL="../Tests/Unit Tests/Scripting API/Instrument Addon Scripting API Custom Device Unit Tests/Instrument Addon Scripting API Custom Device Unit Tests.lvclass"/>
 					<Item Name="Instrument Addon Scripting API Channels Unit Tests.lvclass" Type="LVClass" URL="../Tests/Unit Tests/Scripting API/Instrument Addon Scripting API Channels Unit Tests/Instrument Addon Scripting API Channels Unit Tests.lvclass"/>
 					<Item Name="Instrument Addon Scripting API Messages Unit Tests.lvclass" Type="LVClass" URL="../Tests/Unit Tests/Scripting API/Instrument Addon Scripting API Messages Unit Tests/Instrument Addon Scripting API Messages Unit Tests.lvclass"/>
-					<Item Name="Instrument Addon Scripting API Protocol Factories Unit Tests.lvclass" Type="LVClass" URL="../Tests/Unit Tests/Scripting API/Instrument Addon Scripting API Protocol Factories Unit Tests/Instrument Addon Scripting API Protocol Factories Unit Tests.lvclass"/>
 				</Item>
 			</Item>
 		</Item>

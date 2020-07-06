@@ -14,7 +14,6 @@
 		<Item Name="Get Instrument Addon Name.vi" Type="VI" URL="../Custom Device/Get Instrument Addon Name.vi"/>
 		<Item Name="Set Instrument Addon Name.vi" Type="VI" URL="../Custom Device/Set Instrument Addon Name.vi"/>
 		<Item Name="Get Protocol.vi" Type="VI" URL="../Custom Device/Get Protocol.vi"/>
-		<Item Name="Get Protocol Type.vi" Type="VI" URL="../Custom Device/Get Protocol Type.vi"/>
 		<Item Name="Set Protocol.vi" Type="VI" URL="../Custom Device/Set Protocol.vi"/>
 		<Item Name="Get PCL Decimation.vi" Type="VI" URL="../Custom Device/Get PCL Decimation.vi"/>
 		<Item Name="Set PCL Decimation.vi" Type="VI" URL="../Custom Device/Set PCL Decimation.vi"/>
@@ -56,16 +55,6 @@
 		<Item Name="Create Message - Trigger Only.vi" Type="VI" URL="../Messages/Create Message - Trigger Only.vi"/>
 		<Item Name="Create Message - Periodic &amp; Trigger.vi" Type="VI" URL="../Messages/Create Message - Periodic &amp; Trigger.vi"/>
 		<Item Name="Create Message - Value Change &amp; Trigger.vi" Type="VI" URL="../Messages/Create Message - Value Change &amp; Trigger.vi"/>
-	</Item>
-	<Item Name="Protocol Factories" Type="Folder">
-		<Property Name="NI.SortType" Type="Int">3</Property>
-		<Item Name="RS-xxx Factory.vi" Type="VI" URL="../Protocol Factories/RS-xxx Factory.vi"/>
-		<Item Name="AK RS-xxx Factory.vi" Type="VI" URL="../Protocol Factories/AK RS-xxx Factory.vi"/>
-		<Item Name="RS-xxx to GPIB Factory.vi" Type="VI" URL="../Protocol Factories/RS-xxx to GPIB Factory.vi"/>
-		<Item Name="VISA Factory.vi" Type="VI" URL="../Protocol Factories/VISA Factory.vi"/>
-		<Item Name="TCP Factory.vi" Type="VI" URL="../Protocol Factories/TCP Factory.vi"/>
-		<Item Name="AK TCP Factory.vi" Type="VI" URL="../Protocol Factories/AK TCP Factory.vi"/>
-		<Item Name="UDP Factory.vi" Type="VI" URL="../Protocol Factories/UDP Factory.vi"/>
 	</Item>
 	<Item Name="Palettes" Type="Folder"/>
 </Library>
