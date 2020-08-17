@@ -35,11 +35,21 @@
 			</Item>
 			<Item Name="Support Libraries" Type="Folder">
 				<Item Name="Protections.lvlibp" Type="LVLibp" URL="../Addon/Support Libraries/Protections.lvlibp">
+					<Item Name="SubVIs" Type="Folder">
+						<Item Name="Get Protection List.vi" Type="VI" URL="../Addon/Support Libraries/Protections.lvlibp/SubVIs/Get Protection List.vi"/>
+						<Item Name="Lookup Base Protection Class.vi" Type="VI" URL="../Addon/Support Libraries/Protections.lvlibp/SubVIs/Lookup Base Protection Class.vi"/>
+					</Item>
+					<Item Name="Types" Type="Folder">
+						<Item Name="Protection.ctl" Type="VI" URL="../Addon/Support Libraries/Protections.lvlibp/Types/Protection.ctl"/>
+					</Item>
 					<Item Name="Checksum U8.lvclass" Type="LVClass" URL="../Addon/Support Libraries/Protections.lvlibp/Checksum U8/Checksum U8.lvclass"/>
 					<Item Name="Checksum U16.lvclass" Type="LVClass" URL="../Addon/Support Libraries/Protections.lvlibp/Checksum U16/Checksum U16.lvclass"/>
 					<Item Name="Checksum U32.lvclass" Type="LVClass" URL="../Addon/Support Libraries/Protections.lvlibp/Checksum U32/Checksum U32.lvclass"/>
 					<Item Name="CRC-32.lvclass" Type="LVClass" URL="../Addon/Support Libraries/Protections.lvlibp/CRC-32/CRC-32.lvclass"/>
 					<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="../Addon/Support Libraries/Protections.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Error Cluster From Error Code.vi"/>
+					<Item Name="Get File Extension.vi" Type="VI" URL="../Addon/Support Libraries/Protections.lvlibp/1abvi3w/vi.lib/Utility/libraryn.llb/Get File Extension.vi"/>
+					<Item Name="Get LV Class Default Value.vi" Type="VI" URL="../Addon/Support Libraries/Protections.lvlibp/1abvi3w/vi.lib/Utility/LVClass/Get LV Class Default Value.vi"/>
+					<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="../Addon/Support Libraries/Protections.lvlibp/1abvi3w/vi.lib/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 					<Item Name="Protection.lvclass" Type="LVClass" URL="../Addon/Support Libraries/Protections.lvlibp/Parent Protection/Protection.lvclass"/>
 				</Item>
 				<Item Name="Protocols.lvlibp" Type="LVLibp" URL="../Addon/Support Libraries/Protocols.lvlibp">
@@ -50,6 +60,10 @@
 						<Item Name="Format AK Response.vi" Type="VI" URL="../Addon/Support Libraries/Protocols.lvlibp/AK/Format AK Response.vi"/>
 					</Item>
 					<Item Name="Protocol Parent" Type="Folder">
+						<Item Name="SubVIs" Type="Folder">
+							<Item Name="Get Protocol List.vi" Type="VI" URL="../Addon/Support Libraries/Protocols.lvlibp/Protocol Parent/SubVIs/Get Protocol List.vi"/>
+							<Item Name="Lookup Base Protocol Class and Info.vi" Type="VI" URL="../Addon/Support Libraries/Protocols.lvlibp/Protocol Parent/SubVIs/Lookup Base Protocol Class and Info.vi"/>
+						</Item>
 						<Item Name="Protocol Parent.lvclass" Type="LVClass" URL="../Addon/Support Libraries/Protocols.lvlibp/Protocol Parent/Protocol Parent.lvclass"/>
 					</Item>
 					<Item Name="RS-xxx" Type="Folder">
@@ -69,7 +83,10 @@
 					</Item>
 					<Item Name="Clear Errors.vi" Type="VI" URL="../Addon/Support Libraries/Protocols.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Clear Errors.vi"/>
 					<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="../Addon/Support Libraries/Protocols.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Error Cluster From Error Code.vi"/>
+					<Item Name="Get File Extension.vi" Type="VI" URL="../Addon/Support Libraries/Protocols.lvlibp/1abvi3w/vi.lib/Utility/libraryn.llb/Get File Extension.vi"/>
+					<Item Name="Get LV Class Default Value.vi" Type="VI" URL="../Addon/Support Libraries/Protocols.lvlibp/1abvi3w/vi.lib/Utility/LVClass/Get LV Class Default Value.vi"/>
 					<Item Name="GPIB Status Boolean Array.ctl" Type="VI" URL="../Addon/Support Libraries/Protocols.lvlibp/1abvi3w/vi.lib/Instr/_visa.llb/GPIB Status Boolean Array.ctl"/>
+					<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="../Addon/Support Libraries/Protocols.lvlibp/1abvi3w/vi.lib/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 					<Item Name="nirviCommon.vi" Type="VI" URL="../Addon/Support Libraries/Protocols.lvlibp/1abvi3w/vi.lib/express/rvi/timingcommon/nirviCommon.vi"/>
 					<Item Name="Space Constant.vi" Type="VI" URL="../Addon/Support Libraries/Protocols.lvlibp/1abvi3w/vi.lib/dlg_ctls.llb/Space Constant.vi"/>
 					<Item Name="VISA Configure Serial Port (Instr).vi" Type="VI" URL="../Addon/Support Libraries/Protocols.lvlibp/1abvi3w/vi.lib/Instr/_visa.llb/VISA Configure Serial Port (Instr).vi"/>
@@ -125,15 +142,23 @@
 			<Item Name="LLB Pre-Build CHM Build.vi" Type="VI" URL="../Utilities/LLB Pre-Build CHM Build.vi"/>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
-			<Item Name="instr.lib" Type="Folder">
-				<Item Name="NationalInstruments.VeriStand.SystemDefinitionAPI.dll" Type="Document" URL="/&lt;instrlib&gt;/niSync/NationalInstruments.VeriStand.SystemDefinitionAPI.dll"/>
-			</Item>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Append Path to Root if Relative - Absolute or Relative Path Array__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Append Path to Root if Relative - Absolute or Relative Path Array__ogtk.vi"/>
+				<Item Name="Append Path to Root if Relative - Array__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Append Path to Root if Relative - Array__ogtk.vi"/>
+				<Item Name="Append Path to Root if Relative - Root Path Array__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Append Path to Root if Relative - Root Path Array__ogtk.vi"/>
 				<Item Name="Append Path to Root if Relative - Scalar__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Append Path to Root if Relative - Scalar__ogtk.vi"/>
 				<Item Name="Append Path to Root if Relative__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Append Path to Root if Relative__ogtk.vi"/>
 				<Item Name="Build Error Cluster__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/error/error.llb/Build Error Cluster__ogtk.vi"/>
+				<Item Name="Build Path - File Names and Paths Arrays - path__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Build Path - File Names and Paths Arrays - path__ogtk.vi"/>
+				<Item Name="Build Path - File Names and Paths Arrays__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Build Path - File Names and Paths Arrays__ogtk.vi"/>
+				<Item Name="Build Path - File Names Array - path__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Build Path - File Names Array - path__ogtk.vi"/>
+				<Item Name="Build Path - File Names Array__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Build Path - File Names Array__ogtk.vi"/>
+				<Item Name="Build Path - Traditional - path__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Build Path - Traditional - path__ogtk.vi"/>
+				<Item Name="Build Path - Traditional__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Build Path - Traditional__ogtk.vi"/>
+				<Item Name="Build Path__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Build Path__ogtk.vi"/>
+				<Item Name="Create Dir if Non-Existant__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Create Dir if Non-Existant__ogtk.vi"/>
 				<Item Name="Current VIs Parents Ref__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/appcontrol/appcontrol.llb/Current VIs Parents Ref__ogtk.vi"/>
+				<Item Name="File Exists - Array__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/File Exists - Array__ogtk.vi"/>
 				<Item Name="File Exists - Scalar__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/File Exists - Scalar__ogtk.vi"/>
 				<Item Name="File Exists__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/File Exists__ogtk.vi"/>
 				<Item Name="Get Header from TD__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Header from TD__ogtk.vi"/>
@@ -160,10 +185,15 @@
 				<Item Name="Remove Duplicates from 1D Array (U64)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Remove Duplicates from 1D Array (U64)__ogtk.vi"/>
 				<Item Name="Remove Duplicates from 1D Array (Variant)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Remove Duplicates from 1D Array (Variant)__ogtk.vi"/>
 				<Item Name="Remove Duplicates from 1D Array__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Remove Duplicates from 1D Array__ogtk.vi"/>
+				<Item Name="Strip Path - Arrays__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Strip Path - Arrays__ogtk.vi"/>
+				<Item Name="Strip Path - Traditional__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Strip Path - Traditional__ogtk.vi"/>
+				<Item Name="Strip Path__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Strip Path__ogtk.vi"/>
+				<Item Name="Temporary Directory__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Temporary Directory__ogtk.vi"/>
 				<Item Name="Temporary Filename__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Temporary Filename__ogtk.vi"/>
 				<Item Name="Type Descriptor Enumeration__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Type Descriptor Enumeration__ogtk.ctl"/>
 				<Item Name="Type Descriptor Header__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Type Descriptor Header__ogtk.ctl"/>
 				<Item Name="Type Descriptor__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Type Descriptor__ogtk.ctl"/>
+				<Item Name="Valid Path - Traditional__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Valid Path - Traditional__ogtk.vi"/>
 				<Item Name="Variant to Header Info__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Variant to Header Info__ogtk.vi"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
@@ -228,8 +258,8 @@
 				<Item Name="Convert EOLs__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Convert EOLs__ogtk__jki_vi_tester.vi"/>
 				<Item Name="Convert property node font to graphics font.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Convert property node font to graphics font.vi"/>
 				<Item Name="Create File with Incrementing Suffix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Create File with Incrementing Suffix.vi"/>
-				<Item Name="Custom Device API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device API/Custom Device API.lvlib"/>
-				<Item Name="Custom Device Utility Library.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device Tools/Custom Device Utility Library/Custom Device Utility Library.lvlib"/>
+				<Item Name="Custom Device API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI Veristand/Custom Device API/Custom Device API.lvlib"/>
+				<Item Name="Custom Device Utility Library.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI Veristand/Custom Device Tools/Custom Device Utility Library/Custom Device Utility Library.lvlib"/>
 				<Item Name="Data Access Engine.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_Data Access Engine/Data Access Engine.lvlib"/>
 				<Item Name="Data Access System Explorer.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_Data Access System Explorer/Data Access System Explorer.lvlib"/>
 				<Item Name="Delete Elements from 1D Array (Boolean)__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Delete Elements from 1D Array (Boolean)__ogtk__jki_vi_tester.vi"/>
@@ -338,7 +368,6 @@
 				<Item Name="Get File System Separator.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/sysinfo.llb/Get File System Separator.vi"/>
 				<Item Name="Get Header from TD__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Get Header from TD__ogtk__jki_vi_tester.vi"/>
 				<Item Name="Get Last PString__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Get Last PString__ogtk__jki_vi_tester.vi"/>
-				<Item Name="Get LV Class Default Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Default Value.vi"/>
 				<Item Name="Get LV Class Path.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Path.vi"/>
 				<Item Name="Get PString__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Get PString__ogtk__jki_vi_tester.vi"/>
 				<Item Name="Get Refnum Type Enum from Data__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Get Refnum Type Enum from Data__ogtk__jki_vi_tester.vi"/>
@@ -382,11 +411,11 @@
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 				<Item Name="NI_SystemLogging.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/SystemLogging/NI_SystemLogging.lvlib"/>
 				<Item Name="NI_VS UI Single Node Browser.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI Veristand/UI Controls/Single Node Browser/NI_VS UI Single Node Browser.lvlib"/>
-				<Item Name="NI_VS Workspace ExecutionAPI.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Execution/Workspace/NI_VS Workspace ExecutionAPI.lvlib"/>
+				<Item Name="NI_VS Workspace ExecutionAPI.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI Veristand/Execution/Workspace/NI_VS Workspace ExecutionAPI.lvlib"/>
 				<Item Name="NI_XML.lvlib" Type="Library" URL="/&lt;vilib&gt;/xml/NI_XML.lvlib"/>
 				<Item Name="nisyscfg.lvlib" Type="Library" URL="/&lt;vilib&gt;/nisyscfg/nisyscfg.lvlib"/>
 				<Item Name="NIVeriStand_DataServices.dll" Type="Document" URL="/&lt;vilib&gt;/NI Veristand/Custom Device API/Data/NIVeriStand_DataServices.dll"/>
-				<Item Name="NIVS Hardware Discovery.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NI VeriStand Hardware Resource Discovery/NIVS Hardware Discovery.lvlib"/>
+				<Item Name="NIVS Hardware Discovery.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/Hardware Discovery/NIVS Hardware Discovery.lvlib"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
 				<Item Name="PackedMatrixToFlatVector.vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/Execution/Shared/PackedMatrixToFlatVector.vi"/>
 				<Item Name="Random Number - Within Range__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Random Number - Within Range__ogtk__jki_vi_tester.vi"/>
@@ -569,7 +598,9 @@
 			<Item Name="DOMUserDefRef.dll" Type="Document" URL="DOMUserDefRef.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Get Protocol List.vi" Type="VI" URL="../Addon/Support Libraries/Protocols.lvlibp/niveristand-instrument-addon-custom-device/Source/Addon/Addon Shared/SubVIs/Get Protocol List.vi"/>
 			<Item Name="Instrument System Definition API.lvlib" Type="Library" URL="../APIs/System Definition API/Instrument System Definition API.lvlib"/>
+			<Item Name="Lookup Base Protocol Class and Info.vi" Type="VI" URL="../Addon/Support Libraries/Protocols.lvlibp/niveristand-instrument-addon-custom-device/Source/Addon/Addon Shared/SubVIs/Lookup Base Protocol Class and Info.vi"/>
 			<Item Name="LV Config Read String.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read String.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
@@ -591,6 +622,9 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="NationalInstruments.VeriStand.XMLReader" Type="Document" URL="NationalInstruments.VeriStand.XMLReader">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="nisyscfg.dll" Type="Document" URL="nisyscfg.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="systemLogging.dll" Type="Document" URL="systemLogging.dll">
@@ -1187,11 +1221,21 @@
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
 		<Item Name="Instrument Addon Engine.lvlib" Type="Library" URL="../Addon/Addon Engine/Instrument Addon Engine.lvlib"/>
 		<Item Name="Protections.lvlibp" Type="LVLibp" URL="../Addon/Support Libraries/Protections.lvlibp">
+			<Item Name="SubVIs" Type="Folder">
+				<Item Name="Get Protection List.vi" Type="VI" URL="../Addon/Support Libraries/Protections.lvlibp/SubVIs/Get Protection List.vi"/>
+				<Item Name="Lookup Base Protection Class.vi" Type="VI" URL="../Addon/Support Libraries/Protections.lvlibp/SubVIs/Lookup Base Protection Class.vi"/>
+			</Item>
+			<Item Name="Types" Type="Folder">
+				<Item Name="Protection.ctl" Type="VI" URL="../Addon/Support Libraries/Protections.lvlibp/Types/Protection.ctl"/>
+			</Item>
 			<Item Name="Checksum U8.lvclass" Type="LVClass" URL="../Addon/Support Libraries/Protections.lvlibp/Checksum U8/Checksum U8.lvclass"/>
 			<Item Name="Checksum U16.lvclass" Type="LVClass" URL="../Addon/Support Libraries/Protections.lvlibp/Checksum U16/Checksum U16.lvclass"/>
 			<Item Name="Checksum U32.lvclass" Type="LVClass" URL="../Addon/Support Libraries/Protections.lvlibp/Checksum U32/Checksum U32.lvclass"/>
 			<Item Name="CRC-32.lvclass" Type="LVClass" URL="../Addon/Support Libraries/Protections.lvlibp/CRC-32/CRC-32.lvclass"/>
 			<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="../Addon/Support Libraries/Protections.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Error Cluster From Error Code.vi"/>
+			<Item Name="Get File Extension.vi" Type="VI" URL="../Addon/Support Libraries/Protections.lvlibp/1abvi3w/vi.lib/Utility/libraryn.llb/Get File Extension.vi"/>
+			<Item Name="Get LV Class Default Value.vi" Type="VI" URL="../Addon/Support Libraries/Protections.lvlibp/1abvi3w/vi.lib/Utility/LVClass/Get LV Class Default Value.vi"/>
+			<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="../Addon/Support Libraries/Protections.lvlibp/1abvi3w/vi.lib/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 			<Item Name="Protection.lvclass" Type="LVClass" URL="../Addon/Support Libraries/Protections.lvlibp/Parent Protection/Protection.lvclass"/>
 		</Item>
 		<Item Name="Protocols.lvlibp" Type="LVLibp" URL="../Addon/Support Libraries/Protocols.lvlibp">
@@ -1202,6 +1246,10 @@
 				<Item Name="Format AK Response.vi" Type="VI" URL="../Addon/Support Libraries/Protocols.lvlibp/AK/Format AK Response.vi"/>
 			</Item>
 			<Item Name="Protocol Parent" Type="Folder">
+				<Item Name="SubVIs" Type="Folder">
+					<Item Name="Get Protocol List.vi" Type="VI" URL="../Addon/Support Libraries/Protocols.lvlibp/Protocol Parent/SubVIs/Get Protocol List.vi"/>
+					<Item Name="Lookup Base Protocol Class and Info.vi" Type="VI" URL="../Addon/Support Libraries/Protocols.lvlibp/Protocol Parent/SubVIs/Lookup Base Protocol Class and Info.vi"/>
+				</Item>
 				<Item Name="Protocol Parent.lvclass" Type="LVClass" URL="../Addon/Support Libraries/Protocols.lvlibp/Protocol Parent/Protocol Parent.lvclass"/>
 			</Item>
 			<Item Name="RS-xxx" Type="Folder">
@@ -1221,33 +1269,30 @@
 			</Item>
 			<Item Name="Clear Errors.vi" Type="VI" URL="../Addon/Support Libraries/Protocols.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Clear Errors.vi"/>
 			<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="../Addon/Support Libraries/Protocols.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Error Cluster From Error Code.vi"/>
+			<Item Name="Get File Extension.vi" Type="VI" URL="../Addon/Support Libraries/Protocols.lvlibp/1abvi3w/vi.lib/Utility/libraryn.llb/Get File Extension.vi"/>
+			<Item Name="Get LV Class Default Value.vi" Type="VI" URL="../Addon/Support Libraries/Protocols.lvlibp/1abvi3w/vi.lib/Utility/LVClass/Get LV Class Default Value.vi"/>
 			<Item Name="GPIB Status Boolean Array.ctl" Type="VI" URL="../Addon/Support Libraries/Protocols.lvlibp/1abvi3w/vi.lib/Instr/_visa.llb/GPIB Status Boolean Array.ctl"/>
+			<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="../Addon/Support Libraries/Protocols.lvlibp/1abvi3w/vi.lib/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 			<Item Name="nirviCommon.vi" Type="VI" URL="../Addon/Support Libraries/Protocols.lvlibp/1abvi3w/vi.lib/express/rvi/timingcommon/nirviCommon.vi"/>
 			<Item Name="Space Constant.vi" Type="VI" URL="../Addon/Support Libraries/Protocols.lvlibp/1abvi3w/vi.lib/dlg_ctls.llb/Space Constant.vi"/>
 			<Item Name="VISA Configure Serial Port (Instr).vi" Type="VI" URL="../Addon/Support Libraries/Protocols.lvlibp/1abvi3w/vi.lib/Instr/_visa.llb/VISA Configure Serial Port (Instr).vi"/>
 			<Item Name="VISA Flush IO Buffer Mask.ctl" Type="VI" URL="../Addon/Support Libraries/Protocols.lvlibp/1abvi3w/vi.lib/Instr/_visa.llb/VISA Flush IO Buffer Mask.ctl"/>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
-			<Item Name="instr.lib" Type="Folder">
-				<Item Name="NationalInstruments.VeriStand.SystemDefinitionAPI.dll" Type="Document" URL="/&lt;instrlib&gt;/niSync/NationalInstruments.VeriStand.SystemDefinitionAPI.dll"/>
-			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Advanced System Definition.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NI VeriStand Advanced SysDef API/SysDef API/Advanced System Definition.lvlib"/>
 				<Item Name="AMC.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/AMC/AMC.lvlib"/>
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
-				<Item Name="Custom Device API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device API/Custom Device API.lvlib"/>
-				<Item Name="Custom Device Utility Library.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device Tools/Custom Device Utility Library/Custom Device Utility Library.lvlib"/>
+				<Item Name="Custom Device API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI Veristand/Custom Device API/Custom Device API.lvlib"/>
+				<Item Name="Custom Device Utility Library.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI Veristand/Custom Device Tools/Custom Device Utility Library/Custom Device Utility Library.lvlib"/>
 				<Item Name="Data Access Engine.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_Data Access Engine/Data Access Engine.lvlib"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="Error Code Database.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Code Database.vi"/>
 				<Item Name="Find Tag.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find Tag.vi"/>
-				<Item Name="Get File Extension.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Get File Extension.vi"/>
-				<Item Name="Get LV Class Default Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Default Value.vi"/>
 				<Item Name="NI STM.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/STM/NI STM.lvlib"/>
 				<Item Name="NI VeriStand Addon Network Comm Shared.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NI VeriStand Addon Network Comm/Shared/NI VeriStand Addon Network Comm Shared.lvlib"/>
 				<Item Name="NI VeriStand Addon Network Comm.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NI VeriStand Addon Network Comm/Engine/NI VeriStand Addon Network Comm.lvlib"/>
 				<Item Name="NI_FTP.lvlib" Type="Library" URL="/&lt;vilib&gt;/FTP/NI_FTP.lvlib"/>
-				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 				<Item Name="NI_SystemLogging.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/SystemLogging/NI_SystemLogging.lvlib"/>
 				<Item Name="NIVeriStand_DataServices.dll" Type="Document" URL="/&lt;vilib&gt;/NI Veristand/Custom Device API/Data/NIVeriStand_DataServices.dll"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
@@ -1457,11 +1502,21 @@
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
 		<Item Name="Instrument Addon Engine.lvlib" Type="Library" URL="../Addon/Addon Engine/Instrument Addon Engine.lvlib"/>
 		<Item Name="Protections.lvlibp" Type="LVLibp" URL="../Addon/Support Libraries/Protections.lvlibp">
+			<Item Name="SubVIs" Type="Folder">
+				<Item Name="Get Protection List.vi" Type="VI" URL="../Addon/Support Libraries/Protections.lvlibp/SubVIs/Get Protection List.vi"/>
+				<Item Name="Lookup Base Protection Class.vi" Type="VI" URL="../Addon/Support Libraries/Protections.lvlibp/SubVIs/Lookup Base Protection Class.vi"/>
+			</Item>
+			<Item Name="Types" Type="Folder">
+				<Item Name="Protection.ctl" Type="VI" URL="../Addon/Support Libraries/Protections.lvlibp/Types/Protection.ctl"/>
+			</Item>
 			<Item Name="Checksum U8.lvclass" Type="LVClass" URL="../Addon/Support Libraries/Protections.lvlibp/Checksum U8/Checksum U8.lvclass"/>
 			<Item Name="Checksum U16.lvclass" Type="LVClass" URL="../Addon/Support Libraries/Protections.lvlibp/Checksum U16/Checksum U16.lvclass"/>
 			<Item Name="Checksum U32.lvclass" Type="LVClass" URL="../Addon/Support Libraries/Protections.lvlibp/Checksum U32/Checksum U32.lvclass"/>
 			<Item Name="CRC-32.lvclass" Type="LVClass" URL="../Addon/Support Libraries/Protections.lvlibp/CRC-32/CRC-32.lvclass"/>
 			<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="../Addon/Support Libraries/Protections.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Error Cluster From Error Code.vi"/>
+			<Item Name="Get File Extension.vi" Type="VI" URL="../Addon/Support Libraries/Protections.lvlibp/1abvi3w/vi.lib/Utility/libraryn.llb/Get File Extension.vi"/>
+			<Item Name="Get LV Class Default Value.vi" Type="VI" URL="../Addon/Support Libraries/Protections.lvlibp/1abvi3w/vi.lib/Utility/LVClass/Get LV Class Default Value.vi"/>
+			<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="../Addon/Support Libraries/Protections.lvlibp/1abvi3w/vi.lib/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 			<Item Name="Protection.lvclass" Type="LVClass" URL="../Addon/Support Libraries/Protections.lvlibp/Parent Protection/Protection.lvclass"/>
 		</Item>
 		<Item Name="Protocols.lvlibp" Type="LVLibp" URL="../Addon/Support Libraries/Protocols.lvlibp">
@@ -1472,6 +1527,10 @@
 				<Item Name="Format AK Response.vi" Type="VI" URL="../Addon/Support Libraries/Protocols.lvlibp/AK/Format AK Response.vi"/>
 			</Item>
 			<Item Name="Protocol Parent" Type="Folder">
+				<Item Name="SubVIs" Type="Folder">
+					<Item Name="Get Protocol List.vi" Type="VI" URL="../Addon/Support Libraries/Protocols.lvlibp/Protocol Parent/SubVIs/Get Protocol List.vi"/>
+					<Item Name="Lookup Base Protocol Class and Info.vi" Type="VI" URL="../Addon/Support Libraries/Protocols.lvlibp/Protocol Parent/SubVIs/Lookup Base Protocol Class and Info.vi"/>
+				</Item>
 				<Item Name="Protocol Parent.lvclass" Type="LVClass" URL="../Addon/Support Libraries/Protocols.lvlibp/Protocol Parent/Protocol Parent.lvclass"/>
 			</Item>
 			<Item Name="RS-xxx" Type="Folder">
@@ -1491,33 +1550,30 @@
 			</Item>
 			<Item Name="Clear Errors.vi" Type="VI" URL="../Addon/Support Libraries/Protocols.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Clear Errors.vi"/>
 			<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="../Addon/Support Libraries/Protocols.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Error Cluster From Error Code.vi"/>
+			<Item Name="Get File Extension.vi" Type="VI" URL="../Addon/Support Libraries/Protocols.lvlibp/1abvi3w/vi.lib/Utility/libraryn.llb/Get File Extension.vi"/>
+			<Item Name="Get LV Class Default Value.vi" Type="VI" URL="../Addon/Support Libraries/Protocols.lvlibp/1abvi3w/vi.lib/Utility/LVClass/Get LV Class Default Value.vi"/>
 			<Item Name="GPIB Status Boolean Array.ctl" Type="VI" URL="../Addon/Support Libraries/Protocols.lvlibp/1abvi3w/vi.lib/Instr/_visa.llb/GPIB Status Boolean Array.ctl"/>
+			<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="../Addon/Support Libraries/Protocols.lvlibp/1abvi3w/vi.lib/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 			<Item Name="nirviCommon.vi" Type="VI" URL="../Addon/Support Libraries/Protocols.lvlibp/1abvi3w/vi.lib/express/rvi/timingcommon/nirviCommon.vi"/>
 			<Item Name="Space Constant.vi" Type="VI" URL="../Addon/Support Libraries/Protocols.lvlibp/1abvi3w/vi.lib/dlg_ctls.llb/Space Constant.vi"/>
 			<Item Name="VISA Configure Serial Port (Instr).vi" Type="VI" URL="../Addon/Support Libraries/Protocols.lvlibp/1abvi3w/vi.lib/Instr/_visa.llb/VISA Configure Serial Port (Instr).vi"/>
 			<Item Name="VISA Flush IO Buffer Mask.ctl" Type="VI" URL="../Addon/Support Libraries/Protocols.lvlibp/1abvi3w/vi.lib/Instr/_visa.llb/VISA Flush IO Buffer Mask.ctl"/>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
-			<Item Name="instr.lib" Type="Folder">
-				<Item Name="NationalInstruments.VeriStand.SystemDefinitionAPI.dll" Type="Document" URL="/&lt;instrlib&gt;/niSync/NationalInstruments.VeriStand.SystemDefinitionAPI.dll"/>
-			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Advanced System Definition.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NI VeriStand Advanced SysDef API/SysDef API/Advanced System Definition.lvlib"/>
 				<Item Name="AMC.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/AMC/AMC.lvlib"/>
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
-				<Item Name="Custom Device API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device API/Custom Device API.lvlib"/>
-				<Item Name="Custom Device Utility Library.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device Tools/Custom Device Utility Library/Custom Device Utility Library.lvlib"/>
+				<Item Name="Custom Device API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI Veristand/Custom Device API/Custom Device API.lvlib"/>
+				<Item Name="Custom Device Utility Library.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI Veristand/Custom Device Tools/Custom Device Utility Library/Custom Device Utility Library.lvlib"/>
 				<Item Name="Data Access Engine.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_Data Access Engine/Data Access Engine.lvlib"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="Error Code Database.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Code Database.vi"/>
 				<Item Name="Find Tag.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find Tag.vi"/>
-				<Item Name="Get File Extension.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Get File Extension.vi"/>
-				<Item Name="Get LV Class Default Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Default Value.vi"/>
 				<Item Name="NI STM.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/STM/NI STM.lvlib"/>
 				<Item Name="NI VeriStand Addon Network Comm Shared.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NI VeriStand Addon Network Comm/Shared/NI VeriStand Addon Network Comm Shared.lvlib"/>
 				<Item Name="NI VeriStand Addon Network Comm.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NI VeriStand Addon Network Comm/Engine/NI VeriStand Addon Network Comm.lvlib"/>
 				<Item Name="NI_FTP.lvlib" Type="Library" URL="/&lt;vilib&gt;/FTP/NI_FTP.lvlib"/>
-				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 				<Item Name="NI_SystemLogging.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/SystemLogging/NI_SystemLogging.lvlib"/>
 				<Item Name="NIVeristand_DataServices.dll" Type="Document" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device API/Data/NIVeristand_DataServices.dll"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
@@ -1653,11 +1709,21 @@
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
 		<Item Name="Instrument Addon Engine.lvlib" Type="Library" URL="../Addon/Addon Engine/Instrument Addon Engine.lvlib"/>
 		<Item Name="Protections.lvlibp" Type="LVLibp" URL="../Addon/Support Libraries/Protections.lvlibp">
+			<Item Name="SubVIs" Type="Folder">
+				<Item Name="Get Protection List.vi" Type="VI" URL="../Addon/Support Libraries/Protections.lvlibp/SubVIs/Get Protection List.vi"/>
+				<Item Name="Lookup Base Protection Class.vi" Type="VI" URL="../Addon/Support Libraries/Protections.lvlibp/SubVIs/Lookup Base Protection Class.vi"/>
+			</Item>
+			<Item Name="Types" Type="Folder">
+				<Item Name="Protection.ctl" Type="VI" URL="../Addon/Support Libraries/Protections.lvlibp/Types/Protection.ctl"/>
+			</Item>
 			<Item Name="Checksum U8.lvclass" Type="LVClass" URL="../Addon/Support Libraries/Protections.lvlibp/Checksum U8/Checksum U8.lvclass"/>
 			<Item Name="Checksum U16.lvclass" Type="LVClass" URL="../Addon/Support Libraries/Protections.lvlibp/Checksum U16/Checksum U16.lvclass"/>
 			<Item Name="Checksum U32.lvclass" Type="LVClass" URL="../Addon/Support Libraries/Protections.lvlibp/Checksum U32/Checksum U32.lvclass"/>
 			<Item Name="CRC-32.lvclass" Type="LVClass" URL="../Addon/Support Libraries/Protections.lvlibp/CRC-32/CRC-32.lvclass"/>
 			<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="../Addon/Support Libraries/Protections.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Error Cluster From Error Code.vi"/>
+			<Item Name="Get File Extension.vi" Type="VI" URL="../Addon/Support Libraries/Protections.lvlibp/1abvi3w/vi.lib/Utility/libraryn.llb/Get File Extension.vi"/>
+			<Item Name="Get LV Class Default Value.vi" Type="VI" URL="../Addon/Support Libraries/Protections.lvlibp/1abvi3w/vi.lib/Utility/LVClass/Get LV Class Default Value.vi"/>
+			<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="../Addon/Support Libraries/Protections.lvlibp/1abvi3w/vi.lib/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 			<Item Name="Protection.lvclass" Type="LVClass" URL="../Addon/Support Libraries/Protections.lvlibp/Parent Protection/Protection.lvclass"/>
 		</Item>
 		<Item Name="Protocols.lvlibp" Type="LVLibp" URL="../Addon/Support Libraries/Protocols.lvlibp">
@@ -1668,6 +1734,10 @@
 				<Item Name="Format AK Response.vi" Type="VI" URL="../Addon/Support Libraries/Protocols.lvlibp/AK/Format AK Response.vi"/>
 			</Item>
 			<Item Name="Protocol Parent" Type="Folder">
+				<Item Name="SubVIs" Type="Folder">
+					<Item Name="Get Protocol List.vi" Type="VI" URL="../Addon/Support Libraries/Protocols.lvlibp/Protocol Parent/SubVIs/Get Protocol List.vi"/>
+					<Item Name="Lookup Base Protocol Class and Info.vi" Type="VI" URL="../Addon/Support Libraries/Protocols.lvlibp/Protocol Parent/SubVIs/Lookup Base Protocol Class and Info.vi"/>
+				</Item>
 				<Item Name="Protocol Parent.lvclass" Type="LVClass" URL="../Addon/Support Libraries/Protocols.lvlibp/Protocol Parent/Protocol Parent.lvclass"/>
 			</Item>
 			<Item Name="RS-xxx" Type="Folder">
@@ -1687,33 +1757,30 @@
 			</Item>
 			<Item Name="Clear Errors.vi" Type="VI" URL="../Addon/Support Libraries/Protocols.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Clear Errors.vi"/>
 			<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="../Addon/Support Libraries/Protocols.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Error Cluster From Error Code.vi"/>
+			<Item Name="Get File Extension.vi" Type="VI" URL="../Addon/Support Libraries/Protocols.lvlibp/1abvi3w/vi.lib/Utility/libraryn.llb/Get File Extension.vi"/>
+			<Item Name="Get LV Class Default Value.vi" Type="VI" URL="../Addon/Support Libraries/Protocols.lvlibp/1abvi3w/vi.lib/Utility/LVClass/Get LV Class Default Value.vi"/>
 			<Item Name="GPIB Status Boolean Array.ctl" Type="VI" URL="../Addon/Support Libraries/Protocols.lvlibp/1abvi3w/vi.lib/Instr/_visa.llb/GPIB Status Boolean Array.ctl"/>
+			<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="../Addon/Support Libraries/Protocols.lvlibp/1abvi3w/vi.lib/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 			<Item Name="nirviCommon.vi" Type="VI" URL="../Addon/Support Libraries/Protocols.lvlibp/1abvi3w/vi.lib/express/rvi/timingcommon/nirviCommon.vi"/>
 			<Item Name="Space Constant.vi" Type="VI" URL="../Addon/Support Libraries/Protocols.lvlibp/1abvi3w/vi.lib/dlg_ctls.llb/Space Constant.vi"/>
 			<Item Name="VISA Configure Serial Port (Instr).vi" Type="VI" URL="../Addon/Support Libraries/Protocols.lvlibp/1abvi3w/vi.lib/Instr/_visa.llb/VISA Configure Serial Port (Instr).vi"/>
 			<Item Name="VISA Flush IO Buffer Mask.ctl" Type="VI" URL="../Addon/Support Libraries/Protocols.lvlibp/1abvi3w/vi.lib/Instr/_visa.llb/VISA Flush IO Buffer Mask.ctl"/>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
-			<Item Name="instr.lib" Type="Folder">
-				<Item Name="NationalInstruments.VeriStand.SystemDefinitionAPI.dll" Type="Document" URL="/&lt;instrlib&gt;/niSync/NationalInstruments.VeriStand.SystemDefinitionAPI.dll"/>
-			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Advanced System Definition.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NI VeriStand Advanced SysDef API/SysDef API/Advanced System Definition.lvlib"/>
 				<Item Name="AMC.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/AMC/AMC.lvlib"/>
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
-				<Item Name="Custom Device API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device API/Custom Device API.lvlib"/>
-				<Item Name="Custom Device Utility Library.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device Tools/Custom Device Utility Library/Custom Device Utility Library.lvlib"/>
+				<Item Name="Custom Device API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI Veristand/Custom Device API/Custom Device API.lvlib"/>
+				<Item Name="Custom Device Utility Library.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI Veristand/Custom Device Tools/Custom Device Utility Library/Custom Device Utility Library.lvlib"/>
 				<Item Name="Data Access Engine.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_Data Access Engine/Data Access Engine.lvlib"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="Error Code Database.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Code Database.vi"/>
 				<Item Name="Find Tag.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find Tag.vi"/>
-				<Item Name="Get File Extension.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Get File Extension.vi"/>
-				<Item Name="Get LV Class Default Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Default Value.vi"/>
 				<Item Name="NI STM.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/STM/NI STM.lvlib"/>
 				<Item Name="NI VeriStand Addon Network Comm Shared.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NI VeriStand Addon Network Comm/Shared/NI VeriStand Addon Network Comm Shared.lvlib"/>
 				<Item Name="NI VeriStand Addon Network Comm.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NI VeriStand Addon Network Comm/Engine/NI VeriStand Addon Network Comm.lvlib"/>
 				<Item Name="NI_FTP.lvlib" Type="Library" URL="/&lt;vilib&gt;/FTP/NI_FTP.lvlib"/>
-				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 				<Item Name="NI_SystemLogging.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/SystemLogging/NI_SystemLogging.lvlib"/>
 				<Item Name="NIVeristand_DataServices.dll" Type="Document" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device API/Data/NIVeristand_DataServices.dll"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
