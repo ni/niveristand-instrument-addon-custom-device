@@ -57,4 +57,9 @@
 		<Item Name="Create Message - Value Change &amp; Trigger.vi" Type="VI" URL="../Messages/Create Message - Value Change &amp; Trigger.vi"/>
 	</Item>
 	<Item Name="Palettes" Type="Folder"/>
+	<Item Name="SubVIs" Type="Folder">
+		<Item Name="Convert to Absolute Path.vi" Type="VI" URL="../SubVIs/Convert to Absolute Path.vi"/>
+		<Item Name="Find Instrument Addon Custom Device.vi" Type="VI" URL="../SubVIs/Find Instrument Addon Custom Device.vi"/>
+		<Item Name="Open System Definition.vi" Type="VI" URL="../SubVIs/Open System Definition.vi"/>
+	</Item>
 </Library>
