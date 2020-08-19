@@ -39,6 +39,12 @@
 	<Item Name="Instrument Addon Scripting API Test Assets.ctl" Type="Class Private Data" URL="Instrument Addon Scripting API Test Assets.ctl">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
+	<Item Name="private" Type="Folder">
+		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+	</Item>
+	<Item Name="protected" Type="Folder">
+		<Property Name="NI.LibItem.Scope" Type="Int">3</Property>
+	</Item>
 	<Item Name="SubVIs" Type="Folder">
 		<Item Name="Convert to Absolute Path.vi" Type="VI" URL="../SubVIs/Convert to Absolute Path.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#7!!!!"!!%!!!!&amp;E!S`````QV"9H.P&lt;(6U:3"1982I!#"!-P````]75XFT&gt;'6N)%2F:GFO;82J&lt;WYA2GFM:1!!6!$Q!!Q!!!!!!!!!!1!!!!!!!!!!!!!!!!!!!!)$!!"Y!!!!!!!!!!!!!!!!!!!.#Q!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!")!!!!!!1!$!!!!!!</Property>
@@ -47,7 +53,7 @@
 			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
 			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1082143248</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1082130960</Property>
 		</Item>
 		<Item Name="Find Instrument Addon Custom Device.vi" Type="VI" URL="../SubVIs/Find Instrument Addon Custom Device.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!*/!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!$5!)!!:/&lt;W2F351!!!1!!!$)1(!!'!!!!!%!!!#O4G&amp;U;7^O97R*&lt;H.U=H6N:7ZU=SZ7:8*J5X2B&lt;G1O5XFT&gt;'6N2'6G;7ZJ&gt;'FP&lt;E&amp;133Z598*H:81M)%ZB&gt;'FP&lt;G&amp;M37ZT&gt;(*V&lt;76O&gt;(-O6G6S;6.U97ZE,F.Z=X2F&lt;52F:GFO;82J&lt;WZ"5%EM)&amp;:F=H.J&lt;WY^-#YQ,D!O-#QA1X6M&gt;(6S:4VO:86U=G&amp;M,#"1&gt;7*M;7.,:8F5&lt;WNF&lt;DVB.G1W/4"D-TAQ:'&amp;B-T!Y#H2B=G&gt;F&gt;#"P&gt;81!!":!5!!$!!!!!1!##'6S=G^S)'FO!!$'1(!!'!!!!!%!!!#O4G&amp;U;7^O97R*&lt;H.U=H6N:7ZU=SZ7:8*J5X2B&lt;G1O5XFT&gt;'6N2'6G;7ZJ&gt;'FP&lt;E&amp;133Z598*H:81M)%ZB&gt;'FP&lt;G&amp;M37ZT&gt;(*V&lt;76O&gt;(-O6G6S;6.U97ZE,F.Z=X2F&lt;52F:GFO;82J&lt;WZ"5%EM)&amp;:F=H.J&lt;WY^-#YQ,D!O-#QA1X6M&gt;(6S:4VO:86U=G&amp;M,#"1&gt;7*M;7.,:8F5&lt;WNF&lt;DVB.G1W/4"D-TAQ:'&amp;B-T!Y#82B=G&gt;F&gt;#"J&lt;A"5!0!!$!!$!!1!"1!'!!5!"1!&amp;!!5!"Q!&amp;!!5!#!-!!(A!!!U)!!!*!!!!!!!!!!U,!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!!!!!!!#A!!!!!"!!E!!!!!</Property>
@@ -56,7 +62,7 @@
 			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
 			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1082143248</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1082130960</Property>
 		</Item>
 		<Item Name="Open System Definition.vi" Type="VI" URL="../SubVIs/Open System Definition.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!..!!!!#Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!SE"Q!"A!!!!"!!!!LEZB&gt;'FP&lt;G&amp;M37ZT&gt;(*V&lt;76O&gt;(-O6G6S;6.U97ZE,F.Z=X2F&lt;52F:GFO;82J&lt;WZ"5%EO6'&amp;S:W6U,#"/982J&lt;WZB&lt;%FO=X2S&gt;7VF&lt;H2T,F:F=GF4&gt;'&amp;O:#Z4?8.U:7V%:7:J&lt;GFU;7^O16"*,#"7:8*T;7^O04!O-#YQ,D!M)%.V&lt;(2V=G5^&lt;G6V&gt;(*B&lt;#QA5(6C&lt;'FD3W6Z6'^L:7Y^94:E.DEQ9T-Y-'2B94-Q/!V598*H:81A5G6G&lt;H6N!-:!=!!9!!!!!1!!!+R/982J&lt;WZB&lt;%FO=X2S&gt;7VF&lt;H2T,F:F=GF4&gt;'&amp;O:#Z4?8.U:7V%:7:J&lt;GFU;7^O16"*,F*P&lt;X1M)%ZB&gt;'FP&lt;G&amp;M37ZT&gt;(*V&lt;76O&gt;(-O6G6S;6.U97ZE,F.Z=X2F&lt;52F:GFO;82J&lt;WZ"5%EM)&amp;:F=H.J&lt;WY^-#YQ,D!O-#QA1X6M&gt;(6S:4VO:86U=G&amp;M,#"1&gt;7*M;7.,:8F5&lt;WNF&lt;DVB.G1W/4"D-TAQ:'&amp;B-T!Y#V*P&lt;X1A5G6G&lt;H6N!/"!=!!9!!!!!1!!!,B/982J&lt;WZB&lt;%FO=X2S&gt;7VF&lt;H2T,F:F=GF4&gt;'&amp;O:#Z4?8.U:7V%:7:J&lt;GFU;7^O16"*,F.Z=X2F&lt;52F:GFO;82J&lt;WYM)%ZB&gt;'FP&lt;G&amp;M37ZT&gt;(*V&lt;76O&gt;(-O6G6S;6.U97ZE,F.Z=X2F&lt;52F:GFO;82J&lt;WZ"5%EM)&amp;:F=H.J&lt;WY^-#YQ,D!O-#QA1X6M&gt;(6S:4VO:86U=G&amp;M,#"1&gt;7*M;7.,:8F5&lt;WNF&lt;DVB.G1W/4"D-TAQ:'&amp;B-T!Y'&amp;.Z=X2F&lt;3"%:7:J&lt;GFU;7^O)&amp;*F:GZV&lt;1!!"!!!!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!)%!S`````R:4?8.U:7UA2'6G;7ZJ&gt;'FP&lt;C"';7RF!!"5!0!!$!!$!!1!"1!'!!=!"Q!(!!=!#!!(!!=!#1-!!(A!!!U)!!!*!!!!#1!!!!E!!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!!!!!!!%A!!!!!"!!I!!!!!</Property>
@@ -65,13 +71,7 @@
 			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
 			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1082143248</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1082130960</Property>
 		</Item>
-	</Item>
-	<Item Name="private" Type="Folder">
-		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-	</Item>
-	<Item Name="protected" Type="Folder">
-		<Property Name="NI.LibItem.Scope" Type="Int">3</Property>
 	</Item>
 </LVClass>
