@@ -57,12 +57,8 @@
 		<Item Name="Create Message - Value Change &amp; Trigger.vi" Type="VI" URL="../Messages/Create Message - Value Change &amp; Trigger.vi"/>
 	</Item>
 	<Item Name="Palettes" Type="Folder"/>
-	<Item Name="SubVIs" Type="Folder">
-		<Item Name="Convert to Absolute Path.vi" Type="VI" URL="../SubVIs/Convert to Absolute Path.vi"/>
-		<Item Name="Find Instrument Addon Custom Device.vi" Type="VI" URL="../SubVIs/Find Instrument Addon Custom Device.vi"/>
-		<Item Name="Open System Definition.vi" Type="VI" URL="../SubVIs/Open System Definition.vi"/>
-	</Item>
 	<Item Name="Types" Type="Folder">
 		<Item Name="Instrument Addon Refnum.ctl" Type="VI" URL="../../../../../../Users/Public/Documents/National Instruments/NI VeriStand 2018/Custom Devices/Instrument Addon/Scripting API/APIs/Scripting API/Types/Instrument Addon Refnum.ctl"/>
+		<Item Name="Message Group Refnum.ctl" Type="VI" URL="../../../../../../Users/Public/Documents/National Instruments/NI VeriStand 2018/Custom Devices/Instrument Addon/Scripting API/APIs/Scripting API/Types/Message Group Refnum.ctl"/>
 	</Item>
 </Library>
