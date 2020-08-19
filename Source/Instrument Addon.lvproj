@@ -570,6 +570,7 @@
 			<Item Name="DOMUserDefRef.dll" Type="Document" URL="DOMUserDefRef.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Instrument Addon Refnum.ctl" Type="VI" URL="../../../../Users/Public/Documents/National Instruments/NI VeriStand 2018/Custom Devices/Instrument Addon/Scripting API/APIs/Scripting API/Types/Instrument Addon Refnum.ctl"/>
 			<Item Name="Instrument System Definition API.lvlib" Type="Library" URL="../APIs/System Definition API/Instrument System Definition API.lvlib"/>
 			<Item Name="LV Config Read String.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read String.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
