@@ -66,5 +66,15 @@
 	</Item>
 	<Item Name="SubVIs" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		<Item Name="Create Response.vi" Type="VI" URL="../SubVIs/Create Response.vi"/>
+		<Item Name="Create Command.vi" Type="VI" URL="../SubVIs/Create Command.vi"/>
+		<Item Name="Create Enable Periodic.vi" Type="VI" URL="../SubVIs/Create Enable Periodic.vi"/>
+		<Item Name="Create Message Status.vi" Type="VI" URL="../SubVIs/Create Message Status.vi"/>
+		<Item Name="Create Timestamp.vi" Type="VI" URL="../SubVIs/Create Timestamp.vi"/>
+		<Item Name="Create Error Codes.vi" Type="VI" URL="../SubVIs/Create Error Codes.vi"/>
+		<Item Name="Create Trigger Channel.vi" Type="VI" URL="../SubVIs/Create Trigger Channel.vi"/>
+		<Item Name="Create Message Channels Section.vi" Type="VI" URL="../SubVIs/Create Message Channels Section.vi"/>
+		<Item Name="Add Message Channel.vi" Type="VI" URL="../SubVIs/Add Message Channel.vi"/>
+		<Item Name="Get Addon Error Messges.vi" Type="VI" URL="../SubVIs/Get Addon Error Messges.vi"/>
 	</Item>
 </Library>
