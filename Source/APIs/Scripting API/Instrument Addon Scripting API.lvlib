@@ -8,7 +8,6 @@
 	<Item Name="Custom Device" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Item Name="Create Instrument Addon.vi" Type="VI" URL="../Custom Device/Create Instrument Addon.vi"/>
-		<Item Name="Create Instrument Addon From Configuration File.vi" Type="VI" URL="../Custom Device/Create Instrument Addon From Configuration File.vi"/>
 		<Item Name="Export Instrument Addon Configuration.vi" Type="VI" URL="../Custom Device/Export Instrument Addon Configuration.vi"/>
 		<Item Name="Delete Instrument Addon.vi" Type="VI" URL="../Custom Device/Delete Instrument Addon.vi"/>
 		<Item Name="Get Instrument Addon Name.vi" Type="VI" URL="../Custom Device/Get Instrument Addon Name.vi"/>
@@ -17,6 +16,7 @@
 		<Item Name="Set Protocol.vi" Type="VI" URL="../Custom Device/Set Protocol.vi"/>
 		<Item Name="Get PCL Decimation.vi" Type="VI" URL="../Custom Device/Get PCL Decimation.vi"/>
 		<Item Name="Set PCL Decimation.vi" Type="VI" URL="../Custom Device/Set PCL Decimation.vi"/>
+		<Item Name="Create Instrument Addon From Configuration File.vi" Type="VI" URL="../Custom Device/Create Instrument Addon From Configuration File.vi"/>
 	</Item>
 	<Item Name="Channels" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">3</Property>
