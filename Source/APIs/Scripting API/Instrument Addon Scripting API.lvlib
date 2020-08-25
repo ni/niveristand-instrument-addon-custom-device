@@ -76,5 +76,13 @@
 		<Item Name="Create Message Channels Section.vi" Type="VI" URL="../SubVIs/Create Message Channels Section.vi"/>
 		<Item Name="Add Message Channel.vi" Type="VI" URL="../SubVIs/Add Message Channel.vi"/>
 		<Item Name="Get Addon Error Messges.vi" Type="VI" URL="../SubVIs/Get Addon Error Messges.vi"/>
+		<Item Name="Get Protocol Classes List.vi" Type="VI" URL="../SubVIs/Get Protocol Classes List.vi"/>
+		<Item Name="Set Generation Type.vi" Type="VI" URL="../SubVIs/Set Generation Type.vi"/>
+		<Item Name="Set Message Period.vi" Type="VI" URL="../SubVIs/Set Message Period.vi"/>
+		<Item Name="Set Message Protection.vi" Type="VI" URL="../SubVIs/Set Message Protection.vi"/>
+		<Item Name="Get Protection Classes List.vi" Type="VI" URL="../SubVIs/Get Protection Classes List.vi"/>
+		<Item Name="NodeID to Section Pointer.vi" Type="VI" URL="../SubVIs/NodeID to Section Pointer.vi"/>
+		<Item Name="NodeID to Channel Pointer.vi" Type="VI" URL="../SubVIs/NodeID to Channel Pointer.vi"/>
+		<Item Name="Set Message Trigger.vi" Type="VI" URL="../SubVIs/Set Message Trigger.vi"/>
 	</Item>
 </Library>
