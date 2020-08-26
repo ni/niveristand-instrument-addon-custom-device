@@ -64,6 +64,15 @@
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 			<Property Name="NI.ClassItem.State" Type="Int">1082130960</Property>
 		</Item>
+		<Item Name="test_Create Instrument Addon from Config with Error.vi" Type="VI" URL="../tests/test_Create Instrument Addon from Config with Error.vi">
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;Y!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!&amp;B!=!!?!!""0UFO=X2S&gt;7VF&lt;H1A172E&lt;WYA5W.S;8"U;7ZH)%&amp;133"$&gt;8.U&lt;WUA2'6W;7.F)&amp;6O;81A6'6T&gt;(-O&lt;(:D&lt;'&amp;T=Q!-6'6T&gt;%.B=W5A&lt;X6U!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!&amp;:!=!!?!!""0UFO=X2S&gt;7VF&lt;H1A172E&lt;WYA5W.S;8"U;7ZH)%&amp;133"$&gt;8.U&lt;WUA2'6W;7.F)&amp;6O;81A6'6T&gt;(-O&lt;(:D&lt;'&amp;T=Q!,6'6T&gt;%.B=W5A;7Y!91$Q!!Q!!Q!%!!1!"1!%!!1!"!!%!!9!"!!%!!=$!!"Y!!!.#!!!!!!!!!!!!!!.#Q!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!!!!!!"!!!!U!!!!-!!!!!!!!!!!!!!%!#!!!!!!</Property>
+			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">1073741856</Property>
+			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1082130960</Property>
+		</Item>
 	</Item>
 	<Item Name="setUp.vi" Type="VI" URL="../setUp.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;[!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!&amp;B!=!!?!!""0UFO=X2S&gt;7VF&lt;H1A172E&lt;WYA5W.S;8"U;7ZH)%&amp;133"$&gt;8.U&lt;WUA2'6W;7.F)&amp;6O;81A6'6T&gt;(-O&lt;(:D&lt;'&amp;T=Q!.=G6G:8*F&lt;G.F)'^V&gt;!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!&amp;B!=!!?!!""0UFO=X2S&gt;7VF&lt;H1A172E&lt;WYA5W.S;8"U;7ZH)%&amp;133"$&gt;8.U&lt;WUA2'6W;7.F)&amp;6O;81A6'6T&gt;(-O&lt;(:D&lt;'&amp;T=Q!-=G6G:8*F&lt;G.F)'FO!!"B!0!!$!!$!!1!"!!&amp;!!1!"!!%!!1!"A!%!!1!"Q-!!(A!!!U)!!!!!!!!!!!!!!U,!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!!!!!!!%A!!$1!!!!Q!!!!!!!!!!!!!!1!)!!!!!!</Property>
