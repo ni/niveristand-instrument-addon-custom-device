@@ -61,6 +61,6 @@
 	</Item>
 	<Item Name="Palettes" Type="Folder"/>
 	<Item Name="SubVIs" Type="Folder">
-		<Item Name="Check refnum if its IA CD.vi" Type="VI" URL="../SubVIs/Check refnum if its IA CD.vi"/>
+		<Item Name="Validate IA Refnum.vi" Type="VI" URL="../SubVIs/Validate IA Refnum.vi"/>
 	</Item>
 </Library>
