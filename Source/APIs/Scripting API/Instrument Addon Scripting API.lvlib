@@ -62,5 +62,27 @@
 	<Item Name="Palettes" Type="Folder"/>
 	<Item Name="SubVIs" Type="Folder">
 		<Item Name="Validate IA Refnum.vi" Type="VI" URL="../SubVIs/Validate IA Refnum.vi"/>
+		<Item Name="Create Error Codes.vi" Type="VI" URL="../SubVIs/Create Error Codes.vi"/>
+		<Item Name="Create Message Channels Section.vi" Type="VI" URL="../SubVIs/Create Message Channels Section.vi"/>
+		<Item Name="Create Message Command.vi" Type="VI" URL="../SubVIs/Create Message Command.vi"/>
+		<Item Name="Create Message Response.vi" Type="VI" URL="../SubVIs/Create Message Response.vi"/>
+		<Item Name="Create Message Status.vi" Type="VI" URL="../SubVIs/Create Message Status.vi"/>
+		<Item Name="Create Timestamp.vi" Type="VI" URL="../SubVIs/Create Timestamp.vi"/>
+		<Item Name="Create Trigger Channel.vi" Type="VI" URL="../SubVIs/Create Trigger Channel.vi"/>
+		<Item Name="Get Addon Error Messges.vi" Type="VI" URL="../SubVIs/Get Addon Error Messges.vi"/>
+		<Item Name="Get Protection Classes List.vi" Type="VI" URL="../SubVIs/Get Protection Classes List.vi"/>
+		<Item Name="Get Protocol Classes List.vi" Type="VI" URL="../SubVIs/Get Protocol Classes List.vi"/>
+		<Item Name="NodeID to Channel Pointer.vi" Type="VI" URL="../SubVIs/NodeID to Channel Pointer.vi"/>
+		<Item Name="NodeID to Section Pointer.vi" Type="VI" URL="../SubVIs/NodeID to Section Pointer.vi"/>
+		<Item Name="Set Generation Type.vi" Type="VI" URL="../SubVIs/Set Generation Type.vi"/>
+		<Item Name="Set Message Period.vi" Type="VI" URL="../SubVIs/Set Message Period.vi"/>
+		<Item Name="Set Message Protection.vi" Type="VI" URL="../SubVIs/Set Message Protection.vi"/>
+		<Item Name="Set Message Trigger.vi" Type="VI" URL="../SubVIs/Set Message Trigger.vi"/>
+		<Item Name="Add Message Channel.vi" Type="VI" URL="../SubVIs/Add Message Channel.vi"/>
+		<Item Name="Create Enable Periodic.vi" Type="VI" URL="../SubVIs/Create Enable Periodic.vi"/>
+	</Item>
+	<Item Name="TypeDefs" Type="Folder">
+		<Item Name="Message Settings.ctl" Type="VI" URL="../TypeDefs/Message Settings.ctl"/>
+		<Item Name="Protection Types.ctl" Type="VI" URL="../TypeDefs/Protection Types.ctl"/>
 	</Item>
 </Library>
