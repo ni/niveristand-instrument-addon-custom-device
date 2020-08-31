@@ -10,7 +10,7 @@
 				<String>IACD</String>
 			</Property>
 			<Property Name="Version">
-				<String>1.0.0.11</String>
+				<String>1.0.0.12</String>
 			</Property>
 			<Property Name="Creator">
 				<String />
@@ -187,6 +187,137 @@
 					<Properties />
 					<Errors />
 					<Section Name="Instrument Addon" TypeGUID="5a19fd09-df16-47f0-8250-c59b5cb8c757">
+						<Description />
+						<Properties>
+							<Property Name="CD Status">
+								<U32>1</U32>
+							</Property>
+							<Property Name="Driver VI Exec Mode">
+								<U32>1</U32>
+							</Property>
+							<Property Name="Driver VI Path_0">
+								<DependentFile Type="To Common Doc Dir" Path="Custom Devices\Instrument Addon\Linux_x64\Instrument Addon Engine Linux64.llb\RT Driver VI.vi">
+									<Version>1.5.4</Version>
+									<ForceDownload>false</ForceDownload>
+									<RTDestination>c:\ni-rt\VeriStand\Custom Devices\Instrument Addon\Instrument Addon Engine Linux64.llb\RT Driver VI.vi</RTDestination>
+									<SupportedTarget>Linux_x64</SupportedTarget>
+									<MD5 />
+								</DependentFile>
+							</Property>
+							<Property Name="Driver VI Path_1">
+								<DependentFile Type="To Common Doc Dir" Path="Custom Devices\Instrument Addon\Linux_32_ARM\Instrument Addon Engine LinuxARM.llb\RT Driver VI.vi">
+									<Version>1.5.4</Version>
+									<ForceDownload>false</ForceDownload>
+									<RTDestination>c:\ni-rt\VeriStand\Custom Devices\Instrument Addon\Instrument Addon Engine LinuxARM.llb\RT Driver VI.vi</RTDestination>
+									<SupportedTarget>Linux_32_ARM</SupportedTarget>
+									<MD5 />
+								</DependentFile>
+							</Property>
+							<Property Name="Driver VI Path_2">
+								<DependentFile Type="To Common Doc Dir" Path="Custom Devices\Instrument Addon\Pharlap\Instrument Addon Engine Pharlap.llb\RT Driver VI.vi">
+									<Version>1.5.4</Version>
+									<ForceDownload>false</ForceDownload>
+									<RTDestination>c:\ni-rt\VeriStand\Custom Devices\Instrument Addon\Instrument Addon Engine Pharlap.llb\RT Driver VI.vi</RTDestination>
+									<SupportedTarget>PharLap</SupportedTarget>
+									<MD5 />
+								</DependentFile>
+							</Property>
+							<Property Name="Driver VI Path_3">
+								<DependentFile Type="To Common Doc Dir" Path="Custom Devices\Instrument Addon\Windows\Instrument Addon Engine Windows.llb\RT Driver VI.vi">
+									<Version>1.5.4</Version>
+									<ForceDownload>false</ForceDownload>
+									<RTDestination>c:\ni-rt\VeriStand\Custom Devices\Instrument Addon\Instrument Addon Engine Windows.llb\RT Driver VI.vi</RTDestination>
+									<SupportedTarget>Windows</SupportedTarget>
+									<MD5 />
+								</DependentFile>
+							</Property>
+							<Property Name="Version">
+								<String>1.5.4</String>
+							</Property>
+							<Property Name="Dependency_1">
+								<DependentFile Type="To Common Doc Dir" Path="Custom Devices\Instrument Addon\Windows\Protocols.lvlibp">
+									<Version />
+									<ForceDownload>false</ForceDownload>
+									<RTDestination>c:\ni-rt\VeriStand\Custom Devices\Instrument Addon\Protocols.lvlibp</RTDestination>
+									<SupportedTarget>Windows</SupportedTarget>
+									<MD5>4142814aafe55de4e50158f329840914</MD5>
+								</DependentFile>
+							</Property>
+							<Property Name="Dependency_2">
+								<DependentFile Type="To Common Doc Dir" Path="Custom Devices\Instrument Addon\Windows\Protections.lvlibp">
+									<Version />
+									<ForceDownload>false</ForceDownload>
+									<RTDestination>c:\ni-rt\VeriStand\Custom Devices\Instrument Addon\Protections.lvlibp</RTDestination>
+									<SupportedTarget>Windows</SupportedTarget>
+									<MD5>835378fcd63a056a774f280ab4b8d64b</MD5>
+								</DependentFile>
+							</Property>
+							<Property Name="Dependency_3">
+								<DependentFile Type="To Common Doc Dir" Path="Custom Devices\Instrument Addon\Pharlap\Protocols.lvlibp">
+									<Version />
+									<ForceDownload>false</ForceDownload>
+									<RTDestination>c:\ni-rt\VeriStand\Custom Devices\Instrument Addon\Protocols.lvlibp</RTDestination>
+									<SupportedTarget>PharLap</SupportedTarget>
+									<MD5 />
+								</DependentFile>
+							</Property>
+							<Property Name="Dependency_4">
+								<DependentFile Type="To Common Doc Dir" Path="Custom Devices\Instrument Addon\Pharlap\Protections.lvlibp">
+									<Version />
+									<ForceDownload>false</ForceDownload>
+									<RTDestination>c:\ni-rt\VeriStand\Custom Devices\Instrument Addon\Protections.lvlibp</RTDestination>
+									<SupportedTarget>PharLap</SupportedTarget>
+									<MD5 />
+								</DependentFile>
+							</Property>
+							<Property Name="Dependency_5">
+								<DependentFile Type="To Common Doc Dir" Path="Custom Devices\Instrument Addon\Linux_x64\Protocols.lvlibp">
+									<Version />
+									<ForceDownload>false</ForceDownload>
+									<RTDestination>c:\ni-rt\VeriStand\Custom Devices\Instrument Addon\Protocols.lvlibp</RTDestination>
+									<SupportedTarget>Linux_x64</SupportedTarget>
+									<MD5 />
+								</DependentFile>
+							</Property>
+							<Property Name="Dependency_6">
+								<DependentFile Type="To Common Doc Dir" Path="Custom Devices\Instrument Addon\Linux_x64\Protections.lvlibp">
+									<Version />
+									<ForceDownload>false</ForceDownload>
+									<RTDestination>c:\ni-rt\VeriStand\Custom Devices\Instrument Addon\Protections.lvlibp</RTDestination>
+									<SupportedTarget>Linux_x64</SupportedTarget>
+									<MD5 />
+								</DependentFile>
+							</Property>
+							<Property Name="Dependency_7">
+								<DependentFile Type="To Common Doc Dir" Path="Custom Devices\Instrument Addon\Linux_32_ARM\Protocols.lvlibp">
+									<Version />
+									<ForceDownload>false</ForceDownload>
+									<RTDestination>c:\ni-rt\VeriStand\Custom Devices\Instrument Addon\Protocols.lvlibp</RTDestination>
+									<SupportedTarget>Linux_32_ARM</SupportedTarget>
+									<MD5 />
+								</DependentFile>
+							</Property>
+							<Property Name="Dependency_8">
+								<DependentFile Type="To Common Doc Dir" Path="Custom Devices\Instrument Addon\Linux_32_ARM\Protections.lvlibp">
+									<Version />
+									<ForceDownload>false</ForceDownload>
+									<RTDestination>c:\ni-rt\VeriStand\Custom Devices\Instrument Addon\Protections.lvlibp</RTDestination>
+									<SupportedTarget>Linux_32_ARM</SupportedTarget>
+									<MD5 />
+								</DependentFile>
+							</Property>
+							<Property Name="user.CD.Protocol">
+								<String>TCP</String>
+							</Property>
+						</Properties>
+						<Errors />
+						<Section Name="Global MetaData Channels" TypeGUID="6a1d81ec-ec4c-425e-ab83-1c5b7af136d6">
+							<Description />
+							<Properties />
+							<Errors />
+						</Section>
+					</Section>
+					<Section Name="Instrument Addon 1" TypeGUID="5a19fd09-df16-47f0-8250-c59b5cb8c757">
 						<Description />
 						<Properties>
 							<Property Name="CD Status">
