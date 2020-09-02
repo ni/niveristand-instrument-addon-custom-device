@@ -80,9 +80,9 @@
 		<Item Name="Add Message Channel.vi" Type="VI" URL="../SubVIs/Add Message Channel.vi"/>
 		<Item Name="Create Enable Periodic.vi" Type="VI" URL="../SubVIs/Create Enable Periodic.vi"/>
 		<Item Name="Validate PCL Decimation Value.vi" Type="VI" URL="../SubVIs/Validate PCL Decimation Value.vi"/>
-		<Item Name="Validate IA Name.vi" Type="VI" URL="../SubVIs/Validate IA Name.vi"/>
-		<Item Name="Validate IA Name Is Not In Use.vi" Type="VI" URL="../SubVIs/Validate IA Name Is Not In Use.vi"/>
-		<Item Name="Validate IA Refnum.vi" Type="VI" URL="../SubVIs/Validate IA Refnum.vi"/>
+		<Item Name="Validate Instrument Addon Name.vi" Type="VI" URL="../SubVIs/Validate Instrument Addon Name.vi"/>
+		<Item Name="Validate Instrument Addon Name Is Not In Use.vi" Type="VI" URL="../SubVIs/Validate Instrument Addon Name Is Not In Use.vi"/>
+		<Item Name="Validate Instrument Addon Refnum.vi" Type="VI" URL="../SubVIs/Validate Instrument Addon Refnum.vi"/>
 	</Item>
 	<Item Name="TypeDefs" Type="Folder">
 		<Item Name="Message Settings.ctl" Type="VI" URL="../TypeDefs/Message Settings.ctl"/>
