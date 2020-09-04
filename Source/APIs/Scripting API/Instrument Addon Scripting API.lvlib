@@ -85,5 +85,6 @@
 	<Item Name="TypeDefs" Type="Folder">
 		<Item Name="Message Settings.ctl" Type="VI" URL="../TypeDefs/Message Settings.ctl"/>
 		<Item Name="Protection Types.ctl" Type="VI" URL="../TypeDefs/Protection Types.ctl"/>
+		<Item Name="Single Channel Enumerated List Settings.ctl" Type="VI" URL="../TypeDefs/Single Channel Enumerated List Settings.ctl"/>
 	</Item>
 </Library>
