@@ -86,5 +86,11 @@
 		<Item Name="Message Settings.ctl" Type="VI" URL="../TypeDefs/Message Settings.ctl"/>
 		<Item Name="Protection Types.ctl" Type="VI" URL="../TypeDefs/Protection Types.ctl"/>
 		<Item Name="Single Channel Enumerated List Settings.ctl" Type="VI" URL="../TypeDefs/Single Channel Enumerated List Settings.ctl"/>
+		<Item Name="Single Channel Format Settings.ctl" Type="VI" URL="../TypeDefs/Single Channel Format Settings.ctl"/>
+		<Item Name="Single Channel Type Cast Settings.ctl" Type="VI" URL="../TypeDefs/Single Channel Type Cast Settings.ctl"/>
+		<Item Name="Array Type Cast Settings.ctl" Type="VI" URL="../TypeDefs/Array Type Cast Settings.ctl"/>
+		<Item Name="Array Format Settings.ctl" Type="VI" URL="../TypeDefs/Array Format Settings.ctl"/>
+		<Item Name="Array Enumerated List Settings.ctl" Type="VI" URL="../TypeDefs/Array Enumerated List Settings.ctl"/>
+		<Item Name="Array Element.ctl" Type="VI" URL="../TypeDefs/Array Element.ctl"/>
 	</Item>
 </Library>
