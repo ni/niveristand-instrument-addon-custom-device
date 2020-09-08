@@ -59,7 +59,12 @@
 		<Item Name="Create Message - Periodic &amp; Trigger.vi" Type="VI" URL="../Messages/Create Message - Periodic &amp; Trigger.vi"/>
 		<Item Name="Create Message - Value Change &amp; Trigger.vi" Type="VI" URL="../Messages/Create Message - Value Change &amp; Trigger.vi"/>
 	</Item>
-	<Item Name="Palettes" Type="Folder"/>
+	<Item Name="Palettes" Type="Folder">
+		<Item Name="dir.mnu" Type="Document" URL="../Palettes/dir.mnu"/>
+		<Item Name="messages_sbplt.mnu" Type="Document" URL="../Palettes/messages_sbplt.mnu"/>
+		<Item Name="channels_sbplt.mnu" Type="Document" URL="../Palettes/channels_sbplt.mnu"/>
+		<Item Name="custom device_sbplt.mnu" Type="Document" URL="../Palettes/custom device_sbplt.mnu"/>
+	</Item>
 	<Item Name="SubVIs" Type="Folder">
 		<Item Name="Create Error Codes.vi" Type="VI" URL="../SubVIs/Create Error Codes.vi"/>
 		<Item Name="Create Message Channels Section.vi" Type="VI" URL="../SubVIs/Create Message Channels Section.vi"/>
