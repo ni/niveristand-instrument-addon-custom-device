@@ -61,6 +61,7 @@
 	</Item>
 	<Item Name="Palettes" Type="Folder"/>
 	<Item Name="SubVIs" Type="Folder">
+		<Item Name="Linkages NodeID to GUID.vi" Type="VI" URL="../SubVIs/Linkages NodeID to GUID.vi"/>
 		<Item Name="Create Error Codes.vi" Type="VI" URL="../SubVIs/Create Error Codes.vi"/>
 		<Item Name="Create Message Channels Section.vi" Type="VI" URL="../SubVIs/Create Message Channels Section.vi"/>
 		<Item Name="Create Message Command.vi" Type="VI" URL="../SubVIs/Create Message Command.vi"/>
@@ -83,9 +84,14 @@
 		<Item Name="Validate Instrument Addon Name.vi" Type="VI" URL="../SubVIs/Validate Instrument Addon Name.vi"/>
 		<Item Name="Validate Instrument Addon Name Is Not In Use.vi" Type="VI" URL="../SubVIs/Validate Instrument Addon Name Is Not In Use.vi"/>
 		<Item Name="Validate Instrument Addon Refnum.vi" Type="VI" URL="../SubVIs/Validate Instrument Addon Refnum.vi"/>
+		<Item Name="Resolve ByteCount Wait .vi" Type="VI" URL="../SubVIs/Resolve ByteCount Wait .vi"/>
+		<Item Name="Resolve Response Linkaging.vi" Type="VI" URL="../SubVIs/Resolve Response Linkaging.vi"/>
+		<Item Name="Parse Format String.vi" Type="VI" URL="../SubVIs/Parse Format String.vi"/>
 	</Item>
 	<Item Name="TypeDefs" Type="Folder">
 		<Item Name="Message Settings.ctl" Type="VI" URL="../TypeDefs/Message Settings.ctl"/>
 		<Item Name="Protection Types.ctl" Type="VI" URL="../TypeDefs/Protection Types.ctl"/>
+		<Item Name="Linked Channel.ctl" Type="VI" URL="../TypeDefs/Linked Channel.ctl"/>
+		<Item Name="Wait Response Settings.ctl" Type="VI" URL="../TypeDefs/Wait Response Settings.ctl"/>
 	</Item>
 </Library>
