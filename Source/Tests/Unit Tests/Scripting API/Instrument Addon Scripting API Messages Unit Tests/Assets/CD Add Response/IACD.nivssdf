@@ -10,7 +10,7 @@
 				<String>IACD</String>
 			</Property>
 			<Property Name="Version">
-				<String>1.0.0.32</String>
+				<String>1.0.0.35</String>
 			</Property>
 			<Property Name="Creator">
 				<String />
@@ -931,28 +931,22 @@
 									<Description />
 									<Properties>
 										<Property Name="user.CD.Rsp.Rsp">
-											<BinaryString>W1ZhcjFdK1tWYXIyXQ==</BinaryString>
+											<BinaryString />
 										</Property>
 										<Property Name="user.CD.Rsp.LinkedChans">
-											<StringArray>
-												<Elem>Var1</Elem>
-												<Elem>Var2</Elem>
-											</StringArray>
+											<StringArray />
 										</Property>
 										<Property Name="user.CD.Rsp.LinkedGUIDs">
-											<StringArray>
-												<Elem>923277c5-341d-416e-8f8e-9374c9419233</Elem>
-												<Elem>afc98b14-ec14-49d7-a845-79f756622d01</Elem>
-											</StringArray>
+											<StringArray />
 										</Property>
 										<Property Name="user.CD.Rsp.WaitVal">
 											<Double>0</Double>
 										</Property>
 										<Property Name="user.CD.Rsp.WaitType">
-											<U32>0</U32>
+											<U32>1</U32>
 										</Property>
 										<Property Name="user.CD.Rsp.UseChan">
-											<Boolean>true</Boolean>
+											<Boolean>false</Boolean>
 										</Property>
 										<Property Name="user.CD.Rsp.ChanPath">
 											<String>Custom Devices/Instrument Addon/Message Group/Message/Response/Data 0</String>
