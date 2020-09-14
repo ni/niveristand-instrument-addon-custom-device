@@ -87,11 +87,14 @@
 		<Item Name="Resolve ByteCount Wait .vi" Type="VI" URL="../SubVIs/Resolve ByteCount Wait .vi"/>
 		<Item Name="Resolve Response Linkaging.vi" Type="VI" URL="../SubVIs/Resolve Response Linkaging.vi"/>
 		<Item Name="Parse Format String.vi" Type="VI" URL="../SubVIs/Parse Format String.vi"/>
+		<Item Name="Resolve Seconds Wait .vi" Type="VI" URL="../SubVIs/Resolve Seconds Wait .vi"/>
+		<Item Name="Validate Message Refnum.vi" Type="VI" URL="../SubVIs/Validate Message Refnum.vi"/>
 	</Item>
 	<Item Name="TypeDefs" Type="Folder">
 		<Item Name="Message Settings.ctl" Type="VI" URL="../TypeDefs/Message Settings.ctl"/>
 		<Item Name="Protection Types.ctl" Type="VI" URL="../TypeDefs/Protection Types.ctl"/>
 		<Item Name="Linked Channel.ctl" Type="VI" URL="../TypeDefs/Linked Channel.ctl"/>
 		<Item Name="Wait Response Settings.ctl" Type="VI" URL="../TypeDefs/Wait Response Settings.ctl"/>
+		<Item Name="ByteCount Response Settings.ctl" Type="VI" URL="../TypeDefs/ByteCount Response Settings.ctl"/>
 	</Item>
 </Library>
