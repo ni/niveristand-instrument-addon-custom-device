@@ -941,7 +941,7 @@
 				<Property Name="Destination[5].destName" Type="Str">MainPalette Directory</Property>
 				<Property Name="Destination[5].path" Type="Path">../Built/Custom Devices/NI_AB_PROJECTNAME/Scripting API</Property>
 				<Property Name="DestinationCount" Type="Int">6</Property>
-				<Property Name="Source[0].itemID" Type="Str">{ABC4898E-A3C2-4D17-8003-283D98C8E819}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{28A9E43E-0283-4AC6-9E73-FA514C69381A}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/APIs/Instrument Addon Scripting API.lvlib</Property>
@@ -969,15 +969,12 @@
 				<Property Name="Source[6].itemID" Type="Ref">/My Computer/APIs/Instrument Addon Scripting API.lvlib/Palettes/dir.mnu</Property>
 				<Property Name="Source[6].lvfile" Type="Bool">true</Property>
 				<Property Name="Source[7].destinationIndex" Type="Int">4</Property>
-				<Property Name="Source[7].itemID" Type="Ref">/My Computer/APIs/Instrument Addon Scripting API.lvlib/Palettes/messages_sbplt.mnu</Property>
+				<Property Name="Source[7].itemID" Type="Ref">/My Computer/APIs/Instrument Addon Scripting API.lvlib/Palettes/Factories_sbplt.mnu</Property>
 				<Property Name="Source[7].lvfile" Type="Bool">true</Property>
 				<Property Name="Source[8].destinationIndex" Type="Int">4</Property>
-				<Property Name="Source[8].itemID" Type="Ref">/My Computer/APIs/Instrument Addon Scripting API.lvlib/Palettes/channels_sbplt.mnu</Property>
+				<Property Name="Source[8].itemID" Type="Ref">/My Computer/APIs/Instrument Addon Scripting API.lvlib/Palettes/Protocols_sbplt.mnu</Property>
 				<Property Name="Source[8].lvfile" Type="Bool">true</Property>
-				<Property Name="Source[9].destinationIndex" Type="Int">4</Property>
-				<Property Name="Source[9].itemID" Type="Ref">/My Computer/APIs/Instrument Addon Scripting API.lvlib/Palettes/custom device_sbplt.mnu</Property>
-				<Property Name="Source[9].lvfile" Type="Bool">true</Property>
-				<Property Name="SourceCount" Type="Int">10</Property>
+				<Property Name="SourceCount" Type="Int">9</Property>
 			</Item>
 			<Item Name="Workspace Object" Type="Source Distribution">
 				<Property Name="Bld_buildCacheID" Type="Str">{8C2E298A-2CF4-4CC2-8B89-2C7487E002E8}</Property>
