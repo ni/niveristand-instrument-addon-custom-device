@@ -61,8 +61,6 @@
 	</Item>
 	<Item Name="Palettes" Type="Folder">
 		<Item Name="dir.mnu" Type="Document" URL="../Palettes/dir.mnu"/>
-		<Item Name="Factories_sbplt.mnu" Type="Document" URL="../Palettes/Factories_sbplt.mnu"/>
-		<Item Name="Protocols_sbplt.mnu" Type="Document" URL="../Palettes/Protocols_sbplt.mnu"/>
 	</Item>
 	<Item Name="SubVIs" Type="Folder">
 		<Item Name="Create Error Codes.vi" Type="VI" URL="../SubVIs/Create Error Codes.vi"/>
