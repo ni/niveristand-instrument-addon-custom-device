@@ -96,5 +96,12 @@
 		<Item Name="Linked Channel.ctl" Type="VI" URL="../TypeDefs/Linked Channel.ctl"/>
 		<Item Name="Wait Response Settings.ctl" Type="VI" URL="../TypeDefs/Wait Response Settings.ctl"/>
 		<Item Name="ByteCount Response Settings.ctl" Type="VI" URL="../TypeDefs/ByteCount Response Settings.ctl"/>
+		<Item Name="Array Element.ctl" Type="VI" URL="../TypeDefs/Array Element.ctl"/>
+		<Item Name="Array Enumerated List Settings.ctl" Type="VI" URL="../TypeDefs/Array Enumerated List Settings.ctl"/>
+		<Item Name="Array Format Settings.ctl" Type="VI" URL="../TypeDefs/Array Format Settings.ctl"/>
+		<Item Name="Array Type Cast Settings.ctl" Type="VI" URL="../TypeDefs/Array Type Cast Settings.ctl"/>
+		<Item Name="Single Channel Enumerated List Settings.ctl" Type="VI" URL="../TypeDefs/Single Channel Enumerated List Settings.ctl"/>
+		<Item Name="Single Channel Format Settings.ctl" Type="VI" URL="../TypeDefs/Single Channel Format Settings.ctl"/>
+		<Item Name="Single Channel Type Cast Settings.ctl" Type="VI" URL="../TypeDefs/Single Channel Type Cast Settings.ctl"/>
 	</Item>
 </Library>
