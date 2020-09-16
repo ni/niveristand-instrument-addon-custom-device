@@ -59,7 +59,9 @@
 		<Item Name="Create Message - Periodic &amp; Trigger.vi" Type="VI" URL="../Messages/Create Message - Periodic &amp; Trigger.vi"/>
 		<Item Name="Create Message - Value Change &amp; Trigger.vi" Type="VI" URL="../Messages/Create Message - Value Change &amp; Trigger.vi"/>
 	</Item>
-	<Item Name="Palettes" Type="Folder"/>
+	<Item Name="Palettes" Type="Folder">
+		<Item Name="dir.mnu" Type="Document" URL="../Palettes/dir.mnu"/>
+	</Item>
 	<Item Name="SubVIs" Type="Folder">
 		<Item Name="Linkages NodeID to GUID.vi" Type="VI" URL="../SubVIs/Linkages NodeID to GUID.vi"/>
 		<Item Name="Create Error Codes.vi" Type="VI" URL="../SubVIs/Create Error Codes.vi"/>
