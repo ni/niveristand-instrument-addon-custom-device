@@ -87,7 +87,7 @@
 		<Item Name="Validate Instrument Addon Name Is Not In Use.vi" Type="VI" URL="../SubVIs/Validate Instrument Addon Name Is Not In Use.vi"/>
 		<Item Name="Validate Instrument Addon Refnum.vi" Type="VI" URL="../SubVIs/Validate Instrument Addon Refnum.vi"/>
 		<Item Name="Resolve ByteCount Wait.vi" Type="VI" URL="../SubVIs/Resolve ByteCount Wait.vi"/>
-		<Item Name="Resolve Response Linkaging.vi" Type="VI" URL="../SubVIs/Resolve Response Linkaging.vi"/>
+		<Item Name="Resolve Linkaging.vi" Type="VI" URL="../SubVIs/Resolve Linkaging.vi"/>
 		<Item Name="Check Size Equality.vi" Type="VI" URL="../SubVIs/Check Size Equality.vi"/>
 		<Item Name="Resolve Seconds Wait.vi" Type="VI" URL="../SubVIs/Resolve Seconds Wait.vi"/>
 		<Item Name="Validate Message Refnum.vi" Type="VI" URL="../SubVIs/Validate Message Refnum.vi"/>
@@ -108,5 +108,7 @@
 		<Item Name="Single Channel Enumerated List Settings.ctl" Type="VI" URL="../TypeDefs/Single Channel Enumerated List Settings.ctl"/>
 		<Item Name="Single Channel Format Settings.ctl" Type="VI" URL="../TypeDefs/Single Channel Format Settings.ctl"/>
 		<Item Name="Single Channel Type Cast Settings.ctl" Type="VI" URL="../TypeDefs/Single Channel Type Cast Settings.ctl"/>
+		<Item Name="Command Settings.ctl" Type="VI" URL="../TypeDefs/Command Settings.ctl"/>
+		<Item Name="Padding.ctl" Type="VI" URL="../TypeDefs/Padding.ctl"/>
 	</Item>
 </Library>
