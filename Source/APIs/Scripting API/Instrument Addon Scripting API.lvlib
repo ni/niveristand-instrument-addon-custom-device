@@ -88,11 +88,11 @@
 		<Item Name="Validate Instrument Addon Refnum.vi" Type="VI" URL="../SubVIs/Validate Instrument Addon Refnum.vi"/>
 		<Item Name="Resolve ByteCount Wait.vi" Type="VI" URL="../SubVIs/Resolve ByteCount Wait.vi"/>
 		<Item Name="Resolve Response Linkaging.vi" Type="VI" URL="../SubVIs/Resolve Response Linkaging.vi"/>
+		<Item Name="Check Size Equality.vi" Type="VI" URL="../SubVIs/Check Size Equality.vi"/>
 		<Item Name="Resolve Seconds Wait.vi" Type="VI" URL="../SubVIs/Resolve Seconds Wait.vi"/>
 		<Item Name="Validate Message Refnum.vi" Type="VI" URL="../SubVIs/Validate Message Refnum.vi"/>
 		<Item Name="Check for Empty Response.vi" Type="VI" URL="../SubVIs/Check for Empty Response.vi"/>
 		<Item Name="Check for Duplicate Variables.vi" Type="VI" URL="../SubVIs/Check for Duplicate Variables.vi"/>
-		<Item Name="Check LC&amp;RF Size Equality.vi" Type="VI" URL="../SubVIs/Check LC&amp;RF Size Equality.vi"/>
 		<Item Name="Check Response&amp;Variables Correspondence.vi" Type="VI" URL="../SubVIs/Check Response&amp;Variables Correspondence.vi"/>
 	</Item>
 	<Item Name="TypeDefs" Type="Folder">
