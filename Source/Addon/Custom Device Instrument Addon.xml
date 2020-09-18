@@ -388,6 +388,30 @@
       </Item2Launch>
     <RunTimeMenu>
       <MenuItem>
+        <GUID>64821d54-fc61-45e4-880d-f909323c4cbb</GUID>
+        <Type>Action</Type>
+        <Name>
+          <eng>Add Response</eng>
+          <loc>Add Response</loc>
+        </Name>
+        <Item2Launch>
+          <Type>To Common Doc Dir</Type>
+          <Path>Custom Devices\Instrument Addon\Windows\Instrument Addon Configuration.llb\Add Response RTM.vi</Path>
+        </Item2Launch>
+      </MenuItem>
+      <MenuItem>
+        <GUID>fd3d3105-f7f0-4769-ae40-a84ae34e9fce</GUID>
+        <Type>Action</Type>
+        <Name>
+          <eng>Add Command</eng>
+          <loc>Add Command</loc>
+        </Name>
+        <Item2Launch>
+          <Type>To Common Doc Dir</Type>
+          <Path>Custom Devices\Instrument Addon\Windows\Instrument Addon Configuration.llb\Add Command RTM.vi</Path>
+        </Item2Launch>
+      </MenuItem>
+      <MenuItem>
         <GUID>77550670-1485-13A6-568B9AB41979630D</GUID>
         <Type>Action</Type>
         <Name>
