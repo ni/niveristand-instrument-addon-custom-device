@@ -61,8 +61,12 @@
 	</Item>
 	<Item Name="Palettes" Type="Folder"/>
 	<Item Name="SubVIs" Type="Folder">
+		<Item Name="Add Array Data Channels.vi" Type="VI" URL="../SubVIs/Add Array Data Channels.vi"/>
+		<Item Name="Create Data Channel Element.vi" Type="VI" URL="../SubVIs/Create Data Channel Element.vi"/>
 		<Item Name="Create Error Codes.vi" Type="VI" URL="../SubVIs/Create Error Codes.vi"/>
+		<Item Name="Channel or Section Name Valid" Type="VI" URL="../SubVIs/Channel or Section Name Valid"/>
 		<Item Name="Create Message Channels Section.vi" Type="VI" URL="../SubVIs/Create Message Channels Section.vi"/>
+		<Item Name="Get or Create Response.vi" Type="VI" URL="../SubVIs/Get or Create Response.vi"/>
 		<Item Name="Create Message Command.vi" Type="VI" URL="../SubVIs/Create Message Command.vi"/>
 		<Item Name="Create Message Response.vi" Type="VI" URL="../SubVIs/Create Message Response.vi"/>
 		<Item Name="Create Message Status.vi" Type="VI" URL="../SubVIs/Create Message Status.vi"/>
@@ -73,16 +77,20 @@
 		<Item Name="Get Protocol Classes List.vi" Type="VI" URL="../SubVIs/Get Protocol Classes List.vi"/>
 		<Item Name="NodeID to Channel Pointer.vi" Type="VI" URL="../SubVIs/NodeID to Channel Pointer.vi"/>
 		<Item Name="NodeID to Section Pointer.vi" Type="VI" URL="../SubVIs/NodeID to Section Pointer.vi"/>
+		<Item Name="Set Channel Value Table.vi" Type="VI" URL="../SubVIs/Set Channel Value Table.vi"/>
 		<Item Name="Set Generation Type.vi" Type="VI" URL="../SubVIs/Set Generation Type.vi"/>
 		<Item Name="Set Message Period.vi" Type="VI" URL="../SubVIs/Set Message Period.vi"/>
 		<Item Name="Set Message Protection.vi" Type="VI" URL="../SubVIs/Set Message Protection.vi"/>
 		<Item Name="Set Message Trigger.vi" Type="VI" URL="../SubVIs/Set Message Trigger.vi"/>
 		<Item Name="Add Message Channel.vi" Type="VI" URL="../SubVIs/Add Message Channel.vi"/>
 		<Item Name="Create Enable Periodic.vi" Type="VI" URL="../SubVIs/Create Enable Periodic.vi"/>
+		<Item Name="Throw Invalid Name Error.vi" Type="VI" URL="../SubVIs/Throw Invalid Name Error.vi"/>
 		<Item Name="Validate PCL Decimation Value.vi" Type="VI" URL="../SubVIs/Validate PCL Decimation Value.vi"/>
 		<Item Name="Validate Instrument Addon Name.vi" Type="VI" URL="../SubVIs/Validate Instrument Addon Name.vi"/>
 		<Item Name="Validate Instrument Addon Name Is Not In Use.vi" Type="VI" URL="../SubVIs/Validate Instrument Addon Name Is Not In Use.vi"/>
 		<Item Name="Validate Instrument Addon Refnum.vi" Type="VI" URL="../SubVIs/Validate Instrument Addon Refnum.vi"/>
+		<Item Name="Validate Channel or Array Name.vi" Type="VI" URL="../SubVIs/Validate Channel or Array Name.vi"/>
+		<Item Name="Assign New GUID to Refnum.vi" Type="VI" URL="../SubVIs/Assign New GUID to Refnum.vi"/>
 	</Item>
 	<Item Name="TypeDefs" Type="Folder">
 		<Item Name="Message Settings.ctl" Type="VI" URL="../TypeDefs/Message Settings.ctl"/>
@@ -94,5 +102,8 @@
 		<Item Name="Single Channel Enumerated List Settings.ctl" Type="VI" URL="../TypeDefs/Single Channel Enumerated List Settings.ctl"/>
 		<Item Name="Single Channel Format Settings.ctl" Type="VI" URL="../TypeDefs/Single Channel Format Settings.ctl"/>
 		<Item Name="Single Channel Type Cast Settings.ctl" Type="VI" URL="../TypeDefs/Single Channel Type Cast Settings.ctl"/>
+		<Item Name="Array Comparison Settings.ctl" Type="VI" URL="../TypeDefs/Array Comparison Settings.ctl"/>
+		<Item Name="Single Channel Comparison Settings.ctl" Type="VI" URL="../TypeDefs/Single Channel Comparison Settings.ctl"/>
 	</Item>
+	<Item Name="Instrument Host Automation API.lvlib" Type="Library" URL="../../Host Automation API/Instrument Host Automation API.lvlib"/>
 </Library>
