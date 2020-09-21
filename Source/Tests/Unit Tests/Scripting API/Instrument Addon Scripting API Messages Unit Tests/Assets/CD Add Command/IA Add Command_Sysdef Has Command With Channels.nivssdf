@@ -3,14 +3,14 @@
 	<MD5Checksum />
 	<Version Major="2017" Minor="0" Fix="1" Build="0" />
 	<Content>Definition</Content>
-	<Root Name="IA Add Command" TypeGUID="03D3BA22-1485-13A6-56BD17DA950CCD00">
+	<Root Name="IA Add Command_Sysdef Has Command With Channels" TypeGUID="03D3BA22-1485-13A6-56BD17DA950CCD00">
 		<Description />
 		<Properties>
 			<Property Name="Name">
-				<String>IA Add Command</String>
+				<String>IA Add Command_Sysdef Has Command With Channels</String>
 			</Property>
 			<Property Name="Version">
-				<String>1.0.0.43</String>
+				<String>1.0.0.45</String>
 			</Property>
 			<Property Name="Creator">
 				<String />
@@ -515,23 +515,13 @@
 									<Description />
 									<Properties>
 										<Property Name="user.CD.Cmd.Cmd">
-											<BinaryString>W1ZhcjFdK1tWYXIyXStbVmFyM10rW1ZhcjRd</BinaryString>
+											<BinaryString />
 										</Property>
 										<Property Name="user.CD.Cmd.LinkedChans">
-											<StringArray>
-												<Elem>Var1</Elem>
-												<Elem>Var2</Elem>
-												<Elem>Var3</Elem>
-												<Elem>Var4</Elem>
-											</StringArray>
+											<StringArray />
 										</Property>
 										<Property Name="user.CD.Cmd.LinkedGUID">
-											<StringArray>
-												<Elem>ff053cc9-386e-43d5-989f-53ea2064fc2c</Elem>
-												<Elem>5cd9b12b-e647-4106-832d-2fe55fd3ec69</Elem>
-												<Elem>14389096-bd42-4b18-8b70-f0f4b2cf5a9e</Elem>
-												<Elem>f1bbcf10-790f-49ce-a307-a0db28e6f8ad</Elem>
-											</StringArray>
+											<StringArray />
 										</Property>
 										<Property Name="user.CD.Cmd.Pad">
 											<Boolean>false</Boolean>

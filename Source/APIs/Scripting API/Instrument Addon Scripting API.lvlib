@@ -91,7 +91,7 @@
 		<Item Name="Check Size Equality.vi" Type="VI" URL="../SubVIs/Check Size Equality.vi"/>
 		<Item Name="Resolve Seconds Wait.vi" Type="VI" URL="../SubVIs/Resolve Seconds Wait.vi"/>
 		<Item Name="Validate Message Refnum.vi" Type="VI" URL="../SubVIs/Validate Message Refnum.vi"/>
-		<Item Name="Check for Empty Response.vi" Type="VI" URL="../SubVIs/Check for Empty Response.vi"/>
+		<Item Name="Check for Empty Command Or Response.vi" Type="VI" URL="../SubVIs/Check for Empty Command Or Response.vi"/>
 		<Item Name="Check for Duplicate Variables.vi" Type="VI" URL="../SubVIs/Check for Duplicate Variables.vi"/>
 		<Item Name="Check Variables &amp; Linked Channels Correspondence.vi" Type="VI" URL="../SubVIs/Check Variables &amp; Linked Channels Correspondence.vi"/>
 		<Item Name="Is Command or Response.vi" Type="VI" URL="../SubVIs/Is Command or Response.vi"/>
