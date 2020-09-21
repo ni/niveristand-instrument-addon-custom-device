@@ -93,7 +93,8 @@
 		<Item Name="Validate Message Refnum.vi" Type="VI" URL="../SubVIs/Validate Message Refnum.vi"/>
 		<Item Name="Check for Empty Response.vi" Type="VI" URL="../SubVIs/Check for Empty Response.vi"/>
 		<Item Name="Check for Duplicate Variables.vi" Type="VI" URL="../SubVIs/Check for Duplicate Variables.vi"/>
-		<Item Name="Check Response&amp;Variables Correspondence.vi" Type="VI" URL="../SubVIs/Check Response&amp;Variables Correspondence.vi"/>
+		<Item Name="Check Variables &amp; Linked Channels Correspondence.vi" Type="VI" URL="../SubVIs/Check Variables &amp; Linked Channels Correspondence.vi"/>
+		<Item Name="Is Command or Response.vi" Type="VI" URL="../SubVIs/Is Command or Response.vi"/>
 	</Item>
 	<Item Name="TypeDefs" Type="Folder">
 		<Item Name="Message Settings.ctl" Type="VI" URL="../TypeDefs/Message Settings.ctl"/>
