@@ -64,8 +64,8 @@
 		<Item Name="Add Array Data Channels.vi" Type="VI" URL="../SubVIs/Add Array Data Channels.vi"/>
 		<Item Name="Create Data Channel Element.vi" Type="VI" URL="../SubVIs/Create Data Channel Element.vi"/>
 		<Item Name="Create Error Codes.vi" Type="VI" URL="../SubVIs/Create Error Codes.vi"/>
-		<Item Name="Channel or Section Name Valid" Type="VI" URL="../SubVIs/Channel or Section Name Valid"/>
 		<Item Name="Create Message Channels Section.vi" Type="VI" URL="../SubVIs/Create Message Channels Section.vi"/>
+		<Item Name="Channel or Section Name Valid.vi" Type="VI" URL="../SubVIs/Channel or Section Name Valid.vi"/>
 		<Item Name="Get or Create Response.vi" Type="VI" URL="../SubVIs/Get or Create Response.vi"/>
 		<Item Name="Create Message Command.vi" Type="VI" URL="../SubVIs/Create Message Command.vi"/>
 		<Item Name="Create Message Response.vi" Type="VI" URL="../SubVIs/Create Message Response.vi"/>
@@ -105,5 +105,4 @@
 		<Item Name="Array Comparison Settings.ctl" Type="VI" URL="../TypeDefs/Array Comparison Settings.ctl"/>
 		<Item Name="Single Channel Comparison Settings.ctl" Type="VI" URL="../TypeDefs/Single Channel Comparison Settings.ctl"/>
 	</Item>
-	<Item Name="Instrument Host Automation API.lvlib" Type="Library" URL="../../Host Automation API/Instrument Host Automation API.lvlib"/>
 </Library>
