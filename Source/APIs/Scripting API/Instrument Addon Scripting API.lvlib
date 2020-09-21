@@ -94,6 +94,7 @@
 		<Item Name="Check for Empty Response.vi" Type="VI" URL="../SubVIs/Check for Empty Response.vi"/>
 		<Item Name="Check for Duplicate Variables.vi" Type="VI" URL="../SubVIs/Check for Duplicate Variables.vi"/>
 		<Item Name="Check Response&amp;Variables Correspondence.vi" Type="VI" URL="../SubVIs/Check Response&amp;Variables Correspondence.vi"/>
+		<Item Name="ConfigGUID to ChannelNodeID.vi" Type="VI" URL="../SubVIs/ConfigGUID to ChannelNodeID.vi"/>
 	</Item>
 	<Item Name="TypeDefs" Type="Folder">
 		<Item Name="Message Settings.ctl" Type="VI" URL="../TypeDefs/Message Settings.ctl"/>
