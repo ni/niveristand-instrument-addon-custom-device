@@ -86,6 +86,7 @@
 		<Item Name="Throw Invalid Name Error.vi" Type="VI" URL="../SubVIs/Throw Invalid Name Error.vi"/>
 		<Item Name="Populate Array Channel.vi" Type="VI" URL="../SubVIs/Populate Array Channel.vi"/>
 		<Item Name="Get or Create Command.vi" Type="VI" URL="../SubVIs/Get or Create Command.vi"/>
+		<Item Name="Validate Name Is Unique.vi" Type="VI" URL="../SubVIs/Validate Name Is Unique.vi"/>
 	</Item>
 	<Item Name="TypeDefs" Type="Folder">
 		<Item Name="Message Settings.ctl" Type="VI" URL="../TypeDefs/Message Settings.ctl"/>
