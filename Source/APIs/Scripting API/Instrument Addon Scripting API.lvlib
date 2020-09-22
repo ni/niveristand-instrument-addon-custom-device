@@ -94,7 +94,8 @@
 		<Item Name="Check for Empty Command Or Response.vi" Type="VI" URL="../SubVIs/Check for Empty Command Or Response.vi"/>
 		<Item Name="Check for Duplicate Variables.vi" Type="VI" URL="../SubVIs/Check for Duplicate Variables.vi"/>
 		<Item Name="Check Variables &amp; Linked Channels Correspondence.vi" Type="VI" URL="../SubVIs/Check Variables &amp; Linked Channels Correspondence.vi"/>
-		<Item Name="Is Command or Response.vi" Type="VI" URL="../SubVIs/Is Command or Response.vi"/>
+		<Item Name="Is Command Refnum.vi" Type="VI" URL="../SubVIs/Is Command Refnum.vi"/>
+		<Item Name="Is Valid Linkage.vi" Type="VI" URL="../SubVIs/Is Valid Linkage.vi"/>
 	</Item>
 	<Item Name="TypeDefs" Type="Folder">
 		<Item Name="Message Settings.ctl" Type="VI" URL="../TypeDefs/Message Settings.ctl"/>
