@@ -93,3 +93,9 @@ type = 'nipkg'
 payload_dir = 'Built'
 install_destination = 'documents\National Instruments\NI VeriStand {veristand_version}' 
 control_file = 'control'
+
+[package]
+type = 'nipkg'
+payload_dir = 'ScriptingAPI_Built'
+install_destination = 'ni-paths-LV{veristand_version}DIR\vi.lib\addons\VeriStand Custom Device Scripting APIs\Instrument Addon'
+control_file = 'control Scripting API'
