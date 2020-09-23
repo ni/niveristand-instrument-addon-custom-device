@@ -93,13 +93,15 @@
 		<Item Name="Validate Instrument Addon Name Is Not In Use.vi" Type="VI" URL="../SubVIs/Validate Instrument Addon Name Is Not In Use.vi"/>
 		<Item Name="Validate Instrument Addon Refnum.vi" Type="VI" URL="../SubVIs/Validate Instrument Addon Refnum.vi"/>
 		<Item Name="Resolve ByteCount Wait.vi" Type="VI" URL="../SubVIs/Resolve ByteCount Wait.vi"/>
-		<Item Name="Resolve Response Linkaging.vi" Type="VI" URL="../SubVIs/Resolve Response Linkaging.vi"/>
+		<Item Name="Resolve Linkaging.vi" Type="VI" URL="../SubVIs/Resolve Linkaging.vi"/>
 		<Item Name="Check Size Equality.vi" Type="VI" URL="../SubVIs/Check Size Equality.vi"/>
 		<Item Name="Resolve Seconds Wait.vi" Type="VI" URL="../SubVIs/Resolve Seconds Wait.vi"/>
 		<Item Name="Validate Message Refnum.vi" Type="VI" URL="../SubVIs/Validate Message Refnum.vi"/>
-		<Item Name="Check for Empty Response.vi" Type="VI" URL="../SubVIs/Check for Empty Response.vi"/>
+		<Item Name="Check for Empty Command Or Response.vi" Type="VI" URL="../SubVIs/Check for Empty Command Or Response.vi"/>
 		<Item Name="Check for Duplicate Variables.vi" Type="VI" URL="../SubVIs/Check for Duplicate Variables.vi"/>
-		<Item Name="Check Response&amp;Variables Correspondence.vi" Type="VI" URL="../SubVIs/Check Response&amp;Variables Correspondence.vi"/>
+		<Item Name="Check Variables &amp; Linked Channels Correspondence.vi" Type="VI" URL="../SubVIs/Check Variables &amp; Linked Channels Correspondence.vi"/>
+		<Item Name="Is Command Refnum.vi" Type="VI" URL="../SubVIs/Is Command Refnum.vi"/>
+		<Item Name="Is Valid Linkage.vi" Type="VI" URL="../SubVIs/Is Valid Linkage.vi"/>
 		<Item Name="Validate Channel or Array Name.vi" Type="VI" URL="../SubVIs/Validate Channel or Array Name.vi"/>
 		<Item Name="Assign New GUID to Refnum.vi" Type="VI" URL="../SubVIs/Assign New GUID to Refnum.vi"/>
 	</Item>
@@ -116,6 +118,8 @@
 		<Item Name="Single Channel Enumerated List Settings.ctl" Type="VI" URL="../TypeDefs/Single Channel Enumerated List Settings.ctl"/>
 		<Item Name="Single Channel Format Settings.ctl" Type="VI" URL="../TypeDefs/Single Channel Format Settings.ctl"/>
 		<Item Name="Single Channel Type Cast Settings.ctl" Type="VI" URL="../TypeDefs/Single Channel Type Cast Settings.ctl"/>
+		<Item Name="Command Settings.ctl" Type="VI" URL="../TypeDefs/Command Settings.ctl"/>
+		<Item Name="Padding.ctl" Type="VI" URL="../TypeDefs/Padding.ctl"/>
 		<Item Name="Array Comparison Settings.ctl" Type="VI" URL="../TypeDefs/Array Comparison Settings.ctl"/>
 		<Item Name="Single Channel Comparison Settings.ctl" Type="VI" URL="../TypeDefs/Single Channel Comparison Settings.ctl"/>
 	</Item>
