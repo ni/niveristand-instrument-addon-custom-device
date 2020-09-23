@@ -49,6 +49,10 @@
 						<Item Name="Format AK Command.vi" Type="VI" URL="../Addon/Support Libraries/Protocols.lvlibp/AK/Format AK Command.vi"/>
 						<Item Name="Format AK Response.vi" Type="VI" URL="../Addon/Support Libraries/Protocols.lvlibp/AK/Format AK Response.vi"/>
 					</Item>
+					<Item Name="Palettes" Type="Folder">
+						<Item Name="Factories.mnu" Type="Document" URL="../Addon/Support Libraries/Protocols.lvlibp/Palettes/Factories.mnu"/>
+						<Item Name="Protocols.mnu" Type="Document" URL="../Addon/Support Libraries/Protocols.lvlibp/Palettes/Protocols.mnu"/>
+					</Item>
 					<Item Name="Protocol Parent" Type="Folder">
 						<Item Name="Protocol Parent.lvclass" Type="LVClass" URL="../Addon/Support Libraries/Protocols.lvlibp/Protocol Parent/Protocol Parent.lvclass"/>
 					</Item>
@@ -921,27 +925,27 @@
 				<Property Name="Bld_excludedDirectory[5]" Type="Path">user.lib</Property>
 				<Property Name="Bld_excludedDirectory[5].pathType" Type="Str">relativeToAppDir</Property>
 				<Property Name="Bld_excludedDirectoryCount" Type="Int">6</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../Built/Custom Devices/NI_AB_PROJECTNAME/Scripting API/API</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../ScriptingAPI_Built/NI_AB_PROJECTNAME/API</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{70757631-4EA5-4C22-A187-59BB2EDF6D85}</Property>
 				<Property Name="Bld_removeVIObj" Type="Int">1</Property>
-				<Property Name="Bld_version.build" Type="Int">8</Property>
+				<Property Name="Bld_version.build" Type="Int">11</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
-				<Property Name="Destination[0].path" Type="Path">../Built/Custom Devices/NI_AB_PROJECTNAME/Scripting API/API</Property>
+				<Property Name="Destination[0].path" Type="Path">../ScriptingAPI_Built/NI_AB_PROJECTNAME/API</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../Built/Custom Devices/NI_AB_PROJECTNAME/Scripting API/API/data</Property>
+				<Property Name="Destination[1].path" Type="Path">../ScriptingAPI_Built/NI_AB_PROJECTNAME/API/data</Property>
 				<Property Name="Destination[2].destName" Type="Str">Libraries Directory</Property>
-				<Property Name="Destination[2].path" Type="Path">../Built/Custom Devices/NI_AB_PROJECTNAME/Scripting API/Libraries Directory</Property>
+				<Property Name="Destination[2].path" Type="Path">../ScriptingAPI_Built/NI_AB_PROJECTNAME/Libraries Directory</Property>
 				<Property Name="Destination[3].destName" Type="Str">Shared Directory</Property>
-				<Property Name="Destination[3].path" Type="Path">../Built/Custom Devices/NI_AB_PROJECTNAME/Scripting API/Shared Directory</Property>
+				<Property Name="Destination[3].path" Type="Path">../ScriptingAPI_Built/NI_AB_PROJECTNAME/Shared Directory</Property>
 				<Property Name="Destination[4].destName" Type="Str">SubPalettes Directory</Property>
-				<Property Name="Destination[4].path" Type="Path">../Built/Custom Devices/NI_AB_PROJECTNAME/Scripting API/Palettes</Property>
+				<Property Name="Destination[4].path" Type="Path">../ScriptingAPI_Built/NI_AB_PROJECTNAME/Palettes</Property>
 				<Property Name="Destination[5].destName" Type="Str">MainPalette Directory</Property>
-				<Property Name="Destination[5].path" Type="Path">../Built/Custom Devices/NI_AB_PROJECTNAME/Scripting API</Property>
+				<Property Name="Destination[5].path" Type="Path">../ScriptingAPI_Built/NI_AB_PROJECTNAME</Property>
 				<Property Name="DestinationCount" Type="Int">6</Property>
-				<Property Name="Source[0].itemID" Type="Str">{28A9E43E-0283-4AC6-9E73-FA514C69381A}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{A3D4FB79-C045-4810-95C4-C0D663507F95}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/APIs/Instrument Addon Scripting API.lvlib</Property>
@@ -968,13 +972,7 @@
 				<Property Name="Source[6].destinationIndex" Type="Int">5</Property>
 				<Property Name="Source[6].itemID" Type="Ref">/My Computer/APIs/Instrument Addon Scripting API.lvlib/Palettes/dir.mnu</Property>
 				<Property Name="Source[6].lvfile" Type="Bool">true</Property>
-				<Property Name="Source[7].destinationIndex" Type="Int">4</Property>
-				<Property Name="Source[7].itemID" Type="Ref">/My Computer/APIs/Instrument Addon Scripting API.lvlib/Palettes/Factories_sbplt.mnu</Property>
-				<Property Name="Source[7].lvfile" Type="Bool">true</Property>
-				<Property Name="Source[8].destinationIndex" Type="Int">4</Property>
-				<Property Name="Source[8].itemID" Type="Ref">/My Computer/APIs/Instrument Addon Scripting API.lvlib/Palettes/Protocols_sbplt.mnu</Property>
-				<Property Name="Source[8].lvfile" Type="Bool">true</Property>
-				<Property Name="SourceCount" Type="Int">9</Property>
+				<Property Name="SourceCount" Type="Int">7</Property>
 			</Item>
 			<Item Name="Workspace Object" Type="Source Distribution">
 				<Property Name="Bld_buildCacheID" Type="Str">{8C2E298A-2CF4-4CC2-8B89-2C7487E002E8}</Property>
@@ -1252,6 +1250,10 @@
 				<Item Name="Format AK Command.vi" Type="VI" URL="../Addon/Support Libraries/Protocols.lvlibp/AK/Format AK Command.vi"/>
 				<Item Name="Format AK Response.vi" Type="VI" URL="../Addon/Support Libraries/Protocols.lvlibp/AK/Format AK Response.vi"/>
 			</Item>
+			<Item Name="Palettes" Type="Folder">
+				<Item Name="Factories.mnu" Type="Document" URL="../Addon/Support Libraries/Protocols.lvlibp/Palettes/Factories.mnu"/>
+				<Item Name="Protocols.mnu" Type="Document" URL="../Addon/Support Libraries/Protocols.lvlibp/Palettes/Protocols.mnu"/>
+			</Item>
 			<Item Name="Protocol Parent" Type="Folder">
 				<Item Name="Protocol Parent.lvclass" Type="LVClass" URL="../Addon/Support Libraries/Protocols.lvlibp/Protocol Parent/Protocol Parent.lvclass"/>
 			</Item>
@@ -1519,6 +1521,10 @@
 				<Item Name="Format AK Command.vi" Type="VI" URL="../Addon/Support Libraries/Protocols.lvlibp/AK/Format AK Command.vi"/>
 				<Item Name="Format AK Response.vi" Type="VI" URL="../Addon/Support Libraries/Protocols.lvlibp/AK/Format AK Response.vi"/>
 			</Item>
+			<Item Name="Palettes" Type="Folder">
+				<Item Name="Factories.mnu" Type="Document" URL="../Addon/Support Libraries/Protocols.lvlibp/Palettes/Factories.mnu"/>
+				<Item Name="Protocols.mnu" Type="Document" URL="../Addon/Support Libraries/Protocols.lvlibp/Palettes/Protocols.mnu"/>
+			</Item>
 			<Item Name="Protocol Parent" Type="Folder">
 				<Item Name="Protocol Parent.lvclass" Type="LVClass" URL="../Addon/Support Libraries/Protocols.lvlibp/Protocol Parent/Protocol Parent.lvclass"/>
 			</Item>
@@ -1546,15 +1552,12 @@
 			<Item Name="VISA Flush IO Buffer Mask.ctl" Type="VI" URL="../Addon/Support Libraries/Protocols.lvlibp/1abvi3w/vi.lib/Instr/_visa.llb/VISA Flush IO Buffer Mask.ctl"/>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
-			<Item Name="instr.lib" Type="Folder">
-				<Item Name="NationalInstruments.VeriStand.SystemDefinitionAPI.dll" Type="Document" URL="/&lt;instrlib&gt;/niSync/NationalInstruments.VeriStand.SystemDefinitionAPI.dll"/>
-			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Advanced System Definition.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NI VeriStand Advanced SysDef API/SysDef API/Advanced System Definition.lvlib"/>
 				<Item Name="AMC.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/AMC/AMC.lvlib"/>
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
-				<Item Name="Custom Device API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device API/Custom Device API.lvlib"/>
-				<Item Name="Custom Device Utility Library.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device Tools/Custom Device Utility Library/Custom Device Utility Library.lvlib"/>
+				<Item Name="Custom Device API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI Veristand/Custom Device API/Custom Device API.lvlib"/>
+				<Item Name="Custom Device Utility Library.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI Veristand/Custom Device Tools/Custom Device Utility Library/Custom Device Utility Library.lvlib"/>
 				<Item Name="Data Access Engine.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_Data Access Engine/Data Access Engine.lvlib"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="Error Code Database.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Code Database.vi"/>
@@ -1715,6 +1718,10 @@
 				<Item Name="Format AK Command.vi" Type="VI" URL="../Addon/Support Libraries/Protocols.lvlibp/AK/Format AK Command.vi"/>
 				<Item Name="Format AK Response.vi" Type="VI" URL="../Addon/Support Libraries/Protocols.lvlibp/AK/Format AK Response.vi"/>
 			</Item>
+			<Item Name="Palettes" Type="Folder">
+				<Item Name="Factories.mnu" Type="Document" URL="../Addon/Support Libraries/Protocols.lvlibp/Palettes/Factories.mnu"/>
+				<Item Name="Protocols.mnu" Type="Document" URL="../Addon/Support Libraries/Protocols.lvlibp/Palettes/Protocols.mnu"/>
+			</Item>
 			<Item Name="Protocol Parent" Type="Folder">
 				<Item Name="Protocol Parent.lvclass" Type="LVClass" URL="../Addon/Support Libraries/Protocols.lvlibp/Protocol Parent/Protocol Parent.lvclass"/>
 			</Item>
@@ -1742,15 +1749,12 @@
 			<Item Name="VISA Flush IO Buffer Mask.ctl" Type="VI" URL="../Addon/Support Libraries/Protocols.lvlibp/1abvi3w/vi.lib/Instr/_visa.llb/VISA Flush IO Buffer Mask.ctl"/>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
-			<Item Name="instr.lib" Type="Folder">
-				<Item Name="NationalInstruments.VeriStand.SystemDefinitionAPI.dll" Type="Document" URL="/&lt;instrlib&gt;/niSync/NationalInstruments.VeriStand.SystemDefinitionAPI.dll"/>
-			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Advanced System Definition.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NI VeriStand Advanced SysDef API/SysDef API/Advanced System Definition.lvlib"/>
 				<Item Name="AMC.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/AMC/AMC.lvlib"/>
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
-				<Item Name="Custom Device API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device API/Custom Device API.lvlib"/>
-				<Item Name="Custom Device Utility Library.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device Tools/Custom Device Utility Library/Custom Device Utility Library.lvlib"/>
+				<Item Name="Custom Device API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI Veristand/Custom Device API/Custom Device API.lvlib"/>
+				<Item Name="Custom Device Utility Library.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI Veristand/Custom Device Tools/Custom Device Utility Library/Custom Device Utility Library.lvlib"/>
 				<Item Name="Data Access Engine.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_Data Access Engine/Data Access Engine.lvlib"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="Error Code Database.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Code Database.vi"/>
