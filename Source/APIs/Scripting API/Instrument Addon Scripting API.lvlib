@@ -59,8 +59,11 @@
 		<Item Name="Create Message - Periodic &amp; Trigger.vi" Type="VI" URL="../Messages/Create Message - Periodic &amp; Trigger.vi"/>
 		<Item Name="Create Message - Value Change &amp; Trigger.vi" Type="VI" URL="../Messages/Create Message - Value Change &amp; Trigger.vi"/>
 	</Item>
-	<Item Name="Palettes" Type="Folder"/>
+	<Item Name="Palettes" Type="Folder">
+		<Item Name="dir.mnu" Type="Document" URL="../Palettes/dir.mnu"/>
+	</Item>
 	<Item Name="SubVIs" Type="Folder">
+		<Item Name="Linkages NodeID to GUID.vi" Type="VI" URL="../SubVIs/Linkages NodeID to GUID.vi"/>
 		<Item Name="Create Error Codes.vi" Type="VI" URL="../SubVIs/Create Error Codes.vi"/>
 		<Item Name="Create Message Channels Section.vi" Type="VI" URL="../SubVIs/Create Message Channels Section.vi"/>
 		<Item Name="Create Message Command.vi" Type="VI" URL="../SubVIs/Create Message Command.vi"/>
@@ -83,10 +86,21 @@
 		<Item Name="Validate Instrument Addon Name.vi" Type="VI" URL="../SubVIs/Validate Instrument Addon Name.vi"/>
 		<Item Name="Validate Instrument Addon Name Is Not In Use.vi" Type="VI" URL="../SubVIs/Validate Instrument Addon Name Is Not In Use.vi"/>
 		<Item Name="Validate Instrument Addon Refnum.vi" Type="VI" URL="../SubVIs/Validate Instrument Addon Refnum.vi"/>
+		<Item Name="Resolve ByteCount Wait.vi" Type="VI" URL="../SubVIs/Resolve ByteCount Wait.vi"/>
+		<Item Name="Resolve Response Linkaging.vi" Type="VI" URL="../SubVIs/Resolve Response Linkaging.vi"/>
+		<Item Name="Check Size Equality.vi" Type="VI" URL="../SubVIs/Check Size Equality.vi"/>
+		<Item Name="Resolve Seconds Wait.vi" Type="VI" URL="../SubVIs/Resolve Seconds Wait.vi"/>
+		<Item Name="Validate Message Refnum.vi" Type="VI" URL="../SubVIs/Validate Message Refnum.vi"/>
+		<Item Name="Check for Empty Response.vi" Type="VI" URL="../SubVIs/Check for Empty Response.vi"/>
+		<Item Name="Check for Duplicate Variables.vi" Type="VI" URL="../SubVIs/Check for Duplicate Variables.vi"/>
+		<Item Name="Check Response&amp;Variables Correspondence.vi" Type="VI" URL="../SubVIs/Check Response&amp;Variables Correspondence.vi"/>
 	</Item>
 	<Item Name="TypeDefs" Type="Folder">
 		<Item Name="Message Settings.ctl" Type="VI" URL="../TypeDefs/Message Settings.ctl"/>
 		<Item Name="Protection Types.ctl" Type="VI" URL="../TypeDefs/Protection Types.ctl"/>
+		<Item Name="Linked Channel.ctl" Type="VI" URL="../TypeDefs/Linked Channel.ctl"/>
+		<Item Name="Wait Response Settings.ctl" Type="VI" URL="../TypeDefs/Wait Response Settings.ctl"/>
+		<Item Name="ByteCount Response Settings.ctl" Type="VI" URL="../TypeDefs/ByteCount Response Settings.ctl"/>
 		<Item Name="Array Element.ctl" Type="VI" URL="../TypeDefs/Array Element.ctl"/>
 		<Item Name="Array Enumerated List Settings.ctl" Type="VI" URL="../TypeDefs/Array Enumerated List Settings.ctl"/>
 		<Item Name="Array Format Settings.ctl" Type="VI" URL="../TypeDefs/Array Format Settings.ctl"/>
