@@ -58,14 +58,12 @@
 				<Item Name="Trigger Channel.vi" Type="VI" URL="../Extra Pages/Trigger Channel.vi"/>
 			</Item>
 			<Item Name="RTMs" Type="Folder">
-				<Item Name="Add Command RTM.vi" Type="VI" URL="../RTMs/Add Command RTM.vi"/>
 				<Item Name="Add New Data Array.vi" Type="VI" URL="../RTMs/Add New Data Array.vi"/>
 				<Item Name="Add New Data Channel.vi" Type="VI" URL="../RTMs/Add New Data Channel.vi"/>
 				<Item Name="Add New Message Group.vi" Type="VI" URL="../RTMs/Add New Message Group.vi"/>
 				<Item Name="Add New Message.vi" Type="VI" URL="../RTMs/Add New Message.vi"/>
 				<Item Name="Add New MetaData Array.vi" Type="VI" URL="../RTMs/Add New MetaData Array.vi"/>
 				<Item Name="Add New MetaData Channel.vi" Type="VI" URL="../RTMs/Add New MetaData Channel.vi"/>
-				<Item Name="Add Response RTM.vi" Type="VI" URL="../RTMs/Add Response RTM.vi"/>
 				<Item Name="EnableDisable Main Page.vi" Type="VI" URL="../RTMs/EnableDisable Main Page.vi"/>
 				<Item Name="ExportConfigurationToFile.vi" Type="VI" URL="../RTMs/ExportConfigurationToFile.vi"/>
 			</Item>
