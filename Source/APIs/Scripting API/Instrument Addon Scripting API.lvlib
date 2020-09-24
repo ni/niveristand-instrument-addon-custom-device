@@ -68,7 +68,7 @@
 		<Item Name="Linkages NodeID to GUID.vi" Type="VI" URL="../SubVIs/Linkages NodeID to GUID.vi"/>
 		<Item Name="Create Error Codes.vi" Type="VI" URL="../SubVIs/Create Error Codes.vi"/>
 		<Item Name="Create Message Channels Section.vi" Type="VI" URL="../SubVIs/Create Message Channels Section.vi"/>
-		<Item Name="Channel or Section Name Valid.vi" Type="VI" URL="../SubVIs/Channel or Section Name Valid.vi"/>
+		<Item Name="Validate Channel or Section Name.vi" Type="VI" URL="../SubVIs/Validate Channel or Section Name.vi"/>
 		<Item Name="Get or Create Response.vi" Type="VI" URL="../SubVIs/Get or Create Response.vi"/>
 		<Item Name="Create Message Command.vi" Type="VI" URL="../SubVIs/Create Message Command.vi"/>
 		<Item Name="Create Message Response.vi" Type="VI" URL="../SubVIs/Create Message Response.vi"/>
@@ -100,7 +100,6 @@
 		<Item Name="Check Variables &amp; Linked Channels Correspondence.vi" Type="VI" URL="../SubVIs/Check Variables &amp; Linked Channels Correspondence.vi"/>
 		<Item Name="Is Command Refnum.vi" Type="VI" URL="../SubVIs/Is Command Refnum.vi"/>
 		<Item Name="Is Valid Linkage.vi" Type="VI" URL="../SubVIs/Is Valid Linkage.vi"/>
-		<Item Name="Validate Channel or Array Name.vi" Type="VI" URL="../SubVIs/Validate Channel or Array Name.vi"/>
 		<Item Name="Assign New GUID to Refnum.vi" Type="VI" URL="../SubVIs/Assign New GUID to Refnum.vi"/>
 	</Item>
 	<Item Name="TypeDefs" Type="Folder">
