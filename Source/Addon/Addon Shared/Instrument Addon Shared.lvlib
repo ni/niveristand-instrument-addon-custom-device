@@ -50,6 +50,7 @@
 			<Item Name="Protocol FG.vi" Type="VI" URL="../SubVIs/Protocol FG.vi"/>
 			<Item Name="Response Parameters FG.vi" Type="VI" URL="../SubVIs/Response Parameters FG.vi"/>
 			<Item Name="RSxxx Protocol FG.vi" Type="VI" URL="../SubVIs/RSxxx Protocol FG.vi"/>
+			<Item Name="Set Channel Value Table.vi" Type="VI" URL="../SubVIs/Set Channel Value Table.vi"/>
 			<Item Name="Set Codes on all Error Channels.vi" Type="VI" URL="../SubVIs/Set Codes on all Error Channels.vi"/>
 			<Item Name="TCPIP Protocol FG.vi" Type="VI" URL="../SubVIs/TCPIP Protocol FG.vi"/>
 			<Item Name="Trigger Parameters FG.vi" Type="VI" URL="../SubVIs/Trigger Parameters FG.vi"/>
