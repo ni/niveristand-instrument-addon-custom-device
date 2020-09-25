@@ -96,6 +96,8 @@
 		<Item Name="Check Variables &amp; Linked Channels Correspondence.vi" Type="VI" URL="../SubVIs/Check Variables &amp; Linked Channels Correspondence.vi"/>
 		<Item Name="Is Command Refnum.vi" Type="VI" URL="../SubVIs/Is Command Refnum.vi"/>
 		<Item Name="Is Valid Linkage.vi" Type="VI" URL="../SubVIs/Is Valid Linkage.vi"/>
+		<Item Name="Get Equation Variables.vi" Type="VI" URL="../SubVIs/Get Equation Variables.vi"/>
+		<Item Name="Remove Target from Path.vi" Type="VI" URL="../SubVIs/Remove Target from Path.vi"/>
 	</Item>
 	<Item Name="TypeDefs" Type="Folder">
 		<Item Name="Message Settings.ctl" Type="VI" URL="../TypeDefs/Message Settings.ctl"/>
