@@ -109,9 +109,6 @@
 				</Item>
 				<Item Name="Scripting API" Type="Folder">
 					<Property Name="NI.SortType" Type="Int">3</Property>
-					<Item Name="SubVIs" Type="Folder">
-						<Item Name="Extract Array Elements.vi" Type="VI" URL="../Tests/Unit Tests/Scripting API/Instrument Addon Scripting API Channels Unit Tests/SubVIs/Extract Array Elements.vi"/>
-					</Item>
 					<Item Name="Instrument Addon Scripting API Custom Device Unit Tests.lvclass" Type="LVClass" URL="../Tests/Unit Tests/Scripting API/Instrument Addon Scripting API Custom Device Unit Tests/Instrument Addon Scripting API Custom Device Unit Tests.lvclass"/>
 					<Item Name="Instrument Addon Scripting API Channels Unit Tests.lvclass" Type="LVClass" URL="../Tests/Unit Tests/Scripting API/Instrument Addon Scripting API Channels Unit Tests/Instrument Addon Scripting API Channels Unit Tests.lvclass"/>
 					<Item Name="Instrument Addon Scripting API Messages Unit Tests.lvclass" Type="LVClass" URL="../Tests/Unit Tests/Scripting API/Instrument Addon Scripting API Messages Unit Tests/Instrument Addon Scripting API Messages Unit Tests.lvclass"/>
