@@ -1,0 +1,103 @@
+[archive]
+build_output_dir = 'Built'
+archive_location = '\\nirvana\Measurements\VeriStandAddons\instrument_addon_custom_device'
+
+[dependencies.niveristand-instrument-addon-classes]
+libraries = ['Protections.lvlibp', 'Protocols.lvlibp']
+copy_location = 'Source\Addon\Support Libraries'
+
+[projects.cd]
+path = 'Source\Instrument Addon.lvproj'
+
+[[build.steps]]
+name = 'Scripting API'
+type = 'lvBuildSpec'
+project = '{cd}'
+target = 'My Computer'
+build_spec = 'Scripting API'
+dependency_target = 'Windows'
+
+[[build.steps]]
+name = 'Host API'
+type = 'lvBuildSpec'
+project = '{cd}'
+target = 'My Computer'
+build_spec = 'Host API'
+dependency_target = 'Windows'
+
+[[build.steps]]
+name = 'Workspace Object'
+type = 'lvBuildSpec'
+project = '{cd}'
+target = 'My Computer'
+build_spec = 'Host API'
+dependency_target = 'Windows'
+
+[[build.steps]]
+name = 'Workspace Tool'
+type = 'lvBuildSpec'
+project = '{cd}'
+target = 'My Computer'
+build_spec = 'Workspace Tool'
+dependency_target = 'Windows'
+
+[[build.steps]]
+name = 'Workspace Tool EXE'
+type = 'lvBuildSpec'
+project = '{cd}'
+target = 'My Computer'
+build_spec = 'Workspace Tool EXE'
+dependency_target = 'Windows'
+
+[[build.steps]]
+name = 'Configuration Library'
+type = 'lvBuildSpec'
+project = '{cd}'
+target = 'My Computer'
+build_spec = 'Configuration Release'
+dependency_target = 'Windows'
+
+[[build.steps]]
+name = 'Engine Libraries'
+type = 'lvBuildSpecAllTargets'
+project = '{cd}'
+build_spec = 'Engine Release'
+dependency_target = 'Windows'
+
+[[build.steps]]
+name = 'PharLap Engine Libraries'
+type = 'lvBuildSpec'
+target = 'RT PXI Target - Pharlap'
+project = '{cd}'
+build_spec = 'Engine Release'
+dependency_target = 'Pharlap'
+
+[[build.steps]]
+name = 'Linux ARM Engine Libraries'
+type = 'lvBuildSpec'
+target = 'RT CompactRIO Target - Linux ARM'
+project = '{cd}'
+build_spec = 'Engine Release'
+dependency_target = 'Linux_32_ARM'
+
+[[build.steps]]
+name = 'Linux x64 Engine Libraries'
+type = 'lvBuildSpec'
+target = 'RT CompactRIO Target - Linux x64'
+project = '{cd}'
+build_spec = 'Engine Release'
+dependency_target = 'Linux_x64'
+
+[[package]]
+type = 'nipkg'
+payload_dir = 'Built\IA'
+install_destination = 'documents\National Instruments\NI VeriStand {veristand_version}' 
+control_file = 'control'
+package_output_dir = 'Built'
+
+[[package]]
+type = 'nipkg'
+payload_dir = 'Built\Scripting'
+install_destination = 'ni-paths-LV{veristand_version}DIR\vi.lib\addons\VeriStand Custom Device Scripting APIs\Instrument Addon'
+control_file = 'control_scripting_api'
+package_output_dir = 'Built'
