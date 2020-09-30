@@ -86,6 +86,10 @@
 			<Item Name="Instrument Addon System Explorer.lvlib" Type="Library" URL="../Addon/Addon System Explorer/Instrument Addon System Explorer.lvlib"/>
 		</Item>
 		<Item Name="APIs" Type="Folder">
+			<Item Name="Bundled Dependencies" Type="Folder">
+				<Item Name="Advanced System Definition.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NI VeriStand Advanced SysDef API/SysDef API/Advanced System Definition.lvlib"/>
+				<Item Name="ImportExport.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NI VeriStand Custom Device Import and Export Tool/ImportExport.lvlib"/>
+			</Item>
 			<Item Name="Instrument Addon Scripting API.lvlib" Type="Library" URL="../APIs/Scripting API/Instrument Addon Scripting API.lvlib"/>
 			<Item Name="Instrument Host Automation API.lvlib" Type="Library" URL="../APIs/Host Automation API/Instrument Host Automation API.lvlib"/>
 		</Item>
@@ -186,7 +190,6 @@
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
-				<Item Name="Advanced System Definition.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NI VeriStand Advanced SysDef API/SysDef API/Advanced System Definition.lvlib"/>
 				<Item Name="AMC.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/AMC/AMC.lvlib"/>
 				<Item Name="Array Size(s)__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Array Size(s)__ogtk__jki_vi_tester.vi"/>
 				<Item Name="Build Error Cluster__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Build Error Cluster__ogtk__jki_vi_tester.vi"/>
@@ -372,7 +375,6 @@
 				<Item Name="GetHelpDir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetHelpDir.vi"/>
 				<Item Name="GetRTHostConnectedProp.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetRTHostConnectedProp.vi"/>
 				<Item Name="imagedata.ctl" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/imagedata.ctl"/>
-				<Item Name="ImportExport.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NI VeriStand Custom Device Import and Export Tool/ImportExport.lvlib"/>
 				<Item Name="Internecine Avoider.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/Internecine Avoider.vi"/>
 				<Item Name="Is an Error (any error array element)__jki_lib_error_handling VI Tester__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Is an Error (any error array element)__jki_lib_error_handling VI Tester__jki_vi_tester.vi"/>
 				<Item Name="Is an Error (error array)__jki_lib_error_handling -- VI Tester__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Is an Error (error array)__jki_lib_error_handling -- VI Tester__jki_vi_tester.vi"/>
@@ -929,7 +931,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{70757631-4EA5-4C22-A187-59BB2EDF6D85}</Property>
 				<Property Name="Bld_removeVIObj" Type="Int">1</Property>
-				<Property Name="Bld_version.build" Type="Int">13</Property>
+				<Property Name="Bld_version.build" Type="Int">15</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">../Built/Scripting/API</Property>
@@ -944,8 +946,11 @@
 				<Property Name="Destination[4].path" Type="Path">../Built/Scripting/Palettes</Property>
 				<Property Name="Destination[5].destName" Type="Str">MainPalette Directory</Property>
 				<Property Name="Destination[5].path" Type="Path">../Built/Scripting</Property>
-				<Property Name="DestinationCount" Type="Int">6</Property>
-				<Property Name="Source[0].itemID" Type="Str">{08A28D7D-8D3E-4C9C-BF97-716A04EB480E}</Property>
+				<Property Name="Destination[6].destName" Type="Str">Bundled Dependencies</Property>
+				<Property Name="Destination[6].path" Type="Path">../Built/Scripting/API/Dependencies.llb</Property>
+				<Property Name="Destination[6].type" Type="Str">LLB</Property>
+				<Property Name="DestinationCount" Type="Int">7</Property>
+				<Property Name="Source[0].itemID" Type="Str">{935AF40B-776D-4FBF-9B8F-334BA5119823}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/APIs/Instrument Addon Scripting API.lvlib</Property>
@@ -972,7 +977,16 @@
 				<Property Name="Source[6].destinationIndex" Type="Int">5</Property>
 				<Property Name="Source[6].itemID" Type="Ref">/My Computer/APIs/Instrument Addon Scripting API.lvlib/Palettes/dir.mnu</Property>
 				<Property Name="Source[6].lvfile" Type="Bool">true</Property>
-				<Property Name="SourceCount" Type="Int">7</Property>
+				<Property Name="Source[7].Container.applyDestination" Type="Bool">true</Property>
+				<Property Name="Source[7].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[7].Container.applyPrefix" Type="Bool">true</Property>
+				<Property Name="Source[7].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[7].destinationIndex" Type="Int">6</Property>
+				<Property Name="Source[7].itemID" Type="Ref">/My Computer/APIs/Bundled Dependencies</Property>
+				<Property Name="Source[7].newName" Type="Str">Instrument_Addon_Scripting_Dependencies_</Property>
+				<Property Name="Source[7].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[7].type" Type="Str">Container</Property>
+				<Property Name="SourceCount" Type="Int">8</Property>
 			</Item>
 			<Item Name="Workspace Object" Type="Source Distribution">
 				<Property Name="Bld_buildCacheID" Type="Str">{8C2E298A-2CF4-4CC2-8B89-2C7487E002E8}</Property>
