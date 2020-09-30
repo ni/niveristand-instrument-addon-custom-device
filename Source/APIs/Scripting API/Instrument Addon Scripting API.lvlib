@@ -63,9 +63,13 @@
 		<Item Name="dir.mnu" Type="Document" URL="../Palettes/dir.mnu"/>
 	</Item>
 	<Item Name="SubVIs" Type="Folder">
+		<Item Name="Add Array Data Channels.vi" Type="VI" URL="../SubVIs/Add Array Data Channels.vi"/>
+		<Item Name="Create Data Channel Element.vi" Type="VI" URL="../SubVIs/Create Data Channel Element.vi"/>
 		<Item Name="Linkages NodeID to GUID.vi" Type="VI" URL="../SubVIs/Linkages NodeID to GUID.vi"/>
 		<Item Name="Create Error Codes.vi" Type="VI" URL="../SubVIs/Create Error Codes.vi"/>
 		<Item Name="Create Message Channels Section.vi" Type="VI" URL="../SubVIs/Create Message Channels Section.vi"/>
+		<Item Name="Validate Channel or Section Name.vi" Type="VI" URL="../SubVIs/Validate Channel or Section Name.vi"/>
+		<Item Name="Get or Create Response.vi" Type="VI" URL="../SubVIs/Get or Create Response.vi"/>
 		<Item Name="Create Message Command.vi" Type="VI" URL="../SubVIs/Create Message Command.vi"/>
 		<Item Name="Create Message Response.vi" Type="VI" URL="../SubVIs/Create Message Response.vi"/>
 		<Item Name="Create Message Status.vi" Type="VI" URL="../SubVIs/Create Message Status.vi"/>
@@ -74,7 +78,6 @@
 		<Item Name="Get Addon Error Messges.vi" Type="VI" URL="../SubVIs/Get Addon Error Messges.vi"/>
 		<Item Name="Get Protection Classes List.vi" Type="VI" URL="../SubVIs/Get Protection Classes List.vi"/>
 		<Item Name="Get Protocol Classes List.vi" Type="VI" URL="../SubVIs/Get Protocol Classes List.vi"/>
-		<Item Name="NodeID to Channel Pointer.vi" Type="VI" URL="../SubVIs/NodeID to Channel Pointer.vi"/>
 		<Item Name="NodeID to Section Pointer.vi" Type="VI" URL="../SubVIs/NodeID to Section Pointer.vi"/>
 		<Item Name="Set Generation Type.vi" Type="VI" URL="../SubVIs/Set Generation Type.vi"/>
 		<Item Name="Set Message Period.vi" Type="VI" URL="../SubVIs/Set Message Period.vi"/>
@@ -87,13 +90,18 @@
 		<Item Name="Validate Instrument Addon Name Is Not In Use.vi" Type="VI" URL="../SubVIs/Validate Instrument Addon Name Is Not In Use.vi"/>
 		<Item Name="Validate Instrument Addon Refnum.vi" Type="VI" URL="../SubVIs/Validate Instrument Addon Refnum.vi"/>
 		<Item Name="Resolve ByteCount Wait.vi" Type="VI" URL="../SubVIs/Resolve ByteCount Wait.vi"/>
-		<Item Name="Resolve Response Linkaging.vi" Type="VI" URL="../SubVIs/Resolve Response Linkaging.vi"/>
+		<Item Name="Resolve Linkaging.vi" Type="VI" URL="../SubVIs/Resolve Linkaging.vi"/>
 		<Item Name="Check Size Equality.vi" Type="VI" URL="../SubVIs/Check Size Equality.vi"/>
 		<Item Name="Resolve Seconds Wait.vi" Type="VI" URL="../SubVIs/Resolve Seconds Wait.vi"/>
 		<Item Name="Validate Message Refnum.vi" Type="VI" URL="../SubVIs/Validate Message Refnum.vi"/>
-		<Item Name="Check for Empty Response.vi" Type="VI" URL="../SubVIs/Check for Empty Response.vi"/>
+		<Item Name="Check for Empty Command Or Response.vi" Type="VI" URL="../SubVIs/Check for Empty Command Or Response.vi"/>
 		<Item Name="Check for Duplicate Variables.vi" Type="VI" URL="../SubVIs/Check for Duplicate Variables.vi"/>
-		<Item Name="Check Response&amp;Variables Correspondence.vi" Type="VI" URL="../SubVIs/Check Response&amp;Variables Correspondence.vi"/>
+		<Item Name="Check Variables &amp; Linked Channels Correspondence.vi" Type="VI" URL="../SubVIs/Check Variables &amp; Linked Channels Correspondence.vi"/>
+		<Item Name="Is Command Refnum.vi" Type="VI" URL="../SubVIs/Is Command Refnum.vi"/>
+		<Item Name="Is Valid Linkage.vi" Type="VI" URL="../SubVIs/Is Valid Linkage.vi"/>
+		<Item Name="Get Equation Variables.vi" Type="VI" URL="../SubVIs/Get Equation Variables.vi"/>
+		<Item Name="Remove Target from Path.vi" Type="VI" URL="../SubVIs/Remove Target from Path.vi"/>
+		<Item Name="Assign New GUID to Refnum.vi" Type="VI" URL="../SubVIs/Assign New GUID to Refnum.vi"/>
 	</Item>
 	<Item Name="TypeDefs" Type="Folder">
 		<Item Name="Message Settings.ctl" Type="VI" URL="../TypeDefs/Message Settings.ctl"/>
@@ -108,5 +116,9 @@
 		<Item Name="Single Channel Enumerated List Settings.ctl" Type="VI" URL="../TypeDefs/Single Channel Enumerated List Settings.ctl"/>
 		<Item Name="Single Channel Format Settings.ctl" Type="VI" URL="../TypeDefs/Single Channel Format Settings.ctl"/>
 		<Item Name="Single Channel Type Cast Settings.ctl" Type="VI" URL="../TypeDefs/Single Channel Type Cast Settings.ctl"/>
+		<Item Name="Command Settings.ctl" Type="VI" URL="../TypeDefs/Command Settings.ctl"/>
+		<Item Name="Padding.ctl" Type="VI" URL="../TypeDefs/Padding.ctl"/>
+		<Item Name="Array Comparison Settings.ctl" Type="VI" URL="../TypeDefs/Array Comparison Settings.ctl"/>
+		<Item Name="Single Channel Comparison Settings.ctl" Type="VI" URL="../TypeDefs/Single Channel Comparison Settings.ctl"/>
 	</Item>
 </Library>
