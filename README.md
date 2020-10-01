@@ -5,7 +5,7 @@ The **Instrument Addon Custom Device** allows users to define instrument command
 ### Quick Start Documentation
 
 - Built: C:\Users\Public\Documents\National Instruments\NI VeriStand (Year)\Custom Devices\Instrument Addon\Windows\Quick Start Documentation
-- Source: Source\Addon\Support Files\Quick Start Documentation
+- Source: Source\Quick Start Documentation
 
 ## LabVIEW Version
 
