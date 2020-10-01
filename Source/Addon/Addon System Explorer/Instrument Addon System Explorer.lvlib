@@ -110,4 +110,5 @@
 			<Item Name="Response Message Configuration.ctl" Type="VI" URL="../Types/Response Message Configuration.ctl"/>
 		</Item>
 	</Item>
+	<Item Name="Build Array Elements.vi" Type="VI" URL="../SubVIs/Build Array Elements.vi"/>
 </Library>
