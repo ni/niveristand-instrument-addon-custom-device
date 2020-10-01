@@ -183,19 +183,15 @@ An example of using this API is as follows:​​​
 Users can add flexibility and reusability to their systems by creating and configuring system definitions through the Scripting API.
 
 ## With this API, users can:<br/>
-- create a new Instrument from a previously exported configuration<br/>
+- create a new Instrument from a previously exported configuration<br/><br/>
+    Node used: **Create Instrument Addon From Configuration File**<br/>
+![Create Instrument Addon From Configuration File](./Images/image040.png)<br/>
 
-    Node used: **Create Instrument Addon From Configuration File**
+- create a new Instrument from scratch<br/><br/>
+    Node used: **Create Instrument Addon**<br/>
+![Create Instrument Addon](./Images/image041.png)<br/>
 
-![Create Instrument Addon From Configuration File](./Images/image040.png)
-
-- create a new Instrument from scratch<br/>
-    Node used: **Create Instrument Addon**
-
-![Create Instrument Addon](./Images/image041.png)
-
-- add Messages and configure their Command/Response 
-
+- add Messages and configure their Command/Response<br/><br/>
     Node used: **Create Message Group**<br/>
 ![Create Message Group](./Images/image042.png)
 
@@ -209,8 +205,7 @@ Users can add flexibility and reusability to their systems by creating and confi
 
 ![Create Message](./Images/image045.png)
 
-- Create Channels
-
+- Create Channels<br/><br/>
     Node used: **Create Global MetaData Channel**<br/>
 ![Create Global MetaData Channel](./Images/image046.png)
 
@@ -220,18 +215,16 @@ Users can add flexibility and reusability to their systems by creating and confi
     Node used: **Create Data Channel**<br/>
 ![Create Data Channel](./Images/image048.png)
 
-- Fetch the Protocol object for a specific Instrument Addon and change it
-
+- Fetch the Protocol object for a specific Instrument Addon and change it<br/><br/>
     Node used: **Get Protocol** and **Set Protocol**<br/>
 ![Get and Set Protocol](./Images/image049.png)
 
-- Get and Set the PCL Decimation
-
+- Get and Set the PCL Decimation<br/><br/>
     Node used: **Get PCL Decimation** and **Set PCL Decimation**<br/>
 ![Get and Set PCL Decimation](./Images/image050.png)
 
 - Make use of the Protocols subpalette - containing the Get Protocol Type node and factory nodes for each supported protocol<br/>   
-A Protocol object is needed as input when creating a new Instrument Addon<br/>
+A Protocol object is needed as input when creating a new Instrument Addon<br/><br/>
 List of supported protocols:<br/>
    - RS-xxx
    - RS-xxx to ConvBox
