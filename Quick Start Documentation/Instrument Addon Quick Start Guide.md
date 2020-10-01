@@ -183,7 +183,7 @@ An example of using this API is as follows:​​​
 Users can add flexibility and reusability to their systems by creating and configuring system definitions through the Scripting API.
 
 ## With this API, users can:<br/>
-- create a new Instrument from a previously exported configuration:
+- create a new Instrument from a previously exported configuration<br/>
 
     Node used: **Create Instrument Addon From Configuration File**
 
@@ -220,25 +220,17 @@ Users can add flexibility and reusability to their systems by creating and confi
     Node used: **Create Data Channel**<br/>
 ![Create Data Channel](./Images/image048.png)
 
-- Fetch the Protocol object for a specific Instrument Addon
+- Fetch the Protocol object for a specific Instrument Addon and change it
 
-    Node used: **Get Protocol**
-   
-- Change the Protocol object (all or specific properties)
-
-    Node used: **Set Protocol**   
-
+    Node used: **Get Protocol** and **Set Protocol**<br/>
 ![Get and Set Protocol](./Images/image049.png)
 
 - Get and Set the PCL Decimation
 
-    Node used: **Get PCL Decimation**
-    Node used: **Set PCL Decimation**   
-
+    Node used: **Get PCL Decimation** and **Set PCL Decimation**<br/>
 ![Get and Set PCL Decimation](./Images/image050.png)
 
-- Make use of the Protocols subpalette - containing the Get Protocol Type node and factory nodes for each supported protocol
-   
+- Make use of the Protocols subpalette - containing the Get Protocol Type node and factory nodes for each supported protocol<br/>   
 A Protocol object is needed as input when creating a new Instrument Addon<br/>
 List of supported protocols:<br/>
    - RS-xxx
@@ -247,10 +239,9 @@ List of supported protocols:<br/>
    - TCP
    - UDP
    - AK RS-xxx
-   - AK TCP
-   
-    Factory Nodes used:
+   - AK TCP<br/>
 
+Factory Nodes used:<br/>
 ![Factories](./Images/image052.png)   
 
 ## Example Usage for Scripting API
