@@ -29,8 +29,53 @@
 				<Item Name="Help" Type="Folder" URL="../Addon/Support Files/Help">
 					<Property Name="NI.DISK" Type="Bool">true</Property>
 				</Item>
-				<Item Name="Quick Start Documentation" Type="Folder" URL="../Addon/Support Files/Quick Start Documentation">
-					<Property Name="NI.DISK" Type="Bool">true</Property>
+				<Item Name="Quick Start Documentation" Type="Folder">
+					<Item Name="Images" Type="Folder">
+						<Item Name="image002.png" Type="Document" URL="../Quick Start Documentation/Images/image002.png"/>
+						<Item Name="image004.png" Type="Document" URL="../Quick Start Documentation/Images/image004.png"/>
+						<Item Name="image006.png" Type="Document" URL="../Quick Start Documentation/Images/image006.png"/>
+						<Item Name="image008.jpg" Type="Document" URL="../Quick Start Documentation/Images/image008.jpg"/>
+						<Item Name="image009.png" Type="Document" URL="../Quick Start Documentation/Images/image009.png"/>
+						<Item Name="image011.png" Type="Document" URL="../Quick Start Documentation/Images/image011.png"/>
+						<Item Name="image012.png" Type="Document" URL="../Quick Start Documentation/Images/image012.png"/>
+						<Item Name="image013.png" Type="Document" URL="../Quick Start Documentation/Images/image013.png"/>
+						<Item Name="image015.png" Type="Document" URL="../Quick Start Documentation/Images/image015.png"/>
+						<Item Name="image016.png" Type="Document" URL="../Quick Start Documentation/Images/image016.png"/>
+						<Item Name="image017.jpg" Type="Document" URL="../Quick Start Documentation/Images/image017.jpg"/>
+						<Item Name="image019.jpg" Type="Document" URL="../Quick Start Documentation/Images/image019.jpg"/>
+						<Item Name="image021.jpg" Type="Document" URL="../Quick Start Documentation/Images/image021.jpg"/>
+						<Item Name="image022.png" Type="Document" URL="../Quick Start Documentation/Images/image022.png"/>
+						<Item Name="image024.jpg" Type="Document" URL="../Quick Start Documentation/Images/image024.jpg"/>
+						<Item Name="image025.png" Type="Document" URL="../Quick Start Documentation/Images/image025.png"/>
+						<Item Name="image026.png" Type="Document" URL="../Quick Start Documentation/Images/image026.png"/>
+						<Item Name="image027.png" Type="Document" URL="../Quick Start Documentation/Images/image027.png"/>
+						<Item Name="image029.png" Type="Document" URL="../Quick Start Documentation/Images/image029.png"/>
+						<Item Name="image031.png" Type="Document" URL="../Quick Start Documentation/Images/image031.png"/>
+						<Item Name="image033.png" Type="Document" URL="../Quick Start Documentation/Images/image033.png"/>
+						<Item Name="image034.png" Type="Document" URL="../Quick Start Documentation/Images/image034.png"/>
+						<Item Name="image035.png" Type="Document" URL="../Quick Start Documentation/Images/image035.png"/>
+						<Item Name="image036.png" Type="Document" URL="../Quick Start Documentation/Images/image036.png"/>
+						<Item Name="image038.jpg" Type="Document" URL="../Quick Start Documentation/Images/image038.jpg"/>
+						<Item Name="image040.png" Type="Document" URL="../Quick Start Documentation/Images/image040.png"/>
+						<Item Name="image041.png" Type="Document" URL="../Quick Start Documentation/Images/image041.png"/>
+						<Item Name="image042.png" Type="Document" URL="../Quick Start Documentation/Images/image042.png"/>
+						<Item Name="image043.png" Type="Document" URL="../Quick Start Documentation/Images/image043.png"/>
+						<Item Name="image044.png" Type="Document" URL="../Quick Start Documentation/Images/image044.png"/>
+						<Item Name="image045.png" Type="Document" URL="../Quick Start Documentation/Images/image045.png"/>
+						<Item Name="image046.png" Type="Document" URL="../Quick Start Documentation/Images/image046.png"/>
+						<Item Name="image047.png" Type="Document" URL="../Quick Start Documentation/Images/image047.png"/>
+						<Item Name="image048.png" Type="Document" URL="../Quick Start Documentation/Images/image048.png"/>
+						<Item Name="image049.png" Type="Document" URL="../Quick Start Documentation/Images/image049.png"/>
+						<Item Name="image050.png" Type="Document" URL="../Quick Start Documentation/Images/image050.png"/>
+						<Item Name="image051.png" Type="Document" URL="../Quick Start Documentation/Images/image051.png"/>
+						<Item Name="image052.png" Type="Document" URL="../Quick Start Documentation/Images/image052.png"/>
+						<Item Name="image053.png" Type="Document" URL="../Quick Start Documentation/Images/image053.png"/>
+						<Item Name="image054.png" Type="Document" URL="../Quick Start Documentation/Images/image054.png"/>
+						<Item Name="image055.png" Type="Document" URL="../Quick Start Documentation/Images/image055.png"/>
+						<Item Name="image056.png" Type="Document" URL="../Quick Start Documentation/Images/image056.png"/>
+						<Item Name="image057.png" Type="Document" URL="../Quick Start Documentation/Images/image057.png"/>
+					</Item>
+					<Item Name="Instrument Addon Quick Start Guide.md" Type="Document" URL="../Quick Start Documentation/Instrument Addon Quick Start Guide.md"/>
 				</Item>
 			</Item>
 			<Item Name="Support Libraries" Type="Folder">
@@ -86,6 +131,10 @@
 			<Item Name="Instrument Addon System Explorer.lvlib" Type="Library" URL="../Addon/Addon System Explorer/Instrument Addon System Explorer.lvlib"/>
 		</Item>
 		<Item Name="APIs" Type="Folder">
+			<Item Name="Bundled Dependencies" Type="Folder">
+				<Item Name="Advanced System Definition.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NI VeriStand Advanced SysDef API/SysDef API/Advanced System Definition.lvlib"/>
+				<Item Name="ImportExport.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NI VeriStand Custom Device Import and Export Tool/ImportExport.lvlib"/>
+			</Item>
 			<Item Name="Instrument Addon Scripting API.lvlib" Type="Library" URL="../APIs/Scripting API/Instrument Addon Scripting API.lvlib"/>
 			<Item Name="Instrument Host Automation API.lvlib" Type="Library" URL="../APIs/Host Automation API/Instrument Host Automation API.lvlib"/>
 		</Item>
@@ -186,7 +235,6 @@
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
-				<Item Name="Advanced System Definition.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NI VeriStand Advanced SysDef API/SysDef API/Advanced System Definition.lvlib"/>
 				<Item Name="AMC.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/AMC/AMC.lvlib"/>
 				<Item Name="Array Size(s)__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Array Size(s)__ogtk__jki_vi_tester.vi"/>
 				<Item Name="Build Error Cluster__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Build Error Cluster__ogtk__jki_vi_tester.vi"/>
@@ -246,8 +294,9 @@
 				<Item Name="Convert EOLs__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Convert EOLs__ogtk__jki_vi_tester.vi"/>
 				<Item Name="Convert property node font to graphics font.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Convert property node font to graphics font.vi"/>
 				<Item Name="Create File with Incrementing Suffix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Create File with Incrementing Suffix.vi"/>
-				<Item Name="Custom Device API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI Veristand/Custom Device API/Custom Device API.lvlib"/>
-				<Item Name="Custom Device Utility Library.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI Veristand/Custom Device Tools/Custom Device Utility Library/Custom Device Utility Library.lvlib"/>
+				<Item Name="Custom Device API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device API/Custom Device API.lvlib"/>
+				<Item Name="Custom Device Offline API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device Offline API/Custom Device Offline API.lvlib"/>
+				<Item Name="Custom Device Utility Library.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device Tools/Custom Device Utility Library/Custom Device Utility Library.lvlib"/>
 				<Item Name="Data Access Engine.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_Data Access Engine/Data Access Engine.lvlib"/>
 				<Item Name="Data Access System Explorer.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_Data Access System Explorer/Data Access System Explorer.lvlib"/>
 				<Item Name="Delete Elements from 1D Array (Boolean)__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Delete Elements from 1D Array (Boolean)__ogtk__jki_vi_tester.vi"/>
@@ -372,7 +421,6 @@
 				<Item Name="GetHelpDir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetHelpDir.vi"/>
 				<Item Name="GetRTHostConnectedProp.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetRTHostConnectedProp.vi"/>
 				<Item Name="imagedata.ctl" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/imagedata.ctl"/>
-				<Item Name="ImportExport.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NI VeriStand Custom Device Import and Export Tool/ImportExport.lvlib"/>
 				<Item Name="Internecine Avoider.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/Internecine Avoider.vi"/>
 				<Item Name="Is an Error (any error array element)__jki_lib_error_handling VI Tester__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Is an Error (any error array element)__jki_lib_error_handling VI Tester__jki_vi_tester.vi"/>
 				<Item Name="Is an Error (error array)__jki_lib_error_handling -- VI Tester__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Is an Error (error array)__jki_lib_error_handling -- VI Tester__jki_vi_tester.vi"/>
@@ -400,7 +448,7 @@
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 				<Item Name="NI_SystemLogging.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/SystemLogging/NI_SystemLogging.lvlib"/>
 				<Item Name="NI_VS UI Single Node Browser.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI Veristand/UI Controls/Single Node Browser/NI_VS UI Single Node Browser.lvlib"/>
-				<Item Name="NI_VS Workspace ExecutionAPI.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI Veristand/Execution/Workspace/NI_VS Workspace ExecutionAPI.lvlib"/>
+				<Item Name="NI_VS Workspace ExecutionAPI.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Execution/Workspace/NI_VS Workspace ExecutionAPI.lvlib"/>
 				<Item Name="NI_XML.lvlib" Type="Library" URL="/&lt;vilib&gt;/xml/NI_XML.lvlib"/>
 				<Item Name="nisyscfg.lvlib" Type="Library" URL="/&lt;vilib&gt;/nisyscfg/nisyscfg.lvlib"/>
 				<Item Name="NIVeriStand_DataServices.dll" Type="Document" URL="/&lt;vilib&gt;/NI Veristand/Custom Device API/Data/NIVeriStand_DataServices.dll"/>
@@ -650,7 +698,7 @@
 				<Property Name="DestinationCount" Type="Int">6</Property>
 				<Property Name="Source[0].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[0].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{BE406C61-3D9B-4A2F-A56C-8B343A93D730}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{8B9BF452-5F8E-4E90-A70A-43024335D7FA}</Property>
 				<Property Name="Source[0].properties[0].type" Type="Str">Run when opened</Property>
 				<Property Name="Source[0].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[0].properties[1].type" Type="Str">Allow debugging</Property>
@@ -929,7 +977,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{70757631-4EA5-4C22-A187-59BB2EDF6D85}</Property>
 				<Property Name="Bld_removeVIObj" Type="Int">1</Property>
-				<Property Name="Bld_version.build" Type="Int">13</Property>
+				<Property Name="Bld_version.build" Type="Int">15</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">../Built/Scripting/API</Property>
@@ -944,8 +992,11 @@
 				<Property Name="Destination[4].path" Type="Path">../Built/Scripting/Palettes</Property>
 				<Property Name="Destination[5].destName" Type="Str">MainPalette Directory</Property>
 				<Property Name="Destination[5].path" Type="Path">../Built/Scripting</Property>
-				<Property Name="DestinationCount" Type="Int">6</Property>
-				<Property Name="Source[0].itemID" Type="Str">{08A28D7D-8D3E-4C9C-BF97-716A04EB480E}</Property>
+				<Property Name="Destination[6].destName" Type="Str">Bundled Dependencies</Property>
+				<Property Name="Destination[6].path" Type="Path">../Built/Scripting/API/Dependencies.llb</Property>
+				<Property Name="Destination[6].type" Type="Str">LLB</Property>
+				<Property Name="DestinationCount" Type="Int">7</Property>
+				<Property Name="Source[0].itemID" Type="Str">{935AF40B-776D-4FBF-9B8F-334BA5119823}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/APIs/Instrument Addon Scripting API.lvlib</Property>
@@ -972,7 +1023,16 @@
 				<Property Name="Source[6].destinationIndex" Type="Int">5</Property>
 				<Property Name="Source[6].itemID" Type="Ref">/My Computer/APIs/Instrument Addon Scripting API.lvlib/Palettes/dir.mnu</Property>
 				<Property Name="Source[6].lvfile" Type="Bool">true</Property>
-				<Property Name="SourceCount" Type="Int">7</Property>
+				<Property Name="Source[7].Container.applyDestination" Type="Bool">true</Property>
+				<Property Name="Source[7].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[7].Container.applyPrefix" Type="Bool">true</Property>
+				<Property Name="Source[7].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[7].destinationIndex" Type="Int">6</Property>
+				<Property Name="Source[7].itemID" Type="Ref">/My Computer/APIs/Bundled Dependencies</Property>
+				<Property Name="Source[7].newName" Type="Str">Instrument_Addon_Scripting_Dependencies_</Property>
+				<Property Name="Source[7].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[7].type" Type="Str">Container</Property>
+				<Property Name="SourceCount" Type="Int">8</Property>
 			</Item>
 			<Item Name="Workspace Object" Type="Source Distribution">
 				<Property Name="Bld_buildCacheID" Type="Str">{8C2E298A-2CF4-4CC2-8B89-2C7487E002E8}</Property>
@@ -1285,8 +1345,9 @@
 				<Item Name="Advanced System Definition.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NI VeriStand Advanced SysDef API/SysDef API/Advanced System Definition.lvlib"/>
 				<Item Name="AMC.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/AMC/AMC.lvlib"/>
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
-				<Item Name="Custom Device API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI Veristand/Custom Device API/Custom Device API.lvlib"/>
-				<Item Name="Custom Device Utility Library.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI Veristand/Custom Device Tools/Custom Device Utility Library/Custom Device Utility Library.lvlib"/>
+				<Item Name="Custom Device API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device API/Custom Device API.lvlib"/>
+				<Item Name="Custom Device Offline API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device Offline API/Custom Device Offline API.lvlib"/>
+				<Item Name="Custom Device Utility Library.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device Tools/Custom Device Utility Library/Custom Device Utility Library.lvlib"/>
 				<Item Name="Data Access Engine.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_Data Access Engine/Data Access Engine.lvlib"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="Error Code Database.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Code Database.vi"/>
@@ -1556,8 +1617,9 @@
 				<Item Name="Advanced System Definition.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NI VeriStand Advanced SysDef API/SysDef API/Advanced System Definition.lvlib"/>
 				<Item Name="AMC.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/AMC/AMC.lvlib"/>
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
-				<Item Name="Custom Device API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI Veristand/Custom Device API/Custom Device API.lvlib"/>
-				<Item Name="Custom Device Utility Library.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI Veristand/Custom Device Tools/Custom Device Utility Library/Custom Device Utility Library.lvlib"/>
+				<Item Name="Custom Device API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device API/Custom Device API.lvlib"/>
+				<Item Name="Custom Device Offline API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device Offline API/Custom Device Offline API.lvlib"/>
+				<Item Name="Custom Device Utility Library.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device Tools/Custom Device Utility Library/Custom Device Utility Library.lvlib"/>
 				<Item Name="Data Access Engine.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_Data Access Engine/Data Access Engine.lvlib"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="Error Code Database.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Code Database.vi"/>
@@ -1753,8 +1815,9 @@
 				<Item Name="Advanced System Definition.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NI VeriStand Advanced SysDef API/SysDef API/Advanced System Definition.lvlib"/>
 				<Item Name="AMC.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/AMC/AMC.lvlib"/>
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
-				<Item Name="Custom Device API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI Veristand/Custom Device API/Custom Device API.lvlib"/>
-				<Item Name="Custom Device Utility Library.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI Veristand/Custom Device Tools/Custom Device Utility Library/Custom Device Utility Library.lvlib"/>
+				<Item Name="Custom Device API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device API/Custom Device API.lvlib"/>
+				<Item Name="Custom Device Offline API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device Offline API/Custom Device Offline API.lvlib"/>
+				<Item Name="Custom Device Utility Library.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device Tools/Custom Device Utility Library/Custom Device Utility Library.lvlib"/>
 				<Item Name="Data Access Engine.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_Data Access Engine/Data Access Engine.lvlib"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="Error Code Database.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Code Database.vi"/>
