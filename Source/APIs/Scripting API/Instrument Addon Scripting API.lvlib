@@ -124,5 +124,6 @@
 		<Item Name="Array Comparison Settings.ctl" Type="VI" URL="../TypeDefs/Array Comparison Settings.ctl"/>
 		<Item Name="Single Channel Comparison Settings.ctl" Type="VI" URL="../TypeDefs/Single Channel Comparison Settings.ctl"/>
 		<Item Name="MetaData Type.ctl" Type="VI" URL="../TypeDefs/MetaData Type.ctl"/>
+		<Item Name="Channel Properties.ctl" Type="VI" URL="../TypeDefs/Channel Properties.ctl"/>
 	</Item>
 </Library>
