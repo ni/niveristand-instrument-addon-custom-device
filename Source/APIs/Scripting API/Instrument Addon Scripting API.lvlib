@@ -50,6 +50,7 @@
 	<Item Name="Messages" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Item Name="Add Command.vi" Type="VI" URL="../Messages/Add Command.vi"/>
+		<Item Name="Configure Command.vi" Type="VI" URL="../Messages/Configure Command.vi"/>
 		<Item Name="Add Response.vi" Type="VI" URL="../Messages/Add Response.vi"/>
 		<Item Name="Add Response - Byte Count.vi" Type="VI" URL="../Messages/Add Response - Byte Count.vi"/>
 		<Item Name="Add Response - Wait (sec).vi" Type="VI" URL="../Messages/Add Response - Wait (sec).vi"/>
