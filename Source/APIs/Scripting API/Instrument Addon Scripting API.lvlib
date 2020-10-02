@@ -69,7 +69,7 @@
 		<Item Name="Create Error Codes.vi" Type="VI" URL="../SubVIs/Create Error Codes.vi"/>
 		<Item Name="Create Default Instrument Addon.vi" Type="VI" URL="../SubVIs/Create Default Instrument Addon.vi"/>
 		<Item Name="Create Message Channels Section.vi" Type="VI" URL="../SubVIs/Create Message Channels Section.vi"/>
-		<Item Name="Validate Channel or Section Name.vi" Type="VI" URL="../SubVIs/Validate Channel or Section Name.vi"/>
+		<Item Name="Validate Name in Section.vi" Type="VI" URL="../SubVIs/Validate Name in Section.vi"/>
 		<Item Name="Get or Create Response.vi" Type="VI" URL="../SubVIs/Get or Create Response.vi"/>
 		<Item Name="Create Message Command.vi" Type="VI" URL="../SubVIs/Create Message Command.vi"/>
 		<Item Name="Create Message Response.vi" Type="VI" URL="../SubVIs/Create Message Response.vi"/>
@@ -103,6 +103,9 @@
 		<Item Name="Get Equation Variables.vi" Type="VI" URL="../SubVIs/Get Equation Variables.vi"/>
 		<Item Name="Remove Target from Path.vi" Type="VI" URL="../SubVIs/Remove Target from Path.vi"/>
 		<Item Name="Assign New GUID to Refnum.vi" Type="VI" URL="../SubVIs/Assign New GUID to Refnum.vi"/>
+		<Item Name="Populate Array Channel.vi" Type="VI" URL="../SubVIs/Populate Array Channel.vi"/>
+		<Item Name="Get or Create Command.vi" Type="VI" URL="../SubVIs/Get or Create Command.vi"/>
+		<Item Name="Create MetaData Element.vi" Type="VI" URL="../SubVIs/Create MetaData Element.vi"/>
 	</Item>
 	<Item Name="TypeDefs" Type="Folder">
 		<Item Name="Message Settings.ctl" Type="VI" URL="../TypeDefs/Message Settings.ctl"/>
@@ -121,5 +124,7 @@
 		<Item Name="Padding.ctl" Type="VI" URL="../TypeDefs/Padding.ctl"/>
 		<Item Name="Array Comparison Settings.ctl" Type="VI" URL="../TypeDefs/Array Comparison Settings.ctl"/>
 		<Item Name="Single Channel Comparison Settings.ctl" Type="VI" URL="../TypeDefs/Single Channel Comparison Settings.ctl"/>
+		<Item Name="MetaData Type.ctl" Type="VI" URL="../TypeDefs/MetaData Type.ctl"/>
+		<Item Name="Channel Properties.ctl" Type="VI" URL="../TypeDefs/Channel Properties.ctl"/>
 	</Item>
 </Library>
