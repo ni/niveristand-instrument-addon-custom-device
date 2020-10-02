@@ -67,6 +67,7 @@
 		<Item Name="Create Data Channel Element.vi" Type="VI" URL="../SubVIs/Create Data Channel Element.vi"/>
 		<Item Name="Linkages NodeID to GUID.vi" Type="VI" URL="../SubVIs/Linkages NodeID to GUID.vi"/>
 		<Item Name="Create Error Codes.vi" Type="VI" URL="../SubVIs/Create Error Codes.vi"/>
+		<Item Name="Create Default Instrument Addon.vi" Type="VI" URL="../SubVIs/Create Default Instrument Addon.vi"/>
 		<Item Name="Create Message Channels Section.vi" Type="VI" URL="../SubVIs/Create Message Channels Section.vi"/>
 		<Item Name="Validate Name in Section.vi" Type="VI" URL="../SubVIs/Validate Name in Section.vi"/>
 		<Item Name="Get or Create Response.vi" Type="VI" URL="../SubVIs/Get or Create Response.vi"/>
