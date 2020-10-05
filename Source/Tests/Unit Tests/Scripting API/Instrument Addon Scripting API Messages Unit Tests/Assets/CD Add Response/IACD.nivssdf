@@ -10,7 +10,7 @@
 				<String>IACD</String>
 			</Property>
 			<Property Name="Version">
-				<String>1.0.0.35</String>
+				<String>1.0.0.37</String>
 			</Property>
 			<Property Name="Creator">
 				<String />
@@ -953,56 +953,7 @@
 										</Property>
 									</Properties>
 									<Errors />
-									<Section Name="Data 1" TypeGUID="b473b5ce-647b-4798-814d-3247489a3409">
-										<Description />
-										<Properties>
-											<Property Name="user.CD.Data.DataType">
-												<U32>1</U32>
-											</Property>
-											<Property Name="user.CD.Data.ChanType">
-												<U32>2</U32>
-											</Property>
-											<Property Name="user.CD.Data.FormatString">
-												<String>%.3g</String>
-											</Property>
-											<Property Name="user.CD.Data.ExpectedString">
-												<BinaryString />
-											</Property>
-											<Property Name="user.CD.Data.TypeCastType">
-												<U32>1</U32>
-											</Property>
-											<Property Name="user.CD.Data.List">
-												<StringArray />
-											</Property>
-											<Property Name="user.CD.Data.Delimiter">
-												<String>,</String>
-											</Property>
-											<Property Name="user.CD.Data.Endian">
-												<U32>0</U32>
-											</Property>
-											<Property Name="user.CD.ConfigGUID">
-												<BinaryString>OTIzMjc3YzUtMzQxZC00MTZlLThmOGUtOTM3NGM5NDE5MjMz</BinaryString>
-											</Property>
-										</Properties>
-										<Errors />
-										<Channel Name="Data Array 0" TypeGUID="566d73be-f343-477c-b55f-6f2c19d26406" RowDim="1" ColDim="1" Units="" BitFields="9">
-											<Description />
-											<Properties />
-											<Errors />
-											<DefaultValue>
-												<Elem>0</Elem>
-											</DefaultValue>
-										</Channel>
-										<Channel Name="Data Array 1" TypeGUID="566d73be-f343-477c-b55f-6f2c19d26406" RowDim="1" ColDim="1" Units="" BitFields="9">
-											<Description />
-											<Properties />
-											<Errors />
-											<DefaultValue>
-												<Elem>0</Elem>
-											</DefaultValue>
-										</Channel>
-									</Section>
-									<Channel Name="Data 0" TypeGUID="b473b5ce-647b-4798-814d-3247489a3409" RowDim="1" ColDim="1" Units="" BitFields="9">
+									<Channel Name="Data 1" TypeGUID="b473b5ce-647b-4798-814d-3247489a3409" RowDim="1" ColDim="1" Units="" BitFields="9">
 										<Description />
 										<Properties>
 											<Property Name="user.CD.Data.DataType">
@@ -1067,6 +1018,42 @@
 											</Property>
 											<Property Name="user.CD.ConfigGUID">
 												<BinaryString>YWZjOThiMTQtZWMxNC00OWQ3LWE4NDUtNzlmNzU2NjIyZDAx</BinaryString>
+											</Property>
+										</Properties>
+										<Errors />
+										<DefaultValue>
+											<Elem>0</Elem>
+										</DefaultValue>
+									</Channel>
+									<Channel Name="Data" TypeGUID="b473b5ce-647b-4798-814d-3247489a3409" RowDim="1" ColDim="1" Units="" BitFields="9">
+										<Description />
+										<Properties>
+											<Property Name="user.CD.Data.DataType">
+												<U32>0</U32>
+											</Property>
+											<Property Name="user.CD.Data.ChanType">
+												<U32>0</U32>
+											</Property>
+											<Property Name="user.CD.Data.FormatString">
+												<String>%.3g</String>
+											</Property>
+											<Property Name="user.CD.Data.ExpectedString">
+												<BinaryString />
+											</Property>
+											<Property Name="user.CD.Data.TypeCastType">
+												<U32>1</U32>
+											</Property>
+											<Property Name="user.CD.Data.List">
+												<StringArray />
+											</Property>
+											<Property Name="user.CD.Data.Delimiter">
+												<String>,</String>
+											</Property>
+											<Property Name="user.CD.Data.Endian">
+												<U32>0</U32>
+											</Property>
+											<Property Name="user.CD.ConfigGUID">
+												<BinaryString>MTA0MWZiYzYtMGYyMC00ZWMwLWE5ZGUtMTJiNjRhYjNjMzFk</BinaryString>
 											</Property>
 										</Properties>
 										<Errors />
