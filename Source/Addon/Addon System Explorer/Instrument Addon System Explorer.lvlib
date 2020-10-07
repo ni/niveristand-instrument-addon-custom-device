@@ -96,6 +96,7 @@
 			<Item Name="Lookup Response Info.vi" Type="VI" URL="../SubVIs/Lookup Response Info.vi"/>
 			<Item Name="Remove Target from Node Path.vi" Type="VI" URL="../SubVIs/Remove Target from Node Path.vi"/>
 			<Item Name="Update Linkage Table Items.vi" Type="VI" URL="../SubVIs/Update Linkage Table Items.vi"/>
+			<Item Name="Build Array Elements.vi" Type="VI" URL="../SubVIs/Build Array Elements.vi"/>
 		</Item>
 		<Item Name="Types" Type="Folder">
 			<Item Name="Channel Lookup Cluster.ctl" Type="VI" URL="../Types/Channel Lookup Cluster.ctl"/>
