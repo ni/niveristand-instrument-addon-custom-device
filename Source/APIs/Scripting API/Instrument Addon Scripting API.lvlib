@@ -49,7 +49,8 @@
 	</Item>
 	<Item Name="Messages" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">3</Property>
-		<Item Name="Add Command.vi" Type="VI" URL="../Messages/Add Command.vi"/>
+		<Item Name="Create Command.vi" Type="VI" URL="../Messages/Create Command.vi"/>
+		<Item Name="Configure Command.vi" Type="VI" URL="../Messages/Configure Command.vi"/>
 		<Item Name="Add Response.vi" Type="VI" URL="../Messages/Add Response.vi"/>
 		<Item Name="Add Response - Byte Count.vi" Type="VI" URL="../Messages/Add Response - Byte Count.vi"/>
 		<Item Name="Add Response - Wait (sec).vi" Type="VI" URL="../Messages/Add Response - Wait (sec).vi"/>
@@ -71,7 +72,7 @@
 		<Item Name="Create Message Channels Section.vi" Type="VI" URL="../SubVIs/Create Message Channels Section.vi"/>
 		<Item Name="Validate Name in Section.vi" Type="VI" URL="../SubVIs/Validate Name in Section.vi"/>
 		<Item Name="Get or Create Response.vi" Type="VI" URL="../SubVIs/Get or Create Response.vi"/>
-		<Item Name="Create Message Command.vi" Type="VI" URL="../SubVIs/Create Message Command.vi"/>
+		<Item Name="Add Message Command.vi" Type="VI" URL="../SubVIs/Add Message Command.vi"/>
 		<Item Name="Create Message Response.vi" Type="VI" URL="../SubVIs/Create Message Response.vi"/>
 		<Item Name="Create Message Status.vi" Type="VI" URL="../SubVIs/Create Message Status.vi"/>
 		<Item Name="Create Timestamp.vi" Type="VI" URL="../SubVIs/Create Timestamp.vi"/>
@@ -86,6 +87,7 @@
 		<Item Name="Set Message Trigger.vi" Type="VI" URL="../SubVIs/Set Message Trigger.vi"/>
 		<Item Name="Add Message Channel.vi" Type="VI" URL="../SubVIs/Add Message Channel.vi"/>
 		<Item Name="Create Enable Periodic.vi" Type="VI" URL="../SubVIs/Create Enable Periodic.vi"/>
+		<Item Name="Validate Command Refnum.vi" Type="VI" URL="../SubVIs/Validate Command Refnum.vi"/>
 		<Item Name="Validate PCL Decimation Value.vi" Type="VI" URL="../SubVIs/Validate PCL Decimation Value.vi"/>
 		<Item Name="Validate Instrument Addon Name.vi" Type="VI" URL="../SubVIs/Validate Instrument Addon Name.vi"/>
 		<Item Name="Validate Instrument Addon Name Is Not In Use.vi" Type="VI" URL="../SubVIs/Validate Instrument Addon Name Is Not In Use.vi"/>
