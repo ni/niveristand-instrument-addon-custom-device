@@ -49,11 +49,12 @@
 	</Item>
 	<Item Name="Messages" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">3</Property>
-		<Item Name="Create Command.vi" Type="VI" URL="../Messages/Create Command.vi"/>
 		<Item Name="Configure Command.vi" Type="VI" URL="../Messages/Configure Command.vi"/>
-		<Item Name="Add Response.vi" Type="VI" URL="../Messages/Add Response.vi"/>
-		<Item Name="Add Response - Byte Count.vi" Type="VI" URL="../Messages/Add Response - Byte Count.vi"/>
-		<Item Name="Add Response - Wait (sec).vi" Type="VI" URL="../Messages/Add Response - Wait (sec).vi"/>
+		<Item Name="Create Command.vi" Type="VI" URL="../Messages/Create Command.vi"/>
+		<Item Name="Create Response.vi" Type="VI" URL="../Messages/Create Response.vi"/>
+		<Item Name="Configure Response.vi" Type="VI" URL="../Messages/Configure Response.vi"/>
+		<Item Name="Configure Response - Byte Count.vi" Type="VI" URL="../Messages/Configure Response - Byte Count.vi"/>
+		<Item Name="Configure Response - Wait (sec).vi" Type="VI" URL="../Messages/Configure Response - Wait (sec).vi"/>
 		<Item Name="Create Message Group.vi" Type="VI" URL="../Messages/Create Message Group.vi"/>
 		<Item Name="Create Message.vi" Type="VI" URL="../Messages/Create Message.vi"/>
 		<Item Name="Create Message - Trigger Only.vi" Type="VI" URL="../Messages/Create Message - Trigger Only.vi"/>
@@ -89,6 +90,7 @@
 		<Item Name="Create Enable Periodic.vi" Type="VI" URL="../SubVIs/Create Enable Periodic.vi"/>
 		<Item Name="Validate Command Refnum.vi" Type="VI" URL="../SubVIs/Validate Command Refnum.vi"/>
 		<Item Name="Validate PCL Decimation Value.vi" Type="VI" URL="../SubVIs/Validate PCL Decimation Value.vi"/>
+		<Item Name="Validate Response Refnum.vi" Type="VI" URL="../SubVIs/Validate Response Refnum.vi"/>
 		<Item Name="Validate Instrument Addon Name.vi" Type="VI" URL="../SubVIs/Validate Instrument Addon Name.vi"/>
 		<Item Name="Validate Instrument Addon Name Is Not In Use.vi" Type="VI" URL="../SubVIs/Validate Instrument Addon Name Is Not In Use.vi"/>
 		<Item Name="Validate Instrument Addon Refnum.vi" Type="VI" URL="../SubVIs/Validate Instrument Addon Refnum.vi"/>
