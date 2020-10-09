@@ -108,6 +108,7 @@
 		<Item Name="Populate Array Channel.vi" Type="VI" URL="../SubVIs/Populate Array Channel.vi"/>
 		<Item Name="Get or Create Command.vi" Type="VI" URL="../SubVIs/Get or Create Command.vi"/>
 		<Item Name="Create MetaData Element.vi" Type="VI" URL="../SubVIs/Create MetaData Element.vi"/>
+		<Item Name="Validate Response Refnum.vi" Type="VI" URL="../SubVIs/Validate Response Refnum.vi"/>
 	</Item>
 	<Item Name="TypeDefs" Type="Folder">
 		<Item Name="Message Settings.ctl" Type="VI" URL="../TypeDefs/Message Settings.ctl"/>
