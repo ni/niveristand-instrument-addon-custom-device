@@ -74,7 +74,6 @@
 		<Item Name="Validate Name in Section.vi" Type="VI" URL="../SubVIs/Validate Name in Section.vi"/>
 		<Item Name="Get or Create Response.vi" Type="VI" URL="../SubVIs/Get or Create Response.vi"/>
 		<Item Name="Add Message Command.vi" Type="VI" URL="../SubVIs/Add Message Command.vi"/>
-		<Item Name="Create Message Response.vi" Type="VI" URL="../SubVIs/Create Message Response.vi"/>
 		<Item Name="Create Message Status.vi" Type="VI" URL="../SubVIs/Create Message Status.vi"/>
 		<Item Name="Create Timestamp.vi" Type="VI" URL="../SubVIs/Create Timestamp.vi"/>
 		<Item Name="Create Trigger Channel.vi" Type="VI" URL="../SubVIs/Create Trigger Channel.vi"/>
@@ -110,6 +109,7 @@
 		<Item Name="Populate Array Channel.vi" Type="VI" URL="../SubVIs/Populate Array Channel.vi"/>
 		<Item Name="Get or Create Command.vi" Type="VI" URL="../SubVIs/Get or Create Command.vi"/>
 		<Item Name="Create MetaData Element.vi" Type="VI" URL="../SubVIs/Create MetaData Element.vi"/>
+		<Item Name="Add Message Response.vi" Type="VI" URL="../SubVIs/Add Message Response.vi"/>
 	</Item>
 	<Item Name="TypeDefs" Type="Folder">
 		<Item Name="Message Settings.ctl" Type="VI" URL="../TypeDefs/Message Settings.ctl"/>
