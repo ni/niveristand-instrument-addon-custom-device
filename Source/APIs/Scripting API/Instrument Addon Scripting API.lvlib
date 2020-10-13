@@ -49,11 +49,12 @@
 	</Item>
 	<Item Name="Messages" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">3</Property>
-		<Item Name="Create Command.vi" Type="VI" URL="../Messages/Create Command.vi"/>
 		<Item Name="Configure Command.vi" Type="VI" URL="../Messages/Configure Command.vi"/>
-		<Item Name="Add Response.vi" Type="VI" URL="../Messages/Add Response.vi"/>
-		<Item Name="Add Response - Byte Count.vi" Type="VI" URL="../Messages/Add Response - Byte Count.vi"/>
-		<Item Name="Add Response - Wait (sec).vi" Type="VI" URL="../Messages/Add Response - Wait (sec).vi"/>
+		<Item Name="Create Command.vi" Type="VI" URL="../Messages/Create Command.vi"/>
+		<Item Name="Create Response.vi" Type="VI" URL="../Messages/Create Response.vi"/>
+		<Item Name="Configure Response.vi" Type="VI" URL="../Messages/Configure Response.vi"/>
+		<Item Name="Configure Response - Byte Count.vi" Type="VI" URL="../Messages/Configure Response - Byte Count.vi"/>
+		<Item Name="Configure Response - Wait (sec).vi" Type="VI" URL="../Messages/Configure Response - Wait (sec).vi"/>
 		<Item Name="Create Message Group.vi" Type="VI" URL="../Messages/Create Message Group.vi"/>
 		<Item Name="Create Message.vi" Type="VI" URL="../Messages/Create Message.vi"/>
 		<Item Name="Create Message - Trigger Only.vi" Type="VI" URL="../Messages/Create Message - Trigger Only.vi"/>
@@ -73,7 +74,6 @@
 		<Item Name="Validate Name in Section.vi" Type="VI" URL="../SubVIs/Validate Name in Section.vi"/>
 		<Item Name="Get or Create Response.vi" Type="VI" URL="../SubVIs/Get or Create Response.vi"/>
 		<Item Name="Add Message Command.vi" Type="VI" URL="../SubVIs/Add Message Command.vi"/>
-		<Item Name="Create Message Response.vi" Type="VI" URL="../SubVIs/Create Message Response.vi"/>
 		<Item Name="Create Message Status.vi" Type="VI" URL="../SubVIs/Create Message Status.vi"/>
 		<Item Name="Create Timestamp.vi" Type="VI" URL="../SubVIs/Create Timestamp.vi"/>
 		<Item Name="Create Trigger Channel.vi" Type="VI" URL="../SubVIs/Create Trigger Channel.vi"/>
@@ -108,6 +108,7 @@
 		<Item Name="Populate Array Channel.vi" Type="VI" URL="../SubVIs/Populate Array Channel.vi"/>
 		<Item Name="Get or Create Command.vi" Type="VI" URL="../SubVIs/Get or Create Command.vi"/>
 		<Item Name="Create MetaData Element.vi" Type="VI" URL="../SubVIs/Create MetaData Element.vi"/>
+		<Item Name="Add Message Response.vi" Type="VI" URL="../SubVIs/Add Message Response.vi"/>
 		<Item Name="Validate Response Refnum.vi" Type="VI" URL="../SubVIs/Validate Response Refnum.vi"/>
 	</Item>
 	<Item Name="TypeDefs" Type="Folder">
