@@ -10,6 +10,7 @@
 </Property>
 	<Item Name="Custom Device" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">3</Property>
+		<Item Name="Protocol Factory.vi" Type="VI" URL="../Custom Device/Protocol Factory.vi"/>
 		<Item Name="Create Instrument Addon.vi" Type="VI" URL="../Custom Device/Create Instrument Addon.vi"/>
 		<Item Name="Create Instrument Addon From Configuration File.vi" Type="VI" URL="../Custom Device/Create Instrument Addon From Configuration File.vi"/>
 		<Item Name="Export Instrument Addon Configuration.vi" Type="VI" URL="../Custom Device/Export Instrument Addon Configuration.vi"/>
@@ -20,6 +21,14 @@
 		<Item Name="Set Protocol.vi" Type="VI" URL="../Custom Device/Set Protocol.vi"/>
 		<Item Name="Get PCL Decimation.vi" Type="VI" URL="../Custom Device/Get PCL Decimation.vi"/>
 		<Item Name="Set PCL Decimation.vi" Type="VI" URL="../Custom Device/Set PCL Decimation.vi"/>
+		<Item Name="AK RS-xxx Factory Wrapper.vi" Type="VI" URL="../Custom Device/AK RS-xxx Factory Wrapper.vi"/>
+		<Item Name="AK TCP Factory Wrapper.vi" Type="VI" URL="../Custom Device/AK TCP Factory Wrapper.vi"/>
+		<Item Name="RS-xxx Factory Wrapper.vi" Type="VI" URL="../Custom Device/RS-xxx Factory Wrapper.vi"/>
+		<Item Name="RS-xxx to GPIB ConvBox Factory Wrapper.vi" Type="VI" URL="../Custom Device/RS-xxx to GPIB ConvBox Factory Wrapper.vi"/>
+		<Item Name="TCP Factory Wrapper.vi" Type="VI" URL="../Custom Device/TCP Factory Wrapper.vi"/>
+		<Item Name="UDP Factory Wrapper.vi" Type="VI" URL="../Custom Device/UDP Factory Wrapper.vi"/>
+		<Item Name="VISA Factory Wrapper.vi" Type="VI" URL="../Custom Device/VISA Factory Wrapper.vi"/>
+		<Item Name="Get Protocol Type.vi" Type="VI" URL="../Custom Device/Get Protocol Type.vi"/>
 	</Item>
 	<Item Name="Channels" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">3</Property>
