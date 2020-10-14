@@ -10,6 +10,7 @@
 </Property>
 	<Item Name="Custom Device" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">3</Property>
+		<Item Name="Protocol Factory.vi" Type="VI" URL="../Custom Device/Protocol Factory.vi"/>
 		<Item Name="Create Instrument Addon.vi" Type="VI" URL="../Custom Device/Create Instrument Addon.vi"/>
 		<Item Name="Create Instrument Addon From Configuration File.vi" Type="VI" URL="../Custom Device/Create Instrument Addon From Configuration File.vi"/>
 		<Item Name="Export Instrument Addon Configuration.vi" Type="VI" URL="../Custom Device/Export Instrument Addon Configuration.vi"/>
@@ -20,6 +21,14 @@
 		<Item Name="Set Protocol.vi" Type="VI" URL="../Custom Device/Set Protocol.vi"/>
 		<Item Name="Get PCL Decimation.vi" Type="VI" URL="../Custom Device/Get PCL Decimation.vi"/>
 		<Item Name="Set PCL Decimation.vi" Type="VI" URL="../Custom Device/Set PCL Decimation.vi"/>
+		<Item Name="AK RS-xxx Factory Wrapper.vi" Type="VI" URL="../Custom Device/AK RS-xxx Factory Wrapper.vi"/>
+		<Item Name="AK TCP Factory Wrapper.vi" Type="VI" URL="../Custom Device/AK TCP Factory Wrapper.vi"/>
+		<Item Name="RS-xxx Factory Wrapper.vi" Type="VI" URL="../Custom Device/RS-xxx Factory Wrapper.vi"/>
+		<Item Name="RS-xxx to GPIB ConvBox Factory Wrapper.vi" Type="VI" URL="../Custom Device/RS-xxx to GPIB ConvBox Factory Wrapper.vi"/>
+		<Item Name="TCP Factory Wrapper.vi" Type="VI" URL="../Custom Device/TCP Factory Wrapper.vi"/>
+		<Item Name="UDP Factory Wrapper.vi" Type="VI" URL="../Custom Device/UDP Factory Wrapper.vi"/>
+		<Item Name="VISA Factory Wrapper.vi" Type="VI" URL="../Custom Device/VISA Factory Wrapper.vi"/>
+		<Item Name="Get Protocol Type.vi" Type="VI" URL="../Custom Device/Get Protocol Type.vi"/>
 	</Item>
 	<Item Name="Channels" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">3</Property>
@@ -49,10 +58,12 @@
 	</Item>
 	<Item Name="Messages" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">3</Property>
-		<Item Name="Add Command.vi" Type="VI" URL="../Messages/Add Command.vi"/>
-		<Item Name="Add Response.vi" Type="VI" URL="../Messages/Add Response.vi"/>
-		<Item Name="Add Response - Byte Count.vi" Type="VI" URL="../Messages/Add Response - Byte Count.vi"/>
-		<Item Name="Add Response - Wait (sec).vi" Type="VI" URL="../Messages/Add Response - Wait (sec).vi"/>
+		<Item Name="Configure Command.vi" Type="VI" URL="../Messages/Configure Command.vi"/>
+		<Item Name="Create Command.vi" Type="VI" URL="../Messages/Create Command.vi"/>
+		<Item Name="Create Response.vi" Type="VI" URL="../Messages/Create Response.vi"/>
+		<Item Name="Configure Response.vi" Type="VI" URL="../Messages/Configure Response.vi"/>
+		<Item Name="Configure Response - Byte Count.vi" Type="VI" URL="../Messages/Configure Response - Byte Count.vi"/>
+		<Item Name="Configure Response - Wait (sec).vi" Type="VI" URL="../Messages/Configure Response - Wait (sec).vi"/>
 		<Item Name="Create Message Group.vi" Type="VI" URL="../Messages/Create Message Group.vi"/>
 		<Item Name="Create Message.vi" Type="VI" URL="../Messages/Create Message.vi"/>
 		<Item Name="Create Message - Trigger Only.vi" Type="VI" URL="../Messages/Create Message - Trigger Only.vi"/>
@@ -71,8 +82,7 @@
 		<Item Name="Create Message Channels Section.vi" Type="VI" URL="../SubVIs/Create Message Channels Section.vi"/>
 		<Item Name="Validate Name in Section.vi" Type="VI" URL="../SubVIs/Validate Name in Section.vi"/>
 		<Item Name="Get or Create Response.vi" Type="VI" URL="../SubVIs/Get or Create Response.vi"/>
-		<Item Name="Create Message Command.vi" Type="VI" URL="../SubVIs/Create Message Command.vi"/>
-		<Item Name="Create Message Response.vi" Type="VI" URL="../SubVIs/Create Message Response.vi"/>
+		<Item Name="Add Message Command.vi" Type="VI" URL="../SubVIs/Add Message Command.vi"/>
 		<Item Name="Create Message Status.vi" Type="VI" URL="../SubVIs/Create Message Status.vi"/>
 		<Item Name="Create Timestamp.vi" Type="VI" URL="../SubVIs/Create Timestamp.vi"/>
 		<Item Name="Create Trigger Channel.vi" Type="VI" URL="../SubVIs/Create Trigger Channel.vi"/>
@@ -86,6 +96,7 @@
 		<Item Name="Set Message Trigger.vi" Type="VI" URL="../SubVIs/Set Message Trigger.vi"/>
 		<Item Name="Add Message Channel.vi" Type="VI" URL="../SubVIs/Add Message Channel.vi"/>
 		<Item Name="Create Enable Periodic.vi" Type="VI" URL="../SubVIs/Create Enable Periodic.vi"/>
+		<Item Name="Validate Command Refnum.vi" Type="VI" URL="../SubVIs/Validate Command Refnum.vi"/>
 		<Item Name="Validate PCL Decimation Value.vi" Type="VI" URL="../SubVIs/Validate PCL Decimation Value.vi"/>
 		<Item Name="Validate Instrument Addon Name.vi" Type="VI" URL="../SubVIs/Validate Instrument Addon Name.vi"/>
 		<Item Name="Validate Instrument Addon Name Is Not In Use.vi" Type="VI" URL="../SubVIs/Validate Instrument Addon Name Is Not In Use.vi"/>
@@ -106,6 +117,8 @@
 		<Item Name="Populate Array Channel.vi" Type="VI" URL="../SubVIs/Populate Array Channel.vi"/>
 		<Item Name="Get or Create Command.vi" Type="VI" URL="../SubVIs/Get or Create Command.vi"/>
 		<Item Name="Create MetaData Element.vi" Type="VI" URL="../SubVIs/Create MetaData Element.vi"/>
+		<Item Name="Add Message Response.vi" Type="VI" URL="../SubVIs/Add Message Response.vi"/>
+		<Item Name="Validate Response Refnum.vi" Type="VI" URL="../SubVIs/Validate Response Refnum.vi"/>
 	</Item>
 	<Item Name="TypeDefs" Type="Folder">
 		<Item Name="Message Settings.ctl" Type="VI" URL="../TypeDefs/Message Settings.ctl"/>
