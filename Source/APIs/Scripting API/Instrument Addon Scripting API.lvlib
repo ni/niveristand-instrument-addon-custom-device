@@ -28,7 +28,7 @@
 		<Item Name="TCP Factory Wrapper.vi" Type="VI" URL="../Custom Device/TCP Factory Wrapper.vi"/>
 		<Item Name="UDP Factory Wrapper.vi" Type="VI" URL="../Custom Device/UDP Factory Wrapper.vi"/>
 		<Item Name="VISA Factory Wrapper.vi" Type="VI" URL="../Custom Device/VISA Factory Wrapper.vi"/>
-		<Item Name="Get Protocol Type.vi" Type="VI" URL="../Custom Device/Get Protocol Type.vi"/>
+		<Item Name="Get Protocol Type Wrapper.vi" Type="VI" URL="../Custom Device/Get Protocol Type Wrapper.vi"/>
 	</Item>
 	<Item Name="Channels" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">3</Property>
