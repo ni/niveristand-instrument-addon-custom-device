@@ -202,10 +202,10 @@ Users can add flexibility and reusability to their systems by creating and confi
 ![Configure Command](./Images/image058.png)
 
     Node used: **Create Response**<br/>
-![Add Response](./Images/image044.png)
+![Create Response](./Images/image044.png)
 
     Node used: **Configure Response**<br/>
-![Add Response](./Images/image059.png)
+![Configure Response](./Images/image059.png)
 
     Node used: **Create Message**<br/>
 
