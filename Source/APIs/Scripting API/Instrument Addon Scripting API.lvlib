@@ -120,6 +120,7 @@
 		<Item Name="Add Message Response.vi" Type="VI" URL="../SubVIs/Add Message Response.vi"/>
 		<Item Name="Validate Response Refnum.vi" Type="VI" URL="../SubVIs/Validate Response Refnum.vi"/>
 		<Item Name="Get Global MetaData Parent Refnum.vi" Type="VI" URL="../SubVIs/Get Global MetaData Parent Refnum.vi"/>
+		<Item Name="Validate Message Group Refnum.vi" Type="VI" URL="../SubVIs/Validate Message Group Refnum.vi"/>
 	</Item>
 	<Item Name="TypeDefs" Type="Folder">
 		<Item Name="Message Settings.ctl" Type="VI" URL="../TypeDefs/Message Settings.ctl"/>
