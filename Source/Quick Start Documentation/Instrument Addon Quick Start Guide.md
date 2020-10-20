@@ -191,15 +191,21 @@ Users can add flexibility and reusability to their systems by creating and confi
     Node used: **Create Instrument Addon**<br/>
 ![Create Instrument Addon](./Images/image041.png)<br/>
 
-- add Messages and configure their Command/Response<br/><br/>
+- add Messages, Command/Response sections and configure them<br/><br/>
     Node used: **Create Message Group**<br/>
 ![Create Message Group](./Images/image042.png)
 
-    Node used: **Add Command**<br/>
-![Add Command](./Images/image043.png)
+    Node used: **Create Command**<br/>
+![Create Command](./Images/image043.png)
 
-    Node used: **Add Response**<br/>
+    Node used: **Configure Command**<br/>
+![Configure Command](./Images/image058.png)
+
+    Node used: **Create Response**<br/>
 ![Add Response](./Images/image044.png)
+
+    Node used: **Configure Response**<br/>
+![Add Response](./Images/image059.png)
 
     Node used: **Create Message**<br/>
 
