@@ -7,7 +7,7 @@
 		<Description />
 		<Properties>
 			<Property Name="Name">
-				<String>Untitled 9</String>
+				<String>IA Create Message</String>
 			</Property>
 			<Property Name="Version">
 				<String>1.0.0.1</String>

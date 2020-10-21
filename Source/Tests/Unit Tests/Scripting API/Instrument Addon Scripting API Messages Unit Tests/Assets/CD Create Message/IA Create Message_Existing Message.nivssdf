@@ -7,7 +7,7 @@
 		<Description />
 		<Properties>
 			<Property Name="Name">
-				<String>IA Create Message - Copy</String>
+				<String>IA Create Message_Existing Message</String>
 			</Property>
 			<Property Name="Version">
 				<String>1.0.0.4</String>
