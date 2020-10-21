@@ -191,15 +191,21 @@ Users can add flexibility and reusability to their systems by creating and confi
     Node used: **Create Instrument Addon**<br/>
 ![Create Instrument Addon](./Images/image041.png)<br/>
 
-- add Messages and configure their Command/Response<br/><br/>
+- add Messages, Command/Response sections and configure them<br/><br/>
     Node used: **Create Message Group**<br/>
 ![Create Message Group](./Images/image042.png)
 
-    Node used: **Add Command**<br/>
-![Add Command](./Images/image043.png)
+    Node used: **Create Command**<br/>
+![Create Command](./Images/image043.png)
 
-    Node used: **Add Response**<br/>
-![Add Response](./Images/image044.png)
+    Node used: **Configure Command**<br/>
+![Configure Command](./Images/image058.png)
+
+    Node used: **Create Response**<br/>
+![Create Response](./Images/image044.png)
+
+    Node used: **Configure Response**<br/>
+![Configure Response](./Images/image059.png)
 
     Node used: **Create Message**<br/>
 
@@ -223,8 +229,15 @@ Users can add flexibility and reusability to their systems by creating and confi
     Node used: **Get PCL Decimation** and **Set PCL Decimation**<br/>
 ![Get and Set PCL Decimation](./Images/image050.png)
 
-- Make use of the Protocols subpalette - containing the Get Protocol Type node and factory nodes for each supported protocol<br/>   
-A Protocol object is needed as input when creating a new Instrument Addon<br/><br/>
+- Get information regarding the type of a protocol<br/><br/>
+    Node used: **Get Protocol Type**<br/>
+![Get Protocol Type](./Images/image060.png)
+
+- Create and configure a protocol<br/><br/>
+    Node used: **Protocol Factory**<br/>
+![Protocol Factory](./Images/image052.png) 
+     
+A Protocol object is needed as input when creating a new Instrument Addon<br/>
 List of supported protocols:<br/>
    - RS-xxx
    - RS-xxx to ConvBox
@@ -234,8 +247,6 @@ List of supported protocols:<br/>
    - AK RS-xxx
    - AK TCP<br/>
 
-Factory Nodes used:<br/>
-![Factories](./Images/image052.png)   
 
 ## Example Usage for Scripting API
 
