@@ -233,7 +233,7 @@ Users can add flexibility and reusability to their systems by creating and confi
     Node used: **Get Protocol Type**<br/>
 ![Get Protocol Type](./Images/image060.png)
 
-- Create and configure a protocol<br/>
+- Create and configure a protocol<br/><br/>
     Node used: **Protocol Factory**<br/>
 ![Protocol Factory](./Images/image052.png) 
      
