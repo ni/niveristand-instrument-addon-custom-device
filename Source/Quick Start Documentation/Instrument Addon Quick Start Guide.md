@@ -269,7 +269,7 @@ Set a new Protocol, regardless of the previous configuration<br/>
 ![Example2](./Images/image054.png)
 
 ### Example 3:<br/>
-This example uses a configuration file (exported in the Basic Example) to create a Instrument Addon Custom Device with the same configuration,
+This example uses a configuration file (exported in the Basic Example) to create an Instrument Addon Custom Device with the same configuration,
 adds a Global MetaData Channel, another Message, a Command Section and a MetaData Channel.<br/>
 It configures the Command to use the MetaData Channel and the Global MetaData Channel by assigning their refnums to two variable names (thus creating two linked channels).<br/>
 
@@ -279,6 +279,6 @@ It configures the Command to use the MetaData Channel and the Global MetaData Ch
 This example uses a prevous configuration (from Example 3), creates the Instrument Addon based on it,<br/>
  adds another message with Response and creates a Data Channel for it<br/>
 
-![Example2](./Images/image057.png)
+![Example4](./Images/image057.png)
 
 
