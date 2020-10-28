@@ -80,7 +80,7 @@
 		<Item Name="Create Error Codes.vi" Type="VI" URL="../SubVIs/Create Error Codes.vi"/>
 		<Item Name="Create Default Instrument Addon.vi" Type="VI" URL="../SubVIs/Create Default Instrument Addon.vi"/>
 		<Item Name="Create Message Channels Section.vi" Type="VI" URL="../SubVIs/Create Message Channels Section.vi"/>
-		<Item Name="Validate Name in Section.vi" Type="VI" URL="../SubVIs/Validate Name in Section.vi"/>
+		<Item Name="Validate Channel Name.vi" Type="VI" URL="../SubVIs/Validate Channel Name.vi"/>
 		<Item Name="Get or Create Response.vi" Type="VI" URL="../SubVIs/Get or Create Response.vi"/>
 		<Item Name="Add Message Command.vi" Type="VI" URL="../SubVIs/Add Message Command.vi"/>
 		<Item Name="Create Message Status.vi" Type="VI" URL="../SubVIs/Create Message Status.vi"/>
