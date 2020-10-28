@@ -642,6 +642,7 @@
         <loc>Command</loc>
       </Name>
       <DisallowRenaming>true</DisallowRenaming>
+      <DeleteProtection>true</DeleteProtection>
       <GUID>9428600d-6a85-43b8-aaac-a755da7e0c9b</GUID>
       <Glyph>
 			<Type>To Application Data Dir</Type>
@@ -773,6 +774,7 @@
         <loc>Response</loc>
       </Name>
       <DisallowRenaming>true</DisallowRenaming>
+      <DeleteProtection>true</DeleteProtection>
       <GUID>e90b6266-233a-4552-94b4-54222f1875a2</GUID>
       <Glyph>
 			<Type>To Application Data Dir</Type>
