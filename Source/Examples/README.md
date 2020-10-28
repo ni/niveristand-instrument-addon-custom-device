@@ -30,7 +30,7 @@
 ## Example 5:
    - It creates a new Instrument Addon in the target System Definition File, configured with an RS-xxx protocol
    - Defines groups for Configuration, Control and Feedback
-   - Defines messages configured with metadata and data channels
+   - Defines messages configured with MetaData and Data channels
    - Focuses on configuring a custom device for controlling and getting feedback from a RMX410x device, for the output state and voltage levels
    - [RMX410x User manual](https://www.ni.com/pdf/manuals/377396b.pdf)
    
@@ -39,4 +39,4 @@
 ### 1) Open the Instrument Addon Scripting API Examples.lvproj
 ### 2) Open the desired VI and modify the message type, settings, config file paths as desired and run the VI 
 #### **Note:** It is strongly advised to operate the modifications mentioned in step 2, as the logic in the VIs is for demonstration purposes only. 
-For example, you may need another wait type for your Response, other types of Channels, padding may not make sense in your usecase, etc.)
+For example, you may need another wait type for your Response, other types of Channels, padding may not make sense in your usecase, etc.
