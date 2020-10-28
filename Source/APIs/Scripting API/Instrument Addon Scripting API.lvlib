@@ -113,7 +113,6 @@
 		<Item Name="Is Valid Linkage.vi" Type="VI" URL="../SubVIs/Is Valid Linkage.vi"/>
 		<Item Name="Get Equation Variables.vi" Type="VI" URL="../SubVIs/Get Equation Variables.vi"/>
 		<Item Name="Remove Target from Path.vi" Type="VI" URL="../SubVIs/Remove Target from Path.vi"/>
-		<Item Name="Assign New GUID to Refnum.vi" Type="VI" URL="../SubVIs/Assign New GUID to Refnum.vi"/>
 		<Item Name="Populate Array Channel.vi" Type="VI" URL="../SubVIs/Populate Array Channel.vi"/>
 		<Item Name="Get or Create Command.vi" Type="VI" URL="../SubVIs/Get or Create Command.vi"/>
 		<Item Name="Create MetaData Element.vi" Type="VI" URL="../SubVIs/Create MetaData Element.vi"/>
@@ -121,6 +120,8 @@
 		<Item Name="Validate Response Refnum.vi" Type="VI" URL="../SubVIs/Validate Response Refnum.vi"/>
 		<Item Name="Get Global MetaData Parent Refnum.vi" Type="VI" URL="../SubVIs/Get Global MetaData Parent Refnum.vi"/>
 		<Item Name="Validate Message Group Refnum.vi" Type="VI" URL="../SubVIs/Validate Message Group Refnum.vi"/>
+		<Item Name="Generate GUID.vi" Type="VI" URL="../SubVIs/Generate GUID.vi"/>
+		<Item Name="Create GUID Property.vi" Type="VI" URL="../SubVIs/Create GUID Property.vi"/>
 	</Item>
 	<Item Name="TypeDefs" Type="Folder">
 		<Item Name="Message Settings.ctl" Type="VI" URL="../TypeDefs/Message Settings.ctl"/>

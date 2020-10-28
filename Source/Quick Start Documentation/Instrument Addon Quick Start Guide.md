@@ -256,9 +256,12 @@ This is a basic example of configuring an Instrument Addon with a single message
 
 Another scenario would be when loading an existing configuration and altering all or part of the Instrument Addon's Protocol properties.<br/>
 ### Example 1:<br/>
-Knowing that the Protocol is TCP already, just alter the IP Address and leave other properties unchanged.<br/>
+This example covers a scenario where the user wants to alter the IP Address of a protocol (either TCP or AK TCP) and leave other properties unchanged.<br/>
 
 ![Example1](./Images/image053.png)
+
+Below is the logic in the AK TCP case:<br/>
+![Example1 Other Case](./Images/image056.png)
 
 ### Example 2:<br/>
 Set a new Protocol, regardless of the previous configuration<br/>
@@ -266,20 +269,16 @@ Set a new Protocol, regardless of the previous configuration<br/>
 ![Example2](./Images/image054.png)
 
 ### Example 3:<br/>
-This example uses a prevous configuration (from the first basic example), creates the Instrument Addon based on it,<br/>
- adds another message with both Command and Response, and then exporting the configuration to a file on disk.  <br/>
+This example uses a configuration file (exported in the Basic Example) to create an Instrument Addon Custom Device with the same configuration,
+adds a Global MetaData Channel, another Message, a Command Section and a MetaData Channel.<br/>
+It configures the Command to use the MetaData Channel and the Global MetaData Channel by assigning their refnums to two variable names (thus creating two linked channels).<br/>
 
 ![Example3](./Images/image055.png)
 
 ### Example 4:<br/>
-This is a example of configuring an Instrument Addon with with a single message with Command and creating MetaData Channels and Global MetaData Channels<br/>
+This example uses a prevous configuration (from Example 3), creates the Instrument Addon based on it,<br/>
+ adds another message with Response and creates a Data Channel for it<br/>
 
-![Example2](./Images/image056.png)
-
-### Example 5:<br/>
-This example uses a prevous configuration (from the first basic example), creates the Instrument Addon based on it,<br/>
- adds another message with Response and creates Data Channels for it<br/>
-
-![Example2](./Images/image057.png)
+![Example4](./Images/image057.png)
 
 
