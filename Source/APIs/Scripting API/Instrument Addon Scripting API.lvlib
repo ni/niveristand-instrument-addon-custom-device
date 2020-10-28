@@ -113,7 +113,6 @@
 		<Item Name="Is Valid Linkage.vi" Type="VI" URL="../SubVIs/Is Valid Linkage.vi"/>
 		<Item Name="Get Equation Variables.vi" Type="VI" URL="../SubVIs/Get Equation Variables.vi"/>
 		<Item Name="Remove Target from Path.vi" Type="VI" URL="../SubVIs/Remove Target from Path.vi"/>
-		<Item Name="Assign New GUID to Refnum.vi" Type="VI" URL="../SubVIs/Assign New GUID to Refnum.vi"/>
 		<Item Name="Populate Array Channel.vi" Type="VI" URL="../SubVIs/Populate Array Channel.vi"/>
 		<Item Name="Get or Create Command.vi" Type="VI" URL="../SubVIs/Get or Create Command.vi"/>
 		<Item Name="Create MetaData Element.vi" Type="VI" URL="../SubVIs/Create MetaData Element.vi"/>
