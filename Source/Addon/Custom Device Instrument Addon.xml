@@ -124,6 +124,7 @@
 			<eng>Instrument Addon</eng>
 			<loc>Instrument Addon</loc>
 		</Name>
+      <ExcludeFromAlphabeticalOrder>true</ExcludeFromAlphabeticalOrder>
 		<GUID>5a19fd09-df16-47f0-8250-c59b5cb8c757</GUID>
 		<Glyph>
 			<Type>To Common Doc Dir</Type>
