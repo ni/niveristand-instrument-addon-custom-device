@@ -34,7 +34,7 @@
 </Property>
 	<Property Name="NI.LVClass.IsTransferClass" Type="Bool">false</Property>
 	<Property Name="NI.LVClass.LowestCompatibleVersion" Type="Str">1.0.0.0</Property>
-	<Property Name="NI.LVClass.ParentClassLinkInfo" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#%!!!!!2F7:8*J5X2B&lt;G25:8.U1W&amp;T:3ZM&gt;G.M98.T5&amp;2)-!!!!&amp;Y!!1!*!!!!!!!!*WZJ&gt;G6S;8.U97ZE,7.V=X2P&lt;3VE:8:J9W5N&gt;'6T&gt;'FO:SVU&lt;W^M=R&amp;7:8*J5X2B&lt;G25:8.U1W&amp;T:2F7:8*J5X2B&lt;G25:8.U1W&amp;T:3ZM&gt;G.M98.T!!!!!!</Property>
+	<Property Name="NI.LVClass.ParentClassLinkInfo" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"R!!!!!2F7:8*J5X2B&lt;G25:8.U1W&amp;T:3ZM&gt;G.M98.T5&amp;2)-!!!!%M!!1!*!!!!!!!!&amp;%Z*)&amp;:4)&amp;2F=X1A682J&lt;'FU;76T%6:F=GF4&gt;'&amp;O:&amp;2F=X2$98.F'6:F=GF4&gt;'&amp;O:&amp;2F=X2$98.F,GRW9WRB=X-!!!!!</Property>
 	<Property Name="NI.SortType" Type="Int">3</Property>
 	<Item Name="Instrument Addon Common System Tests.ctl" Type="Class Private Data" URL="Instrument Addon Common System Tests.ctl">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
@@ -248,7 +248,16 @@
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1350574608</Property>
 	</Item>
-	<Item Name="test_Periodic and Multiple Static Single Channel Command-Response Messages using Trigger with Protection.vi" Type="VI" URL="../test_Periodic and Multiple Static Single Channel Command-Response Messages using Trigger with Protection.vi">
+	<Item Name="test_Multiple Periodic Command Message.vi" Type="VI" URL="../test_Multiple Periodic Command Message.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;5!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!%:!=!!?!!!O,%FO=X2S&gt;7VF&lt;H1A172E&lt;WYA1W^N&lt;7^O)&amp;.Z=X2F&lt;3"5:8.U=SZM&gt;G.M98.T!!!-6'6T&gt;%.B=W5A&lt;X6U!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!%2!=!!?!!!O,%FO=X2S&gt;7VF&lt;H1A172E&lt;WYA1W^N&lt;7^O)&amp;.Z=X2F&lt;3"5:8.U=SZM&gt;G.M98.T!!!,6'6T&gt;%.B=W5A;7Y!91$Q!!Q!!Q!%!!1!"1!%!!1!"!!%!!9!"!!%!!=$!!"Y!!!.#!!!!!!!!!!!!!!.#Q!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!!!!!!")!!!U!!!!-!!!!!!!!!!!!!!%!#!!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">32</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1074278928</Property>
+	</Item>
+	<Item Name="test_Multiple Static Single Channel Command-Response Messages using Trigger with Protection.vi" Type="VI" URL="../test_Multiple Static Single Channel Command-Response Messages using Trigger with Protection.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;5!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!%:!=!!?!!!O,%FO=X2S&gt;7VF&lt;H1A172E&lt;WYA1W^N&lt;7^O)&amp;.Z=X2F&lt;3"5:8.U=SZM&gt;G.M98.T!!!-6'6T&gt;%.B=W5A&lt;X6U!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!%2!=!!?!!!O,%FO=X2S&gt;7VF&lt;H1A172E&lt;WYA1W^N&lt;7^O)&amp;.Z=X2F&lt;3"5:8.U=SZM&gt;G.M98.T!!!,6'6T&gt;%.B=W5A;7Y!91$Q!!Q!!Q!%!!1!"1!%!!1!"!!%!!9!"!!%!!=$!!"Y!!!.#!!!!!!!!!!!!!!.#Q!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!!!!!!")!!!U!!!!-!!!!!!!!!!!!!!%!#!!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 		<Property Name="NI.ClassItem.Flags" Type="Int">16777216</Property>
@@ -257,7 +266,7 @@
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1082130960</Property>
 	</Item>
-	<Item Name="test_Periodic and Multiple Static Single Channel Command-Response messages using Trigger.vi" Type="VI" URL="../test_Periodic and Multiple Static Single Channel Command-Response messages using Trigger.vi">
+	<Item Name="test_Multiple Static Single Channel Command-Response messages using Trigger.vi" Type="VI" URL="../test_Multiple Static Single Channel Command-Response messages using Trigger.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;5!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!%:!=!!?!!!O,%FO=X2S&gt;7VF&lt;H1A172E&lt;WYA1W^N&lt;7^O)&amp;.Z=X2F&lt;3"5:8.U=SZM&gt;G.M98.T!!!-6'6T&gt;%.B=W5A&lt;X6U!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!%2!=!!?!!!O,%FO=X2S&gt;7VF&lt;H1A172E&lt;WYA1W^N&lt;7^O)&amp;.Z=X2F&lt;3"5:8.U=SZM&gt;G.M98.T!!!,6'6T&gt;%.B=W5A;7Y!91$Q!!Q!!Q!%!!1!"1!%!!1!"!!%!!9!"!!%!!=$!!"Y!!!.#!!!!!!!!!!!!!!.#Q!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!!!!!!")!!!U!!!!-!!!!!!!!!!!!!!%!#!!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 		<Property Name="NI.ClassItem.Flags" Type="Int">16777216</Property>
