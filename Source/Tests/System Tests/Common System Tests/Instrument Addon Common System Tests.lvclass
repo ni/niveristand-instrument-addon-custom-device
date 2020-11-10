@@ -48,6 +48,17 @@
 	<Item Name="Assets" Type="Folder">
 		<Item Name="CD System Test.nivssdf" Type="Document" URL="../Assets/CD System Test.nivssdf"/>
 	</Item>
+	<Item Name="SubVIs" Type="Folder">
+		<Item Name="Trigger and Confirm.vi" Type="VI" URL="../SubVIs/Trigger and Confirm.vi">
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!)^!!!!$1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!1%!]1!!!!!!!!!#)EZ*8V:4)&amp;&gt;P=GNT='&amp;D:3"&amp;?'6D&gt;82J&lt;WZ"5%EO&lt;(:M;7)16W^S;X.Q97.F16"*,G.U&lt;!$&amp;1(!!'!!!!!%!!!#@4G&amp;U;7^O97R*&lt;H.U=H6N:7ZU=SZ7:8*J5X2B&lt;G1O1WRJ:7ZU16"*,EF8&lt;X*L=X"B9W5S,#"/982J&lt;WZB&lt;%FO=X2S&gt;7VF&lt;H2T,F:F=GF4&gt;'&amp;O:#Z$&lt;'FF&lt;H2"5%EM)&amp;:F=H.J&lt;WY^-#YQ,D!O-#QA1X6M&gt;(6S:4VO:86U=G&amp;M,#"1&gt;7*M;7.,:8F5&lt;WNF&lt;DVB.G1W/4"D-TAQ:'&amp;B-T!Y%V&gt;P=GNT='&amp;D:5VB&lt;G&amp;H:8)A;7Y!'%!Q`````Q^$;'&amp;O&lt;G6M)%&amp;M;7&amp;T)$)!$5!+!!&gt;5=GFH:W6S!$F!!Q!S0DYA4H6N9G6S)'^G)(.F&lt;H1A&gt;(*J:W&gt;F=H-A97ZE)'6Y='6D&gt;'6E)'VF=X.B:W6T0DY!!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!#U!+!!6797RV:1!71$$`````$5.I97ZO:7QA17RJ98-!6!$Q!!Q!!Q!%!!1!"!!&amp;!!9!"Q!)!!E!#A!,!!1$!!"Y!!!.#!!!!!!!!!!!!!!!!!!!#A!!!AA!!!!)!!!!#A!!!!I!!!!+!!!##!!!!!!!!!!!!1!-!!!!!!</Property>
+			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">16777216</Property>
+			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1107821072</Property>
+		</Item>
+	</Item>
 	<Item Name="setUp.vi" Type="VI" URL="../setUp.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;7!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!%:!=!!?!!!O,%FO=X2S&gt;7VF&lt;H1A172E&lt;WYA1W^N&lt;7^O)&amp;.Z=X2F&lt;3"5:8.U=SZM&gt;G.M98.T!!!.=G6G:8*F&lt;G.F)'^V&gt;!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!%:!=!!?!!!O,%FO=X2S&gt;7VF&lt;H1A172E&lt;WYA1W^N&lt;7^O)&amp;.Z=X2F&lt;3"5:8.U=SZM&gt;G.M98.T!!!-=G6G:8*F&lt;G.F)'FO!!"B!0!!$!!$!!1!"!!&amp;!!1!"!!%!!1!"A!%!!1!"Q-!!(A!!!U)!!!!!!!!!!!!!!U,!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!!!!!!!%A!!$1!!!!Q!!!!!!!!!!!!!!1!)!!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
@@ -235,7 +246,7 @@
 		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
 		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-		<Property Name="NI.ClassItem.State" Type="Int">1350574608</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1342710288</Property>
 	</Item>
 	<Item Name="test_Periodic and Multiple Static Single Channel Command-Response messages using Trigger.vi" Type="VI" URL="../test_Periodic and Multiple Static Single Channel Command-Response messages using Trigger.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;5!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!%:!=!!?!!!O,%FO=X2S&gt;7VF&lt;H1A172E&lt;WYA1W^N&lt;7^O)&amp;.Z=X2F&lt;3"5:8.U=SZM&gt;G.M98.T!!!-6'6T&gt;%.B=W5A&lt;X6U!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!%2!=!!?!!!O,%FO=X2S&gt;7VF&lt;H1A172E&lt;WYA1W^N&lt;7^O)&amp;.Z=X2F&lt;3"5:8.U=SZM&gt;G.M98.T!!!,6'6T&gt;%.B=W5A;7Y!91$Q!!Q!!Q!%!!1!"1!%!!1!"!!%!!9!"!!%!!=$!!"Y!!!*!!!!!!!!!!!!!!!.#Q!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!!!!!!")!!!U!!!!-!!!!!!!!!!!!!!%!#!!!!!!</Property>
