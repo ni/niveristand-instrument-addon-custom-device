@@ -1035,7 +1035,7 @@
 				<Property Name="Destination[6].path" Type="Path">../Built/Scripting/API/Dependencies.llb</Property>
 				<Property Name="Destination[6].type" Type="Str">LLB</Property>
 				<Property Name="DestinationCount" Type="Int">7</Property>
-				<Property Name="Source[0].itemID" Type="Str">{6507BE7B-AEC1-4757-B20E-62ECC789BD26}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{4FA61585-0D50-4510-AB91-7C6ACAA0A6E4}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/APIs/Instrument Addon Scripting API.lvlib</Property>
@@ -1063,21 +1063,21 @@
 				<Property Name="Source[6].itemID" Type="Ref">/My Computer/APIs/Instrument Addon Scripting API.lvlib/Palettes/dir.mnu</Property>
 				<Property Name="Source[6].lvfile" Type="Bool">true</Property>
 				<Property Name="Source[7].Container.applyDestination" Type="Bool">true</Property>
+				<Property Name="Source[7].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[7].Container.applyPrefix" Type="Bool">true</Property>
 				<Property Name="Source[7].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[7].destinationIndex" Type="Int">6</Property>
 				<Property Name="Source[7].itemID" Type="Ref">/My Computer/Bundled Dependencies</Property>
 				<Property Name="Source[7].newName" Type="Str">Instrument_Addon_Scripting_Dependencies_</Property>
+				<Property Name="Source[7].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[7].type" Type="Str">Container</Property>
 				<Property Name="Source[8].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[8].itemID" Type="Ref">/My Computer/Bundled Dependencies/Advanced System Definition.lvlib</Property>
 				<Property Name="Source[8].Library.allowMissingMembers" Type="Bool">true</Property>
-				<Property Name="Source[8].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[8].type" Type="Str">Library</Property>
 				<Property Name="Source[9].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[9].itemID" Type="Ref">/My Computer/Bundled Dependencies/ImportExport.lvlib</Property>
 				<Property Name="Source[9].Library.allowMissingMembers" Type="Bool">true</Property>
-				<Property Name="Source[9].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[9].type" Type="Str">Library</Property>
 				<Property Name="SourceCount" Type="Int">10</Property>
 			</Item>
