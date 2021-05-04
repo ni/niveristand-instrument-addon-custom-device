@@ -13,14 +13,6 @@ path = 'Source\Instrument Addon.lvproj'
 path = 'Source\Examples\Instrument Addon Scripting API Examples.lvproj'
 
 [[build.steps]]
-name = 'Scripting API'
-type = 'lvBuildSpec'
-project = '{cd}'
-target = 'My Computer'
-build_spec = 'Scripting API'
-dependency_target = 'Windows'
-
-[[build.steps]]
 name = 'Host API'
 type = 'lvBuildSpec'
 project = '{cd}'
@@ -90,6 +82,14 @@ target = 'RT CompactRIO Target - Linux x64'
 project = '{cd}'
 build_spec = 'Engine Release'
 dependency_target = 'Linux_x64'
+
+[[build.steps]]
+name = 'Scripting API'
+type = 'lvBuildSpec'
+project = '{cd}'
+target = 'My Computer'
+build_spec = 'Scripting API'
+dependency_target = 'Windows'
 
 [[build.steps]]
 name = 'Scripting Examples'
