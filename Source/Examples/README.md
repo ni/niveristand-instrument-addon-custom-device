@@ -1,7 +1,7 @@
-# The **Instrument Addon Scripting API Examples** project contains 5 VIs (one basic example, two additional VIs that build on top of it and two protocol related examples) that showcase the API usage:
+# The Instrument Addon Scripting API Examples project contains 5 VIs (one basic example, two additional VIs that build on top of it and two protocol related examples) that showcase the API usage:
 
 ## A basic example of configuring an Instrument Addon with a single message, with both Command and Response, and then exporting the configuration to a file on disk.
-   - Create a new TCP Protocol object which is used as an input for a new Instrument Addon Custom Device (the Instrument Addon name is also changed).
+   - A new TCP Protocol object is created and used as an input for a new Instrument Addon Custom Device (the Instrument Addon name is also changed).
    - Then a message section and a new message are created.
    - Command and Response sections are added, then configured.
    - The "settings" input for the "Configure Response" uses a known value (42 in this case) as the channel refnum for the linked channel(composed of a variable name and a channel refnum).
