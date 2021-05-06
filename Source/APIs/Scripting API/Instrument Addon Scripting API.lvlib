@@ -74,7 +74,7 @@
 		<Item Name="dir.mnu" Type="Document" URL="../Palettes/dir.mnu"/>
 	</Item>
 	<Item Name="SubVIs" Type="Folder">
-		<Item Name="Add Array Data Channels.vi" Type="VI" URL="../SubVIs/Add Array Data Channels.vi"/>
+		<Item Name="Add Elements to Array Channel.vi" Type="VI" URL="../SubVIs/Add Elements to Array Channel.vi"/>
 		<Item Name="Create Data Channel Element.vi" Type="VI" URL="../SubVIs/Create Data Channel Element.vi"/>
 		<Item Name="Linkages NodeID to GUID.vi" Type="VI" URL="../SubVIs/Linkages NodeID to GUID.vi"/>
 		<Item Name="Create Error Codes.vi" Type="VI" URL="../SubVIs/Create Error Codes.vi"/>
