@@ -44,30 +44,33 @@ The factory produces a protocol object that is used as an input for the **Set Pr
 
 ### RMX410x Configuration
 
-`RMX410x.vi` executes the following steps:
+`RMX410x.vi` creates an Instrument Addon Custom Device and adds the messages and channels used to operate the NI RMX410x Rackmount Programmable DC Power Supply.
+
+The VI executes the following steps:
    1. Creates a new Instrument Addon in the target system definition file with an RS-xxx protocol type.
    1. Creates **Configuration**, **Control**, and **Feedback** groups.
-   1. Configures messages with created MetaData and Data channels.
+   1. Configures messages with created MetaData and Data Channels.
    1. Configures the messages for controlling and getting feedback from the RMX410x device
    1. Configures the channels that control the output state and voltage levels.
 
-For more information on the RMX410x, refer to the [RMX410x User manual](https://www.ni.com/pdf/manuals/377396b.pdf).
+For more information on the RMX410x, refer to the [RMX410x User manual](https://www.ni.com/pdf/manuals/377396c.pdf).
 
 ### Using a Previously Exported Configuration
 
-`Using a previously exported configuration.vi` executes the following steps:
-   1. Uses the exported `Basic Example.vi` configuration file to set a protocol.
-   1. Creates an Instrument Addon Custom Device with the same configuration.
-   1. Adds a Global MetaData channel and another message.
+`Using a previously exported configuration.vi` showcases how to create an Instrument Addon Custom Device from a previously exported configuration and how to add additional messages and channels.
+
+The VI executes the following steps:
+   1. Uses the exported `Basic Eample.vi` configuration file to create an Instrument Addon Custom Device with the same configuration.
+   1. Adds a Global MetaData Channel and another message.
    1. For the new message, adds a Command Section and a MetaData Channel.  
-   1. Creates two linked channels by assigning the MetaData channel refnum and the Global MetaData channel refnum to two variable names in the command.
+   1. Creates two linked channels by assigning the MetaData Channel refnum and the Global MetaData Channel refnum to two variable names in the command.
    1. Exports the new configuration to the disk.
 
 ### Using a Previously Exported Configuration - Part 2
-`Using a previously exported configuration - part 2.vi` uses the new configuration file created by `Using a previously exported configuration.vi`.
+`Using a previously exported configuration - part 2.vi` uses the exported configuration file created by `Using a previously exported configuration.vi` to add a Response section for the new message.
 
 The VI executes the following steps:
    1. Creates an Instrument Addon Custom Device with the same configuration.
    1. Adds a Response section to the new message added in the previous steps.
-   1. Adds a data channel.
-   1. Configures, the Response section to use the new data channel Refnum.
+   1. Adds a Data Channel.
+   1. Configures the Response section to use the new Data Channel Refnum.
