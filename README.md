@@ -9,7 +9,9 @@ The add-on supports the following base protocols:
 - AK TCP
 - AK RS232
 
-You should set the communication structure to *command-response*. The instrument does not initiate communications. Communication rates should fall between 10 and 19 Hertz. The add-on supports decimation for a fast VeriStand Primary Control Loop.
+You should set the communication structure to *command-response*. The instrument does not initiate communications. For best results, you should set your communication rate lower than 100 Hertz. Higher communication rates are not guaranteed to be as effective.
+
+**Note:** The add-on supports decimation for a fast VeriStand primary control loop.
 
 ## Quick Start Documentation
 
@@ -35,7 +37,7 @@ To run the Instrument Addon Custom Device, you will need to install the followin
 
 ### Source
 
-To source for the Instrument Addon Custom Device includes:
+Install the following dependencies to check the source code, modify the add-on, or build the Instrument Addon Custom Device locally.
 - Built Classes from [Instrument Addon Classes](https://github.com/ni/niveristand-instrument-addon-classes)
 - NI VISA 18.0 or later
 - NI Serial 18.0 or later

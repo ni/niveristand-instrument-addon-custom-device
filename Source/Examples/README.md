@@ -1,49 +1,73 @@
 # Instrument Addon Scripting API Examples
-The **Instrument Addon Scripting API Examples project** contains VIs that showcase the Scripting API usage. It includes:
-- One Basic Example.
-- Two example VIs that build on top of the Basic Example.
-- Two Protocol related examples.
+The **Instrument Addon Scripting API Examples** project contains VIs that demonstrate the Scripting API.
+
+The project includes:
+- One basic example.
+- Two example VIs that build on the basic example.
+- Two protocol related examples.
+
+You can run the examples from the labVIEW project.
+1. Open *Instrument Addon Scripting API Examples.lvproj*
+1. Open the desired VI.
+1. Modify the message type, settings, or config file paths.
+1. Run the VI.
+
+**Note:** The VI logic is for demonstration purposes only. You should operate any modifications you make. For instance, you may need to add another Response wait type, add other Channel types, remove padding, etc.
 
 ## Example details
 
-### Basic Example of configuring an Instrument Addon with a single message, with both Command and Response, and then exporting the configuration to a file on disk.
-   - A new TCP Protocol object is created and used as an input for a new Instrument Addon Custom Device (the Instrument Addon name is also changed).
-   - Then a message section and a new message are created.
-   - Command and Response sections are added, then configured.
-   - The "settings" input for the "Configure Response" uses a known value (42 in this case) as the channel refnum for the linked channel(composed of a variable name and a channel refnum).
-   
-### Alter the IP Address of a Protocol and leave other properties unchanged:
-   - The VI fetches the protocol of an Instrument Addon Custom Device (based on a refnum used as input), then it detects if the Protocol is TCP or AK TCP.
-   - It then alters the IP Address and inputs the value to the appropriate protocol factory.
-   - The mentioned factory produces a protocol object that is used as an input for the Set Protocol node.
-   - Thus, the Instrument Addon is now updated with the desired IP Address.
- 
-### Setting a new Protocol, regardless of the previous configuration
+### Basic Example
 
-### Using a previously exported configuration:
-   - Using the configuration file, exported in the Basic Example, an Instrument Addon Custom Device with the same configuration is created.
-   - Then a Global MetaData Channel and another Message are added.
-   - For the newly added message, a Command Section and a MetaData Channel are also added.  
-   - The Command to use the MetaData Channel and the Global MetaData Channel are configured by assigning their refnums to two variable names (thus creating two linked channels).
-   - Finally, the new configuration is exported to disk.
-   
-### Using a previously exported configuration (part2):
-   - Using the configuration file (exported at the end of the previous example) an Instrument Addon Custom Device is created with the same configuration.
-   - A Response section is added to the message added in the previous example. 
-   - A Data Channel is also added.
-   - Finally, the Response is configured to use the Data Channel Refnum.
-   
-### RMX410x Configuration:
-   - A new Instrument Addon is created in the target System Definition File, with an RS-xxx protocol type.
-   - Configuration, Control and Feedback groups are created.
-   - Messages configured with MetaData and Data channels are created.
-   - The Messages for controlling and getting feedback from the RMX410x device, and Channels that control the output state and voltage levels are configured.
-   - [RMX410x User manual](https://www.ni.com/pdf/manuals/377396b.pdf)
-   
-## **Instructions on how to run the examples:**
+`Basic Example.vi` configures an Instrument Addon with a single message, both Command and Response, and exports the configuration to a file on disk.
 
-1. Open the Instrument Addon Scripting API Examples.lvproj
-2. Open the desired VI and modify the message type, settings, config file paths as desired.
-3. Run the VI
+The VI executes the following steps:
+   1. Creates a new TCP Protocol object and uses the protocol as an input for a new Instrument Addon Custom Device.
+   1. Updates the name of the add-on.
+   1. Creates a message section and a new message.
+   1. Adds and configures the Command and Response sections.
 
-**Note:** It is strongly advised to operate the modifications mentioned in step number 2, as the logic in the VIs is for demonstration purposes only. You may need another wait type for your Response, other Channel types, padding may not make sense in your use case, etc.
+
+   **Note:** The **settings** input for the **Configure Response** uses a known value, 42, as the channel refnum for the linked channel. This channel is composed of a variable name and a channel refnum.
+
+### Alter the IP Address of a Protocol
+
+`Alter the IP Address of a protocol.vi` alters the IP Address of a protocol while leaving other properties unchanged.
+
+The VI executes the following steps:
+   1. Uses the input refnum to fetch the protocol of the Instrument Addon Custom Device.
+   1. Determines if the protocol is **TCP** or **AK TCP**.
+   1. Alters the IP Address and inputs the new value to the appropriate protocol factory.
+
+The factory produces a protocol object that is used as an input for the **Set Protocol** node.
+
+### Setting a new Protocol, Regardless of Previous Configuration
+
+### RMX410x Configuration
+
+`RMX410x.vi` executes the following steps:
+   1. Creates a new Instrument Addon in the target system definition file with an RS-xxx protocol type.
+   1. Creates **Configuration**, **Control**, and **Feedback** groups.
+   1. Configures messages with created MetaData and Data channels.
+   1. Configures the messages for controlling and getting feedback from the RMX410x device
+   1. Configures the channels that control the output state and voltage levels.
+
+For more information on the RMX410x, refer to the [RMX410x User manual](https://www.ni.com/pdf/manuals/377396b.pdf).
+
+### Using a Previously Exported Configuration
+
+`Using a previously exported configuration.vi` executes the following steps:
+   1. Uses the exported `Basic Example.vi` configuration file to set a protocol.
+   1. Creates an Instrument Addon Custom Device with the same configuration.
+   1. Adds a Global MetaData channel and another message.
+   1. For the new message, adds a Command Section and a MetaData Channel.  
+   1. Creates two linked channels by assigning the MetaData channel refnum and the Global MetaData channel refnum to two variable names in the command.
+   1. Exports the new configuration to the disk.
+
+### Using a Previously Exported Configuration - Part 2
+`Using a previously exported configuration - part 2.vi` uses the new configuration file created by `Using a previously exported configuration.vi`.
+
+The VI executes the following steps:
+   1. Creates an Instrument Addon Custom Device with the same configuration.
+   1. Adds a Response section to the new message added in the previous steps.
+   1. Adds a data channel.
+   1. Configures, the Response section to use the new data channel Refnum.
