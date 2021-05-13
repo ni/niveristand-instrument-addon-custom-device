@@ -1,5 +1,5 @@
 ---
-name: Support Request template
+name: Support Request
 about: Request support for this project
 title: ''
 labels: support
