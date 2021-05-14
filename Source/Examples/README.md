@@ -6,7 +6,7 @@ The project includes:
 - Two example VIs that build on the basic example.
 - Two protocol related examples.
 
-You can run the examples from the labVIEW project.
+You can run the examples from the LabVIEW project.
 1. Open *Instrument Addon Scripting API Examples.lvproj*
 1. Open the desired VI.
 1. Modify the message type, settings, or config file paths.
@@ -50,7 +50,7 @@ The VI executes the following steps:
    1. Creates a new Instrument Addon in the target system definition file with an RS-xxx protocol type.
    1. Creates **Configuration**, **Control**, and **Feedback** groups.
    1. Configures messages with created MetaData and Data Channels.
-   1. Configures the messages for controlling and getting feedback from the RMX410x device
+   1. Configures the messages for controlling and getting feedback from the RMX410x device.
    1. Configures the channels that control the output state and voltage levels.
 
 For more information on the RMX410x, refer to the [RMX410x User manual](https://www.ni.com/pdf/manuals/377396c.pdf).
@@ -73,4 +73,4 @@ The VI executes the following steps:
    1. Creates an Instrument Addon Custom Device with the same configuration.
    1. Adds a Response section to the new message added in the previous steps.
    1. Adds a Data Channel.
-   1. Configures the Response section to use the new Data Channel Refnum.
+   1. Configures the Response section to use the new Data Channel refnum.
