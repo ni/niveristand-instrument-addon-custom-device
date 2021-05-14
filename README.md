@@ -1,43 +1,60 @@
 # Instrument Addon Custom Device
 
-The **Instrument Addon Custom Device** allows users to define instrument commands generically. It supports: NI-VISA(GPIB, RS232, RS485, RS422), TCP, UDP, AK TCP, and AK RS232 as base protocols. The communication structure should be command-response. The instrument doesn't initiate any of the communications. Communication rates should be 10s of Hz, though the add-on supports decimation so the NI VeriStand PCL can still be fast.
+The **Instrument Addon Custom Device** allows users to generically define instrument commands.
 
-### Quick Start Documentation
+The add-on supports the following base protocols:
+- NI-VISA (GPIB, RS232, RS485, and RS422)
+- TCP
+- UDP
+- AK TCP
+- AK RS232
 
-- Built: %Public%\Documents\National Instruments\NI VeriStand (Year)\Custom Devices\Instrument Addon\Windows\Quick Start Documentation
-- Source: Source\Quick Start Documentation
+You should set the communication structure to *command-response*. The instrument does not initiate communications. For best results, you should set your communication rate lower than 100 Hertz. Higher communication rates are not guaranteed to be as effective.
 
-## LabVIEW Version
+**Note:** The add-on supports decimation for a fast VeriStand primary control loop.
 
-LabVIEW 2018
+## Quick Start Documentation
+
+The following table displays locations where you can access quick start documentation for the Instrument Addon Custom Device.
+
+| Type      | Location |
+| ----------- | ----------- |
+| Built | `%Public%\Documents\National Instruments\NI VeriStand (Year)\Custom Devices\Instrument Addon\Windows\Quick Start Documentation` |
+| Source | `Source\Quick Start Documentation` |
 
 ## Dependencies
 
+### LabVIEW Version
+
+The Instrument Addon Custom Device was built with LabVIEW 2018.
+
 ### Running the add-on
 
-- NI VeriStand >= 2018
-- NI VISA >= 18.0
-- NI Serial >= 18.0
+To run the Instrument Addon Custom Device, you will need to install the following:
+- VeriStand 2018 or later
+- NI VISA 18.0 or later
+- NI Serial or 18.0 later
 
 ### Source
 
+Install the following dependencies to check the source code, modify the add-on, or build the Instrument Addon Custom Device locally.
 - Built Classes from [Instrument Addon Classes](https://github.com/ni/niveristand-instrument-addon-classes)
-- NI VISA >= 18.0
-- NI Serial >= 18.0
-- OpenG LabVIEW Data Library >= 4.2.0.21 
-- OpenG Error Library >= 4.2.0.23
-- NI Simple Messaging Library >= 3.0.0.7
-- NI Asynchronous Messaging Communication Library >= 3.3.1.22
-- NI GXML >= 1.4.2.8
-- [NI VeriStand Addon Inline-Async-API](https://github.com/ni/niveristand-custom-device-inline-async-api)
+- NI VISA 18.0 or later
+- NI Serial 18.0 or later
+- OpenG LabVIEW Data Library 4.2.0.21 or later
+- OpenG Error Library 4.2.0.23 or later
+- NI Simple Messaging Library 3.0.0.7 or later
+- NI Asynchronous Messaging Communication Library 3.3.1.22 or later
+- NI GXML 1.4.2.8 or later
+- [VeriStand Addon Inline-Async-API](https://github.com/ni/niveristand-custom-device-inline-async-api)
 - [VeriStand Addon Network Comm](https://github.com/NIVeriStandAdd-Ons/VeriStand-Addon-Network-Comm)
 - [VeriStand Addon System Definition Utilities](https://github.com/NIVeriStandAdd-Ons/VeriStand-Addon-System-Definition-Utilities)
 - [VeriStand Addon CD Import and Export Tool](https://github.com/NIVeriStandAdd-Ons/VeriStand-Addon-CD-Import-and-Export-Tool)
 - [VeriStand Addon Hardware Resource Discovery](https://github.com/NIVeriStandAdd-Ons/Hardware-Resource-Discovery)
 - [HTML Help File Tools](https://github.com/NIVeriStandAdd-Ons/HTML-Help-File-Tools)
-- Microsoft HTML Help Workshop and Documentation >= 1.32
+- Microsoft HTML Help Workshop and Documentation 1.32 or later
 - [NI VeriStand Custom Device Testing Tools](https://github.com/ni/niveristand-custom-device-testing-tools)
-- JKI VI Tester >= 3.0.2.294-1
+- JKI VI Tester 3.0.2.294-1 or later
 
 
 ## Git History & Rebasing Policy
@@ -47,4 +64,5 @@ Branch rebasing and other history modifications will be listed here, with severa
 - Pull requests may be squashed on merge.
 
 ## License
+
 The Instrument Addon Custom Device is licensed under an MIT-style license (see LICENSE). Other incorporated projects may be licensed under different licenses. All licenses allow for non-commercial and commercial use.
