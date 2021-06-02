@@ -60,7 +60,7 @@ For more information on the RMX410x, refer to the [RMX410x User manual](https://
 `Using a previously exported configuration.vi` showcases how to create an Instrument Addon Custom Device from a previously exported configuration and how to add additional messages and channels.
 
 The VI executes the following steps:
-   1. Uses the exported `Basic Eample.vi` configuration file to create an Instrument Addon Custom Device with the same configuration.
+   1. Uses the exported `Basic Example.vi` configuration file to create an Instrument Addon Custom Device with the same configuration.
    1. Adds a Global MetaData Channel and another message.
    1. For the new message, adds a Command Section and a MetaData Channel.  
    1. Creates two linked channels by assigning the MetaData Channel refnum and the Global MetaData Channel refnum to two variable names in the command.
