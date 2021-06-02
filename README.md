@@ -33,7 +33,7 @@ The Instrument Addon Custom Device was built with LabVIEW 2018.
 To run the Instrument Addon Custom Device, you will need to install the following:
 - VeriStand 2018 or later
 - NI VISA 18.0 or later
-- NI Serial or 18.0 later
+- NI Serial 18.0 or later
 
 ### Source
 
@@ -46,14 +46,9 @@ Install the following dependencies to check the source code, modify the add-on, 
 - NI Simple Messaging Library 3.0.0.7 or later
 - NI Asynchronous Messaging Communication Library 3.3.1.22 or later
 - NI GXML 1.4.2.8 or later
-- [VeriStand Addon Inline-Async-API](https://github.com/ni/niveristand-custom-device-inline-async-api)
-- [VeriStand Addon Network Comm](https://github.com/NIVeriStandAdd-Ons/VeriStand-Addon-Network-Comm)
-- [VeriStand Addon System Definition Utilities](https://github.com/NIVeriStandAdd-Ons/VeriStand-Addon-System-Definition-Utilities)
-- [VeriStand Addon CD Import and Export Tool](https://github.com/NIVeriStandAdd-Ons/VeriStand-Addon-CD-Import-and-Export-Tool)
-- [VeriStand Addon Hardware Resource Discovery](https://github.com/NIVeriStandAdd-Ons/Hardware-Resource-Discovery)
-- [HTML Help File Tools](https://github.com/NIVeriStandAdd-Ons/HTML-Help-File-Tools)
-- Microsoft HTML Help Workshop and Documentation 1.32 or later
+- [NI VeriStand Custom Device Development Tools](https://github.com/ni/niveristand-custom-device-development-tools)
 - [NI VeriStand Custom Device Testing Tools](https://github.com/ni/niveristand-custom-device-testing-tools)
+- Microsoft HTML Help Workshop and Documentation 1.32 or later
 - JKI VI Tester 3.0.2.294-1 or later
 
 
