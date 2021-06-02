@@ -22,11 +22,11 @@ The following table displays locations where you can access quick start document
 | Built | `%Public%\Documents\National Instruments\NI VeriStand (Year)\Custom Devices\Instrument Addon\Windows\Quick Start Documentation` |
 | Source | `Source\Quick Start Documentation` |
 
+## LabVIEW Version
+
+The Instrument Addon Custom Device source code is in LabVIEW 2018.
+
 ## Dependencies
-
-### LabVIEW Version
-
-The Instrument Addon Custom Device was built with LabVIEW 2018.
 
 ### Running the add-on
 
