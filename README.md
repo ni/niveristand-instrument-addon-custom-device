@@ -31,25 +31,19 @@ The Instrument Addon Custom Device source code is in LabVIEW 2018.
 ### Running the add-on
 
 To run the Instrument Addon Custom Device, you will need to install the following:
-- VeriStand 2018 or later
-- NI VISA 18.0 or later
-- NI Serial 18.0 or later
+- [VeriStand 2018 or later](https://www.ni.com/ro-ro/support/downloads/software-products/download.veristand.html#382072)
+- [NI VISA 18.0 or later](https://www.ni.com/ro-ro/support/downloads/drivers/download.ni-visa.html#346210)
+- [NI Serial 18.0 or later](https://www.ni.com/ro-ro/support/downloads/drivers/download.ni-serial.html#345630)
 
 ### Source
 
 Install the following dependencies to check the source code, modify the add-on, or build the Instrument Addon Custom Device locally.
 - Built Classes from [Instrument Addon Classes](https://github.com/ni/niveristand-instrument-addon-classes)
-- NI VISA 18.0 or later
-- NI Serial 18.0 or later
-- OpenG LabVIEW Data Library 4.2.0.21 or later
-- OpenG Error Library 4.2.0.23 or later
-- NI Simple Messaging Library 3.0.0.7 or later
-- NI Asynchronous Messaging Communication Library 3.3.1.22 or later
-- NI GXML 1.4.2.8 or later
-- [NI VeriStand Custom Device Development Tools](https://github.com/ni/niveristand-custom-device-development-tools)
-- [NI VeriStand Custom Device Testing Tools](https://github.com/ni/niveristand-custom-device-testing-tools)
-- Microsoft HTML Help Workshop and Documentation 1.32 or later
-- JKI VI Tester 3.0.2.294-1 or later
+- [NI VISA 18.0 or later](https://www.ni.com/ro-ro/support/downloads/drivers/download.ni-visa.html#346210)
+- [NI Serial 18.0 or later](https://www.ni.com/ro-ro/support/downloads/drivers/download.ni-serial.html#345630)
+- [NI VeriStand Custom Device Development Tools with *Dependencies*](https://github.com/ni/niveristand-custom-device-development-tools)
+- [NI VeriStand Custom Device Testing Tools with *Dependencies*](https://github.com/ni/niveristand-custom-device-testing-tools)
+- [Microsoft HTML Help Workshop and Documentation 1.32 or later](https://docs.microsoft.com/en-us/previous-versions/windows/desktop/htmlhelp/microsoft-html-help-downloads)
 
 
 ## Git History & Rebasing Policy
