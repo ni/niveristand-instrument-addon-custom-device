@@ -2,9 +2,11 @@
 
 ## Inline Custom Device with Asynchronous Loops
 
-The **Instrument Addon Custom Device** is an [inline custom device with asynchronous loops](https://www.ni.com/documentation/en/veristand/latest/manual/custom-device-inline-async-loop/).
+The **Instrument Addon Custom Device** is an [inline custom device with asynchronous loops](https://www.ni.com/documentation/en/veristand/latest/manual/custom-device-inline-async-loop/) that uses the [Inline Async API](https://github.com/ni/niveristand-custom-device-development-tools/tree/main/inline-async-api) to initialize/launch/cleanup the asynchronous VIs, error handling/reporting, and data transfer between inline and synchronous VIs.
 
 It supports serial, GPIB (using NI VISA), Ethernet (TCP, UDP, NI VISA), AK serial, and AK TCP communication protocols.
+
+The add-on communication structure is *command-response*. The instrument does not initiate communication.
 
 The communication protocols, and protection schemes are defined in [Instrument Addon Classes](https://github.com/ni/niveristand-instrument-addon-classes) repository.
 
