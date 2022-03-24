@@ -26,6 +26,6 @@ After a new protection schema has been added, relevant changes need to be done i
 
 Details regarding scripting API nodes available for the Instrument Addon along with examples can be found in the [Quick Start Guide](https://github.com/ni/niveristand-instrument-addon-custom-device/blob/main/Source/Quick%20Start%20Documentation/Instrument%20Addon%20Quick%20Start%20Guide.md).
 
-The scripting API implementation for the Instrument Addon is located inside `Source\APIs\Scripting API\Instrument Addon Scripting API.lvlib`. Adding new scripting functionality will require adding new nodes in this lvlib.
+The scripting API implementation for the Instrument Addon is located inside `Source\APIs\Scripting API\Instrument Addon Scripting API.lvlib`. Adding new scripting functionality will require changes in this lvlib.
 
 Examples on how to use the scripting functionality can be found in [`Source\Examples`](https://github.com/ni/niveristand-instrument-addon-custom-device/tree/main/Source/Examples).
