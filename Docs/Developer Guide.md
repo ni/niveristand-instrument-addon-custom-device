@@ -1,5 +1,3 @@
-## Overview
-
 ## Inline Custom Device with Asynchronous Loops
 
 The **Instrument Addon Custom Device** is an [inline custom device with asynchronous loops](https://www.ni.com/documentation/en/veristand/latest/manual/custom-device-inline-async-loop/). It uses the [Inline Async API](https://github.com/ni/niveristand-custom-device-development-tools/tree/main/inline-async-api) for data transfer between inline and synchronous VIs.
