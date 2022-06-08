@@ -15,14 +15,14 @@
 		<hr width="100%" noshade>
 	</noscript>
 <h1>Data Channel</h1>
-<p class="Body">This section allows the user to define the way to format the particular string into a numeric channel..</p>
+<p class="Body">This section allows the user to define the way to format the particular string into a numeric channel.</p>
 <h2>What do you want to do?</h2>
 <h3>Set Data Channel Format</h3>
-<p>This channel value will be updated based on what was parsed from the response string.  <strong>Channel Type</strong> sets how to format the reponse.  The channel types options are <strong>Format</strong>, <strong>Comparison</strong>, <strong>Type Cast</strong>, and <strong>Enumerated List</strong>.</p>
-<p>The channel type of format will convert the response string value to the data numeric value using the selected <strong>Format String</strong>.  As an example, a format string of %x will convert the string value to a hexidecimal numeric of that value (ie. a value of "A" will make the data channel a value of 10). NOTE: converting hex responses are limited to 32 bits.  Commands and other conversion types are up to 64 bits.</p>
+<p>This channel value will be updated based on what was parsed from the response string.  <strong>Channel Type</strong> sets how to format the response.  The channel types options are <strong>Format</strong>, <strong>Comparison</strong>, <strong>Type Cast</strong>, and <strong>Enumerated List</strong>.</p>
+<p>The channel type of format will convert the response string value to the data numeric value using the selected <strong>Format String</strong>.  As an example, a format string of %x will convert the string value to a hexadecimal numeric of that value (ie. a value of "A" will make the data channel a value of 10). Standard LabVIEW format specifiers may be used; consider using <code>%.;</code> or <code>%,;</code> to force a decimal separator other than the system default.  NOTE: converting hex responses are limited to 32 bits.  Commands and other conversion types are up to 64 bits.</p>
 <p>The channel type of comparison looks at the response string and determines if it contains <strong>Expected String</strong>.  If it does, the data channel value will be 1, if not, it will be 0.</p>
 <p>The channel type of type cast will convert the response string to its binary representation and apply the result to the channel.  So, if you wanted to type cast a double, the conversion would take 8 bytes from the string response (binary data), convert it to a DBL numeric and apply the result to the data channel.  Valid options are DBL, SGL, U64, I64, U32, I32, U16, I16, U8, I8.</p>
 <p>The enumerated list compares the response string to the enumerate list and returns the found index.  For example, if you had an list of OFF, ON and the response string was ON, the data channel value would be 1.</p>
-<p>Note: This data channel configuration works in conjuction with the response format on the response section for a given message.  For example, if you are getting an array of data back that is comma delimited and has 3 elements, the response format would be [VAR0], [VAR1], [VAR2].  Each VAR# would be a data channel with format as the channel type.  The response format would parse the overall string response structure while the data channel configurations would convert the individual string values.</p>
+<p>Note: This data channel configuration works in conjunction with the response format on the response section for a given message.  For example, if you are getting an array of data back that is comma delimited and has 3 elements, the response format would be [VAR0], [VAR1], [VAR2].  Each VAR# would be a data channel with format as the channel type.  The response format would parse the overall string response structure while the data channel configurations would convert the individual string values.</p>
 </body>
-</html> 
+</html>

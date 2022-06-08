@@ -20,7 +20,7 @@
 <h3>Set MetaData Channel Format</h3>
 <p>This channel value will be converted to the selected type and added to any configured string.  The <strong>Channel Type</strong> options are <strong>Enumerated List</strong>, <strong>Format</strong> and <strong>Type Cast</strong>.</p>
 <p>The enumerated list converts the numeric value of the metadata channel to an associated string value.  It is 0 indexed.  As an example, if you have the command OUT:[ENABLE], where ENABLE needs to be "OFF" or "ON".  You can set the list to OFF, ON.  When the message is triggered, if the channel's numeric value is 1, OUT:ON will be sent.  If it is 0, OUT:OFF will be sent.</p>
-<p>The channel type of format will convert the metadata numeric value to a numeric string of that format.  As an example, a <strong>Format String</strong> of %x will convert the numeric value to a hexidecimal string of that value (ie. a value of 10 will be "A" in the command string). </p>
-<p>The channel type of type cast will convert the numeric value of the metatdata channel to its binary representation.  So, if you wanted to type cast a double, it would be converted to 8 bytes of binary data.  Valid options are DBL, SGL, U64, I64, U32, I32, U16, I16, U8, I8.</p>
+<p>The channel type of format will convert the metadata numeric value to a numeric string of that format.  As an example, a <strong>Format String</strong> of %x will convert the numeric value to a hexadecimal string of that value (ie. a value of 10 will be "A" in the command string).  Standard LabVIEW format specifiers may be used; consider using <code>%.;</code> or <code>%,;</code> to force a decimal separator other than the system default.</p>
+<p>The channel type of type cast will convert the numeric value of the metadata channel to its binary representation.  So, if you wanted to type cast a double, it would be converted to 8 bytes of binary data.  Valid options are DBL, SGL, U64, I64, U32, I32, U16, I16, U8, I8.</p>
 </body>
-</html> 
+</html>
