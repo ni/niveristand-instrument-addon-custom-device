@@ -22,29 +22,31 @@ The following table displays locations where you can access quick start document
 | Built | `%Public%\Documents\National Instruments\NI VeriStand (Year)\Custom Devices\Instrument Addon\Windows\Quick Start Documentation` |
 | Source | `Source\Quick Start Documentation` |
 
-## LabVIEW Version
+## LabVIEW Source Code Version
 
-The Instrument Addon Custom Device source code is in LabVIEW 2018.
+LabVIEW 2019
 
 ## Dependencies
 
 ### Running the add-on
 
 To run the Instrument Addon Custom Device, you will need to install the following:
-- [VeriStand 2018 or later](https://www.ni.com/ro-ro/support/downloads/software-products/download.veristand.html#382072)
-- [NI VISA 18.0 or later](https://www.ni.com/ro-ro/support/downloads/drivers/download.ni-visa.html#346210)
-- [NI Serial 18.0 or later](https://www.ni.com/ro-ro/support/downloads/drivers/download.ni-serial.html#345630)
+- [VeriStand 2019 or later](https://www.ni.com/en-us/support/downloads/software-products/download.veristand.html)
+- [NI-VISA 19.0 or later](https://www.ni.com/en-us/support/downloads/drivers/download.ni-visa.html)
+- [NI-Serial 19.0 or later](https://www.ni.com/en-us/support/downloads/drivers/download.ni-serial.html)
 
 ### Source
 
 Install the following dependencies to check the source code, modify the add-on, or build the Instrument Addon Custom Device locally.
 - Built Classes from [Instrument Addon Classes](https://github.com/ni/niveristand-instrument-addon-classes)
-- [NI VISA 18.0 or later](https://www.ni.com/ro-ro/support/downloads/drivers/download.ni-visa.html#346210)
-- [NI Serial 18.0 or later](https://www.ni.com/ro-ro/support/downloads/drivers/download.ni-serial.html#345630)
-- [NI VeriStand Custom Device Development Tools with *Dependencies*](https://github.com/ni/niveristand-custom-device-development-tools)
-- [NI VeriStand Custom Device Testing Tools with *Dependencies*](https://github.com/ni/niveristand-custom-device-testing-tools)
-- [Microsoft HTML Help Workshop and Documentation 1.32 or later](https://docs.microsoft.com/en-us/previous-versions/windows/desktop/htmlhelp/microsoft-html-help-downloads)
-
+- [LabVIEW 2019 or later](https://www.ni.com/en-us/support/downloads/software-products/download.labview.html)
+- [LabVIEW Real-Time Module](https://www.ni.com/en-us/support/downloads/software-products/download.labview-real-time-module.html)
+- [VeriStand Custom Device Development Tools](https://github.com/ni/niveristand-custom-device-development-tools)
+  - Install the latest package from the [release page](https://github.com/ni/niveristand-custom-device-development-tools/releases)
+- [VeriStand Custom Device Message Library](https://github.com/ni/niveristand-custom-device-message-library)
+  - Install the latest package from the [release page](https://github.com/ni/niveristand-custom-device-message-library/releases)
+- [VeriStand Custom Device Testing Tools](https://github.com/ni/niveristand-custom-device-testing-tools)
+  - Install the latest package from the [release page](https://github.com/ni/niveristand-custom-device-testing-tools/releases)
 
 ## Git History & Rebasing Policy
 
