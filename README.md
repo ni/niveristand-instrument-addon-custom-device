@@ -35,7 +35,7 @@ To run the Instrument Addon Custom Device, you will need to install the followin
 - [NI-VISA 19.0 or later](https://www.ni.com/en-us/support/downloads/drivers/download.ni-visa.html)
 - [NI-Serial 19.0 or later](https://www.ni.com/en-us/support/downloads/drivers/download.ni-serial.html)
 
-### Source
+### Developing or building from source
 
 Install the following dependencies to check the source code, modify the add-on, or build the Instrument Addon Custom Device locally.
 - Built Classes from [Instrument Addon Classes](https://github.com/ni/niveristand-instrument-addon-classes)
@@ -43,8 +43,6 @@ Install the following dependencies to check the source code, modify the add-on, 
 - [LabVIEW Real-Time Module](https://www.ni.com/en-us/support/downloads/software-products/download.labview-real-time-module.html)
 - [VeriStand Custom Device Development Tools](https://github.com/ni/niveristand-custom-device-development-tools)
   - Install the latest package from the [release page](https://github.com/ni/niveristand-custom-device-development-tools/releases)
-- [VeriStand Custom Device Message Library](https://github.com/ni/niveristand-custom-device-message-library)
-  - Install the latest package from the [release page](https://github.com/ni/niveristand-custom-device-message-library/releases)
 - [VeriStand Custom Device Testing Tools](https://github.com/ni/niveristand-custom-device-testing-tools)
   - Install the latest package from the [release page](https://github.com/ni/niveristand-custom-device-testing-tools/releases)
 
