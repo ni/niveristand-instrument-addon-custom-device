@@ -49,6 +49,9 @@
 		</Item>
 		<Item Name="Includes" Type="Folder">
 			<Item Name="Protections.lvlibp" Type="LVLibp" URL="../../../Includes/Protections.lvlibp">
+				<Item Name="Types" Type="Folder">
+					<Item Name="Protection.ctl" Type="VI" URL="../../../Includes/Protections.lvlibp/Types/Protection.ctl"/>
+				</Item>
 				<Item Name="Checksum U8.lvclass" Type="LVClass" URL="../../../Includes/Protections.lvlibp/Checksum U8/Checksum U8.lvclass"/>
 				<Item Name="Checksum U16.lvclass" Type="LVClass" URL="../../../Includes/Protections.lvlibp/Checksum U16/Checksum U16.lvclass"/>
 				<Item Name="Checksum U32.lvclass" Type="LVClass" URL="../../../Includes/Protections.lvlibp/Checksum U32/Checksum U32.lvclass"/>
@@ -586,7 +589,6 @@
 				<Item Name="Waveform Subtype Enum__ogtk__jki_vi_tester.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Waveform Subtype Enum__ogtk__jki_vi_tester.ctl"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="a6d690c380daa308" Type="Document"/>
 			<Item Name="DOMUserDefRef.dll" Type="Document" URL="DOMUserDefRef.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -1296,53 +1298,54 @@
 			<Item Name="VS Inline Async API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_VS Inline Async API/VS Inline Async API.lvlib"/>
 		</Item>
 		<Item Name="Instrument Addon Engine.lvlib" Type="Library" URL="../Addon/Addon Engine/Instrument Addon Engine.lvlib"/>
-		<Item Name="Includes" Type="Folder">
-			<Item Name="Protections.lvlibp" Type="LVLibp" URL="../../../Includes/Protections.lvlibp">
-				<Item Name="Checksum U8.lvclass" Type="LVClass" URL="../../../Includes/Protections.lvlibp/Checksum U8/Checksum U8.lvclass"/>
-				<Item Name="Checksum U16.lvclass" Type="LVClass" URL="../../../Includes/Protections.lvlibp/Checksum U16/Checksum U16.lvclass"/>
-				<Item Name="Checksum U32.lvclass" Type="LVClass" URL="../../../Includes/Protections.lvlibp/Checksum U32/Checksum U32.lvclass"/>
-				<Item Name="CRC-32.lvclass" Type="LVClass" URL="../../../Includes/Protections.lvlibp/CRC-32/CRC-32.lvclass"/>
-				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="../../../Includes/Protections.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Error Cluster From Error Code.vi"/>
-				<Item Name="Protection.lvclass" Type="LVClass" URL="../../../Includes/Protections.lvlibp/Parent Protection/Protection.lvclass"/>
+		<Item Name="Protections.lvlibp" Type="LVLibp" URL="../../../Includes/Protections.lvlibp">
+			<Item Name="Types" Type="Folder">
+				<Item Name="Protection.ctl" Type="VI" URL="../../../Includes/Protections.lvlibp/Types/Protection.ctl"/>
 			</Item>
-			<Item Name="Protocols.lvlibp" Type="LVLibp" URL="../../../Includes/Protocols.lvlibp">
-				<Item Name="AK" Type="Folder">
-					<Item Name="AK RS-xxx.lvclass" Type="LVClass" URL="../../../Includes/Protocols.lvlibp/AK RS-xxx/AK RS-xxx.lvclass"/>
-					<Item Name="AK TCP.lvclass" Type="LVClass" URL="../../../Includes/Protocols.lvlibp/AK TCP/AK TCP.lvclass"/>
-					<Item Name="Format AK Command.vi" Type="VI" URL="../../../Includes/Protocols.lvlibp/AK/Format AK Command.vi"/>
-					<Item Name="Format AK Response.vi" Type="VI" URL="../../../Includes/Protocols.lvlibp/AK/Format AK Response.vi"/>
-				</Item>
-				<Item Name="Palettes" Type="Folder">
-					<Item Name="Factories.mnu" Type="Document" URL="../../../Includes/Protocols.lvlibp/Palettes/Factories.mnu"/>
-					<Item Name="Protocols.mnu" Type="Document" URL="../../../Includes/Protocols.lvlibp/Palettes/Protocols.mnu"/>
-				</Item>
-				<Item Name="Protocol Parent" Type="Folder">
-					<Item Name="Protocol Parent.lvclass" Type="LVClass" URL="../../../Includes/Protocols.lvlibp/Protocol Parent/Protocol Parent.lvclass"/>
-				</Item>
-				<Item Name="RS-xxx" Type="Folder">
-					<Item Name="RS-xxx.lvclass" Type="LVClass" URL="../../../Includes/Protocols.lvlibp/RS-xxx/RS-xxx.lvclass"/>
-				</Item>
-				<Item Name="RS-xxx to GPIB ConvBox" Type="Folder">
-					<Item Name="RS-xxx to GPIB ConvBox.lvclass" Type="LVClass" URL="../../../Includes/Protocols.lvlibp/RS-xxx to GPIB ConvBox/RS-xxx to GPIB ConvBox.lvclass"/>
-				</Item>
-				<Item Name="TCP" Type="Folder">
-					<Item Name="TCP.lvclass" Type="LVClass" URL="../../../Includes/Protocols.lvlibp/TCP/TCP.lvclass"/>
-				</Item>
-				<Item Name="UDP" Type="Folder">
-					<Item Name="UDP.lvclass" Type="LVClass" URL="../../../Includes/Protocols.lvlibp/UDP/UDP.lvclass"/>
-				</Item>
-				<Item Name="VISA" Type="Folder">
-					<Item Name="VISA.lvclass" Type="LVClass" URL="../../../Includes/Protocols.lvlibp/VISA/VISA.lvclass"/>
-				</Item>
-				<Item Name="Clear Errors.vi" Type="VI" URL="../../../Includes/Protocols.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Clear Errors.vi"/>
-				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="../../../Includes/Protocols.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Error Cluster From Error Code.vi"/>
-				<Item Name="GPIB Status Boolean Array.ctl" Type="VI" URL="../../../Includes/Protocols.lvlibp/1abvi3w/vi.lib/Instr/_visa.llb/GPIB Status Boolean Array.ctl"/>
-				<Item Name="nirviCommon.vi" Type="VI" URL="../../../Includes/Protocols.lvlibp/1abvi3w/vi.lib/express/rvi/timingcommon/nirviCommon.vi"/>
-				<Item Name="Protocol Factory.vi" Type="VI" URL="../../../Includes/Protocols.lvlibp/Protocol Factory.vi"/>
-				<Item Name="Space Constant.vi" Type="VI" URL="../../../Includes/Protocols.lvlibp/1abvi3w/vi.lib/dlg_ctls.llb/Space Constant.vi"/>
-				<Item Name="VISA Configure Serial Port (Instr).vi" Type="VI" URL="../../../Includes/Protocols.lvlibp/1abvi3w/vi.lib/Instr/_visa.llb/VISA Configure Serial Port (Instr).vi"/>
-				<Item Name="VISA Flush IO Buffer Mask.ctl" Type="VI" URL="../../../Includes/Protocols.lvlibp/1abvi3w/vi.lib/Instr/_visa.llb/VISA Flush IO Buffer Mask.ctl"/>
+			<Item Name="Checksum U8.lvclass" Type="LVClass" URL="../../../Includes/Protections.lvlibp/Checksum U8/Checksum U8.lvclass"/>
+			<Item Name="Checksum U16.lvclass" Type="LVClass" URL="../../../Includes/Protections.lvlibp/Checksum U16/Checksum U16.lvclass"/>
+			<Item Name="Checksum U32.lvclass" Type="LVClass" URL="../../../Includes/Protections.lvlibp/Checksum U32/Checksum U32.lvclass"/>
+			<Item Name="CRC-32.lvclass" Type="LVClass" URL="../../../Includes/Protections.lvlibp/CRC-32/CRC-32.lvclass"/>
+			<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="../../../Includes/Protections.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Error Cluster From Error Code.vi"/>
+			<Item Name="Protection.lvclass" Type="LVClass" URL="../../../Includes/Protections.lvlibp/Parent Protection/Protection.lvclass"/>
+		</Item>
+		<Item Name="Protocols.lvlibp" Type="LVLibp" URL="../../../Includes/Protocols.lvlibp">
+			<Item Name="AK" Type="Folder">
+				<Item Name="AK RS-xxx.lvclass" Type="LVClass" URL="../../../Includes/Protocols.lvlibp/AK RS-xxx/AK RS-xxx.lvclass"/>
+				<Item Name="AK TCP.lvclass" Type="LVClass" URL="../../../Includes/Protocols.lvlibp/AK TCP/AK TCP.lvclass"/>
+				<Item Name="Format AK Command.vi" Type="VI" URL="../../../Includes/Protocols.lvlibp/AK/Format AK Command.vi"/>
+				<Item Name="Format AK Response.vi" Type="VI" URL="../../../Includes/Protocols.lvlibp/AK/Format AK Response.vi"/>
 			</Item>
+			<Item Name="Palettes" Type="Folder">
+				<Item Name="Factories.mnu" Type="Document" URL="../../../Includes/Protocols.lvlibp/Palettes/Factories.mnu"/>
+				<Item Name="Protocols.mnu" Type="Document" URL="../../../Includes/Protocols.lvlibp/Palettes/Protocols.mnu"/>
+			</Item>
+			<Item Name="Protocol Parent" Type="Folder">
+				<Item Name="Protocol Parent.lvclass" Type="LVClass" URL="../../../Includes/Protocols.lvlibp/Protocol Parent/Protocol Parent.lvclass"/>
+			</Item>
+			<Item Name="RS-xxx" Type="Folder">
+				<Item Name="RS-xxx.lvclass" Type="LVClass" URL="../../../Includes/Protocols.lvlibp/RS-xxx/RS-xxx.lvclass"/>
+			</Item>
+			<Item Name="RS-xxx to GPIB ConvBox" Type="Folder">
+				<Item Name="RS-xxx to GPIB ConvBox.lvclass" Type="LVClass" URL="../../../Includes/Protocols.lvlibp/RS-xxx to GPIB ConvBox/RS-xxx to GPIB ConvBox.lvclass"/>
+			</Item>
+			<Item Name="TCP" Type="Folder">
+				<Item Name="TCP.lvclass" Type="LVClass" URL="../../../Includes/Protocols.lvlibp/TCP/TCP.lvclass"/>
+			</Item>
+			<Item Name="UDP" Type="Folder">
+				<Item Name="UDP.lvclass" Type="LVClass" URL="../../../Includes/Protocols.lvlibp/UDP/UDP.lvclass"/>
+			</Item>
+			<Item Name="VISA" Type="Folder">
+				<Item Name="VISA.lvclass" Type="LVClass" URL="../../../Includes/Protocols.lvlibp/VISA/VISA.lvclass"/>
+			</Item>
+			<Item Name="Clear Errors.vi" Type="VI" URL="../../../Includes/Protocols.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Clear Errors.vi"/>
+			<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="../../../Includes/Protocols.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Error Cluster From Error Code.vi"/>
+			<Item Name="GPIB Status Boolean Array.ctl" Type="VI" URL="../../../Includes/Protocols.lvlibp/1abvi3w/vi.lib/Instr/_visa.llb/GPIB Status Boolean Array.ctl"/>
+			<Item Name="nirviCommon.vi" Type="VI" URL="../../../Includes/Protocols.lvlibp/1abvi3w/vi.lib/express/rvi/timingcommon/nirviCommon.vi"/>
+			<Item Name="Protocol Factory.vi" Type="VI" URL="../../../Includes/Protocols.lvlibp/Protocol Factory.vi"/>
+			<Item Name="Space Constant.vi" Type="VI" URL="../../../Includes/Protocols.lvlibp/1abvi3w/vi.lib/dlg_ctls.llb/Space Constant.vi"/>
+			<Item Name="VISA Configure Serial Port (Instr).vi" Type="VI" URL="../../../Includes/Protocols.lvlibp/1abvi3w/vi.lib/Instr/_visa.llb/VISA Configure Serial Port (Instr).vi"/>
+			<Item Name="VISA Flush IO Buffer Mask.ctl" Type="VI" URL="../../../Includes/Protocols.lvlibp/1abvi3w/vi.lib/Instr/_visa.llb/VISA Flush IO Buffer Mask.ctl"/>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -1384,52 +1387,6 @@
 			</Item>
 			<Item Name="NationalInstruments.VeriStand.SystemStorage" Type="Document" URL="NationalInstruments.VeriStand.SystemStorage">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
-			<Item Name="Protections.lvlibp" Type="LVLibp" URL="../../../Includes/Protections.lvlibp">
-				<Item Name="Checksum U8.lvclass" Type="LVClass" URL="../../../Includes/Protections.lvlibp/Checksum U8/Checksum U8.lvclass"/>
-				<Item Name="Checksum U16.lvclass" Type="LVClass" URL="../../../Includes/Protections.lvlibp/Checksum U16/Checksum U16.lvclass"/>
-				<Item Name="Checksum U32.lvclass" Type="LVClass" URL="../../../Includes/Protections.lvlibp/Checksum U32/Checksum U32.lvclass"/>
-				<Item Name="CRC-32.lvclass" Type="LVClass" URL="../../../Includes/Protections.lvlibp/CRC-32/CRC-32.lvclass"/>
-				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="../../../Includes/Protections.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Error Cluster From Error Code.vi"/>
-				<Item Name="Protection.lvclass" Type="LVClass" URL="../../../Includes/Protections.lvlibp/Parent Protection/Protection.lvclass"/>
-			</Item>
-			<Item Name="Protocols.lvlibp" Type="LVLibp" URL="../../../Includes/Protocols.lvlibp">
-				<Item Name="AK" Type="Folder">
-					<Item Name="AK RS-xxx.lvclass" Type="LVClass" URL="../../../Includes/Protocols.lvlibp/AK RS-xxx/AK RS-xxx.lvclass"/>
-					<Item Name="AK TCP.lvclass" Type="LVClass" URL="../../../Includes/Protocols.lvlibp/AK TCP/AK TCP.lvclass"/>
-					<Item Name="Format AK Command.vi" Type="VI" URL="../../../Includes/Protocols.lvlibp/AK/Format AK Command.vi"/>
-					<Item Name="Format AK Response.vi" Type="VI" URL="../../../Includes/Protocols.lvlibp/AK/Format AK Response.vi"/>
-				</Item>
-				<Item Name="Palettes" Type="Folder">
-					<Item Name="Factories.mnu" Type="Document" URL="../../../Includes/Protocols.lvlibp/Palettes/Factories.mnu"/>
-					<Item Name="Protocols.mnu" Type="Document" URL="../../../Includes/Protocols.lvlibp/Palettes/Protocols.mnu"/>
-				</Item>
-				<Item Name="Protocol Parent" Type="Folder">
-					<Item Name="Protocol Parent.lvclass" Type="LVClass" URL="../../../Includes/Protocols.lvlibp/Protocol Parent/Protocol Parent.lvclass"/>
-				</Item>
-				<Item Name="RS-xxx" Type="Folder">
-					<Item Name="RS-xxx.lvclass" Type="LVClass" URL="../../../Includes/Protocols.lvlibp/RS-xxx/RS-xxx.lvclass"/>
-				</Item>
-				<Item Name="RS-xxx to GPIB ConvBox" Type="Folder">
-					<Item Name="RS-xxx to GPIB ConvBox.lvclass" Type="LVClass" URL="../../../Includes/Protocols.lvlibp/RS-xxx to GPIB ConvBox/RS-xxx to GPIB ConvBox.lvclass"/>
-				</Item>
-				<Item Name="TCP" Type="Folder">
-					<Item Name="TCP.lvclass" Type="LVClass" URL="../../../Includes/Protocols.lvlibp/TCP/TCP.lvclass"/>
-				</Item>
-				<Item Name="UDP" Type="Folder">
-					<Item Name="UDP.lvclass" Type="LVClass" URL="../../../Includes/Protocols.lvlibp/UDP/UDP.lvclass"/>
-				</Item>
-				<Item Name="VISA" Type="Folder">
-					<Item Name="VISA.lvclass" Type="LVClass" URL="../../../Includes/Protocols.lvlibp/VISA/VISA.lvclass"/>
-				</Item>
-				<Item Name="Clear Errors.vi" Type="VI" URL="../../../Includes/Protocols.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Clear Errors.vi"/>
-				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="../../../Includes/Protocols.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Error Cluster From Error Code.vi"/>
-				<Item Name="GPIB Status Boolean Array.ctl" Type="VI" URL="../../../Includes/Protocols.lvlibp/1abvi3w/vi.lib/Instr/_visa.llb/GPIB Status Boolean Array.ctl"/>
-				<Item Name="nirviCommon.vi" Type="VI" URL="../../../Includes/Protocols.lvlibp/1abvi3w/vi.lib/express/rvi/timingcommon/nirviCommon.vi"/>
-				<Item Name="Protocol Factory.vi" Type="VI" URL="../../../Includes/Protocols.lvlibp/Protocol Factory.vi"/>
-				<Item Name="Space Constant.vi" Type="VI" URL="../../../Includes/Protocols.lvlibp/1abvi3w/vi.lib/dlg_ctls.llb/Space Constant.vi"/>
-				<Item Name="VISA Configure Serial Port (Instr).vi" Type="VI" URL="../../../Includes/Protocols.lvlibp/1abvi3w/vi.lib/Instr/_visa.llb/VISA Configure Serial Port (Instr).vi"/>
-				<Item Name="VISA Flush IO Buffer Mask.ctl" Type="VI" URL="../../../Includes/Protocols.lvlibp/1abvi3w/vi.lib/Instr/_visa.llb/VISA Flush IO Buffer Mask.ctl"/>
 			</Item>
 			<Item Name="systemLogging.dll" Type="Document" URL="systemLogging.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -1473,11 +1430,11 @@
 				<Property Name="Source[0].propertiesCount" Type="Int">5</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/Linux x64/Protections.lvlibp</Property>
+				<Property Name="Source[1].itemID" Type="Ref"></Property>
 				<Property Name="Source[1].preventRename" Type="Bool">true</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/Linux x64/Protocols.lvlibp</Property>
+				<Property Name="Source[2].itemID" Type="Ref"></Property>
 				<Property Name="Source[2].preventRename" Type="Bool">true</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
