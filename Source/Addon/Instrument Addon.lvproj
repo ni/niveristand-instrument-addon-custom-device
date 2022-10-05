@@ -586,6 +586,7 @@
 				<Item Name="Waveform Subtype Enum__ogtk__jki_vi_tester.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Waveform Subtype Enum__ogtk__jki_vi_tester.ctl"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
+			<Item Name="a6d690c380daa308" Type="Document"/>
 			<Item Name="DOMUserDefRef.dll" Type="Document" URL="DOMUserDefRef.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -1338,8 +1339,14 @@
 			<Item Name="NationalInstruments.VeriStand.SystemStorage" Type="Document" URL="NationalInstruments.VeriStand.SystemStorage">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Protection.lvclass" Type="LVClass" URL="../Addon/Support Libraries/Protections.lvlibp/Parent Protection/Protection.lvclass"/>
-			<Item Name="Protocol Parent.lvclass" Type="LVClass" URL="../Addon/Support Libraries/Protocols.lvlibp/Protocol Parent/Protocol Parent.lvclass"/>
+			<Item Name="Protections.lvlibp" Type="LVLibp" URL="../../../Includes/Protections.lvlibp">
+				<Item Name="Checksum U8.lvclass" Type="LVClass" URL="../../../Includes/Protections.lvlibp/Checksum U8/Checksum U8.lvclass"/>
+				<Item Name="Checksum U16.lvclass" Type="LVClass" URL="../../../Includes/Protections.lvlibp/Checksum U16/Checksum U16.lvclass"/>
+				<Item Name="Checksum U32.lvclass" Type="LVClass" URL="../../../Includes/Protections.lvlibp/Checksum U32/Checksum U32.lvclass"/>
+				<Item Name="CRC-32.lvclass" Type="LVClass" URL="../../../Includes/Protections.lvlibp/CRC-32/CRC-32.lvclass"/>
+				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="../../../Includes/Protections.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Error Cluster From Error Code.vi"/>
+				<Item Name="Protection.lvclass" Type="LVClass" URL="../../../Includes/Protections.lvlibp/Parent Protection/Protection.lvclass"/>
+			</Item>
 			<Item Name="Protocols.lvlibp" Type="LVLibp" URL="../../../Includes/Protocols.lvlibp">
 				<Item Name="AK" Type="Folder">
 					<Item Name="AK RS-xxx.lvclass" Type="LVClass" URL="../../../Includes/Protocols.lvlibp/AK RS-xxx/AK RS-xxx.lvclass"/>
@@ -1378,33 +1385,9 @@
 				<Item Name="VISA Configure Serial Port (Instr).vi" Type="VI" URL="../../../Includes/Protocols.lvlibp/1abvi3w/vi.lib/Instr/_visa.llb/VISA Configure Serial Port (Instr).vi"/>
 				<Item Name="VISA Flush IO Buffer Mask.ctl" Type="VI" URL="../../../Includes/Protocols.lvlibp/1abvi3w/vi.lib/Instr/_visa.llb/VISA Flush IO Buffer Mask.ctl"/>
 			</Item>
-			<Item Name="Read Parameter.ctl" Type="VI" URL="../Addon/Support Libraries/Protocols.lvlibp/Protocol Parent/Methods/Read Parameter.ctl"/>
-			<Item Name="RS-xxx to GPIB ConvBox.lvclass" Type="LVClass" URL="../Addon/Support Libraries/Protocols.lvlibp/RS-xxx to GPIB ConvBox/RS-xxx to GPIB ConvBox.lvclass"/>
-			<Item Name="RS-xxx.lvclass" Type="LVClass" URL="../Addon/Support Libraries/Protocols.lvlibp/RS-xxx/RS-xxx.lvclass"/>
 			<Item Name="systemLogging.dll" Type="Document" URL="systemLogging.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="TCP.lvclass" Type="LVClass" URL="../Addon/Support Libraries/Protocols.lvlibp/TCP/TCP.lvclass"/>
-			<Item Name="UDP.lvclass" Type="LVClass" URL="../Addon/Support Libraries/Protocols.lvlibp/UDP/UDP.lvclass"/>
-			<Item Name="VISA.lvclass" Type="LVClass" URL="../Addon/Support Libraries/Protocols.lvlibp/VISA/VISA.lvclass"/>
-			<Item Name="Write Append Write Termination Character.vi" Type="VI" URL="../Addon/Support Libraries/Protocols.lvlibp/VISA/Data Access/Write Append Write Termination Character.vi"/>
-			<Item Name="Write Assert Ren with IFC.vi" Type="VI" URL="../Addon/Support Libraries/Protocols.lvlibp/RS-xxx to GPIB ConvBox/Data Access/Write Assert Ren with IFC.vi"/>
-			<Item Name="Write ConvBox Address.vi" Type="VI" URL="../Addon/Support Libraries/Protocols.lvlibp/RS-xxx to GPIB ConvBox/Data Access/Write ConvBox Address.vi"/>
-			<Item Name="Write Enable Termination Character.vi" Type="VI" URL="../Addon/Support Libraries/Protocols.lvlibp/VISA/Data Access/Write Enable Termination Character.vi"/>
-			<Item Name="Write GPIB Address.vi" Type="VI" URL="../Addon/Support Libraries/Protocols.lvlibp/RS-xxx to GPIB ConvBox/Data Access/Write GPIB Address.vi"/>
-			<Item Name="Write IP Address.vi" Type="VI" URL="../Addon/Support Libraries/Protocols.lvlibp/TCP/Data Access/Write IP Address.vi"/>
-			<Item Name="Write IST bit sense.vi" Type="VI" URL="../Addon/Support Libraries/Protocols.lvlibp/RS-xxx to GPIB ConvBox/Data Access/Write IST bit sense.vi"/>
-			<Item Name="Write Local IP Address.vi" Type="VI" URL="../Addon/Support Libraries/Protocols.lvlibp/UDP/Data Access/Write Local IP Address.vi"/>
-			<Item Name="Write Local Port.vi" Type="VI" URL="../Addon/Support Libraries/Protocols.lvlibp/UDP/Data Access/Write Local Port.vi"/>
-			<Item Name="Write Port.vi" Type="VI" URL="../Addon/Support Libraries/Protocols.lvlibp/RS-xxx to GPIB ConvBox/Data Access/Write Port.vi"/>
-			<Item Name="Write Port.vi" Type="VI" URL="../Addon/Support Libraries/Protocols.lvlibp/TCP/Data Access/Write Port.vi"/>
-			<Item Name="Write PortSettings.vi" Type="VI" URL="../Addon/Support Libraries/Protocols.lvlibp/RS-xxx/Data Access/Write PortSettings.vi"/>
-			<Item Name="Write System controller.vi" Type="VI" URL="../Addon/Support Libraries/Protocols.lvlibp/RS-xxx to GPIB ConvBox/Data Access/Write System controller.vi"/>
-			<Item Name="Write Target IP Address.vi" Type="VI" URL="../Addon/Support Libraries/Protocols.lvlibp/UDP/Data Access/Write Target IP Address.vi"/>
-			<Item Name="Write Target Port.vi" Type="VI" URL="../Addon/Support Libraries/Protocols.lvlibp/UDP/Data Access/Write Target Port.vi"/>
-			<Item Name="Write Termination Character.vi" Type="VI" URL="../Addon/Support Libraries/Protocols.lvlibp/VISA/Data Access/Write Termination Character.vi"/>
-			<Item Name="Write Timeout.vi" Type="VI" URL="../Addon/Support Libraries/Protocols.lvlibp/VISA/Data Access/Write Timeout.vi"/>
-			<Item Name="Write VISA Resource.vi" Type="VI" URL="../Addon/Support Libraries/Protocols.lvlibp/VISA/Data Access/Write VISA Resource.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Engine Release" Type="Source Distribution">
