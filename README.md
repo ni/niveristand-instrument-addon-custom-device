@@ -13,14 +13,10 @@ You should set the communication structure to *command-response*. The instrument
 
 **Note:** The add-on supports decimation for a fast VeriStand primary control loop.
 
-## Quick Start Documentation
+## Using the Custom Device
 
-The following table displays locations where you can access quick start documentation for the Instrument Addon Custom Device.
-
-| Type      | Location |
-| ----------- | ----------- |
-| Built | `%Public%\Documents\National Instruments\NI VeriStand (Year)\Custom Devices\Instrument Addon\Windows\Quick Start Documentation` |
-| Source | `Source\Quick Start Documentation` |
+- Download the latest release of the VeriStand Custom Devices on [ni.com](https://www.ni.com/en-us/support/downloads/software-products/download.veristand-custom-devices.html) or manually from the [GitHub Releases page](https://github.com/ni/niveristand-instrument-addon-custom-device/releases).
+- See the [Quick Start Guide](Docs/Quick%20Start%20Guide.md) for a walkthrough of using the Custom Device.
 
 ## LabVIEW Source Code Version
 
@@ -38,7 +34,8 @@ To run the Instrument Addon Custom Device, you will need to install the followin
 ### Developing or building from source
 
 Install the following dependencies to check the source code, modify the add-on, or build the Instrument Addon Custom Device locally.
-- Built Classes from [Instrument Addon Classes](https://github.com/ni/niveristand-instrument-addon-classes)
+- `Protocols.lvlibp` from [niveristand-instrument-addon-classes](https://github.com/ni/niveristand-instrument-addon-classes)
+- `Protections.lvlibp` from [niveristand-instrument-addon-classes](https://github.com/ni/niveristand-instrument-addon-classes)
 - [LabVIEW 2019 or later](https://www.ni.com/en-us/support/downloads/software-products/download.labview.html)
 - [LabVIEW Real-Time Module](https://www.ni.com/en-us/support/downloads/software-products/download.labview-real-time-module.html)
 - [VeriStand Custom Device Development Tools](https://github.com/ni/niveristand-custom-device-development-tools)
