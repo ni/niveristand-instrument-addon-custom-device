@@ -99,6 +99,12 @@
 			</Item>
 		</Item>
 		<Item Name="Tests" Type="Folder">
+			<Item Name="Shared Sub VIs" Type="Folder">
+				<Item Name="Convert to Absolute Path.vi" Type="VI" URL="../Tests/Shared Sub VIs/Convert to Absolute Path.vi"/>
+				<Item Name="Find Instrument Addon Custom Device.vi" Type="VI" URL="../Tests/Shared Sub VIs/Find Instrument Addon Custom Device.vi"/>
+				<Item Name="Get Class Data Path.vi" Type="VI" URL="../Tests/Shared Sub VIs/Get Class Data Path.vi"/>
+				<Item Name="Open System Definition.vi" Type="VI" URL="../Tests/Shared Sub VIs/Open System Definition.vi"/>
+			</Item>
 			<Item Name="System" Type="Folder">
 				<Property Name="NI.SortType" Type="Int">3</Property>
 				<Item Name="Assets" Type="Folder">
@@ -125,7 +131,6 @@
 					<Item Name="Instrument Addon Scripting API Custom Device Unit Tests.lvclass" Type="LVClass" URL="../Tests/Unit Tests/Scripting API/Instrument Addon Scripting API Custom Device Unit Tests/Instrument Addon Scripting API Custom Device Unit Tests.lvclass"/>
 					<Item Name="Instrument Addon Scripting API Channels Unit Tests.lvclass" Type="LVClass" URL="../Tests/Unit Tests/Scripting API/Instrument Addon Scripting API Channels Unit Tests/Instrument Addon Scripting API Channels Unit Tests.lvclass"/>
 					<Item Name="Instrument Addon Scripting API Messages Unit Tests.lvclass" Type="LVClass" URL="../Tests/Unit Tests/Scripting API/Instrument Addon Scripting API Messages Unit Tests/Instrument Addon Scripting API Messages Unit Tests.lvclass"/>
-					<Item Name="Instrument Addon Scripting API Test Assets.lvclass" Type="LVClass" URL="../Tests/Unit Tests/Scripting API/Instrument Addon Scripting API Test Assets/Instrument Addon Scripting API Test Assets.lvclass"/>
 				</Item>
 			</Item>
 		</Item>
