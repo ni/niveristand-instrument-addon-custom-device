@@ -21,18 +21,17 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="SubVIs" Type="Folder">
+			<Item Name="Convert to Absolute Path.vi" Type="VI" URL="../SubVIs/Convert to Absolute Path.vi"/>
 			<Item Name="Find Instrument Addon Custom Device.vi" Type="VI" URL="../SubVIs/Find Instrument Addon Custom Device.vi"/>
 			<Item Name="Open System Definition.vi" Type="VI" URL="../SubVIs/Open System Definition.vi"/>
-			<Item Name="Convert to Absolute Path.vi" Type="VI" URL="../SubVIs/Convert to Absolute Path.vi"/>
+			<Item Name="Save and Close System Definition.vi" Type="VI" URL="../SubVIs/Save and Close System Definition.vi"/>
 		</Item>
 		<Item Name="System Definition Files" Type="Folder" URL="../System Definition Files">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="Basic Example.vi" Type="VI" URL="../Basic Example.vi"/>
 		<Item Name="Alter the IP Address of a protocol.vi" Type="VI" URL="../Alter the IP Address of a protocol.vi"/>
-		<Item Name="Setting a new Protocol.vi" Type="VI" URL="../Setting a new Protocol.vi"/>
-		<Item Name="Using a previously exported configuration.vi" Type="VI" URL="../Using a previously exported configuration.vi"/>
-		<Item Name="Using a previously exported configuration - part 2.vi" Type="VI" URL="../Using a previously exported configuration - part 2.vi"/>
+		<Item Name="Import Configuration and Add Messages.vi" Type="VI" URL="../Import Configuration and Add Messages.vi"/>
 		<Item Name="RMX410x Configuration.vi" Type="VI" URL="../RMX410x Configuration.vi"/>
 		<Item Name="Post-Build Action.vi" Type="VI" URL="../Utilities/Post-Build Action.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -157,15 +156,15 @@
 				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[3].type" Type="Str">VI</Property>
 				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[4].itemID" Type="Ref">/My Computer/Setting a new Protocol.vi</Property>
+				<Property Name="Source[4].itemID" Type="Ref"></Property>
 				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[4].type" Type="Str">VI</Property>
 				<Property Name="Source[5].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[5].itemID" Type="Ref">/My Computer/Using a previously exported configuration.vi</Property>
+				<Property Name="Source[5].itemID" Type="Ref">/My Computer/Import Configuration and Add Messages.vi</Property>
 				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[5].type" Type="Str">VI</Property>
 				<Property Name="Source[6].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[6].itemID" Type="Ref">/My Computer/Using a previously exported configuration - part 2.vi</Property>
+				<Property Name="Source[6].itemID" Type="Ref"></Property>
 				<Property Name="Source[6].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[6].type" Type="Str">VI</Property>
 				<Property Name="Source[7].destinationIndex" Type="Int">0</Property>
