@@ -24,6 +24,9 @@
 			<Item Name="Find Instrument Addon Custom Device.vi" Type="VI" URL="../SubVIs/Find Instrument Addon Custom Device.vi"/>
 			<Item Name="Open System Definition.vi" Type="VI" URL="../SubVIs/Open System Definition.vi"/>
 		</Item>
+		<Item Name="System Definition Files" Type="Folder" URL="../System Definition Files">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
 		<Item Name="Basic Example.vi" Type="VI" URL="../Basic Example.vi"/>
 		<Item Name="Alter the IP Address of a protocol.vi" Type="VI" URL="../Alter the IP Address of a protocol.vi"/>
 		<Item Name="Setting a new Protocol.vi" Type="VI" URL="../Setting a new Protocol.vi"/>
