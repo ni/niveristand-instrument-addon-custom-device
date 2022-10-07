@@ -176,7 +176,13 @@
 				<Property Name="Source[8].itemID" Type="Ref">/My Computer/Post-Build Action.vi</Property>
 				<Property Name="Source[8].sourceInclusion" Type="Str">Exclude</Property>
 				<Property Name="Source[8].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">9</Property>
+				<Property Name="Source[9].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[9].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[9].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[9].itemID" Type="Ref">/My Computer/System Definition Files</Property>
+				<Property Name="Source[9].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[9].type" Type="Str">Container</Property>
+				<Property Name="SourceCount" Type="Int">10</Property>
 			</Item>
 		</Item>
 	</Item>
