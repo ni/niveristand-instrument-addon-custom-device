@@ -24,15 +24,13 @@
 			<Item Name="Find Instrument Addon Custom Device.vi" Type="VI" URL="../SubVIs/Find Instrument Addon Custom Device.vi"/>
 			<Item Name="Open System Definition.vi" Type="VI" URL="../SubVIs/Open System Definition.vi"/>
 		</Item>
-		<Item Name="Utilities" Type="Folder">
-			<Item Name="Post-Build Action.vi" Type="VI" URL="../Utilities/Post-Build Action.vi"/>
-		</Item>
 		<Item Name="Basic Example.vi" Type="VI" URL="../Basic Example.vi"/>
 		<Item Name="Alter the IP Address of a protocol.vi" Type="VI" URL="../Alter the IP Address of a protocol.vi"/>
 		<Item Name="Setting a new Protocol.vi" Type="VI" URL="../Setting a new Protocol.vi"/>
 		<Item Name="Using a previously exported configuration.vi" Type="VI" URL="../Using a previously exported configuration.vi"/>
 		<Item Name="Using a previously exported configuration - part 2.vi" Type="VI" URL="../Using a previously exported configuration - part 2.vi"/>
 		<Item Name="RMX410x Configuration.vi" Type="VI" URL="../RMX410x Configuration.vi"/>
+		<Item Name="Post-Build Action.vi" Type="VI" URL="../Utilities/Post-Build Action.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
@@ -127,7 +125,7 @@
 				<Property Name="Bld_excludedDirectoryCount" Type="Int">6</Property>
 				<Property Name="Bld_localDestDir" Type="Path">../Built/Scripting Examples</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
-				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utilities/Post-Build Action.vi</Property>
+				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Post-Build Action.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{F6E02281-EE0E-42DA-ADE5-F1436F5D1D76}</Property>
 				<Property Name="Bld_version.build" Type="Int">5</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
@@ -138,7 +136,7 @@
 				<Property Name="Destination[2].destName" Type="Str">SubVIs Directory</Property>
 				<Property Name="Destination[2].path" Type="Path">../Built/Scripting Examples/SubVIs</Property>
 				<Property Name="DestinationCount" Type="Int">3</Property>
-				<Property Name="Source[0].itemID" Type="Str">{187DCDA9-97F1-4DB1-81C6-FD898D83701A}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{4652DF26-AAD1-4248-91A0-98A68D1C7857}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[1].Container.applyInclusion" Type="Bool">true</Property>
@@ -171,7 +169,11 @@
 				<Property Name="Source[7].itemID" Type="Ref">/My Computer/RMX410x Configuration.vi</Property>
 				<Property Name="Source[7].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[7].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">8</Property>
+				<Property Name="Source[8].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[8].itemID" Type="Ref">/My Computer/Post-Build Action.vi</Property>
+				<Property Name="Source[8].sourceInclusion" Type="Str">Exclude</Property>
+				<Property Name="Source[8].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">9</Property>
 			</Item>
 		</Item>
 	</Item>
