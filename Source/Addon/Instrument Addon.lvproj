@@ -123,15 +123,10 @@
 				<Item Name="Instrument Addon Host API Tests.lvclass" Type="LVClass" URL="../Tests/System Tests/Host API Tests/Instrument Addon Host API Tests.lvclass"/>
 			</Item>
 			<Item Name="Unit" Type="Folder">
-				<Item Name="Instrument Addon" Type="Folder">
-					<Item Name="Instrument Addon Unit Tests.lvclass" Type="LVClass" URL="../Tests/Unit Tests/Instrument Addon/Instrument Addon Unit Tests.lvclass"/>
-				</Item>
-				<Item Name="Scripting API" Type="Folder">
-					<Property Name="NI.SortType" Type="Int">3</Property>
-					<Item Name="Instrument Addon Scripting API Custom Device Unit Tests.lvclass" Type="LVClass" URL="../Tests/Unit Tests/Scripting API Custom Device Tests/Instrument Addon Scripting API Custom Device Unit Tests.lvclass"/>
-					<Item Name="Instrument Addon Scripting API Channels Unit Tests.lvclass" Type="LVClass" URL="../Tests/Unit Tests/Scripting API Channels Tests/Instrument Addon Scripting API Channels Unit Tests.lvclass"/>
-					<Item Name="Instrument Addon Scripting API Messages Unit Tests.lvclass" Type="LVClass" URL="../Tests/Unit Tests/Scripting API Messages Tests/Instrument Addon Scripting API Messages Unit Tests.lvclass"/>
-				</Item>
+				<Item Name="Instrument Addon Scripting API Channels Unit Tests.lvclass" Type="LVClass" URL="../Tests/Unit Tests/Scripting API Channels Tests/Instrument Addon Scripting API Channels Unit Tests.lvclass"/>
+				<Item Name="Instrument Addon Scripting API Custom Device Unit Tests.lvclass" Type="LVClass" URL="../Tests/Unit Tests/Scripting API Custom Device Tests/Instrument Addon Scripting API Custom Device Unit Tests.lvclass"/>
+				<Item Name="Instrument Addon Scripting API Messages Unit Tests.lvclass" Type="LVClass" URL="../Tests/Unit Tests/Scripting API Messages Tests/Instrument Addon Scripting API Messages Unit Tests.lvclass"/>
+				<Item Name="Instrument Addon Unit Tests.lvclass" Type="LVClass" URL="../Tests/Unit Tests/Instrument Addon/Instrument Addon Unit Tests.lvclass"/>
 			</Item>
 		</Item>
 		<Item Name="UIs" Type="Folder">
