@@ -99,6 +99,12 @@
 			</Item>
 		</Item>
 		<Item Name="Tests" Type="Folder">
+			<Item Name="Shared Sub VIs" Type="Folder">
+				<Item Name="Convert to Absolute Path.vi" Type="VI" URL="../Tests/Shared Sub VIs/Convert to Absolute Path.vi"/>
+				<Item Name="Find Instrument Addon Custom Device.vi" Type="VI" URL="../Tests/Shared Sub VIs/Find Instrument Addon Custom Device.vi"/>
+				<Item Name="Get Class Data Path.vi" Type="VI" URL="../Tests/Shared Sub VIs/Get Class Data Path.vi"/>
+				<Item Name="Open System Definition.vi" Type="VI" URL="../Tests/Shared Sub VIs/Open System Definition.vi"/>
+			</Item>
 			<Item Name="System" Type="Folder">
 				<Property Name="NI.SortType" Type="Int">3</Property>
 				<Item Name="Assets" Type="Folder">
@@ -117,16 +123,10 @@
 				<Item Name="Instrument Addon Host API Tests.lvclass" Type="LVClass" URL="../Tests/System Tests/Host API Tests/Instrument Addon Host API Tests.lvclass"/>
 			</Item>
 			<Item Name="Unit" Type="Folder">
-				<Item Name="Instrument Addon" Type="Folder">
-					<Item Name="Instrument Addon Unit Tests.lvclass" Type="LVClass" URL="../Tests/Unit Tests/Instrument Addon/Instrument Addon Unit Tests.lvclass"/>
-				</Item>
-				<Item Name="Scripting API" Type="Folder">
-					<Property Name="NI.SortType" Type="Int">3</Property>
-					<Item Name="Instrument Addon Scripting API Custom Device Unit Tests.lvclass" Type="LVClass" URL="../Tests/Unit Tests/Scripting API/Instrument Addon Scripting API Custom Device Unit Tests/Instrument Addon Scripting API Custom Device Unit Tests.lvclass"/>
-					<Item Name="Instrument Addon Scripting API Channels Unit Tests.lvclass" Type="LVClass" URL="../Tests/Unit Tests/Scripting API/Instrument Addon Scripting API Channels Unit Tests/Instrument Addon Scripting API Channels Unit Tests.lvclass"/>
-					<Item Name="Instrument Addon Scripting API Messages Unit Tests.lvclass" Type="LVClass" URL="../Tests/Unit Tests/Scripting API/Instrument Addon Scripting API Messages Unit Tests/Instrument Addon Scripting API Messages Unit Tests.lvclass"/>
-					<Item Name="Instrument Addon Scripting API Test Assets.lvclass" Type="LVClass" URL="../Tests/Unit Tests/Scripting API/Instrument Addon Scripting API Test Assets/Instrument Addon Scripting API Test Assets.lvclass"/>
-				</Item>
+				<Item Name="Instrument Addon Scripting API Channels Unit Tests.lvclass" Type="LVClass" URL="../Tests/Unit Tests/Scripting API Channels Tests/Instrument Addon Scripting API Channels Unit Tests.lvclass"/>
+				<Item Name="Instrument Addon Scripting API Custom Device Unit Tests.lvclass" Type="LVClass" URL="../Tests/Unit Tests/Scripting API Custom Device Tests/Instrument Addon Scripting API Custom Device Unit Tests.lvclass"/>
+				<Item Name="Instrument Addon Scripting API Messages Unit Tests.lvclass" Type="LVClass" URL="../Tests/Unit Tests/Scripting API Messages Tests/Instrument Addon Scripting API Messages Unit Tests.lvclass"/>
+				<Item Name="Instrument Addon Unit Tests.lvclass" Type="LVClass" URL="../Tests/Unit Tests/Instrument Addon/Instrument Addon Unit Tests.lvclass"/>
 			</Item>
 		</Item>
 		<Item Name="UIs" Type="Folder">
