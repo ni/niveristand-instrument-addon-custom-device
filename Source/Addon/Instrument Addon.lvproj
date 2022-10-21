@@ -116,6 +116,7 @@
 					<Item Name="TCP Listener.vi" Type="VI" URL="../Tests/System Tests/Assets/TCP Listener.vi"/>
 					<Item Name="TCP Data Reader.vi" Type="VI" URL="../Tests/System Tests/Assets/TCP Data Reader.vi"/>
 					<Item Name="TCP HeartBeat Generator.vi" Type="VI" URL="../Tests/System Tests/Assets/TCP HeartBeat Generator.vi"/>
+					<Item Name="TCP Reset Listener.vi" Type="VI" URL="../Tests/System Tests/Assets/TCP Reset Listener.vi"/>
 				</Item>
 				<Item Name="Instrument Addon Common System Tests.lvclass" Type="LVClass" URL="../Tests/System Tests/Common System Tests/Instrument Addon Common System Tests.lvclass"/>
 				<Item Name="Instrument Addon Error System Tests.lvclass" Type="LVClass" URL="../Tests/System Tests/Error System Tests/Instrument Addon Error System Tests.lvclass"/>
