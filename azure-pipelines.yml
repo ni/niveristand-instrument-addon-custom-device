@@ -62,7 +62,7 @@ stages:
           target: 'My Computer'
           buildSpec: 'Configuration Release'
 
-        - projectLocation:'Source\Addon\Instrument Addon.lvproj'
+        - projectLocation: 'Source\Addon\Instrument Addon.lvproj'
           buildOperation: 'ExecuteBuildSpec'
           target: 'My Computer'
           buildSpec: 'Engine Release'
