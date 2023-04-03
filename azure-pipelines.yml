@@ -30,10 +30,10 @@ stages:
 
       dependencies:
         - source: '\\nirvana\Measurements\VeriStandAddons\instrument_addon_classes'
-          file: '$targetDirectory\Protections.lvlibp'
+          file: 'Protections.lvlibp'
           destination: 'Includes'
         - source: '\\nirvana\Measurements\VeriStandAddons\instrument_addon_classes'
-          file: '$targetDirectory\Protocols.lvlibp'
+          file: 'Protocols.lvlibp'
           destination: 'Includes'
 
       buildSteps:
