@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="19008000">
+<Project Type="Project" LVVersion="20008000">
 	<Property Name="CCSymbols" Type="Str"></Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.Project.Description" Type="Str"></Property>
@@ -1190,6 +1190,7 @@
 				<Property Name="App_INI_aliasGUID" Type="Str">{A1219698-6D43-40B3-AF5A-868C36D4530F}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{703C13A7-1454-4024-8B4A-61789C0AC79C}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">1</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{17D87870-65B4-41CB-AC83-646A11A2F165}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">Workspace Tool EXE</Property>
