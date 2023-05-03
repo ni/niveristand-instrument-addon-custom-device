@@ -89,15 +89,15 @@ stages:
       packages:
         - controlFileName: 'control'
           payloadMaps:
-            - payloadLocation: 'Source\Built\IA'
+            - payloadLocation: 'IA'
               installLocation: 'documents\National Instruments\NI VeriStand $(lvVersion)'
 
         - controlFileName: 'control_scripting_api'
           payloadMaps:
-            - payloadLocation: 'Source\Built\Scripting'
+            - payloadLocation: 'Scripting'
               installLocation: 'ni-paths-LV$(lvVersion)DIR$(nipkgx64suffix)\vi.lib\addons\VeriStand Custom Device Scripting APIs\Instrument Addon'
 
         - controlFileName: 'control_scripting_examples'
           payloadMaps:
-            - payloadLocation: 'Source\Built\Scripting Examples'
+            - payloadLocation: 'Scripting Examples'
               installLocation: 'ni-paths-LV$(lvVersion)DIR$(nipkgx64suffix)\examples\NI VeriStand Custom Devices\Instrument Addon'
