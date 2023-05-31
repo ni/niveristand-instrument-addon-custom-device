@@ -15,7 +15,10 @@ resources:
   pipelines:
     - pipeline: InstrumentAddonClasses
       source:   ni.niveristand-instrument-addon-classes
-      trigger:  true
+      trigger:  
+        branches: 
+          include:
+            - main
 
 stages:
   - template: azure-templates/stages.yml@niveristand-custom-device-build-tools
