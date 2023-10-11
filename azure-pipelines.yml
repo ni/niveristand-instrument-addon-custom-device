@@ -24,8 +24,6 @@ stages:
   - template: azure-templates/stages.yml@niveristand-custom-device-build-tools
     parameters:
       lvVersionsToBuild: 
-        - version: '2020'
-          bitness: '32bit'
         - version: '2021'
           bitness: '64bit'
         - version: '2023'
@@ -85,7 +83,7 @@ stages:
           target: 'My Computer'
           buildSpec: 'Scripting Examples'
 
-      releaseVersion: '23.3.0'
+      releaseVersion: '24.0.0'
       buildOutputLocation: 'Source\Built'
       archiveLocation: '\\nirvana\Measurements\VeriStandAddons\instrument_addon_custom_device'
 
