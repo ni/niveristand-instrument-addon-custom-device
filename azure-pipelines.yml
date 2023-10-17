@@ -28,6 +28,8 @@ stages:
           bitness: '64bit'
         - version: '2023'
           bitness: '64bit'
+        - version: '2024'
+          bitness: '64bit'
 
       dependencies:
         - source: '\\nirvana\Measurements\VeriStandAddons\instrument_addon_classes'
