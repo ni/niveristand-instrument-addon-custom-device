@@ -13,3 +13,13 @@ Section: Add-Ons
 XB-DisplayVersion: {quarterly_display_version}
 XB-DisplayName: NI Instrument Addon LabVIEW Support for NI VeriStand {veristand_version}
 Depends: ni-labview-{labview_version}{pkg_x86_bitness_suffix} (>= {labview_short_version}.0.0), ni-veristand-{labview_version} (>= {labview_short_version}.0.0)
+Description-zh-CN: 为NI VeriStand {veristand_version}提供LabVIEW对自定义设备的支持
+XB-DisplayName-zh-CN: NI Instrument Addon LabVIEW Support for NI VeriStand {veristand_version}
+Description-de: Stellt LabVIEW-Unterstützung für das Instrument-Zusatzpaket für benutzerdefinierte Geräte für NI VeriStand {veristand_version} bereit.
+XB-DisplayName-de: NI Instrument Addon - LabVIEW-Support für VeriStand {veristand_version}
+Description-fr: Fournit le support LabVIEW pour le périphérique personnalisé Instrument Addon pour NI VeriStand {veristand_version}
+XB-DisplayName-fr: NI Instrument Addon - Support LabVIEW pour NI VeriStand {veristand_version}
+Description-ja: NI VeriStand {veristand_version}用の計測器アドオンカスタムデバイスのLabVIEWサポートを提供します。
+XB-DisplayName-ja: NI Instrument Addon LabVIEWサポート - NI VeriStand {veristand_version}用
+Description-ko: NI VeriStand {veristand_version}을(를) 위한 Instrument Addon Custom Device의 LabVIEW 지원을 제공합니다.
+XB-DisplayName-ko: NI Instrument Addon LabVIEW 지원 - VeriStand {veristand_version} 지원
