@@ -16,3 +16,13 @@ Depends: ni-labview-{labview_version}{pkg_x86_bitness_suffix}, ni-veristand-{lab
 Replaces: ni-instrument-addon-veristand-{veristand_version}-labview-support-examples (<< 21.0.0)
 Conflicts: ni-instrument-addon-veristand-{veristand_version}-labview-support-examples (<< 21.0.0)
 Provides: ni-instrument-addon-veristand-{veristand_version}-labview-support-examples (= 21.0.0)
+Description-zh-CN: 为NI VeriStand {veristand_version}提供Instrument Addon自定义设备的LabVIEW范例
+XB-DisplayName-zh-CN: eriStand {veristand_version}的NI Instrument Addon LabVIEW范例
+Description-de: Stellt LabVIEW-Beispiele zum Support für das Instrument-Zusatzpaket für benutzerdefinierte Geräte für NI VeriStand {veristand_version} bereit.
+XB-DisplayName-de: NI Instrument Addon - LabVIEW-Beispiele für VeriStand {veristand_version}
+Description-fr: Fournit des exemples de support LabVIEW pour le périphérique personnalisé Instrument Addon pour NI VeriStand {veristand_version}
+XB-DisplayName-fr: NI Instrument Addon - Exemples LabVIEW pour VeriStand {veristand_version}
+Description-ja: NI VeriStand {veristand_version}用の計測器アドオンカスタムデバイスのLabVIEWサポートのサンプルプログラムを提供します。
+XB-DisplayName-ja: NI Instrument Addon LabVIEWサンプルプログラム - VeriStand {veristand_version}用
+Description-ko: NI VeriStand {veristand_version}을(를) 위한 Instrument Addon Custom Device의 LabVIEW 지원 예제를 제공합니다.
+XB-DisplayName-ko: NI Instrument Addon LabVIEW Examples - VeriStand {veristand_version} 지원
