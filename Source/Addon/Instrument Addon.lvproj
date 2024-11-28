@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="20008000">
+<Project Type="Project" LVVersion="21008000">
 	<Property Name="CCSymbols" Type="Str"></Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.Project.Description" Type="Str"></Property>
@@ -48,55 +48,8 @@
 			<Item Name="VS Inline Async API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_VS Inline Async API/VS Inline Async API.lvlib"/>
 		</Item>
 		<Item Name="Includes" Type="Folder">
-			<Item Name="Protections.lvlibp" Type="LVLibp" URL="../../../Includes/Protections.lvlibp">
-				<Item Name="Types" Type="Folder">
-					<Item Name="Protection.ctl" Type="VI" URL="../../../Includes/Protections.lvlibp/Types/Protection.ctl"/>
-				</Item>
-				<Item Name="Checksum U8.lvclass" Type="LVClass" URL="../../../Includes/Protections.lvlibp/Checksum U8/Checksum U8.lvclass"/>
-				<Item Name="Checksum U16.lvclass" Type="LVClass" URL="../../../Includes/Protections.lvlibp/Checksum U16/Checksum U16.lvclass"/>
-				<Item Name="Checksum U32.lvclass" Type="LVClass" URL="../../../Includes/Protections.lvlibp/Checksum U32/Checksum U32.lvclass"/>
-				<Item Name="CRC-32.lvclass" Type="LVClass" URL="../../../Includes/Protections.lvlibp/CRC-32/CRC-32.lvclass"/>
-				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="../../../Includes/Protections.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Error Cluster From Error Code.vi"/>
-				<Item Name="Protection.lvclass" Type="LVClass" URL="../../../Includes/Protections.lvlibp/Parent Protection/Protection.lvclass"/>
-			</Item>
-			<Item Name="Protocols.lvlibp" Type="LVLibp" URL="../../../Includes/Protocols.lvlibp">
-				<Item Name="AK" Type="Folder">
-					<Item Name="AK RS-xxx.lvclass" Type="LVClass" URL="../../../Includes/Protocols.lvlibp/AK RS-xxx/AK RS-xxx.lvclass"/>
-					<Item Name="AK TCP.lvclass" Type="LVClass" URL="../../../Includes/Protocols.lvlibp/AK TCP/AK TCP.lvclass"/>
-					<Item Name="Format AK Command.vi" Type="VI" URL="../../../Includes/Protocols.lvlibp/AK/Format AK Command.vi"/>
-					<Item Name="Format AK Response.vi" Type="VI" URL="../../../Includes/Protocols.lvlibp/AK/Format AK Response.vi"/>
-				</Item>
-				<Item Name="Palettes" Type="Folder">
-					<Item Name="Factories.mnu" Type="Document" URL="../../../Includes/Protocols.lvlibp/Palettes/Factories.mnu"/>
-					<Item Name="Protocols.mnu" Type="Document" URL="../../../Includes/Protocols.lvlibp/Palettes/Protocols.mnu"/>
-				</Item>
-				<Item Name="Protocol Parent" Type="Folder">
-					<Item Name="Protocol Parent.lvclass" Type="LVClass" URL="../../../Includes/Protocols.lvlibp/Protocol Parent/Protocol Parent.lvclass"/>
-				</Item>
-				<Item Name="RS-xxx" Type="Folder">
-					<Item Name="RS-xxx.lvclass" Type="LVClass" URL="../../../Includes/Protocols.lvlibp/RS-xxx/RS-xxx.lvclass"/>
-				</Item>
-				<Item Name="RS-xxx to GPIB ConvBox" Type="Folder">
-					<Item Name="RS-xxx to GPIB ConvBox.lvclass" Type="LVClass" URL="../../../Includes/Protocols.lvlibp/RS-xxx to GPIB ConvBox/RS-xxx to GPIB ConvBox.lvclass"/>
-				</Item>
-				<Item Name="TCP" Type="Folder">
-					<Item Name="TCP.lvclass" Type="LVClass" URL="../../../Includes/Protocols.lvlibp/TCP/TCP.lvclass"/>
-				</Item>
-				<Item Name="UDP" Type="Folder">
-					<Item Name="UDP.lvclass" Type="LVClass" URL="../../../Includes/Protocols.lvlibp/UDP/UDP.lvclass"/>
-				</Item>
-				<Item Name="VISA" Type="Folder">
-					<Item Name="VISA.lvclass" Type="LVClass" URL="../../../Includes/Protocols.lvlibp/VISA/VISA.lvclass"/>
-				</Item>
-				<Item Name="Clear Errors.vi" Type="VI" URL="../../../Includes/Protocols.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Clear Errors.vi"/>
-				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="../../../Includes/Protocols.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Error Cluster From Error Code.vi"/>
-				<Item Name="GPIB Status Boolean Array.ctl" Type="VI" URL="../../../Includes/Protocols.lvlibp/1abvi3w/vi.lib/Instr/_visa.llb/GPIB Status Boolean Array.ctl"/>
-				<Item Name="nirviCommon.vi" Type="VI" URL="../../../Includes/Protocols.lvlibp/1abvi3w/vi.lib/express/rvi/timingcommon/nirviCommon.vi"/>
-				<Item Name="Protocol Factory.vi" Type="VI" URL="../../../Includes/Protocols.lvlibp/Protocol Factory.vi"/>
-				<Item Name="Space Constant.vi" Type="VI" URL="../../../Includes/Protocols.lvlibp/1abvi3w/vi.lib/dlg_ctls.llb/Space Constant.vi"/>
-				<Item Name="VISA Configure Serial Port (Instr).vi" Type="VI" URL="../../../Includes/Protocols.lvlibp/1abvi3w/vi.lib/Instr/_visa.llb/VISA Configure Serial Port (Instr).vi"/>
-				<Item Name="VISA Flush IO Buffer Mask.ctl" Type="VI" URL="../../../Includes/Protocols.lvlibp/1abvi3w/vi.lib/Instr/_visa.llb/VISA Flush IO Buffer Mask.ctl"/>
-			</Item>
+			<Item Name="Protections.lvlibp" Type="LVLibp" URL="../../../Includes/Protections.lvlibp"/>
+			<Item Name="Protocols.lvlibp" Type="LVLibp" URL="../../../Includes/Protocols.lvlibp"/>
 		</Item>
 		<Item Name="Tests" Type="Folder">
 			<Item Name="Shared Sub VIs" Type="Folder">
@@ -575,6 +528,13 @@
 				<Item Name="Waveform Subtype Enum__ogtk__jki_vi_tester.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Waveform Subtype Enum__ogtk__jki_vi_tester.ctl"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
+			<Item Name="AK RS-xxx Factory.vi" Type="VI" URL="../../../Includes/Protocols.lvlibp/AK RS-xxx/Methods/AK RS-xxx Factory.vi"/>
+			<Item Name="AK RS-xxx Settings.ctl" Type="VI" URL="../../../Includes/Protocols.lvlibp/AK RS-xxx/AK RS-xxx Settings.ctl"/>
+			<Item Name="AK RS-xxx.lvclass" Type="LVClass" URL="../../../Includes/Protocols.lvlibp/AK RS-xxx/AK RS-xxx.lvclass"/>
+			<Item Name="AK TCP Factory.vi" Type="VI" URL="../../../Includes/Protocols.lvlibp/AK TCP/Methods/AK TCP Factory.vi"/>
+			<Item Name="AK TCP Settings.ctl" Type="VI" URL="../../../Includes/Protocols.lvlibp/AK TCP/AK TCP Settings.ctl"/>
+			<Item Name="AK TCP.lvclass" Type="LVClass" URL="../../../Includes/Protocols.lvlibp/AK TCP/AK TCP.lvclass"/>
+			<Item Name="Base Protocol Type.ctl" Type="VI" URL="../../../Includes/Protocols.lvlibp/Protocol Parent/Types/Base Protocol Type.ctl"/>
 			<Item Name="DOMUserDefRef.dll" Type="Document" URL="DOMUserDefRef.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -602,9 +562,46 @@
 			<Item Name="NationalInstruments.VeriStand.XMLReader" Type="Document" URL="NationalInstruments.VeriStand.XMLReader">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Protection.lvclass" Type="LVClass" URL="../../../Includes/Protections.lvlibp/Parent Protection/Protection.lvclass"/>
+			<Item Name="Protocol Parent.lvclass" Type="LVClass" URL="../../../Includes/Protocols.lvlibp/Protocol Parent/Protocol Parent.lvclass"/>
+			<Item Name="Protocol Type.ctl" Type="VI" URL="../../../Includes/Protocols.lvlibp/Protocol Parent/Types/Protocol Type.ctl"/>
+			<Item Name="Read Parameter.ctl" Type="VI" URL="../../../Includes/Protocols.lvlibp/Protocol Parent/Methods/Read Parameter.ctl"/>
+			<Item Name="RS-xxx Factory.vi" Type="VI" URL="../../../Includes/Protocols.lvlibp/RS-xxx/Methods/RS-xxx Factory.vi"/>
+			<Item Name="RS-xxx Settings.ctl" Type="VI" URL="../../../Includes/Protocols.lvlibp/RS-xxx/RS-xxx Settings.ctl"/>
+			<Item Name="RS-xxx to GPIB ConvBox Factory.vi" Type="VI" URL="../../../Includes/Protocols.lvlibp/RS-xxx to GPIB ConvBox/Methods/RS-xxx to GPIB ConvBox Factory.vi"/>
+			<Item Name="RS-xxx to GPIB ConvBox Settings.ctl" Type="VI" URL="../../../Includes/Protocols.lvlibp/RS-xxx to GPIB ConvBox/RS-xxx to GPIB ConvBox Settings.ctl"/>
+			<Item Name="RS-xxx to GPIB ConvBox.lvclass" Type="LVClass" URL="../../../Includes/Protocols.lvlibp/RS-xxx to GPIB ConvBox/RS-xxx to GPIB ConvBox.lvclass"/>
+			<Item Name="RS-xxx.lvclass" Type="LVClass" URL="../../../Includes/Protocols.lvlibp/RS-xxx/RS-xxx.lvclass"/>
 			<Item Name="systemLogging.dll" Type="Document" URL="systemLogging.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="TCP Factory.vi" Type="VI" URL="../../../Includes/Protocols.lvlibp/TCP/Methods/TCP Factory.vi"/>
+			<Item Name="TCP Settings.ctl" Type="VI" URL="../../../Includes/Protocols.lvlibp/TCP/TCP Settings.ctl"/>
+			<Item Name="TCP.lvclass" Type="LVClass" URL="../../../Includes/Protocols.lvlibp/TCP/TCP.lvclass"/>
+			<Item Name="UDP Factory.vi" Type="VI" URL="../../../Includes/Protocols.lvlibp/UDP/Methods/UDP Factory.vi"/>
+			<Item Name="UDP Settings.ctl" Type="VI" URL="../../../Includes/Protocols.lvlibp/UDP/UDP Settings.ctl"/>
+			<Item Name="UDP.lvclass" Type="LVClass" URL="../../../Includes/Protocols.lvlibp/UDP/UDP.lvclass"/>
+			<Item Name="VISA Factory.vi" Type="VI" URL="../../../Includes/Protocols.lvlibp/VISA/Methods/VISA Factory.vi"/>
+			<Item Name="VISA Settings.ctl" Type="VI" URL="../../../Includes/Protocols.lvlibp/VISA/VISA Settings.ctl"/>
+			<Item Name="VISA.lvclass" Type="LVClass" URL="../../../Includes/Protocols.lvlibp/VISA/VISA.lvclass"/>
+			<Item Name="Write Append Write Termination Character.vi" Type="VI" URL="../../../Includes/Protocols.lvlibp/VISA/Data Access/Write Append Write Termination Character.vi"/>
+			<Item Name="Write Assert Ren with IFC.vi" Type="VI" URL="../../../Includes/Protocols.lvlibp/RS-xxx to GPIB ConvBox/Data Access/Write Assert Ren with IFC.vi"/>
+			<Item Name="Write ConvBox Address.vi" Type="VI" URL="../../../Includes/Protocols.lvlibp/RS-xxx to GPIB ConvBox/Data Access/Write ConvBox Address.vi"/>
+			<Item Name="Write Enable Termination Character.vi" Type="VI" URL="../../../Includes/Protocols.lvlibp/VISA/Data Access/Write Enable Termination Character.vi"/>
+			<Item Name="Write GPIB Address.vi" Type="VI" URL="../../../Includes/Protocols.lvlibp/RS-xxx to GPIB ConvBox/Data Access/Write GPIB Address.vi"/>
+			<Item Name="Write IP Address.vi" Type="VI" URL="../../../Includes/Protocols.lvlibp/TCP/Data Access/Write IP Address.vi"/>
+			<Item Name="Write IST bit sense.vi" Type="VI" URL="../../../Includes/Protocols.lvlibp/RS-xxx to GPIB ConvBox/Data Access/Write IST bit sense.vi"/>
+			<Item Name="Write Local IP Address.vi" Type="VI" URL="../../../Includes/Protocols.lvlibp/UDP/Data Access/Write Local IP Address.vi"/>
+			<Item Name="Write Local Port.vi" Type="VI" URL="../../../Includes/Protocols.lvlibp/UDP/Data Access/Write Local Port.vi"/>
+			<Item Name="Write Port.vi" Type="VI" URL="../../../Includes/Protocols.lvlibp/RS-xxx to GPIB ConvBox/Data Access/Write Port.vi"/>
+			<Item Name="Write Port.vi" Type="VI" URL="../../../Includes/Protocols.lvlibp/TCP/Data Access/Write Port.vi"/>
+			<Item Name="Write PortSettings.vi" Type="VI" URL="../../../Includes/Protocols.lvlibp/RS-xxx/Data Access/Write PortSettings.vi"/>
+			<Item Name="Write System controller.vi" Type="VI" URL="../../../Includes/Protocols.lvlibp/RS-xxx to GPIB ConvBox/Data Access/Write System controller.vi"/>
+			<Item Name="Write Target IP Address.vi" Type="VI" URL="../../../Includes/Protocols.lvlibp/UDP/Data Access/Write Target IP Address.vi"/>
+			<Item Name="Write Target Port.vi" Type="VI" URL="../../../Includes/Protocols.lvlibp/UDP/Data Access/Write Target Port.vi"/>
+			<Item Name="Write Termination Character.vi" Type="VI" URL="../../../Includes/Protocols.lvlibp/VISA/Data Access/Write Termination Character.vi"/>
+			<Item Name="Write Timeout.vi" Type="VI" URL="../../../Includes/Protocols.lvlibp/VISA/Data Access/Write Timeout.vi"/>
+			<Item Name="Write VISA Resource.vi" Type="VI" URL="../../../Includes/Protocols.lvlibp/VISA/Data Access/Write VISA Resource.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Configuration Release" Type="Source Distribution">
@@ -756,7 +753,7 @@
 				<Property Name="DestinationCount" Type="Int">3</Property>
 				<Property Name="Source[0].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[0].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{E17B024E-5DD7-4C3A-A8AB-FC5AA04F4C9A}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{FE7320BD-7C82-4F00-B7CF-2485A6C78834}</Property>
 				<Property Name="Source[0].properties[0].type" Type="Str">Run when opened</Property>
 				<Property Name="Source[0].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[0].properties[1].type" Type="Str">Allow debugging</Property>
@@ -784,19 +781,14 @@
 				<Property Name="Source[1].propertiesCount" Type="Int">5</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
-				<Property Name="Source[10].Container.applyPrefix" Type="Bool">true</Property>
-				<Property Name="Source[10].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[10].itemID" Type="Ref">/My Computer/Bundled Dependencies</Property>
-				<Property Name="Source[10].newName" Type="Str">Instrument_Addon_</Property>
-				<Property Name="Source[10].type" Type="Str">Container</Property>
+				<Property Name="Source[10].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[10].itemID" Type="Ref">/My Computer/Bundled Dependencies/Data Access System Explorer.lvlib</Property>
+				<Property Name="Source[10].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[10].type" Type="Str">Library</Property>
 				<Property Name="Source[11].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[11].itemID" Type="Ref">/My Computer/Bundled Dependencies/Data Access System Explorer.lvlib</Property>
+				<Property Name="Source[11].itemID" Type="Ref">/My Computer/Bundled Dependencies/VS Inline Async API.lvlib</Property>
 				<Property Name="Source[11].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[11].type" Type="Str">Library</Property>
-				<Property Name="Source[12].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[12].itemID" Type="Ref">/My Computer/Bundled Dependencies/VS Inline Async API.lvlib</Property>
-				<Property Name="Source[12].Library.allowMissingMembers" Type="Bool">true</Property>
-				<Property Name="Source[12].type" Type="Str">Library</Property>
 				<Property Name="Source[2].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[2].Container.applySaveSettings" Type="Bool">true</Property>
 				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Addon/Instrument Addon Shared.lvlib/Shared</Property>
@@ -883,7 +875,7 @@
 				<Property Name="Source[9].itemID" Type="Ref">/My Computer/Bundled Dependencies/Data Access Engine.lvlib</Property>
 				<Property Name="Source[9].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[9].type" Type="Str">Library</Property>
-				<Property Name="SourceCount" Type="Int">13</Property>
+				<Property Name="SourceCount" Type="Int">12</Property>
 			</Item>
 			<Item Name="Host API" Type="Packed Library">
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
@@ -934,8 +926,8 @@
 				<Property Name="Bld_excludedDirectory[0].pathType" Type="Str">relativeToAppDir</Property>
 				<Property Name="Bld_excludedDirectory[1]" Type="Path">resource/objmgr</Property>
 				<Property Name="Bld_excludedDirectory[1].pathType" Type="Str">relativeToAppDir</Property>
-				<Property Name="Bld_excludedDirectory[2]" Type="Path">/C/ProgramData/National Instruments/InstCache/18.0</Property>
-				<Property Name="Bld_excludedDirectory[3]" Type="Path">/C/Users/nitest/Documents/LabVIEW Data/2018(32-bit)/ExtraVILib</Property>
+				<Property Name="Bld_excludedDirectory[2]" Type="Path">/C/ProgramData/National Instruments/InstCache/21.0</Property>
+				<Property Name="Bld_excludedDirectory[3]" Type="Path">/C/Users/labviewbuild/Documents/LabVIEW Data/2021(64-bit)/ExtraVILib</Property>
 				<Property Name="Bld_excludedDirectory[4]" Type="Path">instr.lib</Property>
 				<Property Name="Bld_excludedDirectory[4].pathType" Type="Str">relativeToAppDir</Property>
 				<Property Name="Bld_excludedDirectory[5]" Type="Path">user.lib</Property>
@@ -965,7 +957,7 @@
 				<Property Name="Destination[6].path" Type="Path">../Built/Scripting/API/Dependencies.llb</Property>
 				<Property Name="Destination[6].type" Type="Str">LLB</Property>
 				<Property Name="DestinationCount" Type="Int">7</Property>
-				<Property Name="Source[0].itemID" Type="Str">{541C63AE-D0BC-4316-97E9-CCE1A465306F}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{FE7320BD-7C82-4F00-B7CF-2485A6C78834}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/APIs/Instrument Addon Scripting API.lvlib</Property>
@@ -994,7 +986,6 @@
 				<Property Name="Source[6].lvfile" Type="Bool">true</Property>
 				<Property Name="Source[7].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[7].Container.applyInclusion" Type="Bool">true</Property>
-				<Property Name="Source[7].Container.applyPrefix" Type="Bool">true</Property>
 				<Property Name="Source[7].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[7].destinationIndex" Type="Int">6</Property>
 				<Property Name="Source[7].itemID" Type="Ref">/My Computer/Bundled Dependencies</Property>
@@ -1277,55 +1268,8 @@
 			<Item Name="VS Inline Async API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_VS Inline Async API/VS Inline Async API.lvlib"/>
 		</Item>
 		<Item Name="Instrument Addon Engine.lvlib" Type="Library" URL="../Addon/Addon Engine/Instrument Addon Engine.lvlib"/>
-		<Item Name="Protections.lvlibp" Type="LVLibp" URL="../../../Includes/Protections.lvlibp">
-			<Item Name="Types" Type="Folder">
-				<Item Name="Protection.ctl" Type="VI" URL="../../../Includes/Protections.lvlibp/Types/Protection.ctl"/>
-			</Item>
-			<Item Name="Checksum U8.lvclass" Type="LVClass" URL="../../../Includes/Protections.lvlibp/Checksum U8/Checksum U8.lvclass"/>
-			<Item Name="Checksum U16.lvclass" Type="LVClass" URL="../../../Includes/Protections.lvlibp/Checksum U16/Checksum U16.lvclass"/>
-			<Item Name="Checksum U32.lvclass" Type="LVClass" URL="../../../Includes/Protections.lvlibp/Checksum U32/Checksum U32.lvclass"/>
-			<Item Name="CRC-32.lvclass" Type="LVClass" URL="../../../Includes/Protections.lvlibp/CRC-32/CRC-32.lvclass"/>
-			<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="../../../Includes/Protections.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Error Cluster From Error Code.vi"/>
-			<Item Name="Protection.lvclass" Type="LVClass" URL="../../../Includes/Protections.lvlibp/Parent Protection/Protection.lvclass"/>
-		</Item>
-		<Item Name="Protocols.lvlibp" Type="LVLibp" URL="../../../Includes/Protocols.lvlibp">
-			<Item Name="AK" Type="Folder">
-				<Item Name="AK RS-xxx.lvclass" Type="LVClass" URL="../../../Includes/Protocols.lvlibp/AK RS-xxx/AK RS-xxx.lvclass"/>
-				<Item Name="AK TCP.lvclass" Type="LVClass" URL="../../../Includes/Protocols.lvlibp/AK TCP/AK TCP.lvclass"/>
-				<Item Name="Format AK Command.vi" Type="VI" URL="../../../Includes/Protocols.lvlibp/AK/Format AK Command.vi"/>
-				<Item Name="Format AK Response.vi" Type="VI" URL="../../../Includes/Protocols.lvlibp/AK/Format AK Response.vi"/>
-			</Item>
-			<Item Name="Palettes" Type="Folder">
-				<Item Name="Factories.mnu" Type="Document" URL="../../../Includes/Protocols.lvlibp/Palettes/Factories.mnu"/>
-				<Item Name="Protocols.mnu" Type="Document" URL="../../../Includes/Protocols.lvlibp/Palettes/Protocols.mnu"/>
-			</Item>
-			<Item Name="Protocol Parent" Type="Folder">
-				<Item Name="Protocol Parent.lvclass" Type="LVClass" URL="../../../Includes/Protocols.lvlibp/Protocol Parent/Protocol Parent.lvclass"/>
-			</Item>
-			<Item Name="RS-xxx" Type="Folder">
-				<Item Name="RS-xxx.lvclass" Type="LVClass" URL="../../../Includes/Protocols.lvlibp/RS-xxx/RS-xxx.lvclass"/>
-			</Item>
-			<Item Name="RS-xxx to GPIB ConvBox" Type="Folder">
-				<Item Name="RS-xxx to GPIB ConvBox.lvclass" Type="LVClass" URL="../../../Includes/Protocols.lvlibp/RS-xxx to GPIB ConvBox/RS-xxx to GPIB ConvBox.lvclass"/>
-			</Item>
-			<Item Name="TCP" Type="Folder">
-				<Item Name="TCP.lvclass" Type="LVClass" URL="../../../Includes/Protocols.lvlibp/TCP/TCP.lvclass"/>
-			</Item>
-			<Item Name="UDP" Type="Folder">
-				<Item Name="UDP.lvclass" Type="LVClass" URL="../../../Includes/Protocols.lvlibp/UDP/UDP.lvclass"/>
-			</Item>
-			<Item Name="VISA" Type="Folder">
-				<Item Name="VISA.lvclass" Type="LVClass" URL="../../../Includes/Protocols.lvlibp/VISA/VISA.lvclass"/>
-			</Item>
-			<Item Name="Clear Errors.vi" Type="VI" URL="../../../Includes/Protocols.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Clear Errors.vi"/>
-			<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="../../../Includes/Protocols.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Error Cluster From Error Code.vi"/>
-			<Item Name="GPIB Status Boolean Array.ctl" Type="VI" URL="../../../Includes/Protocols.lvlibp/1abvi3w/vi.lib/Instr/_visa.llb/GPIB Status Boolean Array.ctl"/>
-			<Item Name="nirviCommon.vi" Type="VI" URL="../../../Includes/Protocols.lvlibp/1abvi3w/vi.lib/express/rvi/timingcommon/nirviCommon.vi"/>
-			<Item Name="Protocol Factory.vi" Type="VI" URL="../../../Includes/Protocols.lvlibp/Protocol Factory.vi"/>
-			<Item Name="Space Constant.vi" Type="VI" URL="../../../Includes/Protocols.lvlibp/1abvi3w/vi.lib/dlg_ctls.llb/Space Constant.vi"/>
-			<Item Name="VISA Configure Serial Port (Instr).vi" Type="VI" URL="../../../Includes/Protocols.lvlibp/1abvi3w/vi.lib/Instr/_visa.llb/VISA Configure Serial Port (Instr).vi"/>
-			<Item Name="VISA Flush IO Buffer Mask.ctl" Type="VI" URL="../../../Includes/Protocols.lvlibp/1abvi3w/vi.lib/Instr/_visa.llb/VISA Flush IO Buffer Mask.ctl"/>
-		</Item>
+		<Item Name="Protections.lvlibp" Type="LVLibp" URL="../../../Includes/Protections.lvlibp"/>
+		<Item Name="Protocols.lvlibp" Type="LVLibp" URL="../../../Includes/Protocols.lvlibp"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Advanced System Definition.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NI VeriStand Advanced SysDef API/SysDef API/Advanced System Definition.lvlib"/>
@@ -1353,6 +1297,7 @@
 				<Item Name="VariantType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/VariantDataType/VariantType.lvlib"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
+			<Item Name="Base Protocol Type.ctl" Type="VI" URL="../../../Includes/Protocols.lvlibp/Protocol Parent/Types/Base Protocol Type.ctl"/>
 			<Item Name="Instrument Addon Shared.lvlib" Type="Library" URL="../Addon/Addon Shared/Instrument Addon Shared.lvlib"/>
 			<Item Name="LV Config Read String.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read String.vi"/>
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
@@ -1367,9 +1312,35 @@
 			<Item Name="NationalInstruments.VeriStand.SystemStorage" Type="Document" URL="NationalInstruments.VeriStand.SystemStorage">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Protection.lvclass" Type="LVClass" URL="../../../Includes/Protections.lvlibp/Parent Protection/Protection.lvclass"/>
+			<Item Name="Protocol Parent.lvclass" Type="LVClass" URL="../../../Includes/Protocols.lvlibp/Protocol Parent/Protocol Parent.lvclass"/>
+			<Item Name="Read Parameter.ctl" Type="VI" URL="../../../Includes/Protocols.lvlibp/Protocol Parent/Methods/Read Parameter.ctl"/>
+			<Item Name="RS-xxx to GPIB ConvBox.lvclass" Type="LVClass" URL="../../../Includes/Protocols.lvlibp/RS-xxx to GPIB ConvBox/RS-xxx to GPIB ConvBox.lvclass"/>
+			<Item Name="RS-xxx.lvclass" Type="LVClass" URL="../../../Includes/Protocols.lvlibp/RS-xxx/RS-xxx.lvclass"/>
 			<Item Name="systemLogging.dll" Type="Document" URL="systemLogging.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="TCP.lvclass" Type="LVClass" URL="../../../Includes/Protocols.lvlibp/TCP/TCP.lvclass"/>
+			<Item Name="UDP.lvclass" Type="LVClass" URL="../../../Includes/Protocols.lvlibp/UDP/UDP.lvclass"/>
+			<Item Name="VISA.lvclass" Type="LVClass" URL="../../../Includes/Protocols.lvlibp/VISA/VISA.lvclass"/>
+			<Item Name="Write Append Write Termination Character.vi" Type="VI" URL="../../../Includes/Protocols.lvlibp/VISA/Data Access/Write Append Write Termination Character.vi"/>
+			<Item Name="Write Assert Ren with IFC.vi" Type="VI" URL="../../../Includes/Protocols.lvlibp/RS-xxx to GPIB ConvBox/Data Access/Write Assert Ren with IFC.vi"/>
+			<Item Name="Write ConvBox Address.vi" Type="VI" URL="../../../Includes/Protocols.lvlibp/RS-xxx to GPIB ConvBox/Data Access/Write ConvBox Address.vi"/>
+			<Item Name="Write Enable Termination Character.vi" Type="VI" URL="../../../Includes/Protocols.lvlibp/VISA/Data Access/Write Enable Termination Character.vi"/>
+			<Item Name="Write GPIB Address.vi" Type="VI" URL="../../../Includes/Protocols.lvlibp/RS-xxx to GPIB ConvBox/Data Access/Write GPIB Address.vi"/>
+			<Item Name="Write IP Address.vi" Type="VI" URL="../../../Includes/Protocols.lvlibp/TCP/Data Access/Write IP Address.vi"/>
+			<Item Name="Write IST bit sense.vi" Type="VI" URL="../../../Includes/Protocols.lvlibp/RS-xxx to GPIB ConvBox/Data Access/Write IST bit sense.vi"/>
+			<Item Name="Write Local IP Address.vi" Type="VI" URL="../../../Includes/Protocols.lvlibp/UDP/Data Access/Write Local IP Address.vi"/>
+			<Item Name="Write Local Port.vi" Type="VI" URL="../../../Includes/Protocols.lvlibp/UDP/Data Access/Write Local Port.vi"/>
+			<Item Name="Write Port.vi" Type="VI" URL="../../../Includes/Protocols.lvlibp/RS-xxx to GPIB ConvBox/Data Access/Write Port.vi"/>
+			<Item Name="Write Port.vi" Type="VI" URL="../../../Includes/Protocols.lvlibp/TCP/Data Access/Write Port.vi"/>
+			<Item Name="Write PortSettings.vi" Type="VI" URL="../../../Includes/Protocols.lvlibp/RS-xxx/Data Access/Write PortSettings.vi"/>
+			<Item Name="Write System controller.vi" Type="VI" URL="../../../Includes/Protocols.lvlibp/RS-xxx to GPIB ConvBox/Data Access/Write System controller.vi"/>
+			<Item Name="Write Target IP Address.vi" Type="VI" URL="../../../Includes/Protocols.lvlibp/UDP/Data Access/Write Target IP Address.vi"/>
+			<Item Name="Write Target Port.vi" Type="VI" URL="../../../Includes/Protocols.lvlibp/UDP/Data Access/Write Target Port.vi"/>
+			<Item Name="Write Termination Character.vi" Type="VI" URL="../../../Includes/Protocols.lvlibp/VISA/Data Access/Write Termination Character.vi"/>
+			<Item Name="Write Timeout.vi" Type="VI" URL="../../../Includes/Protocols.lvlibp/VISA/Data Access/Write Timeout.vi"/>
+			<Item Name="Write VISA Resource.vi" Type="VI" URL="../../../Includes/Protocols.lvlibp/VISA/Data Access/Write VISA Resource.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Engine Release" Type="Source Distribution">
@@ -1395,7 +1366,7 @@
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Source[0].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[0].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{1485A6CA-3D43-4582-9284-3D8BF0B031FD}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{021D6546-16DE-4025-8F00-D3058E7395C9}</Property>
 				<Property Name="Source[0].properties[0].type" Type="Str">Run when opened</Property>
 				<Property Name="Source[0].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[0].properties[1].type" Type="Str">Allow debugging</Property>
@@ -1409,31 +1380,18 @@
 				<Property Name="Source[0].propertiesCount" Type="Int">5</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref"></Property>
-				<Property Name="Source[1].preventRename" Type="Bool">true</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/Linux x64/Instrument Addon Engine.lvlib/RT Driver VI.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[2].itemID" Type="Ref"></Property>
-				<Property Name="Source[2].preventRename" Type="Bool">true</Property>
-				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/Linux x64/Bundled Dependencies/Data Access Engine.lvlib</Property>
+				<Property Name="Source[2].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[2].type" Type="Str">Library</Property>
 				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[3].itemID" Type="Ref">/Linux x64/Instrument Addon Engine.lvlib/RT Driver VI.vi</Property>
-				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[3].type" Type="Str">VI</Property>
-				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[4].itemID" Type="Ref">/Linux x64/Bundled Dependencies/Data Access Engine.lvlib</Property>
-				<Property Name="Source[4].Library.allowMissingMembers" Type="Bool">true</Property>
-				<Property Name="Source[4].type" Type="Str">Library</Property>
-				<Property Name="Source[5].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[5].itemID" Type="Ref">/Linux x64/Bundled Dependencies/VS Inline Async API.lvlib</Property>
-				<Property Name="Source[5].Library.allowMissingMembers" Type="Bool">true</Property>
-				<Property Name="Source[5].type" Type="Str">Library</Property>
-				<Property Name="Source[6].Container.applyPrefix" Type="Bool">true</Property>
-				<Property Name="Source[6].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[6].itemID" Type="Ref">/Linux x64/Bundled Dependencies</Property>
-				<Property Name="Source[6].newName" Type="Str">Instrument_Addon_</Property>
-				<Property Name="Source[6].type" Type="Str">Container</Property>
-				<Property Name="SourceCount" Type="Int">7</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/Linux x64/Bundled Dependencies/VS Inline Async API.lvlib</Property>
+				<Property Name="Source[3].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[3].type" Type="Str">Library</Property>
+				<Property Name="SourceCount" Type="Int">4</Property>
 			</Item>
 		</Item>
 	</Item>
