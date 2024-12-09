@@ -1403,9 +1403,9 @@
 				<Property Name="Source[0].properties[2].type" Type="Str">Auto error handling</Property>
 				<Property Name="Source[0].properties[2].value" Type="Bool">false</Property>
 				<Property Name="Source[0].properties[3].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[0].properties[3].value" Type="Bool">true</Property>
+				<Property Name="Source[0].properties[3].value" Type="Bool">false</Property>
 				<Property Name="Source[0].properties[4].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[0].properties[4].value" Type="Bool">true</Property>
+				<Property Name="Source[0].properties[4].value" Type="Bool">false</Property>
 				<Property Name="Source[0].propertiesCount" Type="Int">5</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
