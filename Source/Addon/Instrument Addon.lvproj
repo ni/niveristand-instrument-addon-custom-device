@@ -661,7 +661,7 @@
 				<Property Name="Destination[2].path" Type="Path">../Built/IA/Custom Devices/NI_AB_PROJECTNAME/Windows/Instrument Addon Configuration.llb</Property>
 				<Property Name="Destination[2].type" Type="Str">LLB</Property>
 				<Property Name="DestinationCount" Type="Int">3</Property>
-				<Property Name="Source[0].itemID" Type="Str">{D5D03A88-94D5-42B2-8EDB-DC402D23DDE6}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{932DAE85-8F50-4B1F-89F9-76970FF57AA3}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Addon/Instrument Addon System Explorer.lvlib/System Explorer/Dynamically Called/Actions/ActionVIOnCompile.vi</Property>
@@ -672,7 +672,21 @@
 				<Property Name="Source[1].propertiesCount" Type="Int">2</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="Source[2].Container.applyPrefix" Type="Bool">true</Property>
+				<Property Name="Source[2].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Bundled Dependencies</Property>
+				<Property Name="Source[2].newName" Type="Str">Instrument_Addon_</Property>
+				<Property Name="Source[2].type" Type="Str">Container</Property>
+				<Property Name="Source[3].Container.applySaveSettings" Type="Bool">true</Property>
+				<Property Name="Source[3].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Addon/Instrument Addon System Explorer.lvlib/System Explorer</Property>
+				<Property Name="Source[3].properties[0].type" Type="Str">Remove front panel</Property>
+				<Property Name="Source[3].properties[0].value" Type="Bool">false</Property>
+				<Property Name="Source[3].properties[1].type" Type="Str">Remove block diagram</Property>
+				<Property Name="Source[3].properties[1].value" Type="Bool">true</Property>
+				<Property Name="Source[3].propertiesCount" Type="Int">2</Property>
+				<Property Name="Source[3].type" Type="Str">Container</Property>
+				<Property Name="SourceCount" Type="Int">4</Property>
 			</Item>
 			<Item Name="Scripting API" Type="Source Distribution">
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
