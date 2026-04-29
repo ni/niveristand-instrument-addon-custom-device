@@ -651,6 +651,7 @@
 				<Property Name="Bld_excludeTypedefs" Type="Bool">true</Property>
 				<Property Name="Bld_localDestDir" Type="Path">../Built/IA/Custom Devices/NI_AB_PROJECTNAME/Windows</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utilities/Copy .LLB to NI VeriStand dir.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{7CF5339B-CE90-4902-B187-15602DB6DADA}</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
@@ -661,7 +662,7 @@
 				<Property Name="Destination[2].path" Type="Path">../Built/IA/Custom Devices/NI_AB_PROJECTNAME/Windows/Instrument Addon Configuration.llb</Property>
 				<Property Name="Destination[2].type" Type="Str">LLB</Property>
 				<Property Name="DestinationCount" Type="Int">3</Property>
-				<Property Name="Source[0].itemID" Type="Str">{932DAE85-8F50-4B1F-89F9-76970FF57AA3}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{79BCA886-34E1-4A77-A339-CBFC4A0ACA2A}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Addon/Instrument Addon System Explorer.lvlib/System Explorer/Dynamically Called/Actions/ActionVIOnCompile.vi</Property>
