@@ -643,9 +643,9 @@
 				<Property Name="TgtF_targetfileGUID" Type="Str">{1FE83921-0070-47B9-B2B7-B6CCC625D14B}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">Instrument Host Automation API.lvlibp</Property>
 			</Item>
-			<Item Name="Linux Configuration Release" Type="Source Distribution">
+			<Item Name="Configuration(Linux) Release" Type="Source Distribution">
 				<Property Name="Bld_buildCacheID" Type="Str">{082B3E20-99F5-4594-8B65-20A65C115142}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">Linux Configuration Release</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Configuration(Linux) Release</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeTypedefs" Type="Bool">true</Property>
