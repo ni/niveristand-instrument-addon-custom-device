@@ -17,7 +17,7 @@ Replaces: ni-instrument-addon-veristand-{veristand_version}-labview-support-exam
 Conflicts: ni-instrument-addon-veristand-{veristand_version}-labview-support-examples (<< 21.0.0)
 Provides: ni-instrument-addon-veristand-{veristand_version}-labview-support-examples (= 21.0.0)
 Description-zh-CN: 为NI VeriStand {veristand_version}提供Instrument Addon自定义设备的LabVIEW范例
-XB-DisplayName-zh-CN: eriStand {veristand_version}的NI Instrument Addon LabVIEW范例
+XB-DisplayName-zh-CN: VeriStand {veristand_version}的NI Instrument Addon LabVIEW范例
 Description-de: Stellt LabVIEW-Beispiele zum Support für das Instrument-Zusatzpaket für benutzerdefinierte Geräte für NI VeriStand {veristand_version} bereit.
 XB-DisplayName-de: NI Instrument Addon - LabVIEW-Beispiele für VeriStand {veristand_version}
 Description-fr: Fournit des exemples de support LabVIEW pour le périphérique personnalisé Instrument Addon pour NI VeriStand {veristand_version}
