@@ -88,6 +88,8 @@ stages:
       releaseVersion: '26.5.0'
       buildOutputLocation: 'Source\Built'
       archiveLocation: '\\nirvana\Measurements\VeriStandAddons\instrument_addon_custom_device'
+      repoName: 'niveristand-instrument-addon-custom-device'
+      createNetCoreRepo: true
 
       packages:
         - controlFileName: 'control'
