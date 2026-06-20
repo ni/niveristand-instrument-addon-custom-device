@@ -26,10 +26,6 @@ stages:
       lvVersionsToBuild: 
         - version: '2024'
           bitness: '64bit'
-        - version: '2025'
-          bitness: '64bit'
-        - version: '2026'
-          bitness: '64bit'
 
       dependencies:
         - source: '\\nirvana\Measurements\VeriStandAddons\instrument_addon_classes'
@@ -44,46 +40,6 @@ stages:
           buildOperation: 'ExecuteBuildSpec'
           target: 'My Computer'
           buildSpec: 'Host API'
-
-        - projectLocation: 'Source\Addon\Instrument Addon.lvproj'
-          buildOperation: 'ExecuteBuildSpec'
-          target: 'My Computer'
-          buildSpec: 'Workspace Object'
-
-        - projectLocation: 'Source\Addon\Instrument Addon.lvproj'
-          buildOperation: 'ExecuteBuildSpec'
-          target: 'My Computer'
-          buildSpec: 'Workspace Tool'
-
-        - projectLocation: 'Source\Addon\Instrument Addon.lvproj'
-          buildOperation: 'ExecuteBuildSpec'
-          target: 'My Computer'
-          buildSpec: 'Workspace Tool EXE'
-
-        - projectLocation: 'Source\Addon\Instrument Addon.lvproj'
-          buildOperation: 'ExecuteBuildSpec'
-          target: 'My Computer'
-          buildSpec: 'Configuration Release'
-
-        - projectLocation: 'Source\Addon\Instrument Addon.lvproj'
-          buildOperation: 'ExecuteBuildSpec'
-          target: 'My Computer'
-          buildSpec: 'Engine Release'
-
-        - projectLocation: 'Source\Addon\Instrument Addon.lvproj'
-          buildOperation: 'ExecuteBuildSpec'
-          target: 'Linux x64'
-          buildSpec: 'Engine Release'
-
-        - projectLocation: 'Source\Addon\Instrument Addon.lvproj'
-          buildOperation: 'ExecuteBuildSpec'
-          target: 'My Computer'
-          buildSpec: 'Scripting API'
-
-        - projectLocation: 'Source\Scripting Examples\Instrument Addon Scripting API Examples.lvproj'
-          buildOperation: 'ExecuteBuildSpec'
-          target: 'My Computer'
-          buildSpec: 'Scripting Examples'
 
       releaseVersion: '26.5.0'
       buildOutputLocation: 'Source\Built'
@@ -115,7 +71,7 @@ stages:
 
       buildSteps:
         - id: 'instrument-addon-custom-device_configuration_release'
-          projectLocation: 'Source\Addon\Instrument Addon.lvproj'
+          projectLocation: 'Source/Addon/Instrument Addon.lvproj'
           buildOperation: 'ExecuteBuildSpec'
           target: 'My Computer'
           buildSpec: 'Configuration(Linux) Release'
