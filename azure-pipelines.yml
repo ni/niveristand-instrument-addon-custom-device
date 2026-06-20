@@ -27,13 +27,6 @@ stages:
         - version: '2024'
           bitness: '64bit'
 
-      dependencies:
-        - source: '\\nirvana\Measurements\VeriStandAddons\instrument_addon_classes'
-          file: '$target\Protections.lvlibp'
-          destination: 'Includes'
-        - source: '\\nirvana\Measurements\VeriStandAddons\instrument_addon_classes'
-          file: '$target\Protocols.lvlibp'
-          destination: 'Includes'
 
       buildSteps:
 
@@ -42,22 +35,6 @@ stages:
       archiveLocation: '\\nirvana\Measurements\VeriStandAddons\instrument_addon_custom_device'
       repoName: 'niveristand-instrument-addon-custom-device'
       createNetCoreRepo: true
-
-      packages:
-        - controlFileName: 'control'
-          payloadMaps:
-            - payloadLocation: 'IA'
-              installLocation: 'documents\National Instruments\NI VeriStand $(lvVersion)'
-
-        - controlFileName: 'control_scripting_api'
-          payloadMaps:
-            - payloadLocation: 'Scripting'
-              installLocation: 'ni-paths-LV$(lvVersion)DIR$(nipkgx64suffix)\vi.lib\addons\VeriStand Custom Device Scripting APIs\Instrument Addon'
-
-        - controlFileName: 'control_scripting_examples'
-          payloadMaps:
-            - payloadLocation: 'Scripting Examples'
-              installLocation: 'ni-paths-LV$(lvVersion)DIR$(nipkgx64suffix)\examples\NI VeriStand Custom Devices\Instrument Addon'
 
   - template: azure-templates/linux-stage.yml@niveristand-custom-device-build-tools
     parameters:
