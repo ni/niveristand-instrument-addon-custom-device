@@ -27,8 +27,19 @@ stages:
         - version: '2024'
           bitness: '64bit'
 
+      dependencies:
+        - source: '\\nirvana\Measurements\VeriStandAddons\instrument_addon_classes'
+          file: '$target\Protections.lvlibp'
+          destination: 'Includes'
+        - source: '\\nirvana\Measurements\VeriStandAddons\instrument_addon_classes'
+          file: '$target\Protocols.lvlibp'
+          destination: 'Includes'
 
       buildSteps:
+        - projectLocation: 'Source\Addon\Instrument Addon.lvproj'
+          buildOperation: 'ExecuteBuildSpec'
+          target: 'My Computer'
+          buildSpec: 'Host API'
 
       releaseVersion: '26.5.0'
       buildOutputLocation: 'Source\Built'
