@@ -106,3 +106,23 @@ stages:
           payloadMaps:
             - payloadLocation: 'Scripting Examples'
               installLocation: 'ni-paths-LV$(lvVersion)DIR$(nipkgx64suffix)\examples\NI VeriStand Custom Devices\Instrument Addon'
+
+  - template: azure-templates/linux-stage.yml@niveristand-custom-device-build-tools
+    parameters:
+      lvVersionsToBuild:
+        - version: '2026'
+          bitness: '64bit'
+
+      buildSteps:
+        - id: 'instrument-addon-custom-device_configuration_release'
+          projectLocation: 'Source/Addon/Instrument Addon.lvproj'
+          buildOperation: 'ExecuteBuildSpec'
+          target: 'My Computer'
+          buildSpec: 'Configuration(Linux) Release'
+      
+      releaseVersion: '26.5.0'
+      branch: 'main'
+      debugBuild: 'no'
+      buildOutputLocation: 'Built'
+      archiveLocation: '\\nirvana\Measurements\VeriStandAddons\instrument_addon_custom_device'
+      repoName: 'niveristand-instrument-addon-custom-device'
