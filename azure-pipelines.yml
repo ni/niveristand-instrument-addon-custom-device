@@ -5,13 +5,17 @@ trigger:
       - main
       - release/*
 
+variables:
+  - name: ConvertNetCore
+    value: true
+
 resources:
   repositories:
     - repository: niveristand-custom-device-build-tools
-      type:       github
-      ref:        main
-      endpoint:   nivs-custom-devices
-      name:       ni/niveristand-custom-device-build-tools
+      type: github
+      ref: main
+      endpoint: nivs-custom-devices
+      name: ni/niveristand-custom-device-build-tools
   pipelines:
     - pipeline: InstrumentAddonClasses
       source:   ni.niveristand-instrument-addon-classes
@@ -21,108 +25,122 @@ resources:
             - main
 
 stages:
-  - template: azure-templates/stages.yml@niveristand-custom-device-build-tools
-    parameters:
-      lvVersionsToBuild: 
-        - version: '2024'
-          bitness: '64bit'
-        - version: '2025'
-          bitness: '64bit'
-        - version: '2026'
-          bitness: '64bit'
 
-      dependencies:
-        - source: '\\nirvana\Measurements\VeriStandAddons\instrument_addon_classes'
-          file: '$target\Protections.lvlibp'
-          destination: 'Includes'
-        - source: '\\nirvana\Measurements\VeriStandAddons\instrument_addon_classes'
-          file: '$target\Protocols.lvlibp'
-          destination: 'Includes'
+# =====================================================================
+# WINDOWS BUILD (Stage Template)
+# =====================================================================
+- template: azure-templates/stages.yml@niveristand-custom-device-build-tools
+  parameters:
+    stageName: WindowsBuild
 
-      buildSteps:
-        - projectLocation: 'Source\Addon\Instrument Addon.lvproj'
-          buildOperation: 'ExecuteBuildSpec'
-          target: 'My Computer'
-          buildSpec: 'Host API'
+    lvVersionsToBuild: 
+      - version: '2024'
+        bitness: '64bit'
+      - version: '2025'
+        bitness: '64bit'
+      - version: '2026'
+        bitness: '64bit'
 
-        - projectLocation: 'Source\Addon\Instrument Addon.lvproj'
-          buildOperation: 'ExecuteBuildSpec'
-          target: 'My Computer'
-          buildSpec: 'Workspace Object'
+    dependencies:
+      - source: '\\nirvana\Measurements\VeriStandAddons\instrument_addon_classes'
+        file: '$target\Protections.lvlibp'
+        destination: 'Includes'
+      - source: '\\nirvana\Measurements\VeriStandAddons\instrument_addon_classes'
+        file: '$target\Protocols.lvlibp'
+        destination: 'Includes'
 
-        - projectLocation: 'Source\Addon\Instrument Addon.lvproj'
-          buildOperation: 'ExecuteBuildSpec'
-          target: 'My Computer'
-          buildSpec: 'Workspace Tool'
+    buildSteps:
+      - projectLocation: 'Source\Addon\Instrument Addon.lvproj'
+        buildOperation: 'ExecuteBuildSpec'
+        target: 'My Computer'
+        buildSpec: 'Host API'
 
-        - projectLocation: 'Source\Addon\Instrument Addon.lvproj'
-          buildOperation: 'ExecuteBuildSpec'
-          target: 'My Computer'
-          buildSpec: 'Workspace Tool EXE'
+      - projectLocation: 'Source\Addon\Instrument Addon.lvproj'
+        buildOperation: 'ExecuteBuildSpec'
+        target: 'My Computer'
+        buildSpec: 'Workspace Object'
 
-        - projectLocation: 'Source\Addon\Instrument Addon.lvproj'
-          buildOperation: 'ExecuteBuildSpec'
-          target: 'My Computer'
-          buildSpec: 'Configuration Release'
+      - projectLocation: 'Source\Addon\Instrument Addon.lvproj'
+        buildOperation: 'ExecuteBuildSpec'
+        target: 'My Computer'
+        buildSpec: 'Workspace Tool'
 
-        - projectLocation: 'Source\Addon\Instrument Addon.lvproj'
-          buildOperation: 'ExecuteBuildSpec'
-          target: 'My Computer'
-          buildSpec: 'Engine Release'
+      - projectLocation: 'Source\Addon\Instrument Addon.lvproj'
+        buildOperation: 'ExecuteBuildSpec'
+        target: 'My Computer'
+        buildSpec: 'Workspace Tool EXE'
 
-        - projectLocation: 'Source\Addon\Instrument Addon.lvproj'
-          buildOperation: 'ExecuteBuildSpec'
-          target: 'Linux x64'
-          buildSpec: 'Engine Release'
+      - projectLocation: 'Source\Addon\Instrument Addon.lvproj'
+        buildOperation: 'ExecuteBuildSpec'
+        target: 'My Computer'
+        buildSpec: 'Configuration Release'
 
-        - projectLocation: 'Source\Addon\Instrument Addon.lvproj'
-          buildOperation: 'ExecuteBuildSpec'
-          target: 'My Computer'
-          buildSpec: 'Scripting API'
+      - projectLocation: 'Source\Addon\Instrument Addon.lvproj'
+        buildOperation: 'ExecuteBuildSpec'
+        target: 'My Computer'
+        buildSpec: 'Engine Release'
 
-        - projectLocation: 'Source\Scripting Examples\Instrument Addon Scripting API Examples.lvproj'
-          buildOperation: 'ExecuteBuildSpec'
-          target: 'My Computer'
-          buildSpec: 'Scripting Examples'
+      - projectLocation: 'Source\Addon\Instrument Addon.lvproj'
+        buildOperation: 'ExecuteBuildSpec'
+        target: 'Linux x64'
+        buildSpec: 'Engine Release'
 
-      releaseVersion: '26.5.0'
-      buildOutputLocation: 'Source\Built'
-      archiveLocation: '\\nirvana\Measurements\VeriStandAddons\instrument_addon_custom_device'
-      repoName: 'niveristand-instrument-addon-custom-device'
-      createNetCoreRepo: true
+      - projectLocation: 'Source\Addon\Instrument Addon.lvproj'
+        buildOperation: 'ExecuteBuildSpec'
+        target: 'My Computer'
+        buildSpec: 'Scripting API'
 
-      packages:
-        - controlFileName: 'control'
-          payloadMaps:
-            - payloadLocation: 'IA'
-              installLocation: 'documents\National Instruments\NI VeriStand $(lvVersion)'
+      - projectLocation: 'Source\Scripting Examples\Instrument Addon Scripting API Examples.lvproj'
+        buildOperation: 'ExecuteBuildSpec'
+        target: 'My Computer'
+        buildSpec: 'Scripting Examples'
 
-        - controlFileName: 'control_scripting_api'
-          payloadMaps:
-            - payloadLocation: 'Scripting'
-              installLocation: 'ni-paths-LV$(lvVersion)DIR$(nipkgx64suffix)\vi.lib\addons\VeriStand Custom Device Scripting APIs\Instrument Addon'
+    releaseVersion: '26.5.0'
+    buildOutputLocation: 'Source\Built'
+    archiveLocation: '\\nirvana\Measurements\VeriStandAddons\instrument_addon_custom_device'
+    repoName: 'niveristand-instrument-addon-custom-device'
 
-        - controlFileName: 'control_scripting_examples'
-          payloadMaps:
-            - payloadLocation: 'Scripting Examples'
-              installLocation: 'ni-paths-LV$(lvVersion)DIR$(nipkgx64suffix)\examples\NI VeriStand Custom Devices\Instrument Addon'
+    packages:
+      - controlFileName: 'control'
+        payloadMaps:
+          - payloadLocation: 'IA'
+            installLocation: 'documents\National Instruments\NI VeriStand $(lvVersion)'
 
-  - template: azure-templates/linux-stage.yml@niveristand-custom-device-build-tools
-    parameters:
-      lvVersionsToBuild:
-        - version: '2026'
-          bitness: '64bit'
+      - controlFileName: 'control_scripting_api'
+        payloadMaps:
+          - payloadLocation: 'Scripting'
+            installLocation: 'ni-paths-LV$(lvVersion)DIR$(nipkgx64suffix)\vi.lib\addons\VeriStand Custom Device Scripting APIs\Instrument Addon'
 
-      buildSteps:
-        - id: 'instrument-addon-custom-device_configuration_release'
-          projectLocation: 'Source/Addon/Instrument Addon.lvproj'
-          buildOperation: 'ExecuteBuildSpec'
-          target: 'My Computer'
-          buildSpec: 'Configuration(Linux) Release'
+      - controlFileName: 'control_scripting_examples'
+        payloadMaps:
+          - payloadLocation: 'Scripting Examples'
+            installLocation: 'ni-paths-LV$(lvVersion)DIR$(nipkgx64suffix)\examples\NI VeriStand Custom Devices\Instrument Addon'
+
+# =====================================================================
+# LINUX BUILD
+# =====================================================================
+- template: azure-templates/linux-stage.yml@niveristand-custom-device-build-tools
+  parameters:
+    stageName: LinuxBuild
+
+    # If your linux-stage.yml supports these parameters:
+    dependsOn: 
+      - WindowsBuild
+
+    lvVersionsToBuild:
+      - version: '2026'
+        bitness: '64bit'
+
+    buildSteps:
+      - id: 'instrument-addon-custom-device_configuration_release'
+        projectLocation: 'Source/Addon/Instrument Addon.lvproj'
+        buildOperation: 'ExecuteBuildSpec'
+        target: 'My Computer'
+        buildSpec: 'Configuration(Linux) Release'
       
-      releaseVersion: '26.5.0'
-      branch: 'main'
-      debugBuild: 'no'
-      buildOutputLocation: 'Built'
-      archiveLocation: '\\nirvana\Measurements\VeriStandAddons\instrument_addon_custom_device'
-      repoName: 'niveristand-instrument-addon-custom-device'
+    releaseVersion: '26.5.0'
+    branch: 'main'
+    debugBuild: 'no'
+    buildOutputLocation: 'Built'
+    archiveLocation: '\\nirvana\Measurements\VeriStandAddons\instrument_addon_custom_device'
+    repoName: 'niveristand-instrument-addon-custom-device'
