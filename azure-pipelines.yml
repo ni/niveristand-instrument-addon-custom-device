@@ -38,6 +38,10 @@ stages:
         bitness: '64bit'
       - version: '2025'
         bitness: '64bit'
+      - version: '2026'
+        bitness: '64bit'
+      - version: '2027'
+        bitness: '64bit'
 
     dependencies:
       - source: '\\nirvana\Measurements\VeriStandAddons\instrument_addon_classes'
@@ -93,7 +97,7 @@ stages:
         target: 'My Computer'
         buildSpec: 'Scripting Examples'
 
-    releaseVersion: '26.5.0'
+    releaseVersion: '26.8.0'
     buildOutputLocation: 'Source\Built'
     archiveLocation: '\\nirvana\Measurements\VeriStandAddons\instrument_addon_custom_device'
     repoName: 'niveristand-instrument-addon-custom-device'
@@ -126,7 +130,7 @@ stages:
       - WindowsBuild
 
     lvVersionsToBuild:
-      - version: '2026'
+      - version: '2027'
         bitness: '64bit'
 
     buildSteps:
@@ -136,7 +140,7 @@ stages:
         target: 'My Computer'
         buildSpec: 'Configuration(Linux) Release'
       
-    releaseVersion: '26.5.0'
+    releaseVersion: '26.8.0'
     branch: 'main'
     debugBuild: 'no'
     buildOutputLocation: 'Built'
