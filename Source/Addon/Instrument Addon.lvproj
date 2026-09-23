@@ -501,8 +501,10 @@
 				<Property Name="Destination[2].destName" Type="Str">Instrument Addon Configuration LLB</Property>
 				<Property Name="Destination[2].path" Type="Path">../Built/IA/Custom Devices/NI_AB_PROJECTNAME/Windows/Instrument Addon Configuration.llb</Property>
 				<Property Name="Destination[2].type" Type="Str">LLB</Property>
-				<Property Name="DestinationCount" Type="Int">3</Property>
-				<Property Name="Source[0].itemID" Type="Str">{E366FF4C-83FD-4C60-B55C-D936184E23ED}</Property>
+				<Property Name="Destination[3].destName" Type="Str">XML Config Location</Property>
+				<Property Name="Destination[3].path" Type="Path">../Built/IA/Custom Devices/NI_AB_PROJECTNAME</Property>
+				<Property Name="DestinationCount" Type="Int">4</Property>
+				<Property Name="Source[0].itemID" Type="Str">{370DA452-49AB-4A42-A75B-F54D1D807262}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">2</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Addon/Instrument Addon System Explorer.lvlib/System Explorer/Dynamically Called/Actions/ActionVIOnCompile.vi</Property>
@@ -528,7 +530,7 @@
 				<Property Name="Source[3].properties[1].value" Type="Bool">true</Property>
 				<Property Name="Source[3].propertiesCount" Type="Int">2</Property>
 				<Property Name="Source[3].type" Type="Str">Container</Property>
-				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[4].destinationIndex" Type="Int">3</Property>
 				<Property Name="Source[4].itemID" Type="Ref">/My Computer/Addon/Custom Device Instrument Addon.xml</Property>
 				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="SourceCount" Type="Int">5</Property>
