@@ -106,7 +106,7 @@ stages:
       - controlFileName: 'control'
         payloadMaps:
           - payloadLocation: 'IA'
-            installLocation: 'programdata\National Instruments\NI VeriStand $(lvVersion)\Plugins'
+            installLocation: 'programdata\National Instruments\NI VeriStand $(lvVersion)\Addons'
 
       - controlFileName: 'control_scripting_api'
         payloadMaps:
