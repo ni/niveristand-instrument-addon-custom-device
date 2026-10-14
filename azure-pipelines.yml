@@ -2,12 +2,11 @@ trigger:
   batch: true
   branches:
     include:
-      - main
-      - release/*
+      - legacy
 
 variables:
   - name: ConvertNetCore
-    value: true
+    value: false
 
 resources:
   repositories:
@@ -29,25 +28,21 @@ stages:
 # =====================================================================
 # WINDOWS BUILD (Stage Template)
 # =====================================================================
-- template: azure-templates/stages.yml@niveristand-custom-device-build-tools
+- template: azure-templates/stages-legacy.yml@niveristand-custom-device-build-tools
   parameters:
     stageName: WindowsBuild
 
     lvVersionsToBuild: 
-      - version: '2024'
-        bitness: '64bit'
       - version: '2025'
         bitness: '64bit'
       - version: '2026'
         bitness: '64bit'
-      - version: '2027'
-        bitness: '64bit'
 
     dependencies:
-      - source: '\\nirvana\Measurements\VeriStandAddons\instrument_addon_classes'
+      - source: '\\nirvana\Measurements\VeriStandAddons\legacy\instrument_addon_classes'
         file: '$target\Protections.lvlibp'
         destination: 'Includes'
-      - source: '\\nirvana\Measurements\VeriStandAddons\instrument_addon_classes'
+      - source: '\\nirvana\Measurements\VeriStandAddons\legacy\instrument_addon_classes'
         file: '$target\Protocols.lvlibp'
         destination: 'Includes'
 
@@ -97,16 +92,16 @@ stages:
         target: 'My Computer'
         buildSpec: 'Scripting Examples'
 
-    releaseVersion: '26.8.0'
+    releaseVersion: '27.0.0'
     buildOutputLocation: 'Source\Built'
-    archiveLocation: '\\nirvana\Measurements\VeriStandAddons\instrument_addon_custom_device'
+    archiveLocation: '\\nirvana\Measurements\VeriStandAddons\legacy\instrument_addon_custom_device'
     repoName: 'niveristand-instrument-addon-custom-device'
 
     packages:
       - controlFileName: 'control'
         payloadMaps:
           - payloadLocation: 'IA'
-            installLocation: 'programdata\National Instruments\NI VeriStand $(lvVersion)\Addons'
+            installLocation: 'documents\National Instruments\NI VeriStand $(lvVersion)'
 
       - controlFileName: 'control_scripting_api'
         payloadMaps:
@@ -117,32 +112,3 @@ stages:
         payloadMaps:
           - payloadLocation: 'Scripting Examples'
             installLocation: 'ni-paths-LV$(lvVersion)DIR$(nipkgx64suffix)\examples\NI VeriStand Custom Devices\Instrument Addon'
-
-# =====================================================================
-# LINUX BUILD
-# =====================================================================
-- template: azure-templates/linux-stage.yml@niveristand-custom-device-build-tools
-  parameters:
-    stageName: LinuxBuild
-
-    # If your linux-stage.yml supports these parameters:
-    dependsOn: 
-      - WindowsBuild
-
-    lvVersionsToBuild:
-      - version: '2027'
-        bitness: '64bit'
-
-    buildSteps:
-      - id: 'instrument-addon-custom-device_configuration_release'
-        projectLocation: 'Source/Addon/Instrument Addon.lvproj'
-        buildOperation: 'ExecuteBuildSpec'
-        target: 'My Computer'
-        buildSpec: 'Configuration(Linux) Release'
-      
-    releaseVersion: '26.8.0'
-    branch: 'main'
-    debugBuild: 'no'
-    buildOutputLocation: 'Built'
-    archiveLocation: '\\nirvana\Measurements\VeriStandAddons\instrument_addon_custom_device'
-    repoName: 'niveristand-instrument-addon-custom-device'
