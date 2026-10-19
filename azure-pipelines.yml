@@ -54,17 +54,7 @@ stages:
       - projectLocation: 'Source\Addon\Instrument Addon.lvproj'
         buildOperation: 'ExecuteBuildSpec'
         target: 'My Computer'
-        buildSpec: 'Workspace Object'
-
-      - projectLocation: 'Source\Addon\Instrument Addon.lvproj'
-        buildOperation: 'ExecuteBuildSpec'
-        target: 'My Computer'
         buildSpec: 'Workspace Tool'
-
-      - projectLocation: 'Source\Addon\Instrument Addon.lvproj'
-        buildOperation: 'ExecuteBuildSpec'
-        target: 'My Computer'
-        buildSpec: 'Workspace Tool EXE'
 
       - projectLocation: 'Source\Addon\Instrument Addon.lvproj'
         buildOperation: 'ExecuteBuildSpec'
