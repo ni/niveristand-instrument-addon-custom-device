@@ -7,7 +7,7 @@ trigger:
 
 variables:
   - name: ConvertNetCore
-    value: true
+    value: false
 
 resources:
   repositories:
@@ -34,20 +34,14 @@ stages:
     stageName: WindowsBuild
 
     lvVersionsToBuild: 
-      - version: '2024'
-        bitness: '64bit'
-      - version: '2025'
-        bitness: '64bit'
-      - version: '2026'
-        bitness: '64bit'
       - version: '2027'
         bitness: '64bit'
 
     dependencies:
-      - source: '\\nirvana\Measurements\VeriStandAddons\instrument_addon_classes'
+      - source: '\\nirvana\Measurements\VeriStandAddons\netcore\instrument_addon_classes'
         file: '$target\Protections.lvlibp'
         destination: 'Includes'
-      - source: '\\nirvana\Measurements\VeriStandAddons\instrument_addon_classes'
+      - source: '\\nirvana\Measurements\VeriStandAddons\netcore\instrument_addon_classes'
         file: '$target\Protocols.lvlibp'
         destination: 'Includes'
 
@@ -55,22 +49,7 @@ stages:
       - projectLocation: 'Source\Addon\Instrument Addon.lvproj'
         buildOperation: 'ExecuteBuildSpec'
         target: 'My Computer'
-        buildSpec: 'Host API'
-
-      - projectLocation: 'Source\Addon\Instrument Addon.lvproj'
-        buildOperation: 'ExecuteBuildSpec'
-        target: 'My Computer'
-        buildSpec: 'Workspace Object'
-
-      - projectLocation: 'Source\Addon\Instrument Addon.lvproj'
-        buildOperation: 'ExecuteBuildSpec'
-        target: 'My Computer'
         buildSpec: 'Workspace Tool'
-
-      - projectLocation: 'Source\Addon\Instrument Addon.lvproj'
-        buildOperation: 'ExecuteBuildSpec'
-        target: 'My Computer'
-        buildSpec: 'Workspace Tool EXE'
 
       - projectLocation: 'Source\Addon\Instrument Addon.lvproj'
         buildOperation: 'ExecuteBuildSpec'
@@ -92,14 +71,9 @@ stages:
         target: 'My Computer'
         buildSpec: 'Scripting API'
 
-      - projectLocation: 'Source\Scripting Examples\Instrument Addon Scripting API Examples.lvproj'
-        buildOperation: 'ExecuteBuildSpec'
-        target: 'My Computer'
-        buildSpec: 'Scripting Examples'
-
-    releaseVersion: '26.8.0'
+    releaseVersion: '27.0.0'
     buildOutputLocation: 'Source\Built'
-    archiveLocation: '\\nirvana\Measurements\VeriStandAddons\instrument_addon_custom_device'
+    archiveLocation: '\\nirvana\Measurements\VeriStandAddons\netcore\instrument_addon_custom_device'
     repoName: 'niveristand-instrument-addon-custom-device'
 
     packages:
@@ -140,9 +114,9 @@ stages:
         target: 'My Computer'
         buildSpec: 'Configuration(Linux) Release'
       
-    releaseVersion: '26.8.0'
+    releaseVersion: '27.0.0'
     branch: 'main'
     debugBuild: 'no'
     buildOutputLocation: 'Built'
-    archiveLocation: '\\nirvana\Measurements\VeriStandAddons\instrument_addon_custom_device'
+    archiveLocation: '\\nirvana\Measurements\VeriStandAddons\netcore\instrument_addon_custom_device'
     repoName: 'niveristand-instrument-addon-custom-device'
