@@ -49,11 +49,6 @@ stages:
       - projectLocation: 'Source\Addon\Instrument Addon.lvproj'
         buildOperation: 'ExecuteBuildSpec'
         target: 'My Computer'
-        buildSpec: 'Host API'
-
-      - projectLocation: 'Source\Addon\Instrument Addon.lvproj'
-        buildOperation: 'ExecuteBuildSpec'
-        target: 'My Computer'
         buildSpec: 'Workspace Tool'
 
       - projectLocation: 'Source\Addon\Instrument Addon.lvproj'
@@ -75,11 +70,6 @@ stages:
         buildOperation: 'ExecuteBuildSpec'
         target: 'My Computer'
         buildSpec: 'Scripting API'
-
-      - projectLocation: 'Source\Scripting Examples\Instrument Addon Scripting API Examples.lvproj'
-        buildOperation: 'ExecuteBuildSpec'
-        target: 'My Computer'
-        buildSpec: 'Scripting Examples'
 
     releaseVersion: '27.0.0'
     buildOutputLocation: 'Source\Built'
